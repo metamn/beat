@@ -1,5 +1,25 @@
 @mixin article {
   &__title {
-    display: flex;
+    @include article__title;
+  }
+
+  &__thumb {
+    @include article__thumb;
+  }
+
+  &__excerpt {
+    @include article__excerpt;
+  }
+
+  &__date {
+    @include article__date;
+  }
+
+  &__categories {
+    @include article__categories;
+  }
+
+  &__content {
+    @include article__content;
   }
 }

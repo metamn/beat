@@ -1,0 +1,5 @@
+@mixin article__thumb {
+  .figure {
+    @include figure;
+  }
+}

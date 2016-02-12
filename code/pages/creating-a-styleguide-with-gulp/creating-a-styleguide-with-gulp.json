@@ -4,5 +4,12 @@
     "code"
   ],
   "url": "creating-a-styleguide-with-gulp",
-  "date": "2015-05-15"
+  "date": "2015-05-15",
+  "display": [
+    "title",
+    "thumb",
+    "categories",
+    "date",
+    "excerpt"
+  ]
 }

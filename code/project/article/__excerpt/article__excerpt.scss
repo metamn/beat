@@ -1,0 +1,7 @@
+@mixin article__excerpt {
+  display: flex;
+
+  .excerpt {
+    @include text-style(body-text);
+  }
+}
