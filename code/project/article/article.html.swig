@@ -5,7 +5,7 @@
     {% set content = '../../pages/' %}
     {% set content += article.url %}
     {% set content += '/' %}
-    {% set content += article.url %}
+    {% set content += 'content' %}
     {% set content += '.html.swig' %}
     {% include content %}
   </div>
