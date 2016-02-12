@@ -1,0 +1,110 @@
+
+
+// Text style
+//
+// Typographic settings for different text types.
+// Each text type has set a `font`, a `scale`, a `color` and parameters like letter-spacing, max-width or else.
+// Everything text uses this `text-style` mixin. We don't set `color` or `font` directly for a text.
+//
+// Styleguide text-style
+
+// The width of a text block
+
+$text-block-width: 25em; 
+
+
+
+// The text mixin
+@mixin text-style($variant) {
+  
+  // Default
+  // - The basic settings for a text.
+  @if ($variant == 'default') {
+    @include font(nimbus-sans-regular);
+    @include scale(default);
+    @include colors(black-on-white);
+    
+    letter-spacing: 1.1px;
+    
+    
+  }
+  
+  // Body text
+  // - Settings for long text blocks.
+  @if ($variant == 'body-text') {
+    @include p;
+    
+    max-width: 25em;
+    
+    
+  }
+  
+  // Button with triangle
+  // - Strong text, call for action.
+  @if ($variant == 'button-with-triangle') {
+    @include font(nimbus-sans-black);
+    @include uppercase(1.25px);
+    @include colors(white-on-black);
+    
+    padding: $lem / 2 $lem;
+    
+    
+  }
+  
+  // Button with arrow triangle
+  // - Strong text, call for action.
+  @if ($variant == 'button-with-arrow-triangle') {
+    @include font(nimbus-sans-black);
+    @include uppercase(1.25px);
+    @include border(normal, all);
+    
+    padding: $lem / 2 $lem;
+    transform: translateX($lem);
+    
+    
+  }
+  
+}
+
+
+// Text style classes
+
+.text-style--default {
+  @include font(nimbus-sans-regular);
+  @include scale(default);
+  @include colors(black-on-white);
+  
+  letter-spacing: 1.1px;
+  
+  
+}
+
+.text-style--body-text {
+  @include p;
+  
+  max-width: 25em;
+  
+  
+}
+
+.text-style--button-with-triangle {
+  @include font(nimbus-sans-black);
+  @include uppercase(1.25px);
+  @include colors(white-on-black);
+  
+  padding: $lem / 2 $lem;
+  
+  
+}
+
+.text-style--button-with-arrow-triangle {
+  @include font(nimbus-sans-black);
+  @include uppercase(1.25px);
+  @include border(normal, all);
+  
+  padding: $lem / 2 $lem;
+  transform: translateX($lem);
+  
+  
+}
+

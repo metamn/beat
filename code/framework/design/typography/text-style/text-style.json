@@ -1,0 +1,99 @@
+{
+  "text_styles": [
+    {
+      "name": "Default",
+      "description": "The basic settings for a text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-regular"
+        },
+        {
+          "name": "scale",
+          "value": "default"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
+        }
+      ],
+      "properties": [
+        {
+          "name": "letter-spacing",
+          "value": "1.1px"
+        }
+      ]
+    },
+    {
+      "name": "Body text",
+      "description": "Settings for long text blocks.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "p"
+        }
+      ],
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "25em"
+        }
+      ]
+    },
+    {
+      "name": "Button with triangle",
+      "description": "Strong text, call for action.",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.25px"
+        },
+        {
+          "name": "colors",
+          "value": "white-on-black"
+        }
+      ],
+      "properties": [
+        {
+          "name": "padding",
+          "value": "$lem / 2 $lem"
+        }
+      ]
+    },
+    {
+      "name": "Button with arrow triangle",
+      "description": "Strong text, call for action.",
+      "based_on": "Nimbus Sans Black",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-black"
+        },
+        {
+          "name": "uppercase",
+          "value": "1.25px"
+        },
+        {
+          "name": "border",
+          "value": "normal, all"
+        }
+      ],
+      "properties": [
+        {
+          "name": "padding",
+          "value": "$lem / 2 $lem"
+        },
+        {
+          "name": "transform",
+          "value": "translateX($lem)"
+        }
+      ]
+    }
+  ]
+}

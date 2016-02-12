@@ -1,0 +1,83 @@
+{
+  "colors": [
+    {
+      "name": "white",
+      "value": "#fff",
+      "description": "Main color"
+    },
+    {
+      "name": "black",
+      "value": "#000",
+      "description": "Main color"
+    },
+    {
+      "name": "gray",
+      "value": "mix($white, $black)",
+      "description": "Secondary color"
+    },
+    {
+      "name": "blue",
+      "value": "#4916DA",
+      "description": "Main color, the Metamn blue"
+    },
+    {
+      "name": "red",
+      "value": "#F10051",
+      "description": "Main color, created from the Metamn blue with hue rotation in Paletton"
+    }
+  ],
+  "color_pairs": [
+    {
+      "name": "black-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$black"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
+    },
+    {
+      "name": "white-on-black",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$black"
+        }
+      ]
+    },
+    {
+      "name": "white-on-blue",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$white"
+        },
+        {
+          "name": "background-color",
+          "value": "$blue"
+        }
+      ]
+    },
+    {
+      "name": "blue-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$blue"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
+        }
+      ]
+    }
+  ]
+}

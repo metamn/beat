@@ -1,0 +1,102 @@
+// Colors
+//
+// The colors together with the color pairs.
+// Colors don't exist alone yet in pairs, like black on white.
+// All color pairs have a contrast ratio set for perfect readability using [Lea Verou's contrast checking tool](http://leaverou.github.io/contrast-ratio/).
+//
+// Styleguide colors
+
+// Main color
+$white: #fff;
+
+// Main color
+$black: #000;
+
+// Secondary color
+$gray: mix($white, $black);
+
+// Main color, the Metamn blue
+$blue: #4916DA;
+
+// Main color, created from the Metamn blue with hue rotation in Paletton
+$red: #F10051;
+
+
+// Color combinations. Colors are not used standalone but in pairs
+@mixin colors($name) {
+
+  @if ($name == 'black-on-white') {
+    color: $black;
+    background-color: $white;
+    
+  }
+
+  @if ($name == 'white-on-black') {
+    color: $white;
+    background-color: $black;
+    
+  }
+
+  @if ($name == 'white-on-blue') {
+    color: $white;
+    background-color: $blue;
+    
+  }
+
+  @if ($name == 'blue-on-white') {
+    color: $blue;
+    background-color: $white;
+    
+  }
+
+}
+
+// Color classes
+
+.white {
+  background: #fff;
+};
+
+.black {
+  background: #000;
+};
+
+.gray {
+  background: mix($white, $black);
+};
+
+.blue {
+  background: #4916DA;
+};
+
+.red {
+  background: #F10051;
+};
+
+
+// Color pair classes
+
+.black-on-white {
+  color: $black;
+  background-color: $white;
+  
+}
+
+.white-on-black {
+  color: $white;
+  background-color: $black;
+  
+}
+
+.white-on-blue {
+  color: $white;
+  background-color: $blue;
+  
+}
+
+.blue-on-white {
+  color: $blue;
+  background-color: $white;
+  
+}
+
