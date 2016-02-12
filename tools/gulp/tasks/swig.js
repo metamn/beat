@@ -30,7 +30,7 @@ var paths = require('./../config');
 
 
 
-var _swig = function(source, dest, config, grabJSON) {
+var _swig = function(source, dest, config, articles) {
   return gulp.src(source)
     .pipe(plumber({errorHandler: onError}))
 
@@ -40,6 +40,9 @@ var _swig = function(source, dest, config, grabJSON) {
       defaults: {
         cache: false,
         locals: {
+          // Load all articles
+          articles: require(articles),
+
           // Load site-wide JSON settings
           site: require(config),
         }
@@ -53,5 +56,5 @@ var _swig = function(source, dest, config, grabJSON) {
 
 // Task for compiling .swig files from /site
 gulp.task('swig', function() {
-  _swig(paths.swig_src, paths.swig_dest, paths.config_json);
+  _swig(paths.swig_src, paths.swig_dest, paths.config_json, paths.articles_json);
 });
