@@ -1,5 +1,6 @@
 {
   "title": "Creating A Styleguide With Gulp",
+  "excerpt": "Creating a component layer which both our user-facing applications and our Style Guide can work from.",
   "categories": [
     "code"
   ],
@@ -7,6 +8,7 @@
   "date": "2015-05-15",
   "display": [
     "title",
+    "title_with_url",
     "thumb",
     "categories",
     "date",

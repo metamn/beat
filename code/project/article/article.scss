@@ -19,6 +19,10 @@
     @include article__categories;
   }
 
+  &__more {
+    @include article__more;
+  }
+
   &__content {
     @include article__content;
   }
