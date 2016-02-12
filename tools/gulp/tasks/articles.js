@@ -45,7 +45,7 @@ function sortByDate(data) {
   var sorted = [];
 
   Object.keys(data).sort(function(a, b) {
-    return data[a].date < data[b].date ? -1 : 1
+    return data[a].date > data[b].date ? -1 : 1
   }).forEach(function(key) {
     sorted.push(data[key]);
   });

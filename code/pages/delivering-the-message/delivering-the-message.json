@@ -1,0 +1,17 @@
+{
+  "title": "Delivering The Message",
+  "excerpt": "How to delight visitors yet deliver business goals.",
+  "categories": [
+    "design"
+  ],
+  "url": "delivering-the-message",
+  "date": "2015-08-08",
+  "display": [
+    "title",
+    "title_with_url",
+    "thumb",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
