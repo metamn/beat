@@ -15,6 +15,9 @@ var image_extensions = '/*.{png,jpg,gif,jpeg,svg}';
 
 
 module.exports = {
+
+  rootDir: rootDir,
+
   // The destination folder where all the generated files will be copied
   // - the contents of this folder will be uploaded to a static web server like Github Pages
   dest: destination,

@@ -56,5 +56,5 @@ var _swig = function(source, dest, config, articles) {
 
 // Task for compiling .swig files from /site
 gulp.task('swig', function() {
-  _swig(paths.swig_src, paths.swig_dest, paths.config_json, paths.articles_json);
+  _swig(paths.swig_src, paths.swig_dest, paths.config_json, paths.rootDir + paths.articles_json);
 });
