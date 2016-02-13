@@ -53,6 +53,31 @@
       ]
     },
     {
+      "name": "Quote",
+      "description": "Italic, larger",
+      "based_on": "Nimbus Sans Light",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-light"
+        },
+        {
+          "name": "scale",
+          "value": "large-1"
+        }
+      ],
+      "properties": [
+        {
+          "name": "line-height",
+          "value": "1.48 * 1.333"
+        },
+        {
+          "name": "max-width",
+          "value": "calc(25em * 1.333)"
+        }
+      ]
+    },
+    {
       "name": "Button with triangle",
       "description": "Strong text, call for action.",
       "based_on": "Nimbus Sans Black",

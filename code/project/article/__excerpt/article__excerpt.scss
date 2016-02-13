@@ -10,9 +10,5 @@
 
   .excerpt {
     @include text-style(body-text);
-
-    .blockquote {
-      @include blockquote;
-    }
   }
 }

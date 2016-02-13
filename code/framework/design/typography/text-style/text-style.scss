@@ -48,6 +48,18 @@ $text-block-width: 25em;
     
   }
   
+  // Quote
+  // - Italic, larger
+  @if ($variant == 'quote') {
+    @include font(nimbus-sans-light);
+    @include scale(large-1);
+    
+    line-height: 1.48 * 1.333;
+    max-width: calc(25em * 1.333);
+    
+    
+  }
+  
   // Button with triangle
   // - Strong text, call for action.
   @if ($variant == 'button-with-triangle') {
@@ -99,6 +111,16 @@ $text-block-width: 25em;
 .text-style--title {
   @include font(nimbus-sans-bold);
   
+  
+  
+}
+
+.text-style--quote {
+  @include font(nimbus-sans-light);
+  @include scale(large-1);
+  
+  line-height: 1.48 * 1.333;
+  max-width: calc(25em * 1.333);
   
   
 }

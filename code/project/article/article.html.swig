@@ -1,4 +1,4 @@
-<article class="article">
+<article class="article {{ article.klass }}">
   {% set link = { title: article.title } %}
 
   {% if (article.images[0]) and (article.display.indexOf('thumb') !== -1) %}

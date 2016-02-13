@@ -12,7 +12,7 @@
 // - The default typeface, sans-serif
 // - character set: Full character set, with OpenType Features
 // - served from Typekit
-// - styles and weights: Regular, Bold, Black, 
+// - styles and weights: Light, Light Italic, Regular, Bold, Black, 
 
 
 
@@ -20,6 +20,18 @@
 // The font mixin
 @mixin font($variant) {
 
+  @if ($variant == 'nimbus-sans-light') {
+    font-family: 'nimbus-sans', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @if ($variant == 'nimbus-sans-light-italic') {
+    font-family: 'nimbus-sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
   @if ($variant == 'nimbus-sans-regular') {
     font-family: 'nimbus-sans', sans-serif;
     font-weight: 400;
@@ -42,6 +54,18 @@
 
 
 // Font classes
+
+.nimbus-sans-light {
+  font-family: 'nimbus-sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.nimbus-sans-light-italic {
+  font-family: 'nimbus-sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
 
 .nimbus-sans-regular {
   font-family: 'nimbus-sans', sans-serif;

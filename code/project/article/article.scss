@@ -28,4 +28,8 @@
   &__content {
     @include article__content;
   }
+
+  &.quote {
+    @include article-quote;
+  }
 }
