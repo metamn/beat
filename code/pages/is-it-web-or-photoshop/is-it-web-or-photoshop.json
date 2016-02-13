@@ -20,6 +20,13 @@
       "extension": ".jpg",
       "onesize": "mobile",
       "class": "slide"
+    },
+    {
+      "title": "Yale / Paul Rand",
+      "name": "yale",
+      "extension": ".jpg",
+      "onesize": "mobile",
+      "class": "slide"
     }
   ]
 }

@@ -32,6 +32,11 @@
   &__slider {
     @include article__slider;
   }
+  .slider {
+    @include slider;
+    width: 420px;
+  }
+
 
   &--quote {
     @include article-quote;
