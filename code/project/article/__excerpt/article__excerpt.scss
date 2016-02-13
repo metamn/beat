@@ -4,11 +4,15 @@
   @include border(normal, top);
   @include border(normal, bottom);
   border-color: $lightgray;
-  
+
   padding: $lem / 2 0;
   margin: $lem / 2 0;
 
   .excerpt {
     @include text-style(body-text);
+
+    .blockquote {
+      @include blockquote;
+    }
   }
 }

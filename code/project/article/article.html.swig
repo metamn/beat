@@ -22,12 +22,12 @@
       {% include '__categories/article__categories.html.swig' %}
     {% endif %}
 
-    {% if (article.display.indexOf('content') == -1) %}
+    {% if (article.display.indexOf('content') === -1) %}
       {% include '__more/article__more.html.swig' %}
     {% endif %}
   </div>
 
-  {% if (article.display.indexOf('content') !== -1) %}
+  {% if (article.display.indexOf('content') === -1) %}
     {% include '__content/article__content.html.swig' %}
   {% endif %}
 </article>
