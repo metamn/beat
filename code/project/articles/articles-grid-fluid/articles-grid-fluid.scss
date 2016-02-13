@@ -7,6 +7,9 @@
 
     @include landscape {
       margin: 5vh 5vw;
+    }
+
+    @include desktop {
       max-width: 37vw;
     }
   }

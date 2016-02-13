@@ -1,0 +1,9 @@
+@mixin article-quote--mobile {
+  @include mobile {
+    flex-wrap: wrap;
+
+    .meta {
+      order: 2;
+    }
+  }
+}

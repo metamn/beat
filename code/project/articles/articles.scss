@@ -1,6 +1,11 @@
 @mixin articles {
-  //@include articles-grid;
-  @include articles-grid-fluid;
+  @include mobile {
+    @include grid(1, $lem, $lem * 4);
+  }
+
+  @include mobile-and-up {
+    @include articles-grid-fluid;
+  }
 
   .article {
     @include article;

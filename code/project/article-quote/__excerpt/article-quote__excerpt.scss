@@ -1,0 +1,11 @@
+@mixin article-quote__excerpt {
+  .article__excerpt {
+    .excerpt {
+      max-width: none;
+
+      .blockquote {
+        @include blockquote;
+      }
+    }
+  }
+}
