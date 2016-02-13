@@ -27,6 +27,12 @@
       "extension": ".jpg",
       "onesize": "mobile",
       "class": "slide"
+    },
+    {
+      "title": "Bloomberg",
+      "name": "bloomberg",
+      "onesize": "mobile",
+      "class": "slide"
     }
   ]
 }
