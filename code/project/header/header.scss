@@ -1,4 +1,6 @@
 @mixin header {
+  margin-bottom: $lem;
+  
   &__title {
     display: flex;
   }
