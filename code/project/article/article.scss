@@ -29,7 +29,11 @@
     @include article__content;
   }
 
-  &.quote {
+  &__slider {
+    @include article__slider;
+  }
+
+  &--quote {
     @include article-quote;
   }
 }

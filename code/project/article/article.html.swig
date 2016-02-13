@@ -9,6 +9,10 @@
     {% include '__excerpt/article__excerpt.html.swig' %}
   {% endif %}
 
+  {% if (article.slides) and (article.display.indexOf('slides') !== -1) %}
+    {% include '__slider/article__slider.html.swig' %}
+  {% endif %}
+
   <div class="meta">
     {% if (article.title) and (article.display.indexOf('title') !== -1) %}
       {% include '__title/article__title.html.swig' %}

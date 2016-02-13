@@ -1,0 +1,25 @@
+{
+  "title": "Is It Web Or Photoshop?",
+  "klass": "article--slider",
+  "categories": [
+    "design"
+  ],
+  "url": "is-it-web-or-photoshop",
+  "date": "2015-12-25",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "slides"
+  ],
+  "slides": [
+    {
+      "title": "Holz.re",
+      "name": "holz",
+      "extension": ".jpg",
+      "onesize": "mobile",
+      "class": "slide"
+    }
+  ]
+}

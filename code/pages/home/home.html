@@ -47,9 +47,196 @@
     
   
     
+      <article class="article article--slider">
+  
+
+  
+
+  
+
   
     
-      <article class="article quote">
+
+<section class="slider article__slider">
+    <h3 class="slider__title">Article slider</h3>
+
+    <div class="slider__slides">
+  
+    
+    
+
+
+
+  
+
+
+<figure class="figure slide">
+  
+
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+    
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Image url can be relative or absolute -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/holz_mobile.jpg, /assets/images/holz_mobile2x.jpg 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/holz_mobile.jpg, /assets/images/holz_mobile2x.jpg 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/holz_mobile.jpg, /assets/images/holz_mobile2x.jpg 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/holz_mobile.jpg, /assets/images/holz_mobile2x.jpg 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    <img class="img" src="/assets/images/holz_mobile.jpg" alt="Holz.re">
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    Holz.re
+  </figcaption>
+
+
+</figure>
+
+  
+  </div>
+</section>
+
+
+<nav class="slider__bullets article__bullets">
+  <h3>Navigation bullets</h3>
+
+  
+</nav>
+
+
+  
+
+  <div class="meta">
+    
+      
+
+<h3 class="article__title">
+  
+    
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link " href="/is-it-web-or-photoshop?" title="Is It Web Or Photoshop?">Is It Web Or Photoshop?</a>
+  
+</h3>
+
+    
+
+    
+      <time class="article__date">2015-12-25</time>
+
+    
+
+    
+      <nav class="article__categories">
+  <h3 class="title">Categories</h3>
+
+  design
+</nav>
+
+    
+
+    
+      
+
+<div class="article__more">
+  
+  
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link " href="/is-it-web-or-photoshop?" title="Is It Web Or Photoshop?">
+    <span class="arrow-with-saquo arrow-with-saquo--right ">
+  <span class="arrow-with-saquo__line"></span>
+
+  
+  <span class="saquo saquo--right arrow-with-saquo__saquo">
+  <span class="saquo__line saquo__line--top"></span>
+  <span class="saquo__line saquo__line--bottom"></span>
+</span>
+
+</span>
+
+  </a>
+</div>
+
+    
+  </div>
+
+  
+    <div class="article__content">
+  
+  
+  
+  
+  
+  
+</div>
+
+  
+</article>
+
+    
+  
+    
+  
+    
+      <article class="article article--quote">
   
 
   
@@ -66,6 +253,8 @@
     
   </div>
 </aside>
+
+  
 
   
 
@@ -90,7 +279,7 @@
       <nav class="article__categories">
   <h3 class="title">Categories</h3>
 
-  trend
+  trend, code
 </nav>
 
     
@@ -115,10 +304,12 @@
 
   <div class="excerpt">
     
-      The last decade  was full with hard problems for the front-end web developers. Cross-browser compatibility, naming conventions, and poor performance. Now all these are solved.
+      The last decade  was hard with problems for front-end developers. Cross-browser compatibility, naming conventions, and poor performance. Now all these are solved.
     
   </div>
 </aside>
+
+  
 
   
 
@@ -235,6 +426,8 @@
 
   
 
+  
+
   <div class="meta">
     
       
@@ -345,6 +538,8 @@
     
   </div>
 </aside>
+
+  
 
   
 

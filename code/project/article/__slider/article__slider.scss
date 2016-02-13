@@ -1,0 +1,10 @@
+@mixin article__slider {
+  @include slider;
+  width: 420px;
+
+  order: 2;
+
+  .figure {
+    @include figure;
+  }
+}
