@@ -1,6 +1,7 @@
 @mixin articles {
-  @include articles-grid;
-  
+  //@include articles-grid;
+  @include articles-grid-fluid;
+
   .article {
     @include article;
   }

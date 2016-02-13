@@ -1,0 +1,13 @@
+@mixin articles-grid-fluid {
+  display: flex;
+  flex-wrap: wrap;
+
+  .article {
+    margin: $lem;
+
+    @include landscape {
+      margin: 5vh 5vw;
+      max-width: 37vw;
+    }
+  }
+}
