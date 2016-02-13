@@ -42,6 +42,17 @@
       ]
     },
     {
+      "name": "Title",
+      "description": "Title",
+      "based_on": "Nimbus Sans Bold",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-bold"
+        }
+      ]
+    },
+    {
       "name": "Button with triangle",
       "description": "Strong text, call for action.",
       "based_on": "Nimbus Sans Black",

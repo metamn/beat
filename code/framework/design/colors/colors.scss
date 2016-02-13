@@ -15,11 +15,11 @@ $black: #000;
 // Secondary color
 $gray: mix($white, $black);
 
-// Main color, the Metamn blue
-$blue: #4916DA;
+// Secondary color
+$lightgray: mix($white, $black, 75%);
 
-// Main color, created from the Metamn blue with hue rotation in Paletton
-$red: #F10051;
+// Secondary color
+$darkgray: mix($white, $black, 25%);
 
 
 // Color combinations. Colors are not used standalone but in pairs
@@ -29,23 +29,34 @@ $red: #F10051;
     color: $black;
     background-color: $white;
     
+    
   }
 
   @if ($name == 'white-on-black') {
     color: $white;
     background-color: $black;
     
-  }
-
-  @if ($name == 'white-on-blue') {
-    color: $white;
-    background-color: $blue;
     
   }
 
-  @if ($name == 'blue-on-white') {
-    color: $blue;
+  @if ($name == 'gray-on-white') {
+    color: $gray;
     background-color: $white;
+    
+    
+  }
+
+  @if ($name == 'lightgray-on-white') {
+    color: $lightgray;
+    background-color: $white;
+    
+    
+  }
+
+  @if ($name == 'darkgray-on-white') {
+    color: $darkgray;
+    background-color: $white;
+    
     
   }
 
@@ -65,12 +76,12 @@ $red: #F10051;
   background: mix($white, $black);
 };
 
-.blue {
-  background: #4916DA;
+.lightgray {
+  background: mix($white, $black, 75%);
 };
 
-.red {
-  background: #F10051;
+.darkgray {
+  background: mix($white, $black, 25%);
 };
 
 
@@ -80,23 +91,34 @@ $red: #F10051;
   color: $black;
   background-color: $white;
   
+  
 }
 
 .white-on-black {
   color: $white;
   background-color: $black;
   
-}
-
-.white-on-blue {
-  color: $white;
-  background-color: $blue;
   
 }
 
-.blue-on-white {
-  color: $blue;
+.gray-on-white {
+  color: $gray;
   background-color: $white;
+  
+  
+}
+
+.lightgray-on-white {
+  color: $lightgray;
+  background-color: $white;
+  
+  
+}
+
+.darkgray-on-white {
+  color: $darkgray;
+  background-color: $white;
+  
   
 }
 

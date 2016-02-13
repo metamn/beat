@@ -16,6 +16,8 @@ ${{ color.name }}: {{ color.value }};
   @if ($name == '{{ pair.name }}') {
     {% for property in pair.properties %}{{ property.name }}: {{ property.value }};
     {% endfor %}
+    {% for mixin in pair.mixins %}@include {{ mixin.name }}{% if mixin.value %}({{ mixin.value }}){% endif %};
+    {% endfor %}
   }
 {% endfor %}
 }
@@ -31,6 +33,8 @@ ${{ color.name }}: {{ color.value }};
 {% for pair in color_pairs %}
 .{{ pair.name }} {
   {% for property in pair.properties %}{{ property.name }}: {{ property.value }};
+  {% endfor %}
+  {% for mixin in pair.mixins %}@include {{ mixin.name }}{% if mixin.value %}({{ mixin.value }}){% endif %};
   {% endfor %}
 }
 {% endfor %}

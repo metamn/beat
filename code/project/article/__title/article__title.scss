@@ -1,3 +1,9 @@
 @mixin article__title {
   display: flex;
+  @include text-style(title);
+
+  .link {
+    @include link(black-on-white, black-on-white, gray-on-white);
+    @include scale(large-1);
+  }
 }

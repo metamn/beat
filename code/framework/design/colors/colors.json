@@ -16,14 +16,14 @@
       "description": "Secondary color"
     },
     {
-      "name": "blue",
-      "value": "#4916DA",
-      "description": "Main color, the Metamn blue"
+      "name": "lightgray",
+      "value": "mix($white, $black, 75%)",
+      "description": "Secondary color"
     },
     {
-      "name": "red",
-      "value": "#F10051",
-      "description": "Main color, created from the Metamn blue with hue rotation in Paletton"
+      "name": "darkgray",
+      "value": "mix($white, $black, 25%)",
+      "description": "Secondary color"
     }
   ],
   "color_pairs": [
@@ -54,24 +54,38 @@
       ]
     },
     {
-      "name": "white-on-blue",
+      "name": "gray-on-white",
       "properties": [
         {
           "name": "color",
-          "value": "$white"
+          "value": "$gray"
         },
         {
           "name": "background-color",
-          "value": "$blue"
+          "value": "$white"
+        }
+      ],
+      "contrast": "3.9, bold: 14pt (large 1), normal: 18pt (large 3)"
+    },
+    {
+      "name": "lightgray-on-white",
+      "properties": [
+        {
+          "name": "color",
+          "value": "$lightgray"
+        },
+        {
+          "name": "background-color",
+          "value": "$white"
         }
       ]
     },
     {
-      "name": "blue-on-white",
+      "name": "darkgray-on-white",
       "properties": [
         {
           "name": "color",
-          "value": "$blue"
+          "value": "$darkgray"
         },
         {
           "name": "background-color",

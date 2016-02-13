@@ -20,6 +20,6 @@
     }
   }
 
-  // @include link--visited($color-scheme-visited, $color-scheme-visited-hover);
+  @include link--visited($color-scheme-visited, $color-scheme-visited-hover);
   @include link--hover($color-scheme-hover);
 }
