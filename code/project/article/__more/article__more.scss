@@ -2,4 +2,8 @@
   .arrow-with-saquo {
     @include arrow-with-saquo;
   }
+
+  .link {
+    @include link(black-on-white, black-on-white, gray-on-white);
+  }
 }

@@ -1,20 +1,6 @@
 @mixin articles {
-  @include mobile {
-    @include grid(1, $lem, $lem);
-  }
-
-  @include tablet {
-    @include grid(2, $lem, $lem);
-  }
-
-  @include laptop {
-    @include grid(3, $lem, $lem);
-  }
-
-  @include desktop {
-    @include grid(3, $lem, $lem);
-  }
-
+  @include articles-grid;
+  
   .article {
     @include article;
   }
