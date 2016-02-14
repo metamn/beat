@@ -6,7 +6,8 @@
     {% include '../../../framework/structure/figure/figure.html.swig' %}
   {% endfor %}
   </div>
-</section>
 
-{% set klass = "article__bullets" %}
-{% include '../../../framework/structure/slider/__bullets/slider__bullets.html.swig' %}
+  {% set klass = "article__bullets" %}
+  {% set slides = article.slides %}
+  {% include '../../../framework/structure/slider/__bullets/slider__bullets.html.swig' %}
+</section>

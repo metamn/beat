@@ -46,7 +46,7 @@ var slider = function(sliderID, bulletsID) {
 Slider.prototype.clickBullet = function(event) {
   // `this` is the slider object, not the button clicked
   // - see http://stackoverflow.com/questions/1553661/how-to-get-the-onclick-calling-object
-  var bullet = event.target;
+  var bullet = event;
 
   if (!klass(bullet, 'bullet--active', 'has')) {
     current = bulletIndex(this.bullets, bullet);
@@ -146,6 +146,8 @@ function bulletIndex(bullets, bullet) {
 // Set active state for a bullet
 function setActiveBulletClass(bullets, slides) {
   for (var i = 0; i < bullets.length; i++) {
+    bullets[i].classList.remove('bullet--active');
+    
     if (slides[i].style['transform'] == 'translateX(0px)') {
       bullets[i].classList.add('bullet--active');
     }

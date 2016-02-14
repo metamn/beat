@@ -1,9 +1,14 @@
 @mixin article__slider {
+  margin-left: $lem;
+
   order: 2;
 
-  flex-basis: 50%;
   width: 420px;
-  height: 630px;
+  height: 230px;
+  @include mobile-and-up {
+    height: 630px;
+    flex-basis: 50%;
+  }
 
   .figure {
     @include figure(stretched);
