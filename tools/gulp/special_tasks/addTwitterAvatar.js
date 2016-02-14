@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     onError = require('../utils/onError'),
 
     data = require('gulp-data'),
+    fs = require('fs'),
     twitterAPI = require('twitter');
 
 
@@ -23,22 +24,41 @@ var t = new Twitter({
 
 
 
-// Sccript setup
-var src = require('../../../code/pages/what-some-people-apart-are-up-to-in-2016/what-some-people-apart-are-up-to-in-2016.json');
+// Script setup
+var jsonFileName = '/code/pages/what-some-people-apart-are-up-to-in-2016/what-some-people-apart-are-up-to-in-2016.json';
 
 
-gulp.task('addTwitterAvatar', function() {
-  var content = src.content;
+
+
+var ata_addAvatar = function() {
+  var json = require('../../..' + jsonFileName);
+  var content = json.content;
 
   for (var i = 0; i < content.length; i++) {
-    var id = content[i].property1.twitter;
+    var property1 = content[i].property1;
+    var id = property1.twitter;
+
     if (id) {
       t.get('users/show', {screen_name: id}, function(error, response){
         if (!error) {
-          console.log(response.profile_image_url);
+          property1.avatar = response.profile_image_url;
+          //console.log(response.profile_image_url);
+        } else {
+          console.log("Twitter error: " + JSON.stringify(error));
         }
       });
     }
-
   }
+
+  return json;
+}
+
+
+
+gulp.task('addTwitterAvatar', function() {
+  var json = ata_addAvatar();
+  console.log(JSON.stringify(json, null, 2));
+
+  fs.openSync(process.cwd() + jsonFileName, 'w');
+  fs.appendFileSync(process.cwd() + jsonFileName, JSON.stringify(json, null, 2));
 });
