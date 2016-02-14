@@ -1,7 +1,15 @@
 @mixin article__slider {
   order: 2;
 
+  flex-basis: 50%;
+  width: 420px;
+  height: 630px;
+
   .figure {
-    @include figure;
+    @include figure(stretched);
   }
+}
+
+.slider {
+  @include slider;
 }
