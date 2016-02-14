@@ -29,26 +29,29 @@ var jsonFileName = '/code/pages/what-some-people-apart-are-up-to-in-2016/what-so
 
 
 
-
 var ata_addAvatar = function() {
   var json = require('../../..' + jsonFileName);
-  var content = json.content;
 
-  for (var i = 0; i < content.length; i++) {
-    var property1 = content[i].property1;
+  for (var i = 0; i < json.content.length; i++) {
+    var avatar = '';
+    var property1 = json.content[i].property1;
     var id = property1.twitter;
 
-    if (id) {
-      t.get('users/show', {screen_name: id}, function(error, response){
+    if (id != '') {
+      t.get('users/show', {screen_name: id}, function(error, response, property1){
         if (!error) {
           property1.avatar = response.profile_image_url;
-          //console.log(response.profile_image_url);
+          console.log(property1.avatar);
         } else {
           console.log("Twitter error: " + JSON.stringify(error));
         }
       });
+
+      json.content[i].property1 = property1;
     }
   }
+
+
 
   return json;
 }
