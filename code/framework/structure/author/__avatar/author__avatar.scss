@@ -1,0 +1,12 @@
+@mixin author__avatar {
+  cursor: pointer;
+  
+  .img,
+  .initiale {
+    @include circle(48px);
+  }
+
+  .initiale {
+    @include colors(white-on-black);
+  }
+}

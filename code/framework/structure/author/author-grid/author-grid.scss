@@ -1,0 +1,12 @@
+@mixin author-grid {
+  display: flex;
+
+  .author__avatar {
+    min-width: 48px;
+  }
+
+  .author-meta {
+    display: flex;
+    flex-direction: column;
+  }
+}

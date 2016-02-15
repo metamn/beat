@@ -1,1 +1,9 @@
-@mixin article__authors {}
+@mixin article__authors {
+  display: flex;
+  flex-wrap: wrap;
+
+  .author {
+    margin: 0 $lem $lem 0;
+    @include author;
+  }
+}
