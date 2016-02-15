@@ -10,20 +10,20 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     onError = require('../utils/onError'),
 
-    fs = require('fs'),
-    twitterAPI = require('twitter');
+    fs = require('fs');
 
 
 
 // Twitter setup
-var Twitter = require('twitter');
+var Twit = require('twit');
 
-var t = new Twitter({
+var T = new Twit({
   consumer_key: '7DDlJdQFjOdZH2idGTifxL68A',
   consumer_secret: 'AJzFukL6ss4jlQfkJTONdpI3kasAbK0jSSZkb8PqwngwBwWYwp',
-  access_token_key: '15352486-XpqGNG89qiRBFeD0qXY8Ldd0QSWm8tb3m8MZoO4WS',
+  access_token: '15352486-XpqGNG89qiRBFeD0qXY8Ldd0QSWm8tb3m8MZoO4WS',
   access_token_secret: 'XMMvAzKazKUSp0QeNGB4ubh9C2iPKtjAUyNQ99P8qvT4N'
 });
+
 
 
 // The JSON source file
@@ -42,10 +42,15 @@ var _getTwitterAvatar = function(source, dest) {
     var twitter_id = content[i].property1.twitter;
 
     if (twitter_id != '') {
-      t.get('users/show', {screen_name: twitter_id}, function(error, response, twitter_id) {
+      T.get('users/show', { screen_name: twitter_id }, function(error, data, response) {
         if (!error) {
-          fs.appendFileSync(process.cwd() + dest, '{"' + twitter_id + '": "' + response.profile_image_url + '"},');
-          console.log(JSON.stringify(twitter_id) + ':' + response.profile_image_url);
+          // /1.1/users/show.json?screen_name=Cennydd
+          var path = response.request.path;
+          twitter_id = path.split("=")[1];
+          fs.appendFileSync(process.cwd() + dest, '{"' + twitter_id + '": "' + data.profile_image_url + '"},');
+          console.log(JSON.stringify(twitter_id) + ':' + data.profile_image_url);
+          //console.log(response.request.path);
+          //console.log(' ')
         } else {
           console.log("Twitter error: " + JSON.stringify(error));
         }
