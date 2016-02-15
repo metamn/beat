@@ -25,17 +25,15 @@ var _addTwitterAvatar = function(source1, source2) {
   var json1 = require('../../..' + source1);
   var json2 = require('../../..' + source2);
 
-  var j = 0;
   for (var i = 0; i < json1.content.length; i++) {
     var id = json1.content[i].property1.twitter;
-    var avatar = json2[j];
+    var avatar = json2[id];
 
     console.log('id:' + id);
     console.log('avatar:' + avatar);
 
     if ((id != '') && (avatar)) {
       json1.content[i].property1.avatar = avatar;
-      j++;
     }
   }
 
@@ -46,7 +44,7 @@ var _addTwitterAvatar = function(source1, source2) {
 
 gulp.task('addTwitterAvatar', function() {
   var json = _addTwitterAvatar(source1, source2);
-  console.log(JSON.stringify(json, null, 2));
+  //console.log(JSON.stringify(json, null, 2));
 
   fs.openSync(process.cwd() + source1, 'w');
   fs.appendFileSync(process.cwd() + source1, JSON.stringify(json, null, 2));

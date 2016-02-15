@@ -47,7 +47,7 @@ var _getTwitterAvatar = function(source, dest) {
           // /1.1/users/show.json?screen_name=Cennydd
           var path = response.request.path;
           twitter_id = path.split("=")[1];
-          fs.appendFileSync(process.cwd() + dest, '{"' + twitter_id + '": "' + data.profile_image_url + '"},');
+          fs.appendFileSync(process.cwd() + dest, '"' + twitter_id + '": "' + data.profile_image_url + '",');
           console.log(JSON.stringify(twitter_id) + ':' + data.profile_image_url);
           //console.log(response.request.path);
           //console.log(' ')
