@@ -25,12 +25,12 @@
     @include article__more;
   }
 
-  &__content {
-    @include article__content;
-  }
-
   &__slider {
     @include article__slider;
+  }
+
+  &__authors {
+    @include article__authors;
   }
 
   &--quote {

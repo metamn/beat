@@ -13,7 +13,6 @@
     "categories",
     "date",
     "excerpt",
-    "excerpt_quote",
-    "content"
+    "excerpt_quote"
   ]
 }

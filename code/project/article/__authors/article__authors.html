@@ -1,0 +1,1 @@
+< class="article__authors">

@@ -2,7 +2,7 @@
 //
 // Loads a JSON file where avatars needs to be inserted and inserts avatars from another JSON file containing the avatar images
 // These two tasks couldn't be merged into one because getting Twitter avatars is slow and Gulp / node is async even with runSequence
-// So I've split getting avatars into a seperate task
+// So I've split getting avatars into a seperate task which must be run first
 //
 
 

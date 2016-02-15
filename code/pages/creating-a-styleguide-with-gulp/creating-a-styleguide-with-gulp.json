@@ -9,9 +9,9 @@
   "display": [
     "title",
     "title_with_url",
-    "thumb",
     "categories",
     "date",
-    "excerpt"
+    "excerpt",
+    "more"
   ]
 }
