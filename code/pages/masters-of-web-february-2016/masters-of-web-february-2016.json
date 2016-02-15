@@ -1,5 +1,6 @@
 {
   "title": "Masters Of The Web, February 2016",
+  "klass": "article--slider",
   "categories": [
     "design",
     "code"
@@ -9,7 +10,7 @@
   "display": [
     "title",
     "categories",
-    "slider"
+    "slides"
   ],
   "slides": [
     {
@@ -23,7 +24,7 @@
         {
           "breakpoint": "tablet",
           "name": "a1-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://a1office.com.au/"
@@ -39,7 +40,7 @@
         {
           "breakpoint": "tablet",
           "name": "bakken-baeck-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://bakkenbaeck.com/"
@@ -55,7 +56,7 @@
         {
           "breakpoint": "tablet",
           "name": "basics09-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://basics09.de/"
@@ -71,7 +72,7 @@
         {
           "breakpoint": "tablet",
           "name": "dgd-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://dangayfer.com/"
@@ -87,7 +88,7 @@
         {
           "breakpoint": "tablet",
           "name": "gid-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://www.gidmotion.com/"
@@ -103,7 +104,7 @@
         {
           "breakpoint": "tablet",
           "name": "love-money-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://loveandmoney.agency/"
@@ -119,7 +120,7 @@
         {
           "breakpoint": "tablet",
           "name": "sfcd-portrait-1"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://sfcd.com/"
@@ -135,7 +136,7 @@
         {
           "breakpoint": "tablet",
           "name": "sfcd-portrait-2"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://sfcd.com/"
@@ -151,7 +152,7 @@
         {
           "breakpoint": "tablet",
           "name": "sfcd-portrait-3"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://sfcd.com/"
@@ -167,10 +168,10 @@
         {
           "breakpoint": "tablet",
           "name": "tennetbrown-portrait"
-        },
+        }
       ],
       "class": "slide",
       "url": "http://tennentbrown.co.nz/"
-    },
+    }
   ]
 }
