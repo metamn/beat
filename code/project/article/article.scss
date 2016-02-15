@@ -40,4 +40,8 @@
   &--vertical {
     @include article--vertical;
   }
+
+  &--fullscreen {
+    @include article--fullscreen;
+  }
 }
