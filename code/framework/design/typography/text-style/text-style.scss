@@ -48,6 +48,20 @@ $text-block-width: 25em;
     
   }
   
+  // Name
+  // - A person&#39;s name
+  @if ($variant == 'name') {
+    @include font(nimbus-sans-bold);
+    @include uppercase($lem / 4);
+    @include scale(small-1);
+    @include colors(white-on-black);
+    @include link(white-on-black);
+    
+    padding: $lem / 8 $lem / 4;
+    
+    
+  }
+  
   // Quote
   // - Italic, larger
   @if ($variant == 'quote') {
@@ -111,6 +125,18 @@ $text-block-width: 25em;
 .text-style--title {
   @include font(nimbus-sans-bold);
   
+  
+  
+}
+
+.text-style--name {
+  @include font(nimbus-sans-bold);
+  @include uppercase($lem / 4);
+  @include scale(small-1);
+  @include colors(white-on-black);
+  @include link(white-on-black);
+  
+  padding: $lem / 8 $lem / 4;
   
   
 }

@@ -36,4 +36,8 @@
   &--quote {
     @include article-quote;
   }
+
+  &--vertical {
+    @include article--vertical;
+  }
 }

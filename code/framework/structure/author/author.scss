@@ -1,6 +1,6 @@
 @mixin author {
   @include author-grid;
-  
+
   &__avatar {
     @include author__avatar;
   }
@@ -16,4 +16,6 @@
   &__description {
     @include author__description;
   }
+
+  @include author--active;
 }

@@ -1,5 +1,7 @@
 @mixin author-grid {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   .author__avatar {
     min-width: 48px;
@@ -7,6 +9,5 @@
 
   .author-meta {
     display: flex;
-    flex-direction: column;
   }
 }

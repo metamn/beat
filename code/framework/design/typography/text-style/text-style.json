@@ -53,6 +53,39 @@
       ]
     },
     {
+      "name": "Name",
+      "description": "A person's name",
+      "based_on": "Nimbus Sans Bold",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-bold"
+        },
+        {
+          "name": "uppercase",
+          "value": "$lem / 4"
+        },
+        {
+          "name": "scale",
+          "value": "small-1"
+        },
+        {
+          "name": "colors",
+          "value": "white-on-black"
+        },
+        {
+          "name": "link",
+          "value": "white-on-black"
+        }
+      ],
+      "properties": [
+        {
+          "name": "padding",
+          "value": "$lem / 8 $lem / 4"
+        }
+      ]
+    },
+    {
       "name": "Quote",
       "description": "Italic, larger",
       "based_on": "Nimbus Sans Light",
