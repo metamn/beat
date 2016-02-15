@@ -1,7 +1,8 @@
 // Get Twitter Avatars
 //
 // Load a JSON file with Twitter IDs, get avatar images and save into a JSON file
-//
+// The result file looks like "id1":"url1", "id2": "url2", ...
+// To maket it a real JSON file manually the last `,` should be removed and '{}' added
 //
 
 
