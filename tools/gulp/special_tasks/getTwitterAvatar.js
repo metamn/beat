@@ -10,7 +10,6 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     onError = require('../utils/onError'),
 
-    runSequence = require('run-sequence'),
     fs = require('fs'),
     twitterAPI = require('twitter');
 
@@ -55,19 +54,6 @@ var _getTwitterAvatar = function(source, dest) {
   }
 }
 
-
-gulp.task('gtaCreateFile', function() {
-  fs.openSync(process.cwd() + dest, 'w');
-  fs.appendFileSync(process.cwd() + dest, '[');
-
-  _getTwitterAvatar(source, dest);
-});
-
-
-// Close the JSON article file
-gulp.task('gtaCloseFile', function() {
-  fs.appendFileSync(process.cwd() + dest, ']');
-});
 
 
 gulp.task('getTwitterAvatar', function() {
