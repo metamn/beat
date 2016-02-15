@@ -1,4 +1,10 @@
-// Loads what-some-people-apart-are-up-to-in-2016.json and extends each profile with the Twitter avatar
+// Add Twitter avatar
+//
+// Loads a JSON file where avatars needs to be inserted and inserts avatars from another JSON file containing the avatar images
+// These two tasks couldn't be merged into one because getting Twitter avatars is slow and Gulp / node is async even with runSequence
+// So I've split getting avatars into a seperate task
+//
+
 
 
 // Plugins
@@ -6,62 +12,42 @@ var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     onError = require('../utils/onError'),
 
-    data = require('gulp-data'),
-    fs = require('fs'),
-    twitterAPI = require('twitter');
-
-
-
-// Twitter setup
-var Twitter = require('twitter');
-
-var t = new Twitter({
-  consumer_key: '7DDlJdQFjOdZH2idGTifxL68A',
-  consumer_secret: 'AJzFukL6ss4jlQfkJTONdpI3kasAbK0jSSZkb8PqwngwBwWYwp',
-  access_token_key: '15352486-XpqGNG89qiRBFeD0qXY8Ldd0QSWm8tb3m8MZoO4WS',
-  access_token_secret: 'XMMvAzKazKUSp0QeNGB4ubh9C2iPKtjAUyNQ99P8qvT4N'
-});
-
+    fs = require('fs');
 
 
 // Script setup
-var jsonFileName = '/code/pages/what-some-people-apart-are-up-to-in-2016/what-some-people-apart-are-up-to-in-2016.json';
+var source1 = '/code/pages/what-some-people-apart-are-up-to-in-2016/what-some-people-apart-are-up-to-in-2016.json';
+var source2 = '/code/pages/what-some-people-apart-are-up-to-in-2016/avatars.json';
 
 
 
-var ata_addAvatar = function() {
-  var json = require('../../..' + jsonFileName);
+var _addTwitterAvatar = function(source1, source2) {
+  var json1 = require('../../..' + source1);
+  var json2 = require('../../..' + source2);
 
-  for (var i = 0; i < json.content.length; i++) {
-    var avatar = '';
-    var property1 = json.content[i].property1;
-    var id = property1.twitter;
+  var j = 0;
+  for (var i = 0; i < json1.content.length; i++) {
+    var id = json1.content[i].property1.twitter;
+    var avatar = json2[j];
 
-    if (id != '') {
-      t.get('users/show', {screen_name: id}, function(error, response, property1){
-        if (!error) {
-          property1.avatar = response.profile_image_url;
-          console.log(property1.avatar);
-        } else {
-          console.log("Twitter error: " + JSON.stringify(error));
-        }
-      });
+    console.log('id:' + id);
+    console.log('avatar:' + avatar);
 
-      json.content[i].property1 = property1;
+    if ((id != '') && (avatar)) {
+      json1.content[i].property1.avatar = avatar;
+      j++;
     }
   }
 
-
-
-  return json;
+  return json1;
 }
 
 
 
 gulp.task('addTwitterAvatar', function() {
-  var json = ata_addAvatar();
+  var json = _addTwitterAvatar(source1, source2);
   console.log(JSON.stringify(json, null, 2));
 
-  fs.openSync(process.cwd() + jsonFileName, 'w');
-  fs.appendFileSync(process.cwd() + jsonFileName, JSON.stringify(json, null, 2));
+  fs.openSync(process.cwd() + source1, 'w');
+  fs.appendFileSync(process.cwd() + source1, JSON.stringify(json, null, 2));
 });

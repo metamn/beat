@@ -39,13 +39,13 @@ var _getTwitterAvatar = function(source, dest) {
   var content = json.content;
 
   for (var i = 0; i < content.length; i++) {
-    var id = content[i].property1.twitter;
+    var twitter_id = content[i].property1.twitter;
 
-    if (id != '') {
-      t.get('users/show', {screen_name: id}, function(error, response){
+    if (twitter_id != '') {
+      t.get('users/show', {screen_name: twitter_id}, function(error, response, twitter_id) {
         if (!error) {
-          fs.appendFileSync(process.cwd() + dest, '{"' + id + '": "' + response.profile_image_url + '"}');
-          console.log(response.profile_image_url);
+          fs.appendFileSync(process.cwd() + dest, '{"' + twitter_id + '": "' + response.profile_image_url + '"},');
+          console.log(JSON.stringify(twitter_id) + ':' + response.profile_image_url);
         } else {
           console.log("Twitter error: " + JSON.stringify(error));
         }
