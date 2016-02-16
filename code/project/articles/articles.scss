@@ -1,10 +1,15 @@
 @mixin articles {
   @include mobile {
-    @include grid(1, $lem, $lem * 4);
+    @include grid(1, 0, $lem * 4);
   }
 
   @include mobile-and-up {
-    @include articles-grid-fluid;
+    display: flex;
+    flex-wrap: wrap;
+
+    .article {
+      margin: $lem;
+    }
   }
 
   .article {
