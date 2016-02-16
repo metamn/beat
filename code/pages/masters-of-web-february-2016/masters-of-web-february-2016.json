@@ -1,7 +1,6 @@
 {
-  "title": "Masters Of The Web, February 2016",
-  "klass": "article-slider article-fullscreen",
-  "status": "draft",
+  "title": "Masters Of Web, February 2016",
+  "klass": "article-slider",
   "categories": [
     "design",
     "code"
@@ -27,7 +26,6 @@
           "name": "a1-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://a1office.com.au/"
     },
     {
@@ -43,7 +41,6 @@
           "name": "bakken-baeck-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://bakkenbaeck.com/"
     },
     {
@@ -59,7 +56,6 @@
           "name": "basics09-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://basics09.de/"
     },
     {
@@ -75,7 +71,6 @@
           "name": "dgd-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://dangayfer.com/"
     },
     {
@@ -91,7 +86,6 @@
           "name": "gid-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://www.gidmotion.com/"
     },
     {
@@ -107,7 +101,6 @@
           "name": "love-money-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://loveandmoney.agency/"
     },
     {
@@ -123,7 +116,6 @@
           "name": "sfcd-portrait-1"
         }
       ],
-      "class": "slide",
       "url": "http://sfcd.com/"
     },
     {
@@ -139,7 +131,6 @@
           "name": "sfcd-portrait-2"
         }
       ],
-      "class": "slide",
       "url": "http://sfcd.com/"
     },
     {
@@ -155,7 +146,6 @@
           "name": "sfcd-portrait-3"
         }
       ],
-      "class": "slide",
       "url": "http://sfcd.com/"
     },
     {
@@ -171,7 +161,6 @@
           "name": "tennetbrown-portrait"
         }
       ],
-      "class": "slide",
       "url": "http://tennentbrown.co.nz/"
     }
   ]

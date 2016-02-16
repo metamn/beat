@@ -1,0 +1,17 @@
+@mixin article-masters-of-web-february-2016 {
+  flex-basis: 100%;
+  flex-direction: column;
+
+  // The slider has images
+  .slider {
+    @include slider--with-image;
+
+    @include portrait {
+      @include intrinsic-ratio(3, 4, '.slider__slides');
+    }
+
+    @include landscape {
+      @include intrinsic-ratio(16, 9, '.slider__slides');
+    }
+  }
+}
