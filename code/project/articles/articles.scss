@@ -1,4 +1,7 @@
 @mixin articles {
+  display: flex;
+  flex-wrap: wrap;
+  
   .article {
     @include article;
   }

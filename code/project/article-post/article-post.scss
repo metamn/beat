@@ -1,3 +1,11 @@
+// Article Post
+//
+// Displayed in two columns, title & co at left, excerpt at right
+//
 @mixin article-post {
+  @include grid(2, $lem, 0);
 
+  @include mobile-and-up {
+    max-width: 360px;
+  }
 }
