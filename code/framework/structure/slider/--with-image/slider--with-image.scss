@@ -1,8 +1,10 @@
 // Slider with image
 //
 // Experimental :
-// In a slider without image everything is ok. With an image we should specify the exact dimensions of the image otherwise the slider will truncate it.
+// In a slider without image everything is ok. With an image we should specify the exact dimensions of the image.
+// Otherwise the slider will truncate it.
 // The intrinsic ratio mixin is a way to define the dimensions of an image in a fully responsive way.
+// When using the intrinsic ratio all images must have exactly the same dimensions and they must have the exact aspect ratio
 //
 @mixin slider--with-image {
   // The `slider` must have the intrinsic ratio set !!!
