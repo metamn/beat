@@ -26,9 +26,12 @@ gulp.task('articleCreateFile', function() {
   return gulp.src(paths.articles_src)
     .pipe(plumber({errorHandler: onError}))
     .pipe(data(function(file) {
-      // Do not include .jsons from @assets
-      if (file.path.indexOf('@assets') == -1) {
-        fs.appendFileSync(paths.articles_json, file.contents + ',');
+      // Do not include .jsons from @assets && the home.json
+      if ((file.path.indexOf('@assets') == -1) && (file.path.indexOf('home.json') == -1)) {
+        // Do not include empty JSONS
+        if (file.contents != '{}') {
+          fs.appendFileSync(paths.articles_json, file.contents + ',');
+        }
       }
     }))
 });

@@ -1,4 +1,7 @@
-<article class="article {{ article.klass }}">
+{% import "../../framework/helpers/classname/classname.swig" as c  %}
+{% set classname = c.classname(article.title) %}
+
+<article class="article {{ article.klass }} article-{{ classname }}">
   {% set link = { title: article.title } %}
 
   <div class="article-meta">
