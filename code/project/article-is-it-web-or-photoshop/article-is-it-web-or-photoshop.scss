@@ -1,0 +1,9 @@
+@mixin article-is-it-web-or-photoshop {
+  @include portrait {
+    flex-basis: 100%;
+  }
+
+  @include landscape {
+    flex-basis: 50%;
+  }
+}

@@ -1,7 +1,7 @@
 @mixin articles {
   display: flex;
   flex-wrap: wrap;
-  
+
   .article {
     @include article;
   }
@@ -16,5 +16,9 @@
 
   .article-slider {
     @include article-slider;
+  }
+
+  .article-is-it-web-or-photoshop {
+    @include article-is-it-web-or-photoshop;
   }
 }
