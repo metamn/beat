@@ -1,4 +1,6 @@
 @mixin article {
+  display: flex;
+  
   &__title {
     @include article__title;
   }
