@@ -5,7 +5,7 @@
 // Experimental: the container cannot contain other elements like the grid title, just the grid items
 //
 // Styleguide grid
-@mixin grid($items-per-row, $margin-right: 0px, $margin-bottom: 0px, $max-items-to-display: null) {
+@mixin grid($items-per-row, $margin-right: 0px, $margin-bottom: 0px, $title: false, $max-items-to-display: null) {
   display: flex;
   flex-wrap: wrap;
 
@@ -20,10 +20,16 @@
     box-sizing: border-box;
 
     // Right margins
-    // -n + 1 if there is a title ...
-    &:nth-child(#{$items-per-row}n) {
-      margin-right: 0;
+    @if ($title == false) {
+      &:nth-child(#{$items-per-row}n) {
+        margin-right: 0;
+      }
+    } @else {
+      &:nth-child(#{$items-per-row}n + 1) {
+        margin-right: 0;
+      }
     }
+
 
     // Only $max-items-to-display number of items will be shown
     @if ($max-items-to-display != null) {
