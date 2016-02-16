@@ -20,7 +20,8 @@
     box-sizing: border-box;
 
     // Right margins
-    &:nth-child(#{$items-per-row}n + 1) {
+    // -n + 1 if there is a title ...
+    &:nth-child(#{$items-per-row}n) {
       margin-right: 0;
     }
 

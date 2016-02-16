@@ -1,7 +1,6 @@
 {
   "title": "Is It Web Or Photoshop?",
   "klass": "article-slider",
-  "status": "draft",
   "categories": [
     "design"
   ],
@@ -19,19 +18,16 @@
     {
       "title": "Holz.re",
       "name": "holz",
-      "extension": ".jpg",
-      "class": "slide"
+      "extension": ".jpg"
     },
     {
       "title": "Yale / Paul Rand",
       "name": "yale",
-      "extension": ".jpg",
-      "class": "slide"
+      "extension": ".jpg"
     },
     {
       "title": "Bloomberg",
-      "name": "bloomberg",
-      "class": "slide"
+      "name": "bloomberg"
     }
   ]
 }

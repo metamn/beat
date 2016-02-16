@@ -1,11 +1,10 @@
 @mixin article__slider {
-  margin-left: $lem;
-  
-  .figure {
-    @include figure(stretched);
-  }
-}
+  .slider {
+    @include slider;
+    @include intrinsic-ratio(3, 4, '.slider__slides');
 
-.slider {
-  @include slider;
+    .figure {
+      @include figure(stretched);
+    }
+  }
 }
