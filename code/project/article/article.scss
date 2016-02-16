@@ -1,6 +1,4 @@
 @mixin article {
-  @include article-grid;
-
   &__title {
     @include article__title;
   }
@@ -31,17 +29,5 @@
 
   &__authors {
     @include article__authors;
-  }
-
-  &--quote {
-    @include article-quote;
-  }
-
-  &--vertical {
-    @include article--vertical;
-  }
-
-  &--fullscreen {
-    @include article--fullscreen;
   }
 }

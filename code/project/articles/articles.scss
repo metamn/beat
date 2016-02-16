@@ -1,18 +1,17 @@
 @mixin articles {
-  @include mobile {
-    @include grid(1, 0, $lem * 4);
-  }
-
-  @include mobile-and-up {
-    display: flex;
-    flex-wrap: wrap;
-
-    .article {
-      margin: $lem;
-    }
-  }
-
   .article {
     @include article;
+  }
+
+  .article-post {
+    @include article-post;
+  }
+
+  .article-quote {
+    @include article-quote;
+  }
+
+  .article-slider {
+    @include article-slider;
   }
 }
