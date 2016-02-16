@@ -1,9 +1,28 @@
 @mixin article-is-it-web-or-photoshop {
+
+  // Align the slider with the title
+  @include grid(2, $lem, 0);
+  flex-wrap: nowrap;
+  
+  @include mobile-and-up {
+    .article-meta {
+      flex-basis: auto;
+    }
+  }
+
+  // The size of the article
   @include portrait {
     flex-basis: 100%;
   }
 
   @include landscape {
     flex-basis: 50%;
+  }
+
+
+  // The slider has images
+  .slider {
+    @include slider--with-image;
+    @include intrinsic-ratio(3, 4, '.slider__slides');
   }
 }
