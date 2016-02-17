@@ -2,8 +2,6 @@
 {% set classname = c.classname(article.title) %}
 
 <article class="article {{ article.klass }} article-{{ classname }}">
-  {% set link = { title: article.title } %}
-
   <div class="article-meta">
     {% if (article.title) and (article.display.indexOf('title') !== -1) %}
       {% include '__title/article__title.html.swig' %}

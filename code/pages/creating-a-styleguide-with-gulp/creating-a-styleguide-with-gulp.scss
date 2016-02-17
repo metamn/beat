@@ -1,1 +1,7 @@
-@mixin creating-a-styleguide-with-gulp {}
+html {
+  &.creating-a-styleguide-with-gulp {
+    body {
+      //
+    }
+  }
+}

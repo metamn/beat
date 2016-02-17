@@ -1,0 +1,14 @@
+// The default article template
+//
+//
+// Styleguide article-template
+
+html {
+  &.template-article {
+    body {
+      .article {
+        @include article;
+      }
+    }
+  }
+}

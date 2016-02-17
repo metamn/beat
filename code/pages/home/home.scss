@@ -6,12 +6,6 @@
 html {
   &.home {
     body {
-      padding: $lem;
-
-      .header {
-        @include header;
-      }
-
       .articles {
         @include articles;
       }
