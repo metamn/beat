@@ -1,0 +1,37 @@
+#title: styleguide-details
+
+[<note>Styleguide details|
+ [<database>JSON]
+ [<frame>site|
+ [SCSS|site.css]
+ [HTML|site.html]
+ ]
+ [<frame>styleguide|
+ [SCSS|site.css]
+ [HTML|site.html] |
+ [SCSS|styleguide.css]
+ [HTML|styleguide.html]
+ ]
+ [JSON] -> [site]
+ [JSON] -> [styleguide]
+]
+
+#direction: left
+
+#font: Mono
+#fontSize: 12
+
+#lineWidth: 2
+#gutter: 50
+#padding: 12
+#spacing: 96
+
+#stroke: #000
+#fill: #fff; #fff
+
+#arrowSize: 0.3
+#bendSize: 1
+#fillArrows: true
+
+
+#zoom: 1

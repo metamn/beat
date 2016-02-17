@@ -1,0 +1,24 @@
+#title: styleguide-basics
+
+[<note>Styleguide basics|
+[<database>database]->[site]
+[database]->[styleguide]
+]
+
+#font: Mono
+#fontSize: 12
+
+#lineWidth: 2
+#gutter: 50
+#padding: 12
+#spacing: 96
+
+#stroke: #000
+#fill: #fff; #fff
+
+#arrowSize: 0.3
+#bendSize: 1
+#fillArrows: true
+
+
+#zoom: 1.5
