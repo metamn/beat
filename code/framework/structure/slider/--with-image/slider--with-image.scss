@@ -1,10 +1,21 @@
 // Slider with image
 //
 // Experimental :
+//
 // In a slider without image everything is ok. With an image we should specify the exact dimensions of the image.
 // Otherwise the slider will truncate it.
 // The intrinsic ratio mixin is a way to define the dimensions of an image in a fully responsive way.
+//
 // When using the intrinsic ratio all images must have exactly the same dimensions and they must have the exact aspect ratio
+//
+// To create 2x, retina landscape and portrait screenshots with this monitor:
+// - landscape 16:9 - screenshot 1920x1080 (2x), resize to 960 for 1x
+// - portrait 3:4 - screenshoot 900x1200 (2x), resize to 450x for 1x
+// => with this monitor cannot be created fullscreen retina screenshots
+//
+// To have 2x, retina friendly images:
+// - landscape 16:9 - 2x: 3840x2160 => 1920x1080
+// - portrait 3:4 - 2x: 1536x2048 => 768x1024
 //
 @mixin slider--with-image {
   // The `slider` must have the intrinsic ratio set !!!
