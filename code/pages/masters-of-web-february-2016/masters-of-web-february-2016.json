@@ -119,36 +119,6 @@
       "url": "http://sfcd.com/"
     },
     {
-      "title": "SFCD",
-      "name": "sfcd-landscape-2",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "sfcd-portrait-2"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "sfcd-portrait-2"
-        }
-      ],
-      "url": "http://sfcd.com/"
-    },
-    {
-      "title": "SFCD",
-      "name": "sfcd-landscape-3",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "sfcd-portrait-3"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "sfcd-portrait-3"
-        }
-      ],
-      "url": "http://sfcd.com/"
-    },
-    {
       "title": "Tennent Brown",
       "name": "tennetbrown-landscape",
       "responsive": [
