@@ -4,11 +4,11 @@
   "sizes": [
     {
       "name": "laptop",
-      "width": "720"
+      "width": "1440"
     },
     {
       "name": "desktop",
-      "width": "960"
+      "width": "1920"
     }
   ]
 }
