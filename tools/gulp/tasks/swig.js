@@ -19,6 +19,8 @@ var gulp = require('gulp'),
 
     swig = require('gulp-swig'),
     data = require('gulp-data'),
+    marked = require('swig-marked'),
+
     fs = require('fs'),
     path = require('path'),
     onError = require('../utils/onError'),
@@ -46,6 +48,9 @@ var _swig = function(source, dest, config, articles) {
           // Load site-wide JSON settings
           site: require(config),
         }
+      },
+      setup: function(swig) {
+        marked.useTag(swig, 'markdown');
       }
     }))
 

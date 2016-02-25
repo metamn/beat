@@ -10,7 +10,9 @@
   {% include '../../../project/article/__title/article__title.html.swig' %}
 
   <div class='article__content'>
+    {% autoescape true %}
     {% block content %}{% endblock %}
+    {% endautoescape %}
   </div>
 
   <div class="article-meta">

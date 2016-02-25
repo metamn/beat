@@ -53,6 +53,7 @@
     "mkdirp": "^0.5.1",
     "node-twitter-api": "^1.7.0",
     "run-sequence": "^1.1.0",
+    "swig-marked": "0.0.1",
     "twit": "^2.2.2",
     "twitter": "^1.2.5",
     "webpack-stream": "^3.1.0",

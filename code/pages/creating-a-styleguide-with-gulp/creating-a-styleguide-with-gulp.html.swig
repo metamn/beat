@@ -1,6 +1,8 @@
 {% extends '../../framework/templates/article/article.html.swig' %}
 {% block content %}
 
-content
+{% markdown %}
+# Markdown
+{% endmarkdown %}
 
 {% endblock %}
