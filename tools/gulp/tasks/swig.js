@@ -20,6 +20,9 @@ var gulp = require('gulp'),
     swig = require('gulp-swig'),
     data = require('gulp-data'),
     marked = require('swig-marked'),
+    typeset = require('gulp-typeset'),
+    gulpif = require('gulp-if'),
+
 
     fs = require('fs'),
     path = require('path'),
@@ -29,6 +32,17 @@ var gulp = require('gulp'),
 
 // Configuration
 var paths = require('./../config');
+
+
+// check if file contains markdown
+// - wanted to fix the &mdash; which is rendered with random spacw by swig. No luck
+// - used gulp-typeset, gulp-typogr etc...
+var isMarkdown = function(file) {
+  //var fileContent = fs.readFileSync(file.path, "utf8");
+  //var md = (fileContent.indexOf('class="markdown"') !== -1)
+  //return md;
+  return false;
+}
 
 
 
@@ -53,8 +67,8 @@ var _swig = function(source, dest, config, articles) {
         marked.useTag(swig, 'markdown');
       }
     }))
-
     .pipe(rename({ extname: '' }))
+    //.pipe(gulpif(isMarkdown, typeset()))
     .pipe(gulp.dest(dest));
 }
 
