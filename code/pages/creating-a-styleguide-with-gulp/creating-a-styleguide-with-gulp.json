@@ -23,11 +23,31 @@
     },
     {
       "title": "Styleguide architecture details",
-      "name": "styleguide-details"
+      "name": "styleguide-details",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "styleguide-details-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "styleguide-details-portrait"
+        }
+      ]
     },
     {
       "title": "Styleguide colors example",
-      "name": "styleguide-example"
+      "name": "styleguide-example",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "styleguide-example-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "styleguide-example-portrait"
+        }
+      ]
     }
   ]
 }
