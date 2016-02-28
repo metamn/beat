@@ -25,7 +25,7 @@ A complete solution covers all scenarios above and provides:
 1. A styleguide living together with the associated website. Any change is reflected both in the website and styleguide in an automatic, instant way.
 2. A decision making tool. All components and groups of components building the site will have their own styleguide entry. Designers will be able to
 overview a part of the user interface or a whole segment of it. Decisions can be made on all levels and details.
-3. Documented and easily understandable code. The styleguide will be generated from the code documentation.
+3. Documented and easily understandable code. The styleguide should be generated from the code documentation.
 Developers will have no other burden to support the styleguide than to make sure all code is documented.
 
 Only a few tools offer a complete styleguide and Lonely Planet's Rizzo is best of them. No wonder the styleguides.io starts with it.
@@ -111,3 +111,10 @@ The example below is the styleguide entry for colors. It's a HTML skeleton code 
 Gulp transforms the skeleton into a final HTML which contains exactly the same colors as defined in the `colors.scss.json` file above.
 {% endmarkdown %}
 <script src="https://gist.github.com/metamn/2d01cc5e07c7e3221739.js"></script>
+
+
+
+{% set image = images[2] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}

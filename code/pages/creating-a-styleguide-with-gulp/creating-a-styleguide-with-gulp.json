@@ -24,6 +24,10 @@
     {
       "title": "Styleguide architecture details",
       "name": "styleguide-details"
+    },
+    {
+      "title": "Styleguide colors example",
+      "name": "styleguide-example"
     }
   ]
 }

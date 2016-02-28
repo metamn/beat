@@ -116,4 +116,8 @@
   <script src="https://gist.github.com/metamn/2d01cc5e07c7e3221739.js"></script>
 
 
+
+  {% set image = images[2] %}
+  {% include '../../framework/structure/figure/figure.html.swig' %}
+
 {% endblock %}

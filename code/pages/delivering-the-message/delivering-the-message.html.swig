@@ -1,6 +1,6 @@
-{% extends '../../framework/templates/default/default.html.swig' %}
+{% extends '../../framework/templates/article/article.html.swig' %}
 {% block content %}
 
-  {% include 'content.html.swig' %}
+  
 
 {% endblock %}

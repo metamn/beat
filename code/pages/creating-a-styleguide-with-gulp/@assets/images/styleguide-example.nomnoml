@@ -1,0 +1,34 @@
+#title: styleguide-example
+
+[<note>Styleguide example|
+ [<database>colors.scss.json]
+ [<frame>site|
+ [SCSS|colors.scss]
+ ]
+ [<frame>styleguide|
+ [SCSS|colors.scss]
+ [HTML|colors.html]
+ ]
+ [colors.scss.json] Gulp, Swig-> [site]
+ [colors.scss.json] -> [styleguide]
+]
+
+#direction: left
+
+#font: Mono
+#fontSize: 12
+
+#lineWidth: 2
+#gutter: 50
+#padding: 12
+#spacing: 96
+
+#stroke: #000
+#fill: #fff; #fff
+
+#arrowSize: 0.3
+#bendSize: 1
+#fillArrows: true
+
+
+#zoom: 3
