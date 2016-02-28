@@ -29,10 +29,12 @@
   {% endif %}
 
   {% if (article.slides) and (article.display.indexOf('slides') !== -1) %}
+    {% set slides = article.slides %}
     {% include '__slider/article__slider.html.swig' %}
   {% endif %}
 
   {% if (article.authors) and (article.display.indexOf('authors') !== -1) %}
+    {% set authors = article.authors %}
     {% include '__authors/article__authors.html.swig' %}
   {% endif %}
 </article>

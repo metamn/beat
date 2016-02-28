@@ -4,7 +4,7 @@
   <h3>Slider</h3>
 
   {{ s.slider('Article slider') }}
-    {% for slide in article.slides %}
+    {% for slide in slides %}
       <div class='slide'>
         {% set image = slide %}
         {% include '../../../framework/structure/figure/figure.html.swig' %}
@@ -14,6 +14,5 @@
   </section>
 
   {% set klass = "article__bullets" %}
-  {% set slides = article.slides %}
   {% include '../../../framework/structure/slider/__bullets/slider__bullets.html.swig' %}
 </section>
