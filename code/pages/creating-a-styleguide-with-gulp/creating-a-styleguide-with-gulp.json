@@ -15,5 +15,15 @@
     "date",
     "excerpt",
     "more"
+  ],
+  "images": [
+    {
+      "title": "Styleguide architecture",
+      "name": "styleguide-basics"
+    },
+    {
+      "title": "Styleguide architecture details",
+      "name": "styleguide-details"
+    }
   ]
 }

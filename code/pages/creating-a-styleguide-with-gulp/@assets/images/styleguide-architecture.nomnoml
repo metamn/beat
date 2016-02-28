@@ -1,4 +1,4 @@
-#title: styleguide-basics
+#title: styleguide-architecture
 
 [<note>Styleguide basics|
 [<database>database]->[site]
@@ -21,4 +21,4 @@
 #fillArrows: true
 
 
-#zoom: 1.5
+#zoom: 5.5

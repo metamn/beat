@@ -1,3 +1,4 @@
+{% markdown %}
 Styleguides have been around for a while, and like web components, they didn’t really went mainstream.
 
 Why? There is no universal solution  like a plugin   to create a styleguide, and, there is no consensus on what goes into a styleguide.
@@ -32,3 +33,16 @@ If you have a Ruby / Rails based project go ahead and use it, your problem is so
 If not read on. The rest of this article will focus on how to create a Rizzo-like styleguide not tied to a programming language.
 
 ## Styleguide architecture
+
+The theory behind maintainable styleguides was defined by Ian Feather of Rizzo, and it is called Component API.
+
+> ... creating a component layer which both our user-facing applications and our Style Guide can work from.
+
+In other words there is a need for a database where all user interface parameters are stored. Both the site and the styleguide uses this database to build the interface. Changes go to this database and are automatically propagated to both the site and the styleguide.
+{% endmarkdown %}
+
+{% set image = images[0] %}
+{& include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
+{% endmarkdown %}
