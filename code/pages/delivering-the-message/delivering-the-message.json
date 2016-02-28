@@ -14,5 +14,49 @@
     "date",
     "excerpt",
     "more"
+  ],
+  "images": [
+    {
+      "title": "The five focus points",
+      "name": "focus-points-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "focus-points-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "focus-points-portrait"
+        }
+      ]
+    },
+    {
+      "title": "The living styleguide of http://metamn.io",
+      "name": "metamn-styleguide-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "metamn-styleguide-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "metamn-styleguide-portrait"
+        }
+      ]
+    },
+    {
+      "title": "The frontpage of http://metamn.io",
+      "name": "metamn-frontpage-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "metamn-frontpage-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "metamn-frontpage-portrait"
+        }
+      ]
+    }
   ]
 }

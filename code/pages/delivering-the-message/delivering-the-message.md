@@ -48,7 +48,7 @@ To prove that I had to show something new, unique both in design and development
 For development I’ve created a living styleguide accompanying my portfolio and outsourced it. Even today I only knew companies not single individuals doing styleguide (Google’s Material Design, Lonely Planet’s Rizzo). That should deliver the message.
 {% endmarkdown %}
 
-{% set image = images[2] %}
+{% set image = images[1] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
@@ -57,7 +57,7 @@ On design I went with something outside the box. I’ve picked an unusual layout
 The portfolio should radiate now energy, strength in simplicity, courage in pushing the web forward yet sticking to it’s basic principles. This is how I think and feel, this is my message.
 {% endmarkdown %}
 
-{% set image = images[3] %}
+{% set image = images[2] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
