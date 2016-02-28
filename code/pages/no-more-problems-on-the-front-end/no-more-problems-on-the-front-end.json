@@ -1,6 +1,6 @@
 {
   "title": "No More Problems On The Front End",
-  "excerpt": "The last decade  was hard with problems for front-end developers. Cross-browser compatibility, naming conventions, and poor performance. Now all these are solved.",
+  "excerpt": "The last decade  was hard with problems for front-end developers. Cross-browser compatibility, naming and structuring code, and poor performance. Now all these are solved.",
   "klass": "article-post",
   "categories": [
     "code"
