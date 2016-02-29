@@ -1,9 +1,9 @@
 @mixin link-linethrough {
-  text-decoration: none;
+  text-decoration: line-through;
 
   &:hover,
   &:focus,
   &:active {
-    text-decoration: line-through;;
+    text-decoration: line-through;
   }
 }

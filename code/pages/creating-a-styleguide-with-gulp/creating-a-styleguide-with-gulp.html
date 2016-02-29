@@ -75,7 +75,8 @@
   <p>  Styleguides have been around for a while, and like web components, they didn’t really went mainstream.</p>
 <p>  Why? There is no universal solution  like a plugin   to create a styleguide, and, there is no consensus on what goes into a styleguide.</p>
 <p>  Everybody rolls her own.
-  The most well known styleguides today are Google’s Material Design, Lonely Planet’s Rizzo, and Pattern Lab / Atomic Design .
+  The most well known styleguides today are Google’s Material Design<sup id="footnote--1"><a href="#footnotes--1">1</a></sup>,
+  Lonely Planet’s Rizzo<sup id="footnote--2"><a href="#footnotes--2">2</a></sup>, and Pattern Lab / Atomic Design<sup id="footnote--3"><a href="#footnotes--3">3</a></sup> .
   All of them unique both in design, content and the tools behind creating them.</p>
 <p>  If you check out <a href="http://styleguides.io/">styleguides.io</a> you&#39;ll find a good few dozens of tools &amp; ways to create a styleguide.
   It&#39;s over-helming. You don&#39;t know where to start, which one to choose, how to have a future-proof solution.</p>
@@ -87,22 +88,25 @@
   Developers might need it to have a consistent, well documented code base, which later can be extended easily even by new members.</p>
 <p>  A complete solution covers all scenarios above and provides:</p>
 <ol>
-<li>A styleguide living together with the associated website. Any change is reflected both in the website and styleguide in an automatic, instant way.</li>
-<li>A decision making tool. All components and groups of components building the site will have their own styleguide entry. Designers will be able to
-overview a part of the user interface or a whole segment of it. Decisions can be made on all levels and details.</li>
+<li><p>A styleguide living together with the associated website.
+Any change is reflected both in the website and styleguide in an automatic, instant way.</p>
+</li>
+<li><p>A decision making tool. All components and groups of components building the site will have their own styleguide entry.
+Designers will be able to overview a part of the user interface or a whole segment of it. Decisions can be made on all levels and details.</p>
+</li>
 <li><p>Documented and easily understandable code. The styleguide will be generated from the code documentation.
 Developers will have no other burden to support the styleguide than to make sure all code is documented.</p>
-<p>Only a few tools offer a complete styleguide and Lonely Planet&#39;s Rizzo is best of them. No wonder the styleguides.io starts with it.
-If you have a Ruby / Rails based project go ahead and use it, your problem is solved.
-If not read on. The rest of this article will focus on how to create a Rizzo-like styleguide not tied to a programming language.</p>
+</li>
+</ol>
+<p>  Only a few tools offer a complete styleguide and Lonely Planet&#39;s Rizzo is best of them. No wonder the styleguides.io starts with it.
+  If you have a Ruby / Rails based project go ahead and use it, your problem is solved.
+  If not read on. The rest of this article will focus on how to create a Rizzo-like styleguide not tied to a programming language.</p>
 <h2 id="styleguide-architecture">Styleguide architecture</h2>
-<p>The theory behind maintainable styleguides was defined by Ian Feather of Rizzo, and it is called Component API.</p>
+<p>  The theory behind maintainable styleguides was defined by Ian Feather of Rizzo, and it is called Component API.</p>
 <blockquote>
 <p>... creating a component layer which both our user-facing applications and our Style Guide can work from.</p>
 </blockquote>
-<p>In other words there is a need for a database where all user interface parameters are stored. Both the site and the styleguide uses this database to build the interface. Changes go to this database and are automatically propagated to both the site and the styleguide.</p>
-</li>
-</ol>
+<p>  In other words there is a need for a database where all user interface parameters are stored. Both the site and the styleguide uses this database to build the interface. Changes go to this database and are automatically propagated to both the site and the styleguide.</p>
 
 
   

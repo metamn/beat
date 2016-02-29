@@ -1,0 +1,12 @@
+@mixin ol {
+  ol,
+  .ol {
+    margin-left: $lem / 2 + $lem / 6; // Align perfectly to left
+    margin-bottom: $lem;
+
+    li,
+    .li {
+      margin-top: $lem;
+    }
+  }
+}

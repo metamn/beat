@@ -8,6 +8,15 @@ html {
     body {
       .article {
         @include article;
+
+        &__content {
+          @include text-style(article);
+        }
+
+        &__title,
+        .article-meta {
+          display: none;
+        }
       }
     }
   }

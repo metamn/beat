@@ -27,7 +27,7 @@
     },
     {
       "name": "Body text",
-      "description": "Settings for long text blocks.",
+      "description": "Settings for text blocks.",
       "based_on": "Nimbus Sans",
       "mixins": [
         {
@@ -38,6 +38,35 @@
         {
           "name": "max-width",
           "value": "25em"
+        }
+      ]
+    },
+    {
+      "name": "Article",
+      "description": "Settings for very long text.",
+      "based_on": "Nimbus Sans",
+      "mixins": [
+        {
+          "name": "scale",
+          "value": "large-1"
+        },
+        {
+          "name": "p"
+        },
+        {
+          "name": "h2"
+        },
+        {
+          "name": "a"
+        },
+        {
+          "name": "ol"
+        }
+      ],
+      "properties": [
+        {
+          "name": "max-width",
+          "value": "33.25em"
         }
       ]
     },
