@@ -35,7 +35,7 @@
   3. Documented and easily understandable code. The styleguide will be generated from the code documentation.
   Developers will have no other burden to support the styleguide than to make sure all code is documented.
 
-  
+
   Only a few tools offer a complete styleguide and Lonely Planet's Rizzo is best of them. No wonder the styleguides.io starts with it.
   If you have a Ruby / Rails based project go ahead and use it, your problem is solved.
   If not read on. The rest of this article will focus on how to create a Rizzo-like styleguide not tied to a programming language.

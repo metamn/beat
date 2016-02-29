@@ -16,11 +16,4 @@
   &__description {
     @include author__description;
   }
-
-  &--active,
-  &:hover {
-    @include author--active;
-  }
-
-  @include author--inactive;
 }

@@ -1,6 +1,3 @@
 @mixin author__name {
-  .link {
-    @include text-style(name);
-    @include link-linethrough;
-  }
+  
 }

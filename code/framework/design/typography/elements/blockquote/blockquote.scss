@@ -1,3 +1,7 @@
 @mixin blockquote {
-  @include text-style(quote);
+  blockquote,
+  .blockquote {
+    @include text-style(quote);
+    margin: $lem 0;
+  }
 }

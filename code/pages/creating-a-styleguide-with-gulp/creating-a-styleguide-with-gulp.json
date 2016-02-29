@@ -49,5 +49,15 @@
         }
       ]
     }
+  ],
+  "blockquotes": [
+    {
+      "name": "Ian Feather",
+      "title": "Senior Software Engineer",
+      "url": "http://www.ianfeather.co.uk/",
+      "twitter": "ianfeather",
+      "avatar": "https://pbs.twimg.com/profile_images/625407102748655616/xtpElfzb_normal.jpg",
+      "description": "... creating a component layer which both our user-facing applications and our Style Guide can work from."
+    }
   ]
 }
