@@ -48,6 +48,8 @@ $text-block-width: 25em;
     @include a;
     @include ol;
     @include blockquote;
+    @include illustration;
+    @include gist;
     
     max-width: 33.25em;
     
@@ -144,6 +146,8 @@ $text-block-width: 25em;
   @include a;
   @include ol;
   @include blockquote;
+  @include illustration;
+  @include gist;
   
   max-width: 33.25em;
   

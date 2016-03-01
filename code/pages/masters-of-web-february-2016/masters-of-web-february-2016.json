@@ -1,6 +1,7 @@
 {
   "title": "Masters Of Web, February 2016",
   "klass": "article-slider",
+  "template": "article",
   "categories": [
     "design",
     "code"

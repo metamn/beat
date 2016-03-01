@@ -19,11 +19,13 @@
   "images": [
     {
       "title": "Styleguide architecture",
-      "name": "styleguide-architecture"
+      "name": "styleguide-architecture",
+      "class": "illustration"
     },
     {
       "title": "Styleguide architecture details",
       "name": "styleguide-details",
+      "class": "illustration",
       "responsive": [
         {
           "breakpoint": "mobile",
@@ -38,6 +40,7 @@
     {
       "title": "Styleguide colors example",
       "name": "styleguide-example",
+      "class": "illustration",
       "responsive": [
         {
           "breakpoint": "mobile",

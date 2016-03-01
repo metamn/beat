@@ -73,8 +73,12 @@
   In the example above we see how this theory works in practice.
 
   1. Every user interface definition goes into a JSON file
+
   2. Gulp creates `HTML` and `CSS` files from the database both for the site and the styleguide
+
   3. The `HTML` and `CSS` files for the site are included also in the styleguide. This makes the styleguide stay in sync with the website.
+
+
 
   ## A concrete example
 

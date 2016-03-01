@@ -64,6 +64,12 @@
         },
         {
           "name": "blockquote"
+        },
+        {
+          "name": "illustration"
+        },
+        {
+          "name": "gist"
         }
       ],
       "properties": [
