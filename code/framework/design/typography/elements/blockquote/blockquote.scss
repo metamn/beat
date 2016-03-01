@@ -3,5 +3,6 @@
   .blockquote {
     @include text-style(quote);
     margin: $lem 0;
+    text-align: center;
   }
 }
