@@ -12,7 +12,9 @@
   @include landscape {
     p,
     .p,
-    .gist {
+    .gist,
+    h3,
+    .h3 {
       min-width: 33.325em;
     }
   }
