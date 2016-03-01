@@ -79,11 +79,25 @@
     {
       "name": "Title",
       "description": "Title",
-      "based_on": "Nimbus Sans Bold",
+      "based_on": "Nimbus Sans",
       "mixins": [
         {
-          "name": "font",
-          "value": "nimbus-sans-bold"
+          "name": "colors",
+          "value": "white-on-black"
+        },
+        {
+          "name": "uppercase",
+          "value": "$lem"
+        }
+      ],
+      "properties": [
+        {
+          "name": "padding",
+          "value": "$lem / 2 $lem"
+        },
+        {
+          "name": "line-height",
+          "value": "2.96"
         }
       ]
     },

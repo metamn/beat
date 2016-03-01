@@ -8,13 +8,32 @@ html {
     body {
       .article {
         @include article;
+        flex-wrap: wrap;
         justify-content: center;
+
+        &__title {
+          position: absolute;
+          left: 0;
+
+          @include portrait {
+            position: relative;
+            left:auto;
+            margin-bottom: $lem;
+          }
+
+          @include laptop {
+            max-width: 12.5em;
+          }
+
+          @include desktop {
+            max-width: 25em;
+          }
+        }
 
         &__content {
           @include text-style(article-body-text);
         }
 
-        &__title,
         .article-meta {
           display: none;
         }

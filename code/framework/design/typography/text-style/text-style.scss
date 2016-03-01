@@ -59,8 +59,11 @@ $text-block-width: 25em;
   // Title
   // - Title
   @if ($variant == 'title') {
-    @include font(nimbus-sans-bold);
+    @include colors(white-on-black);
+    @include uppercase($lem);
     
+    padding: $lem / 2 $lem;
+    line-height: 2.96;
     
     
   }
@@ -155,8 +158,11 @@ $text-block-width: 25em;
 }
 
 .text-style--title {
-  @include font(nimbus-sans-bold);
+  @include colors(white-on-black);
+  @include uppercase($lem);
   
+  padding: $lem / 2 $lem;
+  line-height: 2.96;
   
   
 }

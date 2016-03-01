@@ -3,9 +3,7 @@
   @include text-style(title);
 
   .link {
-    // Since we have gray on white with a 3.9 contrast ratio the text size should be large-1 and bold
-    @include link(black-on-white, black-on-white, gray-on-white);
+    @include link(white-on-black, white-on-black, white-on-black);
     @include link-linethrough;
-    @include scale(large-1);
   }
 }
