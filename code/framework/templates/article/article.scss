@@ -8,9 +8,10 @@ html {
     body {
       .article {
         @include article;
+        justify-content: center;
 
         &__content {
-          @include text-style(article);
+          @include text-style(article-body-text);
         }
 
         &__title,

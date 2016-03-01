@@ -39,9 +39,9 @@ $text-block-width: 25em;
     
   }
   
-  // Article
+  // Article body text
   // - Settings for very long text.
-  @if ($variant == 'article') {
+  @if ($variant == 'article-body-text') {
     @include scale(large-1);
     @include p;
     @include h2;
@@ -50,8 +50,8 @@ $text-block-width: 25em;
     @include blockquote;
     @include illustration;
     @include gist;
+    @include article-body-text;
     
-    max-width: 33.25em;
     
     
   }
@@ -139,7 +139,7 @@ $text-block-width: 25em;
   
 }
 
-.text-style--article {
+.text-style--article-body-text {
   @include scale(large-1);
   @include p;
   @include h2;
@@ -148,8 +148,8 @@ $text-block-width: 25em;
   @include blockquote;
   @include illustration;
   @include gist;
+  @include article-body-text;
   
-  max-width: 33.25em;
   
   
 }

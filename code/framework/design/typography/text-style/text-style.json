@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Article",
+      "name": "Article body text",
       "description": "Settings for very long text.",
       "based_on": "Nimbus Sans",
       "mixins": [
@@ -70,12 +70,9 @@
         },
         {
           "name": "gist"
-        }
-      ],
-      "properties": [
+        },
         {
-          "name": "max-width",
-          "value": "33.25em"
+          "name": "article-body-text"
         }
       ]
     },
