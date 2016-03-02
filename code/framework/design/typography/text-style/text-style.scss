@@ -49,7 +49,7 @@ $text-block-width: 25em;
     @include a;
     @include ol;
     @include blockquote;
-    @include illustration;
+    @include image;
     @include gist;
     @include article-body-text;
     
@@ -151,7 +151,7 @@ $text-block-width: 25em;
   @include a;
   @include ol;
   @include blockquote;
-  @include illustration;
+  @include image;
   @include gist;
   @include article-body-text;
   

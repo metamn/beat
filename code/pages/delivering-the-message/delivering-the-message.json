@@ -18,7 +18,7 @@
   ],
   "images": [
     {
-      "title": "The five focus points",
+      "title": "The five focus points on metamn.io",
       "name": "focus-points-landscape",
       "responsive": [
         {
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "title": "The living styleguide of http://metamn.io",
+      "title": "The living styleguide of metamn.io",
       "name": "metamn-styleguide-landscape",
       "responsive": [
         {
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "title": "The frontpage of http://metamn.io",
+      "title": "The frontpage of metamn.io",
       "name": "metamn-frontpage-landscape",
       "responsive": [
         {

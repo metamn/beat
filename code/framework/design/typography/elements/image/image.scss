@@ -1,0 +1,22 @@
+@mixin image {
+  .figure {
+    @include figure($figcaption: on);
+    margin: $lem 0;
+
+    display: flex;
+    flex-direction: column;
+
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEElEQVQImWNgYGD4z0AHAABlBAEAGUklEQAAAABJRU5ErkJggg==);
+
+    .picture {
+      padding: $lem * 3;
+    }
+
+    .figcaption {
+      @include font(nimbus-sans-light);
+      @include scale(small-1);
+      @include colors(black-on-white);
+    }
+
+  }
+}
