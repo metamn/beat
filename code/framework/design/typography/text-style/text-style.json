@@ -76,6 +76,9 @@
         },
         {
           "name": "article-body-text"
+        },
+        {
+          "name": "code"
         }
       ]
     },

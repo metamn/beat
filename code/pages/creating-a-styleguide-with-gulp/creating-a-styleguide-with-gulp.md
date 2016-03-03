@@ -52,13 +52,13 @@ In other words there is a need for a database where all user interface parameter
 {% markdown %}
 Since the styleguide architecture is so simple it can be implemented easily with tools independent of a programming language.
 
-Today standard web development tools are built on Javascript. This makes us choose `JSON` as the database and `Gulp`, the Javascript glue engine
+Today standard web development tools are built on Javascript. This makes us choose JSON as the database and Gulp, the Javascript glue engine
 to sync the database with the front-end code.
 
-Yes, we are still bound to a programming language. Unlike Ruby, Python, PHP or Go Javascript is more than a programming language.
+Yes, we are still bound to a programming language. Unlike Ruby, Python, PHP or Go, Javascript is more than a programming language.
 It's the language of the internet and it is independent in that sense.
 
-In the same way `JSON` is universal and independent, and, `Gulp` is a set of scripts widely used to make front-end code from various components.
+In the same way JSON is universal and independent, and, Gulp is a set of scripts widely used to make front-end code from various components.
 One can replace Gulp with other front-end making tools like Grunt and Webpack. The core of this idea is the JSON database which syncs (in any technology you want) with the front-end.
 {% endmarkdown %}
 
@@ -70,8 +70,11 @@ One can replace Gulp with other front-end making tools like Grunt and Webpack. T
 In the example above we see how this theory works in practice.
 
 1. Every user interface definition goes into a JSON file
-2. Gulp creates `HTML` and `CSS` files from the database both for the site and the styleguide
-3. The `HTML` and `CSS` files for the site are included also in the styleguide. This makes the styleguide stay in sync with the website.
+
+2. Gulp creates HTML and CSS files from the database both for the site and the styleguide
+
+3. The HTML and CSS files for the site are included also in the styleguide. This makes the styleguide stay in sync with the website.
+
 
 ## A concrete example
 

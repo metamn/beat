@@ -52,6 +52,7 @@ $text-block-width: 25em;
     @include image;
     @include gist;
     @include article-body-text;
+    @include code;
     
     
     
@@ -154,6 +155,7 @@ $text-block-width: 25em;
   @include image;
   @include gist;
   @include article-body-text;
+  @include code;
   
   
   
