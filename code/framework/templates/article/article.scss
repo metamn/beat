@@ -12,8 +12,10 @@ html {
         justify-content: center;
 
         &__title {
+          @include link(white-on-black, white-on-black);
+          @include link-linethrough;
           position: absolute;
-          left: 0;
+          left: $lem;
 
           @include portrait {
             position: relative;
