@@ -6,6 +6,12 @@
 html {
   &.template-article {
     body {
+      .header {
+        border-bottom: $lem / 6 solid;
+        margin-bottom: $lem * 2;
+      }
+
+
       .article {
         @include article;
         flex-wrap: wrap;
