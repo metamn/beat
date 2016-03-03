@@ -3,14 +3,6 @@
   "optimize": "true",
   "sizes": [
     {
-      "name": "mobile",
-      "width": "420"
-    },
-    {
-      "name": "tablet",
-      "width": "768"
-    },
-    {
       "name": "laptop",
       "width": "1400"
     },
