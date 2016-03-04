@@ -1,8 +1,7 @@
 @mixin h3 {
   h3,
   .h3 {
-    @include font(nimbus-sans-bold);
-    @include uppercase($lem);
+    @include text-style(title);
     margin-top: $lem;
   }
 }

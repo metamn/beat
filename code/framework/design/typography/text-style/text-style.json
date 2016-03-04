@@ -47,6 +47,10 @@
       "based_on": "Nimbus Sans",
       "mixins": [
         {
+          "name": "font",
+          "value": "nimbus-sans-light"
+        },
+        {
           "name": "scale",
           "value": "large-1"
         },
@@ -88,19 +92,11 @@
       "based_on": "Nimbus Sans",
       "mixins": [
         {
-          "name": "colors",
-          "value": "white-on-black"
-        },
-        {
           "name": "uppercase",
           "value": "$lem"
         }
       ],
       "properties": [
-        {
-          "name": "padding",
-          "value": "$lem / 2 $lem"
-        },
         {
           "name": "line-height",
           "value": "2.96"

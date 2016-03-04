@@ -3,6 +3,6 @@
   a,
   .link {
     @include colors(black-on-white);
-    @include font(nimbus-sans-bold);
+    @include font(nimbus-sans-regular);
   }
 }

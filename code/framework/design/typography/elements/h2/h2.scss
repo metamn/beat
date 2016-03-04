@@ -1,20 +1,7 @@
 @mixin h2 {
   h2 {
-    @include font(nimbus-sans-black);
-    @include uppercase($lem );
-
-    line-height: 2.96; // $lem * 2
+    @include text-style(title);
     margin: $lem 0;
     word-wrap: break-word;
-
-    background: #f1f1f1;
-
-    @include mobile-and-up {
-      @include scale(large-2);
-    }
-
-    @include portrait {
-      max-width: 100%;
-    }
   }
 }

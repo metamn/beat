@@ -8,16 +8,8 @@
   > * {
     max-width: 33.325em;
     width: 100%;
-  }
 
-  @include landscape {
-    p,
-    .p,
-    .gist,
-    h3,
-    .h3,
-    h2,
-    .h2 {
+    @include landscape {
       min-width: 33.325em;
     }
   }
@@ -28,8 +20,4 @@
     max-width: none;
   }
 
-  h2,
-  .h2 {
-    //align-self: flex-start;
-  }
 }

@@ -18,24 +18,11 @@ html {
         justify-content: center;
 
         &__title {
-          @include link(white-on-black, white-on-black);
-          @include link-linethrough;
-          position: absolute;
-          left: $lem;
-
-          @include portrait {
-            position: relative;
-            left:auto;
-            margin-bottom: $lem;
-          }
-
-          @include laptop {
-            max-width: 12.5em;
-          }
-
-          @include desktop {
-            max-width: 12.5em;
-          }
+          @include font(nimbus-sans-regular);
+          display: flex;
+          justify-content: center;
+          flex-basis: 100%;
+          margin-bottom: $lem * 2;
         }
 
         &__content {

@@ -3,7 +3,7 @@
   @include text-style(title);
 
   .link {
-    @include link(white-on-black, white-on-black, white-on-black);
+    @include link(black-on-white, black-on-white, black-on-white);
     @include link-linethrough;
   }
 }
