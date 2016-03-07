@@ -6,6 +6,11 @@
 html {
   &.template-article {
     body {
+      display: flex;
+      flex-direction: column;
+      min-height: calc(100vh - #{$lem * 2});
+      justify-content: space-between;
+
       .header {
         border-bottom: $lem / 6 solid;
         margin-bottom: $lem * 2;
@@ -31,13 +36,17 @@ html {
 
         &__content {
           @include text-style(article-body-text);
-          border-bottom: $lem / 8 double;
-          padding-bottom: $lem;
         }
 
         &__footnotes {
           @include text-style(article-body-text);
           flex-basis: 100%;
+
+          border-top: 1px solid;
+          margin-top: $lem * 2;
+
+          border-bottom: 1px solid;
+          padding-bottom: $lem * 2;
 
           h3 {
             display: flex;

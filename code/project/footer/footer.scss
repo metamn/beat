@@ -1,7 +1,8 @@
 @mixin footer {
   display: flex;
   justify-content: space-between;
-  margin: $lem * 2 0;
+  align-items: center;
+  margin: $lem * 2 0 0;
 
   .arrow-with-saquo {
     @include arrow-with-saquo(left);
