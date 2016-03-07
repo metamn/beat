@@ -11,6 +11,10 @@ html {
         margin-bottom: $lem * 2;
       }
 
+      .footer {
+        @include footer;
+      }
+
 
       .article {
         @include article;

@@ -1,0 +1,15 @@
+@mixin footer {
+  display: flex;
+  justify-content: space-between;
+  margin: $lem * 2 0;
+
+  .arrow-with-saquo {
+    @include arrow-with-saquo(left);
+    position: relative;
+    margin-left: -$lem;
+  }
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white);
+  }
+}
