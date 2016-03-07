@@ -1,7 +1,7 @@
 {% markdown %}
 Styleguides have been around for a while, and like web components, they didn’t went mainstream.
 
-Why? No universal solution  exists  to create a styleguide, and, there is no consensus on what goes into a styleguide.
+Why? There is no such thing like a universal plugin  to create a styleguide, and, there is no consensus on what goes into a styleguide.
 
 Everybody rolls her own.
 The most well known styleguides today are Google’s Material Design <sup id="footnote--1">[1](#footnotes--1)</sup>,
@@ -18,8 +18,8 @@ Never mind. This article will help you understand how styleguides work and how y
 The first question everybody should ask is who needs a styleguide and why.
 
 Project owners might need it to be sure the design and development are in sync, everybody speaks the same language.
-Designers might need it to be able to make design decisions aided by visual representation of components building the interface.
-Developers might need it to have a consistent, well documented code base, understandable by new members.
+Designers might need it to be able to make design decisions on a granular level.
+Developers might need it to have a consistent, well documented code base, understandable by new team members.
 
 A *complete* solution covers all scenarios above and provides:
 
@@ -38,7 +38,7 @@ If not read on. The rest of this article will focus on how to create a Rizzo-lik
 
 ## Styleguide architecture
 
-The theory behind maintainable styleguides is *Component API* defined by Ian Feather of Rizzo.
+The theory behind maintainable styleguides is [Component API](http://ianfeather.co.uk/a-maintainable-style-guide/) defined by Ian Feather of Rizzo.
 
 > ... creating a component layer which both our user-facing applications and our Style Guide can work from.
 
@@ -60,8 +60,6 @@ to sync the database with the front-end code.
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
-In the example above we see how this theory works in practice.
-
 1. Every user interface definition goes into a JSON file
 
 2. Gulp creates HTML and CSS files from the database both for the site and the styleguide
@@ -72,8 +70,6 @@ In the example above we see how this theory works in practice.
 ## A concrete example
 
 Let's take a look at how to define the colors of a site and sync with the styleguide.
-
-### Define style
 
 First we will need a JSON file to define the colors:
 {% endmarkdown %}
@@ -118,3 +114,9 @@ Gulp transforms the skeleton into a final HTML which contains the same colors as
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
+
+## See live, comment, contribute
+
+My portfolio features a complete, living styleguide built on these principles and technologies.
+You can [see it live](http://metamn.io/styleguide/), check the source code on [Github](https://github.com/metamn/metamn-v1),
+contribute to the [open source version](https://github.com/metamn/ssgg) or add comments on [Medium](https://medium.com/@metamn/creating-a-styleguide-with-gulp-2298fc928086#.2vd32i6c4).
