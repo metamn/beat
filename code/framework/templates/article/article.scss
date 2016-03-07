@@ -27,10 +27,30 @@ html {
 
         &__content {
           @include text-style(article-body-text);
+          border-bottom: $lem / 8 double;
+          padding-bottom: $lem;
         }
 
-        .article-meta {
-          display: none;
+        &__footnotes {
+          @include text-style(article-body-text);
+          flex-basis: 100%;
+
+          h3 {
+            display: flex;
+          }
+
+          .link {
+            @include link(black-on-white, black-on-white, black-on-white);
+
+            &.go-back {
+              display: flex;
+              @include link-linethrough;
+            }
+          }
+
+          .arrow-with-triangle {
+            @include arrow-with-triangle;
+          }
         }
       }
     }

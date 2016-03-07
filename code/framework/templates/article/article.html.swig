@@ -3,23 +3,32 @@
 
 {% include '../../../project/header/header.html.swig' %}
 
-<section class="article">
+<article class="article">
   {% set display = ['title_with_url'] %}
   {% set article = { title: title, url: url, date: date, categories: categories, excerpt: excerpt, display: display } %}
 
   {% include '../../../project/article/__title/article__title.html.swig' %}
 
   <div class='article__content'>
-    {% autoescape true %}
     {% block content %}{% endblock %}
-    {% endautoescape %}
   </div>
 
-  <div class="article-meta">
-    {% include '../../../project/article/__date/article__date.html.swig' %}
-    {% include '../../../project/article/__categories/article__categories.html.swig' %}
-    {% include '../../../project/article/__excerpt/article__excerpt.html.swig' %}
-  </div>
-</section>
+  <nav class="article__footnotes">
+    <h3>Footnotes</h3>
+
+    <ol class="ol">
+    {% for link in footnotes %}
+      <li class="li footnote" id="footnotes--{{ loop.index }}">
+        {% include '../../design/typography/elements/link/link.html.swig' %}
+        <a class="link go-back" title="Back to the article" href="#footnote--{{ loop.index }}">
+          {% set direction = "left" %}
+          {% include '../../design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
+          <span class="text">Back to the article</span>
+        </a>
+      </li>
+    {% endfor %}
+    </ol>
+  </nav>
+</article>
 
 {% include '../footer/footer.html.swig' %}
