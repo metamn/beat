@@ -15,14 +15,18 @@ html {
     @include typography-reset;
     @include text-style(default);
 
+    padding: $lem;
+
     .header {
       @include header;
+    }
+
+    .footer {
+      @include footer;
     }
 
     .popup {
       @include popup;
     }
-
-    padding: $lem;
   }
 }

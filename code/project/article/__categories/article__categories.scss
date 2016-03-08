@@ -1,2 +1,3 @@
 @mixin article__categories {
+  @include colors(white-on-black);
 }

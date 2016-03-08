@@ -4,4 +4,5 @@
 {% include '../../../project/header/header.html.swig' %}
 {% block content %}{% endblock %}
 
+{% include '../../../project/footer/footer.html.swig' %}
 {% include '../footer/footer.html.swig' %}

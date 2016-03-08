@@ -22,10 +22,6 @@ html {
           @include footnotes;
         }
       }
-
-      .footer {
-        @include footer;
-      }
     }
   }
 }
