@@ -59,6 +59,16 @@ $text-block-width: 25em;
     
   }
   
+  // Metamn
+  // - Settings for the Metamn logo.
+  @if ($variant == 'metamn') {
+    @include font(silkscreen-regular);
+    @include scale(large-1);
+    
+    
+    
+  }
+  
   // Title
   // - Title
   @if ($variant == 'title') {
@@ -156,6 +166,14 @@ $text-block-width: 25em;
   @include gist;
   @include article-body-text;
   @include code;
+  
+  
+  
+}
+
+.text-style--metamn {
+  @include font(silkscreen-regular);
+  @include scale(large-1);
   
   
   

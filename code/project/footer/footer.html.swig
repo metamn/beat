@@ -5,6 +5,9 @@
     {% include '../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
   </a>
 
-  {% set link = { title: "Metamn", url: "http://metamn.io", "type": "external" } %}
-  {% include '../../framework/design/typography/elements/link/link.html.swig' %}
+  {% include '../article/__date/article__date.html.swig' %}
+  {% include '../article/__categories/article__categories.html.swig' %}
+
+  {% set link = { 'title': 'METAMN', 'url': 'http://metamn.io', 'type': 'external', 'klass': 'flip' } %}
+  {% include '../../framework/design/typography/elements/link-with-fliptext/link-with-fliptext.html.swig' %}
 </footer>
