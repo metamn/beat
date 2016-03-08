@@ -1,6 +1,7 @@
 @mixin header {
-  margin-bottom: $lem;
-  
+  border-bottom: $lem / 6 solid;
+  margin-bottom: $lem * 2;
+
   &__title {
     display: flex;
   }

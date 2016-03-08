@@ -1,6 +1,8 @@
 @mixin article {
   display: flex;
-  
+  flex-wrap: wrap;
+  justify-content: center;
+
   &__title {
     @include article__title;
   }

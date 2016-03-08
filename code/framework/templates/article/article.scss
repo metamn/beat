@@ -11,60 +11,20 @@ html {
       min-height: calc(100vh - #{$lem * 2});
       justify-content: space-between;
 
-      .header {
-        border-bottom: $lem / 6 solid;
-        margin-bottom: $lem * 2;
-      }
-
-      .footer {
-        @include footer;
-      }
-
-
       .article {
         @include article;
-        flex-wrap: wrap;
-        justify-content: center;
-
-        &__title {
-          @include font(nimbus-sans-regular);
-          display: flex;
-          justify-content: center;
-          flex-basis: 100%;
-          margin-bottom: $lem * 2;
-        }
 
         &__content {
           @include text-style(article-body-text);
         }
 
         &__footnotes {
-          @include text-style(article-body-text);
-          flex-basis: 100%;
-
-          border-top: 1px solid;
-          margin-top: $lem * 2;
-
-          border-bottom: 1px solid;
-          padding-bottom: $lem * 2;
-
-          h3 {
-            display: flex;
-          }
-
-          .link {
-            @include link(black-on-white, black-on-white, black-on-white);
-
-            &.go-back {
-              display: flex;
-              @include link-linethrough;
-            }
-          }
-
-          .arrow-with-triangle {
-            @include arrow-with-triangle;
-          }
+          @include footnotes;
         }
+      }
+
+      .footer {
+        @include footer;
       }
     }
   }

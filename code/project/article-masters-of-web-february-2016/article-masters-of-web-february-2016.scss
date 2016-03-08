@@ -2,6 +2,8 @@
   flex-basis: 100%;
   flex-direction: column;
 
+  display: none;
+
   // The slider has images
   .slider {
     @include slider--with-image;

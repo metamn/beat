@@ -1,15 +1,3 @@
 @mixin article-quote {
-  flex-direction: column;
-
-  .article-meta {
-    order: 2;
-  }
-
-  .excerpt {
-    max-width: none;
-  }
-
-  .blockquote {
-    @include blockquote;
-  }
+  @include blockquote;
 }

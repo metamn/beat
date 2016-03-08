@@ -1,29 +1,5 @@
 @mixin article-is-it-web-or-photoshop {
 
-  // Align the slider with the title
-  @include grid(2, $lem, 0);
-  flex-wrap: nowrap;
-
-  @include mobile-and-up {
-    .article-meta {
-      flex-basis: auto;
-    }
-  }
-
-  // The size of the article
-  @include portrait {
-    flex-basis: 100%;
-  }
-
-  @include landscape {
-    flex-basis: 50%;
-  }
-
-  // On 1024 x 768 the `flex-basis: 50%` breaks the slider
-  @include tablet {
-    flex-basis: 100%;
-  }
-
 
   // The slider has images
   .slider {
