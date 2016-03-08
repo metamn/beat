@@ -1,1 +1,1 @@
-<time class="article__date">{{ article.date }}</time>
+<time class="article__date">{{ article.date | date('M j, Y') }}</time>
