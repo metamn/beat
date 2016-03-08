@@ -2,12 +2,19 @@
   display: flex;
   flex-wrap: wrap;
 
+  max-width: 44em !important;
+  width: 100%;
+
+  @include landscape {
+    min-width: 44em !important;
+  }
+
   .author {
-    max-width: 33.325em;
+    max-width: 44em;
     width: 100%;
 
     @include landscape {
-      min-width: 33.325em;
+      min-width: 44em;
     }
 
     @include author;
