@@ -1,5 +1,8 @@
 @mixin article-is-it-web-or-photoshop {
 
+  .article__slider {
+    width: 50%;
+  }
 
   // The slider has images
   .slider {

@@ -3,6 +3,9 @@
   flex-wrap: wrap;
   justify-content: center;
 
+  margin-bottom: $lem * 4;
+
+
   &__title {
     @include article__title;
   }
@@ -13,6 +16,7 @@
 
   &__excerpt {
     @include article__excerpt;
+    display: none;
   }
 
   &__date {
@@ -21,10 +25,12 @@
 
   &__categories {
     @include article__categories;
+    display: none;
   }
 
   &__more {
     @include article__more;
+    display: none;
   }
 
   &__slider {

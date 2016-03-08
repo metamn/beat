@@ -11,6 +11,7 @@
   "display": [
     "title",
     "categories",
+    "date",
     "slides"
   ],
   "slides": [

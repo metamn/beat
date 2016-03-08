@@ -2,12 +2,12 @@
 {% set classname = c.classname(article.title) %}
 
 <article class="article {{ article.klass }} article-{{ classname }}">
-  {% if (article.title) and (article.display.indexOf('title') !== -1) %}
-    {% include '__title/article__title.html.swig' %}
-  {% endif %}
-
   {% if (article.date) and (article.display.indexOf('date') !== -1) %}
     {% include '__date/article__date.html.swig' %}
+  {% endif %}
+
+  {% if (article.title) and (article.display.indexOf('title') !== -1) %}
+    {% include '__title/article__title.html.swig' %}
   {% endif %}
 
   {% if (article.categories) and (article.display.indexOf('categories') !== -1) %}
