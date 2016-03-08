@@ -1,7 +1,7 @@
 <footer class="footer">
-  <h3>Footer</h3>
+  
 
-  <a class="link" title="{{ site.title }}" href="{{ site.url }}">
+  <a class="link home" title="{{ site.title }}" href="{{ site.url }}">
     {% include '../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
   </a>
 
