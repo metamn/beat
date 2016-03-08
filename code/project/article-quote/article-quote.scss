@@ -1,3 +1,11 @@
 @mixin article-quote {
   @include blockquote;
+
+  .article__excerpt {
+    max-width: 33.25em;
+
+    .blockquote {
+      text-align: left;
+    }
+  }
 }
