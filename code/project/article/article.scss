@@ -1,4 +1,4 @@
-@mixin article($border: all) {
+@mixin article($border: all, $author_type: large) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -35,6 +35,6 @@
   }
 
   &__authors {
-    @include article__authors;
+    @include article__authors($author_type);
   }
 }

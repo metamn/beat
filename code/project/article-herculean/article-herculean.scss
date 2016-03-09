@@ -4,14 +4,5 @@
 
   .article__authors {
     @include text-style(article-body-text);
-    @include article__authors(66em);
-
-    .author {
-      &__description {
-        @include landscape {
-          flex-grow: 6;
-        }
-      }
-    }
   }
 }

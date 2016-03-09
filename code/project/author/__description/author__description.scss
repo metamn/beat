@@ -1,7 +1,9 @@
-@mixin author__description {
-  @include colors(black-on-white);
+@mixin author__description($type) {
+  @include text-skew;
 
-  @include mobile-and-up {
-    @include text-skew;
+  @if ($type == large) {
+    @include mobile {
+      @include text-skew(hide);
+    }
   }
 }

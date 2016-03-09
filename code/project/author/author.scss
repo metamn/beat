@@ -1,5 +1,5 @@
-@mixin author {
-  @include author-grid;
+@mixin author($type) {
+  @include author-grid($type);
   @include background-image-dotted;
 
   &__avatar {
@@ -15,6 +15,6 @@
   }
 
   &__description {
-    @include author__description;
+    @include author__description($type);
   }
 }

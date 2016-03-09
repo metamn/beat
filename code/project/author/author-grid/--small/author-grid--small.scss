@@ -1,0 +1,19 @@
+@mixin author-grid--small {
+  @include max-width(44em);
+  margin-bottom: $lem * 2;
+
+  &__avatar,
+  &__name,
+  &__title {
+    flex-basis: 0;
+    flex-grow: 2;
+  }
+
+  &__avatar {
+    flex-grow: 1;
+  }
+
+  &__description {
+    flex-basis: 45%;
+  }
+}

@@ -1,19 +1,22 @@
-@mixin author-grid {
+@mixin author-grid($type) {
   display: flex;
-  flex-direction: column;
   align-items: center;
 
   &__avatar,
   &__name,
   &__title {
     order: 2;
-    margin-top: $lem / 2;
   }
 
   &__description {
     order: 1;
   }
 
-  //@include author-grid--landscape;
   @include author-grid--portrait;
+  @include author-grid--landscape;
+  @include author-grid--desktop;
+
+  @if ($type == small) {
+    @include author-grid--small;
+  }
 }

@@ -1,18 +1,11 @@
-@mixin article__authors($width: 44em) {
-/*
-  display: flex;
-  flex-wrap: wrap;
+@mixin article__authors($author_type) {
 
-  @include max-width($width);
-
-  .author {
-    @include max-width($width);
-    @include author;
+  @if ($author_type == small) {
+    @include max-width(44em);
   }
-  */
 
   .author {
-    @include author;
+    @include author($author_type);
   }
 
   .section-title {

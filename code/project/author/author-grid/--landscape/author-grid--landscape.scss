@@ -1,18 +1,16 @@
 @mixin author-grid--landscape {
   @include landscape {
+    @include max-width(44em);
+
     &__avatar,
     &__name,
     &__title {
-      flex-basis: 0;
-      flex-grow: 2;
+      margin-left: $lem;
     }
 
-    .author__avatar {
-      flex-grow: 1;
-    }
-
-    .author__description {
-      flex-grow: 4;
+    &__title {
+      margin-right: $lem / 2;
+      @include word-wrap;
     }
   }
 }
