@@ -3,8 +3,7 @@
   "klass": "article-slider",
   "template": "article",
   "categories": [
-    "design",
-    "code"
+    "design"
   ],
   "url": "masters-of-web-february-2016",
   "date": "2016-02-15",
@@ -16,7 +15,7 @@
   ],
   "slides": [
     {
-      "title": "A1 Office",
+      "title": "A1xxx Office",
       "name": "a1-landscape",
       "responsive": [
         {

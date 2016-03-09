@@ -1,5 +1,5 @@
 @mixin article__authors {
-  display: none;
+  display: flex;
   flex-wrap: wrap;
 
   max-width: 44em !important;
