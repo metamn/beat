@@ -1,1 +1,5 @@
-@mixin article__date {}
+@mixin article__date($margin: $lem) {
+  @include portrait {
+    margin-bottom: $lem;
+  }
+}
