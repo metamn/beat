@@ -109,6 +109,10 @@
         {
           "name": "uppercase",
           "value": "$lem"
+        },
+        {
+          "name": "word-wrap",
+          "value": ""
         }
       ],
       "properties": [

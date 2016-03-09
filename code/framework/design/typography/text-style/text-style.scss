@@ -73,6 +73,7 @@ $text-block-width: 25em;
   // - Title
   @if ($variant == 'title') {
     @include uppercase($lem);
+    @include word-wrap;
     
     line-height: 2.96;
     
@@ -169,6 +170,7 @@ $text-block-width: 25em;
 
 .text-style--title {
   @include uppercase($lem);
+  @include word-wrap;
   
   line-height: 2.96;
   

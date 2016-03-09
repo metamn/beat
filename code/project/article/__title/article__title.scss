@@ -1,11 +1,12 @@
 @mixin article__title {
+  @include text-style(title);
+
   display: flex;
   justify-content: center;
   flex-basis: 100%;
+
   margin-bottom: $lem * 2;
   
-  @include text-style(title);
-
   .link {
     @include link(black-on-white, black-on-white, black-on-white);
     @include link-linethrough;
