@@ -1,0 +1,8 @@
+@mixin text-skew {
+  @include colors(black-on-white);
+  border: $lem / 8 solid;
+  transform: skew(10deg);
+  padding: $lem;
+  margin-top: $lem;
+  margin-bottom: $lem;
+}

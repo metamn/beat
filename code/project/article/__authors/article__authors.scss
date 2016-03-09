@@ -7,11 +7,11 @@
   .author {
     @include max-width($width);
     @include author;
+    @include background-image-dotted;
 
     margin-bottom: $lem * 2;
     align-items: center;
 
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEElEQVQImWNgYGD4z0AHAABlBAEAGUklEQAAAABJRU5ErkJggg==);
 
     > * {
       order: 2;
@@ -25,17 +25,11 @@
     }
 
     &__description {
+      @include text-skew;
+      @include blockquote;
+
       order: 1;
       flex-grow: 4;
-
-      @include colors(black-on-white);
-      border: $lem / 8 solid;
-      transform: skew(10deg);
-      padding: $lem;
-
-      @include blockquote;
-      margin-top: $lem;
-      margin-bottom: $lem;
     }
 
     &__title {

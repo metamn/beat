@@ -1,5 +1,5 @@
 <div class="author__description">
   <blockquote class="blockquote">
-    {{ author.description }}
+    {{ author.description | safe }}
   </blockquote>
 </div>

@@ -2,6 +2,13 @@
   flex-basis: 100%;
 
   .article__authors {
-    @include article__authors(100%);
+    @include text-style(article-body-text);
+    @include article__authors(66em);
+
+    .author {
+      &__description {
+        flex-grow: 6;
+      }
+    }
   }
 }
