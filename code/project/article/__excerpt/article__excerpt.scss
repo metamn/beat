@@ -1,3 +1,4 @@
 @mixin article__excerpt {
   @include text-style(body-text);
+  padding: $lem;
 }
