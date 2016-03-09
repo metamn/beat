@@ -1,4 +1,6 @@
 @mixin article-is-it-web-or-photoshop {
+  display: none;
+  
   .article__slider {
     width: 50%;
   }

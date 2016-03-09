@@ -1,8 +1,8 @@
 <nav class="article__authors">
-  <h3>Authors</h3>
+  <h3 class="section-title">Authors</h3>
 
   {% for author in authors %}
     {% set author = author.property1 %}
-    {% include '../../../framework/structure/author/author.html.swig' %}
+    {% include '../../author/author.html.swig' %}
   {% endfor %}
 </nav>

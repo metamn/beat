@@ -1,0 +1,7 @@
+@mixin author__description {
+  @include colors(black-on-white);
+
+  @include mobile-and-up {
+    @include text-skew;
+  }
+}

@@ -1,4 +1,6 @@
 @mixin article-masters-of-web-february-2016 {
+  display: none;
+  
   flex-basis: 100%;
   flex-direction: column;
 
@@ -7,6 +9,7 @@
     align-self: center;
   }
 
+  // Without this the slider will overlap the articles after
   .article__slider {
     @include portrait {
       height: calc(100vw / 0.75);

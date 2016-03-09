@@ -1,8 +1,0 @@
-@mixin author {
-  display: flex;
-  flex-wrap: wrap;
-
-  &__avatar {
-    @include author__avatar;
-  }
-}

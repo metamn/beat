@@ -1,0 +1,10 @@
+@mixin author-grid--portrait {
+  flex-direction: column;
+  align-items: center;
+
+  &__avatar,
+  &__name,
+  &__title {
+    margin-top: $lem / 2;
+  }
+}

@@ -1,0 +1,18 @@
+@mixin author-grid--landscape {
+  @include landscape {
+    &__avatar,
+    &__name,
+    &__title {
+      flex-basis: 0;
+      flex-grow: 2;
+    }
+
+    .author__avatar {
+      flex-grow: 1;
+    }
+
+    .author__description {
+      flex-grow: 4;
+    }
+  }
+}
