@@ -2,13 +2,19 @@
   flex-basis: 100%;
   flex-direction: column;
 
-  .article__slider {
-    min-height: 100vh;
-  }
-
   .article__date,
   .article__categories {
     align-self: center;
+  }
+
+  .article__slider {
+    @include portrait {
+      height: calc(100vw / 0.75);
+    }
+
+    @include landscape {
+      height: calc(100vw / 1.7778 + #{$lem});
+    }
   }
 
   // The slider has images
