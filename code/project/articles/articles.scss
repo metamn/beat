@@ -5,27 +5,15 @@
     @include article;
   }
 
-  .article-post {
-    @include article-post;
-  }
-
-  .article-quote {
-    @include article-quote;
-  }
-
-  .article-slider {
-    @include article-slider;
-  }
-
   .article-is-it-web-or-photoshop {
     @include article-is-it-web-or-photoshop;
   }
 
-  .article-what-some-people-apart-are-up-to-in-2016 {
-    @include article-what-some-people-apart-are-up-to-in-2016;
-  }
-
   .article-masters-of-web-february-2016 {
     @include article-masters-of-web-february-2016;
+  }
+
+  .article-herculean {
+    @include article-herculean;
   }
 }
