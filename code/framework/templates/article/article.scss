@@ -12,7 +12,7 @@ html {
       justify-content: space-between;
 
       .article {
-        @include article;
+        @include article($border: landscape-only);
 
         &__content {
           @include text-style(article-body-text);

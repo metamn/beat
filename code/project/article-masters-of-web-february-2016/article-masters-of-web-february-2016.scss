@@ -6,6 +6,11 @@
     min-height: 100vh;
   }
 
+  .article__date,
+  .article__categories {
+    align-self: center;
+  }
+
   // The slider has images
   .slider {
     @include slider--with-image;

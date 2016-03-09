@@ -1,0 +1,9 @@
+@mixin article-border($type) {
+  @include border(normal, all);
+
+  @if ($type == landscape-only) {
+    @include portrait {
+      border: none;
+    }
+  }
+}
