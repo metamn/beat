@@ -1,24 +1,12 @@
-@mixin article__authors {
+@mixin article__authors($width: 44em) {
   display: flex;
   flex-wrap: wrap;
 
-  max-width: 44em !important;
-  width: 100%;
-
-  @include landscape {
-    min-width: 44em !important;
-  }
+  @include max-width($width);
 
   .author {
-    max-width: 44em;
-    width: 100%;
-
-    @include landscape {
-      min-width: 44em;
-    }
-
+    @include max-width($width);
     @include author;
-    @include blockquote;
 
     margin-bottom: $lem * 2;
     align-items: center;
@@ -27,22 +15,27 @@
 
     > * {
       order: 2;
-      margin: 0 $lem / 2 $lem / 2 $lem / 2;
-      max-width: 10em;
+      flex-basis: 0;
+      flex-grow: 2;
+      margin-right: $lem / 2;
+    }
+
+    &__avatar {
+      flex-grow: 1;
     }
 
     &__description {
-      flex-basis: 100%;
-      margin: 0;
-
       order: 1;
+      flex-grow: 4;
 
-      background: #fff;
-
-
+      @include colors(black-on-white);
       border: $lem / 8 solid;
       transform: skew(10deg);
       padding: $lem;
+
+      @include blockquote;
+      margin-top: $lem;
+      margin-bottom: $lem;
     }
 
     &__title {

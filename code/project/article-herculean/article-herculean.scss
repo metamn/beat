@@ -1,3 +1,7 @@
 @mixin article-herculean {
   flex-basis: 100%;
+
+  .article__authors {
+    @include article__authors(100%);
+  }
 }

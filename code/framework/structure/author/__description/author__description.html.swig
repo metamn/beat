@@ -1,3 +1,5 @@
-<blockquote class="author__description">
-  {{ author.description }}
-</blockquote>
+<div class="author__description">
+  <blockquote class="blockquote">
+    {{ author.description }}
+  </blockquote>
+</div>
