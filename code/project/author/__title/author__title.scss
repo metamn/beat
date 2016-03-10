@@ -1,3 +1,4 @@
 @mixin author__title {
   @include colors(black-on-white);
+  word-wrap: break-word;
 }

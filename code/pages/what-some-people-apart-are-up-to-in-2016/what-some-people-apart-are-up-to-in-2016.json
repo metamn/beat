@@ -227,7 +227,7 @@
     {
       "property1": {
         "name": "Erin Lynch",
-        "title": "Writer/designer/founder of shop, and production manager at A List Apart",
+        "title": "Writer / designer / founder of shop, and production manager at A List Apart",
         "url": "http://www.webclique.net",
         "description": "Growth",
         "twitter": "erinlynch",
@@ -309,7 +309,7 @@
         "name": "Ryan Irelan",
         "title": "Builder of Mijingo",
         "url": "http://ryanirelan.com",
-        "description": "Decoupled description management systems",
+        "description": "Decoupled content management systems",
         "twitter": "ryanirelan",
         "avatar": "http://pbs.twimg.com/profile_images/513141212274896897/PsuO3xtx_normal.jpeg"
       }
@@ -317,7 +317,7 @@
     {
       "property1": {
         "name": "Scott Jehl",
-        "title": "Designer/developer at Filament Group and author of Responsible Responsive Design",
+        "title": "Designer / developer at Filament Group and author of Responsible Responsive Design",
         "url": "http://scottjehl.com",
         "description": "HTTP2 and Service Workers",
         "twitter": "scottjehl",
