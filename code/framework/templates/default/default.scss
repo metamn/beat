@@ -16,6 +16,10 @@ html {
     @include text-style(default);
 
     padding: $lem;
+    @include landscape {
+      padding: $lem * 2;
+    }
+    
     overflow-x: hidden;
 
     .header {

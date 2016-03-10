@@ -1,29 +1,15 @@
 @mixin footnotes {
-  @include text-style(article-body-text);
   flex-basis: 100%;
 
-  border-top: 1px solid;
-  margin-top: $lem * 2;
+  @include footnotes__border;
+  @include text-style(article-body-text);
 
   h3 {
     display: flex;
+    @include word-wrap;
   }
 
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .link {
-    @include link(black-on-white, black-on-white, black-on-white);
-
-    &.go-back {
-      display: flex;
-      @include link-linethrough;
-    }
-  }
-
-  .arrow-with-triangle {
-    @include arrow-with-triangle;
+  .footnotes__footnote {
+    @include footnotes__footnote;
   }
 }

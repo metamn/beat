@@ -1,0 +1,9 @@
+@mixin footnotes__border {
+  border-top: 1px solid;
+  margin-top: $lem * 2;
+
+  @include portrait {
+    border-bottom: 1px solid;
+    padding-bottom: $lem * 2;
+  }
+}
