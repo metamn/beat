@@ -1,8 +1,6 @@
 @mixin footer--article {
-  .arrow-with-saquo {
-    @include arrow-with-saquo(left);
-    position: relative;
-    margin-left: -$lem;
+  .arrow-with-triangle {
+    @include arrow-with-triangle;
   }
 
   .link {

@@ -1,5 +1,6 @@
 <a class="link home" title="{{ site.title }}" href="{{ site.url }}">
-  {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+  {% set direction = "left" %}
+  {% include '../../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
 </a>
 
 {% include '../../article/__date/article__date.html.swig' %}

@@ -7,10 +7,10 @@
     .article__date,
     .article__categories {
       padding: $lem;
+      height: $lem * 3;
     }
 
     .flip {
-      top: $lem / 8;
       left: $lem - $lem / 4;
     }
 

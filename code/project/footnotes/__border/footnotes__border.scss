@@ -6,4 +6,9 @@
     border-bottom: 1px solid;
     padding-bottom: $lem * 2;
   }
+
+  @include mobile {
+    padding-bottom: 0;
+    margin-bottom: $lem * 2;
+  }
 }
