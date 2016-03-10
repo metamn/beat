@@ -8,4 +8,10 @@
   .link {
     @include link(black-on-white, black-on-white, black-on-white);
   }
+
+  @include portrait {
+    .article__date {
+      margin-bottom: 0;
+    }
+  }
 }

@@ -16,6 +16,7 @@ html {
     @include text-style(default);
 
     padding: $lem;
+    overflow-x: hidden;
 
     .header {
       @include header;

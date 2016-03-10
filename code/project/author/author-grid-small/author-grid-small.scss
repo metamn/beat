@@ -1,5 +1,6 @@
 @mixin author-grid-small {
   margin-bottom: $lem * 2;
 
+  @include author-grid-small--portrait;
   @include author-grid-small--landscape;
 }

@@ -1,0 +1,7 @@
+@mixin author-grid-small--portrait {
+  @include portrait {
+    &__title {
+      text-align: center;
+    }
+  }
+}
