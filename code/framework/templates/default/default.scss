@@ -22,7 +22,7 @@ html {
     }
 
     .footer {
-      @include footer;
+      @include footer(home);
     }
 
     .popup {

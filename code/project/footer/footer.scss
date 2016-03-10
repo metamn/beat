@@ -1,41 +1,18 @@
-@mixin footer {
+@mixin footer($type: null) {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: $lem * 2 0 0;
-
-  .arrow-with-saquo {
-    @include arrow-with-saquo(left);
-    position: relative;
-    margin-left: -$lem;
-  }
-
-  .link {
-    @include link(black-on-white, black-on-white, black-on-white);
-  }
 
   .flip {
     @include text-style(metamn);
     @include link-with-fliptext;
   }
 
-  @include mobile {
-    @include grid(2);
-    @include grid-inner-border(2, 4);
+  @include footer--article;
+  @include footer--mobile;
 
-    .home,
-    .article__date,
-    .article__categories {
-      padding: $lem;
-    }
-
-    .flip {
-      top: $lem / 8;
-      left: $lem - $lem / 4;
-    }
-
-    .article__date {
-      margin-bottom: 0;
-    }
+  @if ($type == home) {
+    @include footer--home;
   }
 }

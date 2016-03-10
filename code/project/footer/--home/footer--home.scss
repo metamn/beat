@@ -1,0 +1,8 @@
+@mixin footer--home {
+  @include mobile {
+    .flip {
+      top: 0;
+      left: 0;
+    }
+  }
+}

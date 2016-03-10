@@ -1,0 +1,11 @@
+@mixin footer--article {
+  .arrow-with-saquo {
+    @include arrow-with-saquo(left);
+    position: relative;
+    margin-left: -$lem;
+  }
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white);
+  }
+}

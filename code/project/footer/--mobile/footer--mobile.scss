@@ -1,0 +1,21 @@
+@mixin footer--mobile {
+  @include mobile {
+    @include grid(2);
+    @include grid-inner-border(2, 4);
+
+    .home,
+    .article__date,
+    .article__categories {
+      padding: $lem;
+    }
+
+    .flip {
+      top: $lem / 8;
+      left: $lem - $lem / 4;
+    }
+
+    .article__date {
+      margin-bottom: 0;
+    }
+  }
+}
