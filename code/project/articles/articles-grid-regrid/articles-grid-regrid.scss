@@ -1,0 +1,11 @@
+@mixin articles-grid-regrid($margin) {
+  @include landscape {
+    .article-no-more-problems-on-the-front-end {
+      margin-right: $margin;
+    }
+
+    .article-delivering-the-message {
+      margin-right: 0;
+    }
+  }
+}
