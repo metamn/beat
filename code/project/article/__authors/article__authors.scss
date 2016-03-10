@@ -1,7 +1,11 @@
 @mixin article__authors($author_type) {
 
   @if ($author_type == small) {
-    @include max-width(44em);
+    @include max-width(80%);
+
+    @include desktop {
+      @include max-width(60%);
+    }
   }
 
   .author {

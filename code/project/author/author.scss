@@ -1,5 +1,25 @@
 @mixin author($type) {
-  @include author-grid($type);
+  display: flex;
+  align-items: center;
+
+  &__avatar,
+  &__name,
+  &__title {
+    order: 2;
+  }
+
+  &__description {
+    order: 1;
+  }
+
+  @if ($type == small) {
+    @include author-grid-small;
+  } @else {
+    @include author-grid;
+  }
+
+  @include author-grid--portrait;
+
   @include background-image-dotted;
 
   &__avatar {

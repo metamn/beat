@@ -4,5 +4,9 @@
 
   .article__authors {
     @include text-style(article-body-text);
+
+    .section-title {
+      display: none;
+    }
   }
 }

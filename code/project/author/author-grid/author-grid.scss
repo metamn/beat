@@ -1,22 +1,4 @@
-@mixin author-grid($type) {
-  display: flex;
-  align-items: center;
-
-  &__avatar,
-  &__name,
-  &__title {
-    order: 2;
-  }
-
-  &__description {
-    order: 1;
-  }
-
-  @include author-grid--portrait;
+@mixin author-grid {
   @include author-grid--landscape;
   @include author-grid--desktop;
-
-  @if ($type == small) {
-    @include author-grid--small;
-  }
 }
