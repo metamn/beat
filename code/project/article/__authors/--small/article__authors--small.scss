@@ -1,0 +1,7 @@
+@mixin article__authors--small {
+  @include max-width(80%);
+
+  @include desktop {
+    @include max-width(60%);
+  }
+}
