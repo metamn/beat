@@ -1,5 +1,5 @@
 @mixin article__categories {
-  span {
-    @include colors(white-on-black);  
+  .categories {
+    @include colors(white-on-black);
   }
 }
