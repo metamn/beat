@@ -15,6 +15,21 @@
   ],
   "slides": [
     {
+      "title": "Tennent Brown",
+      "name": "tennetbrown-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "tennetbrown-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "tennetbrown-portrait"
+        }
+      ],
+      "url": "http://tennentbrown.co.nz/"
+    },
+    {
       "title": "A1xxx Office",
       "name": "a1-landscape",
       "responsive": [
@@ -118,21 +133,6 @@
         }
       ],
       "url": "http://sfcd.com/"
-    },
-    {
-      "title": "Tennent Brown",
-      "name": "tennetbrown-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "tennetbrown-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "tennetbrown-portrait"
-        }
-      ],
-      "url": "http://tennentbrown.co.nz/"
     }
   ]
 }
