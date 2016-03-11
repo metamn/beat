@@ -1,12 +1,4 @@
-@mixin footer--article {
-  .arrow-with-triangle {
-    @include arrow-with-triangle;
-  }
-
-  .link {
-    @include link(black-on-white, black-on-white, black-on-white);
-  }
-
+@mixin footer--article {  
   @include portrait {
     .article__date {
       margin-bottom: 0;

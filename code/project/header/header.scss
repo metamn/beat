@@ -1,4 +1,6 @@
 @mixin header {
+  display: none;
+  
   border-bottom: $lem / 6 solid;
   margin-bottom: $lem * 2;
 

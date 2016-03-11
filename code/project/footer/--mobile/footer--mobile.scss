@@ -3,15 +3,14 @@
     @include grid(2);
     @include grid-inner-border(2, 4);
 
-    .home,
     .article__date,
     .article__categories {
       padding: $lem;
       height: $lem * 3;
     }
 
-    .flip {
-      left: $lem - $lem / 4;
+    .flip span {
+      padding: .9em;
     }
 
     .article__date {
