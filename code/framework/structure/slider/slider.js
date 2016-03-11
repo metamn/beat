@@ -16,6 +16,9 @@ function Slider(sliderID, bulletsID) {
   this.pos = 0;
   this.offset = this.slides[0].offsetWidth;
 
+  // Images
+  this.images = select(sliderID + ' .slide .img');
+
   // Navigation
   this.direction = 'prev';
   this.slideCount = this.slides.length;
@@ -31,8 +34,8 @@ var slider = function(sliderID, bulletsID) {
   s.setTransform();
   window.addEventListener('resize', s.setTransform.bind(s)); // without `bind(s)` the object is lost in `addEventListener`
 
-  // Click on slide
-  click(s.slides, s.clickSlide.bind(s));
+  // Click on slide image
+  click(s.images, s.clickSlide.bind(s));
 
   // Swipe on slide
   s.swipe();
@@ -147,7 +150,7 @@ function bulletIndex(bullets, bullet) {
 function setActiveBulletClass(bullets, slides) {
   for (var i = 0; i < bullets.length; i++) {
     bullets[i].classList.remove('bullet--active');
-    
+
     if (slides[i].style['transform'] == 'translateX(0px)') {
       bullets[i].classList.add('bullet--active');
     }

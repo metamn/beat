@@ -28,7 +28,7 @@
         }
       ],
       "url": "http://tennentbrown.co.nz/",
-      "figcaption": "Tennet Brown <a href='http://tennentbrown.co.nz/'>http://tennentbrown.co.nz</a>"
+      "figcaption": "<a href='http://tennentbrown.co.nz/'>http://tennentbrown.co.nz</a>"
     },
     {
       "title": "A1 Office",
@@ -44,7 +44,7 @@
         }
       ],
       "url": "http://a1office.com.au/",
-      "figcaption": "A1 Office <a href='http://a1office.com.au/'>http://a1office.com.au</a>"
+      "figcaption": "<a href='http://a1office.com.au/'>http://a1office.com.au</a>"
     },
     {
       "title": "Bakken & Baeck",
@@ -60,7 +60,7 @@
         }
       ],
       "url": "http://bakkenbaeck.com/",
-      "figcaption": "Bakken & Baeck <a href='http://bakkenbaeck.com/'>http://bakkenbaeck.com</a>"
+      "figcaption": "<a href='http://bakkenbaeck.com/'>http://bakkenbaeck.com</a>"
     },
     {
       "title": "Basics 09",
@@ -76,7 +76,7 @@
         }
       ],
       "url": "http://basics09.de/",
-      "figcaption": "Basics 09 <a href='http://basics09.de/'>http://basics09.de</a>"
+      "figcaption": "<a href='http://basics09.de/'>http://basics09.de</a>"
     },
     {
       "title": "Dan Gayfer Design",
@@ -92,7 +92,7 @@
         }
       ],
       "url": "http://dangayfer.com/",
-      "figcaption": "Dan Gayfer Design <a href='http://dangayfer.com/'>http://dangayfer.com</a>"
+      "figcaption": "<a href='http://dangayfer.com/'>http://dangayfer.com</a>"
     },
     {
       "title": "Gabriele Iglesias Dardon",
@@ -108,7 +108,7 @@
         }
       ],
       "url": "http://www.gidmotion.com/",
-      "figcaption": "Gabriele Iglesias Dardon <a href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
+      "figcaption": "<a href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
     },
     {
       "title": "Love + Money",
@@ -124,7 +124,7 @@
         }
       ],
       "url": "http://loveandmoney.agency/",
-      "figcaption": "Love + Money <a href='http://loveandmoney.agency/'>http://loveandmoney.agency</a>"
+      "figcaption": "<a href='http://loveandmoney.agency/'>http://loveandmoney.agency</a>"
     },
     {
       "title": "SFCD",
@@ -140,7 +140,7 @@
         }
       ],
       "url": "http://sfcd.com/",
-      "figcaption": "SFCD <a href='http://sfcd.com/'>http://sfcd.com</a>"
+      "figcaption": "<a href='http://sfcd.com/'>http://sfcd.com</a>"
     }
   ]
 }

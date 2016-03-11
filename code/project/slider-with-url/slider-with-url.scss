@@ -1,0 +1,36 @@
+@mixin slider-with-url {
+  @include background-image-dotted;
+
+  .figure {
+    display: flex;
+
+    .figcaption {
+      display: inline-block;
+
+      a {
+        @include link(black-on-white, black-on-white, black-on-white);
+        @include scale(large-1);
+        word-wrap: break-word;
+        line-height: 1;
+        margin: $lem;
+      }
+    }
+
+    @include portrait {
+      flex-direction: column;
+
+      .picture {
+        overflow: hidden;
+      }
+
+      .figcaption {
+        @include colors(black-on-white);
+        text-align: center;
+
+        a {
+          font-size: 100%;
+        }
+      }
+    }
+  }
+}

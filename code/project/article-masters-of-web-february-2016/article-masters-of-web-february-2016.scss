@@ -14,21 +14,14 @@
     }
 
     @include landscape {
-      height: calc(100vw / 1.7778 + #{$lem});
+      height: calc(100vw / 1.7778);
     }
   }
 
   // The slider has images
   .slider {
     @include slider--with-image;
-
-    .figure {
-      display: flex;
-
-      .figcaption {
-        display: flex;
-      }
-    }
+    @include slider-with-url;
 
     @include portrait {
       @include intrinsic-ratio(3, 4, '.slider__slides');
