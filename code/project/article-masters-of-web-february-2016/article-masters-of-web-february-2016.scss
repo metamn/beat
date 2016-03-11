@@ -22,6 +22,14 @@
   .slider {
     @include slider--with-image;
 
+    .figure {
+      display: flex;
+
+      .figcaption {
+        display: flex;
+      }
+    }
+
     @include portrait {
       @include intrinsic-ratio(3, 4, '.slider__slides');
     }

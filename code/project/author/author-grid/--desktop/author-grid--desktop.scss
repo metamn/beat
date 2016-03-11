@@ -1,6 +1,6 @@
 @mixin author-grid--desktop {
   @include desktop {
-    @include max-width(66em);
+    @include max-width(55em);
     flex-direction: row;
     flex-wrap: nowrap;
   }

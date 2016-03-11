@@ -27,10 +27,11 @@
           "name": "tennetbrown-portrait"
         }
       ],
-      "url": "http://tennentbrown.co.nz/"
+      "url": "http://tennentbrown.co.nz/",
+      "figcaption": "Tennet Brown <a href='http://tennentbrown.co.nz/'>http://tennentbrown.co.nz</a>"
     },
     {
-      "title": "A1xxx Office",
+      "title": "A1 Office",
       "name": "a1-landscape",
       "responsive": [
         {
@@ -42,7 +43,8 @@
           "name": "a1-portrait"
         }
       ],
-      "url": "http://a1office.com.au/"
+      "url": "http://a1office.com.au/",
+      "figcaption": "A1 Office <a href='http://a1office.com.au/'>http://a1office.com.au</a>"
     },
     {
       "title": "Bakken & Baeck",
@@ -57,7 +59,8 @@
           "name": "bakken-baeck-portrait"
         }
       ],
-      "url": "http://bakkenbaeck.com/"
+      "url": "http://bakkenbaeck.com/",
+      "figcaption": "Bakken & Baeck <a href='http://bakkenbaeck.com/'>http://bakkenbaeck.com</a>"
     },
     {
       "title": "Basics 09",
@@ -72,7 +75,8 @@
           "name": "basics09-portrait"
         }
       ],
-      "url": "http://basics09.de/"
+      "url": "http://basics09.de/",
+      "figcaption": "Basics 09 <a href='http://basics09.de/'>http://basics09.de</a>"
     },
     {
       "title": "Dan Gayfer Design",
@@ -87,7 +91,8 @@
           "name": "dgd-portrait"
         }
       ],
-      "url": "http://dangayfer.com/"
+      "url": "http://dangayfer.com/",
+      "figcaption": "Dan Gayfer Design <a href='http://dangayfer.com/'>http://dangayfer.com</a>"
     },
     {
       "title": "Gabriele Iglesias Dardon",
@@ -102,7 +107,8 @@
           "name": "gid-portrait"
         }
       ],
-      "url": "http://www.gidmotion.com/"
+      "url": "http://www.gidmotion.com/",
+      "figcaption": "Gabriele Iglesias Dardon <a href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
     },
     {
       "title": "Love + Money",
@@ -117,7 +123,8 @@
           "name": "love-money-portrait"
         }
       ],
-      "url": "http://loveandmoney.agency/"
+      "url": "http://loveandmoney.agency/",
+      "figcaption": "Love + Money <a href='http://loveandmoney.agency/'>http://loveandmoney.agency</a>"
     },
     {
       "title": "SFCD",
@@ -132,7 +139,8 @@
           "name": "sfcd-portrait-1"
         }
       ],
-      "url": "http://sfcd.com/"
+      "url": "http://sfcd.com/",
+      "figcaption": "SFCD <a href='http://sfcd.com/'>http://sfcd.com</a>"
     }
   ]
 }
