@@ -1,0 +1,16 @@
+@mixin article-meta {
+  flex-basis: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include portrait {
+    border: 1px solid;
+    margin: $lem 0;
+
+    .article__date {
+      margin-bottom: 0;
+    }
+  }
+}

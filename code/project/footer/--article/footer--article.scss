@@ -1,7 +1,16 @@
-@mixin footer--article {  
+@mixin footer--article {
   @include portrait {
     .article__date {
       margin-bottom: 0;
+    }
+  }
+
+  @include mobile {
+    @include grid(2);
+    @include grid-inner-border(2, 4);
+
+    > * {
+      height: $lem;
     }
   }
 }

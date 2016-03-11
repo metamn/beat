@@ -18,14 +18,13 @@ html {
           @include text-style(article-body-text);
         }
 
+        .article-meta {
+          @include article-meta;
+        }
+
         &__footnotes {
           @include footnotes;
         }
-      }
-
-
-      .footer {
-        @include footer(article);
       }
     }
   }

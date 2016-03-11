@@ -1,4 +1,4 @@
-@mixin footer($type: null) {
+@mixin footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,12 +11,5 @@
   .flip {
     @include text-style(metamn);
     @include link-with-fliptext;
-  }
-
-  @include footer--article;
-  @include footer--mobile;
-
-  @if ($type == home) {
-    @include footer--home;
   }
 }

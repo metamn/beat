@@ -14,6 +14,7 @@
   </div>
 
   {% include '../../../project/footnotes/footnotes.html.swig' %}
+  {% include '../../../project/article-meta/article-meta.html.swig' %}
 </article>
 
 {% include '../../../project/footer/footer.html.swig' %}
