@@ -15,13 +15,11 @@ html {
     @include typography-reset;
     @include text-style(default);
 
-    padding: $lem;
-    @include landscape {
-      padding: $lem * 2 10%;
-    }
+    @include layout;
 
-    // Because of the skew blockquotes
-    overflow-x: hidden;
+    .intro {
+      @include intro;
+    }
 
     .header {
       @include header;

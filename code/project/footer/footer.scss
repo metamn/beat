@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: $lem * 2 0 0;
 
   .link {
     @include link(black-on-white, black-on-white, black-on-white);

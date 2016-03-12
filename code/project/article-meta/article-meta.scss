@@ -7,7 +7,7 @@
 
   @include portrait {
     border: 1px solid;
-    margin: $lem 0;
+    margin-top: $lem * 2;
 
     .article__date {
       margin-bottom: 0;

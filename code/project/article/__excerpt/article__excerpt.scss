@@ -1,8 +1,8 @@
 @mixin article__excerpt {
   @include text-style(body-text);
+  padding-top: $lem;
 
-  padding: $lem;
-  @include mobile-and-up {
-    padding-top: 0;
+  @include landscape {
+    padding-bottom: $lem;
   }
 }

@@ -1,0 +1,19 @@
+@mixin layout {
+  overflow-x: hidden;
+
+  .article,
+  .articles,
+  .footer {
+    @include mobile {
+      padding: $lem;
+    }
+
+    @include tablet {
+      padding: $lem * 2;
+    }
+
+    @include landscape {
+      padding: 10%;
+    }
+  }
+}

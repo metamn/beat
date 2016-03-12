@@ -1,6 +1,7 @@
 {% include '../head/head.html.swig' %}
 {% include '../icons/icons.html.swig' %}
 
+{% include '../../../project/intro/intro.html.swig' %}
 {% include '../../../project/header/header.html.swig' %}
 
 <article class="article">
@@ -18,5 +19,4 @@
 </article>
 
 {% include '../../../project/footer/footer.html.swig' %}
-
 {% include '../footer/footer.html.swig' %}
