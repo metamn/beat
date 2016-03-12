@@ -1,0 +1,13 @@
+@mixin intro__chars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  .char {
+    @include char;
+  }
+}

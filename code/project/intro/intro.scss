@@ -1,1 +1,13 @@
-@mixin intro {}
+@mixin intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &__text {
+    display: none;
+  }
+
+  &__chars {
+    @include intro__chars;
+  }
+}

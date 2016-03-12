@@ -1,0 +1,18 @@
+@mixin char {
+  @include mobile {
+    padding: 15.5vw;
+  }
+
+  @include tablet {
+    padding: 10vw;
+  }
+
+  @include laptop {
+    padding: 7vw;
+  }
+
+  @include desktop {
+    padding: 6.5vw;
+  }
+
+}
