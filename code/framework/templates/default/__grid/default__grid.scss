@@ -1,5 +1,12 @@
 @mixin default__grid {
   overflow-x: hidden;
+  position: relative;
+
+  .articles,
+  .footer {
+    position: relative;
+    z-index: 1;
+  }
 
   .article,
   .articles,
