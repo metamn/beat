@@ -17,7 +17,7 @@ html {
 
     padding: $lem;
     @include landscape {
-      padding: $lem * 2;
+      padding: $lem * 2 10%;
     }
 
     // Because of the skew blockquotes
