@@ -15,7 +15,7 @@ html {
     @include typography-reset;
     @include text-style(default);
 
-    @include layout;
+    @include default__grid;
 
     .intro {
       @include intro;

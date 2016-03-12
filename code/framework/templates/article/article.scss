@@ -8,16 +8,7 @@ html {
     body {
       display: flex;
       flex-direction: column;
-      min-height: 100vh;
-      justify-content: space-around;
-
-      .article,
-      .footer {
-        @include landscape {
-          margin: 10vh 10%;
-          padding: 0;
-        }
-      }
+      @include article__grid;
 
       .article {
         @include article($border: landscape-only, $author_type: small);
