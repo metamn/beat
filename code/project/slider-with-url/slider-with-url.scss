@@ -9,6 +9,7 @@
 
       a {
         @include link(black-on-white, black-on-white, black-on-white);
+        @include link-linethrough;
         @include scale(large-1);
         word-wrap: break-word;
         line-height: 1;
