@@ -1,0 +1,30 @@
+@mixin default__show-intro {
+  .articles,
+  .article {
+    z-index: -1;
+    opacity: 0;
+    display: none !important;
+  }
+
+  .intro {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__chars {
+      @include text-style(article-body-text);
+      @include max-width(25em * 1.333);
+
+      display: block;
+      text-transform: none;
+      text-align: center;
+
+      .char {
+        margin: 0;
+        padding: 0;
+        flex-basis: auto;
+      }
+    }
+  }
+}

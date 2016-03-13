@@ -17,6 +17,10 @@ html {
 
     @include default__grid;
 
+    &.show-intro {
+      @include default__show-intro;
+    }
+
     .intro {
       @include intro;
     }

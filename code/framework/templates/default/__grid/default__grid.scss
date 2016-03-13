@@ -6,11 +6,21 @@
   .footer {
     position: relative;
     z-index: 1;
+
+    @include mobile {
+      margin: $lem;
+    }
+
+    @include tablet {
+      margin: $lem * 2;
+    }
+
+    @include landscape {
+      margin: 10%;
+    }
   }
 
-  .article,
-  .articles,
-  .footer {
+  .article {
     @include mobile {
       padding: $lem;
     }

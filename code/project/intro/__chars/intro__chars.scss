@@ -5,6 +5,6 @@
   @include uppercase(1px);
 
   .char {
-    @include char;
+    cursor: pointer;
   }
 }
