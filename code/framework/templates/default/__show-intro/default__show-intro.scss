@@ -1,30 +1,73 @@
 @mixin default__show-intro {
   .articles,
   .article {
-    z-index: -1;
-    opacity: 0;
-    display: none !important;
+    @include animation(hide-articles, 2s);
   }
 
   .intro {
-    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    @include animation(show-intro);
 
     &__chars {
-      @include text-style(article-body-text);
-      @include max-width(25em * 1.333);
-
       display: block;
       text-transform: none;
       text-align: center;
+      max-width: calc(#{25em * 1.333});
+
+      @include animation(resize-chars);
 
       .char {
-        margin: 0;
-        padding: 0;
-        flex-basis: auto;
+        @include animation(char-margin);
       }
     }
+  }
+}
+
+
+@include keyframes(char-margin) {
+  0% {
+
+  }
+
+  100% {
+    margin: 0;
+    padding: 0;
+    flex-basis: auto;
+  }
+}
+
+
+@include keyframes(resize-chars) {
+  0% {
+
+  }
+
+  100% {
+    // text-style(article-body-text)
+    font-size: 1.333em;
+    font-weight: 300;
+  }
+}
+
+@include keyframes(show-intro) {
+  0% {
+  }
+
+  100% {
+    z-index: 1;
+  }
+}
+
+
+@include keyframes(hide-articles) {
+  0% {
+  }
+
+  100% {
+    opacity: 0;
+    z-index: -1;
+    max-height: 0;
   }
 }

@@ -20,7 +20,7 @@ html {
     &.show-intro {
       @include default__show-intro;
     }
-
+    
     .intro {
       @include intro;
     }

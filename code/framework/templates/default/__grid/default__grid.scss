@@ -2,6 +2,12 @@
   overflow-x: hidden;
   position: relative;
 
+
+  .article,
+  .articles {
+    max-height: 100000vh;
+  }
+
   .articles,
   .footer {
     position: relative;
