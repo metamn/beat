@@ -1,11 +1,8 @@
 @mixin intro__chars {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: stretch;
+  @include grid(7, $lem * 2, $lem * 2);
 
-  width: 100vw;
-  min-height: 100vh;
+  font-size: 4.209em;
+  text-transform: uppercase;
 
   .char {
     @include char;
