@@ -53,6 +53,20 @@ $lem: 1.48em;
     
   }
 
+  // Larger than default font size with 4 scales
+  @if ($variant == 'large-4') {
+    font-size: 3.157em;
+    
+    
+  }
+
+  // Larger than default font size with 5 scales
+  @if ($variant == 'large-5') {
+    font-size: 4.209em;
+    
+    
+  }
+
 }
 
 
@@ -85,6 +99,18 @@ $lem: 1.48em;
 
 .scale--large-3 {
   font-size: 2.369em;
+  
+  
+}
+
+.scale--large-4 {
+  font-size: 3.157em;
+  
+  
+}
+
+.scale--large-5 {
+  font-size: 4.209em;
   
   
 }

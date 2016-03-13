@@ -1,7 +1,17 @@
 @mixin article__grid {
+  display: flex;
+  flex-direction: column;
+
   // min full height
   min-height: 100vh;
   justify-content: space-around;
+
+  position: relative;
+  .article {
+    position: relative;
+    z-index: 1;
+  }
+
 
   .article,
   .footer {

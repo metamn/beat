@@ -53,6 +53,26 @@
           "value": "2.369em"
         }
       ]
+    },
+    {
+      "name": "large-4",
+      "description": "Larger than default font size with 4 scales",
+      "properties": [
+        {
+          "name": "font-size",
+          "value": "3.157em"
+        }
+      ]
+    },
+    {
+      "name": "large-5",
+      "description": "Larger than default font size with 5 scales",
+      "properties": [
+        {
+          "name": "font-size",
+          "value": "4.209em"
+        }
+      ]
     }
   ]
 }

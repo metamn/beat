@@ -6,12 +6,11 @@
 html {
   &.template-article {
     body {
-      display: flex;
-      flex-direction: column;
       @include article__grid;
 
       .article {
         @include article($border: landscape-only, $author_type: small);
+        @include colors(black-on-white);
 
         &__content {
           @include text-style(article-body-text);

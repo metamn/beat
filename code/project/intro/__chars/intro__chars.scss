@@ -1,8 +1,8 @@
 @mixin intro__chars {
   @include grid(7, $lem * 2, $lem * 2);
 
-  font-size: 4.209em;
-  text-transform: uppercase;
+  @include scale(large-5);
+  @include uppercase(1px);
 
   .char {
     @include char;
