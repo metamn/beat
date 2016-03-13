@@ -1,5 +1,7 @@
 @mixin intro__chars {
-  @include grid(7, $lem * 2, $lem * 2);
+  //@include grid(7, $lem * 2, $lem * 2);
+
+  @include grid(7, $lem, $lem);
 
   @include scale(large-5);
   @include uppercase(1px);
