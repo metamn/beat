@@ -67,6 +67,27 @@ $lem: 1.48em;
     
   }
 
+  // Larger than default font size with 6 scales
+  @if ($variant == 'large-6') {
+    font-size: 5.61em;
+    
+    
+  }
+
+  // Larger than default font size with 7 scales
+  @if ($variant == 'large-7') {
+    font-size: 7.478em;
+    
+    
+  }
+
+  // Larger than default font size with 8 scales
+  @if ($variant == 'large-8') {
+    font-size: 9.969em;
+    
+    
+  }
+
 }
 
 
@@ -111,6 +132,24 @@ $lem: 1.48em;
 
 .scale--large-5 {
   font-size: 4.209em;
+  
+  
+}
+
+.scale--large-6 {
+  font-size: 5.61em;
+  
+  
+}
+
+.scale--large-7 {
+  font-size: 7.478em;
+  
+  
+}
+
+.scale--large-8 {
+  font-size: 9.969em;
   
   
 }

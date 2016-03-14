@@ -1,9 +1,30 @@
 @mixin intro__chars {
-  //@include grid(7, $lem * 2, $lem * 2);
+  @include mobile {
+    @include grid(7, $lem, $lem);
+    @include scale(large-5);
+  }
 
-  @include grid(7, $lem, $lem);
+  @include tablet {
+    @include grid(4, $lem, $lem);
+    @include scale(large-6);
+  }
 
-  @include scale(large-5);
+  // mostly for tablet landscape
+  @include landscape {
+    justify-content: space-around;
+  }
+
+  @include laptop {
+    @include grid(4, $lem, $lem * .75);
+    @include scale(large-7);
+  }
+
+  @include desktop {
+    @include grid(5, $lem * 2, $lem);
+    @include scale(large-8);
+  }
+
+
   @include uppercase(1px);
 
   .char {
