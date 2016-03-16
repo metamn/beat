@@ -9,7 +9,7 @@
       top: 0;
       left: 0;
 
-      padding: $lem;
+      padding: $lem / 2;
 
       &__description,
       &__name,
@@ -19,6 +19,10 @@
 
       &__avatar {
         @include author__avatar;
+      }
+
+      &:hover {
+        z-index: 0;
       }
     }
   }
