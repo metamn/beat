@@ -1,7 +1,3 @@
-html {
-  &.creating-a-styleguide-with-gulp {
-    body {
-      //
-    }
-  }
+.creating-a-styleguide-with-gulp__artwork {
+  @include creating-a-styleguide-with-gulp__artwork;
 }

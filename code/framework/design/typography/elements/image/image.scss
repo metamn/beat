@@ -1,12 +1,12 @@
 @mixin image {
   .figure {
     @include figure($figcaption: on);
+    @include background-image-dotted;
     margin: $lem 0;
 
     display: flex;
     flex-direction: column;
 
-    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAEElEQVQImWNgYGD4z0AHAABlBAEAGUklEQAAAABJRU5ErkJggg==);
 
     .picture {
       padding: $lem * 3;
@@ -15,6 +15,7 @@
         padding: 0;
       }
     }
+
 
     .figcaption {
       @include font(nimbus-sans-light);
