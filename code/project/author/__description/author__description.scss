@@ -3,7 +3,7 @@
 
   @if ($type == large) {
     @include mobile {
-      @include text-skew(hide);
+      @include text-skew(0deg);
     }
   }
 }
