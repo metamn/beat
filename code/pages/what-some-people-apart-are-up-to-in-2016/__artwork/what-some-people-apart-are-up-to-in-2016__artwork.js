@@ -1,8 +1,16 @@
-var l = require('./../../../framework/helpers/js/loop.js');
 var select = require('./../../../framework/helpers/js/select.js');
+var klass = require('./../../../framework/helpers/js/klass.js');
 
 
 var randomZindex = function(authorsID) {
+  var authors = select(authorsID);
+  var rnd = Math.floor((Math.random() * authors.length));
+
+  klass(authors, 'author--active', 'removeAll');
+  klass(authors[rnd], 'author--active', 'add')
+}
+
+var randomZindex2 = function(authorsID) {
   var authors = document.querySelectorAll(authorsID);
   var author = Math.floor((Math.random() * authors.length));
 

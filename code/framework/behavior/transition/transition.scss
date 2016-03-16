@@ -5,7 +5,7 @@
 //
 //
 // Styleguide transition
-@mixin transition($change) {
+@mixin transition($change, $duration: 0.3s) {
   will-change: $change;
-  transition: $change 0.3s cubic-bezier(0.465, 0.183, 0.153, 0.946);
+  transition: $change $duration cubic-bezier(0.465, 0.183, 0.153, 0.946);
 }

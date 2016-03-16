@@ -9,6 +9,14 @@
       top: 0;
       left: 0;
 
+      opacity:  0;
+      z-index: 0;
+      @include transition(opacity, 1s);
+      &--active {
+        opacity: 1;
+        z-index: 1;
+      }
+
       padding: $lem / 2;
 
       &__description,
@@ -19,10 +27,6 @@
 
       &__avatar {
         @include author__avatar;
-      }
-
-      &:hover {
-        z-index: 0;
       }
     }
   }
