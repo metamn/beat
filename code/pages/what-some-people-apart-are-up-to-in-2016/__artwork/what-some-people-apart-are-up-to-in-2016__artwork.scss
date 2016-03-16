@@ -1,5 +1,15 @@
 @mixin what-some-people-apart-are-up-to-in-2016__artwork {
-  position: absolute;
+
+  @include portrait {
+    margin: $lem * 2;
+  }
+
+  @include mobile {
+    position: relative;
+    top: -$lem * 2;
+    left: -$lem * 2;
+  }
+
 
   .article__authors {
     position: relative;
@@ -8,14 +18,6 @@
       position: absolute;
       top: 0;
       left: 0;
-
-      opacity:  0;
-      z-index: 0;
-      @include transition(opacity, 1s);
-      &--active {
-        opacity: 1;
-        z-index: 1;
-      }
 
       padding: $lem / 2;
 
@@ -26,7 +28,16 @@
       }
 
       &__avatar {
-        @include author__avatar;
+        @include author__avatar($lem * 4);
+        cursor: default;
+      }
+
+      opacity:  0;
+      z-index: 0;
+      @include transition(all, 1s);
+      &--active {
+        opacity: 1;
+        z-index: 1;
       }
     }
   }
