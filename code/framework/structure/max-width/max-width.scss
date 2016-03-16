@@ -1,8 +1,8 @@
 @mixin max-width($width) {
-  max-width: $width !important;
+  max-width: $width;
   width: 100%;
 
   @include landscape {
-    min-width: $width !important;
+    min-width: $width;
   }
 }

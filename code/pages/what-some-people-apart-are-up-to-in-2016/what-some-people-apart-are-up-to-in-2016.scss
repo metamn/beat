@@ -1,1 +1,7 @@
-@mixin what-some-people-apart-are-up-to-in-2016 {}
+.what-some-people-apart-are-up-to-in-2016 {
+  position: relative;
+
+  &__artwork {
+    @include what-some-people-apart-are-up-to-in-2016__artwork;
+  }
+}

@@ -1,1 +1,25 @@
-@mixin what-some-people-apart-are-up-to-in-2016__artwork {}
+@mixin what-some-people-apart-are-up-to-in-2016__artwork {
+  position: absolute;
+
+  .article__authors {
+    position: relative;
+
+    .author {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      padding: $lem;
+
+      &__description,
+      &__name,
+      &__title {
+        display: none;
+      }
+
+      &__avatar {
+        @include author__avatar;
+      }
+    }
+  }
+}
