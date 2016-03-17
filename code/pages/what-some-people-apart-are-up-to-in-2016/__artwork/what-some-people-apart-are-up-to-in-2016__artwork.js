@@ -6,8 +6,8 @@ var randomZindex = function(authorsID) {
   var authors = select(authorsID);
   var rnd = Math.floor((Math.random() * authors.length));
 
-  klass(authors, 'author--active', 'removeAll');
-  klass(authors[rnd], 'author--active', 'add')
+  klass(authors, 'author--stacked--active', 'removeAll');
+  klass(authors[rnd], 'author--stacked--active', 'add')
 }
 
 

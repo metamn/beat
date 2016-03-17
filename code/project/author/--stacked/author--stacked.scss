@@ -1,0 +1,9 @@
+@mixin author--stacked {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: $lem / 2;
+
+  opacity:  0;
+  z-index: 0;
+}

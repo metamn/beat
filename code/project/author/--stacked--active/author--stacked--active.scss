@@ -1,0 +1,8 @@
+@mixin author--stacked--active {
+  @include transition(all, 1s);
+
+  &--stacked--active {
+    opacity: 1;
+    z-index: 1;
+  }
+}
