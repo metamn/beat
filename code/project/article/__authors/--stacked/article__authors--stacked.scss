@@ -1,0 +1,27 @@
+@mixin article__authors--stacked {
+  position: relative;
+
+  .author {
+    @include author--avatar-only;
+
+    &__avatar {
+      @include author__avatar($lem * 4);
+    }
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: $lem / 2;
+
+    opacity:  0;
+    z-index: 0;
+
+    @include transition(all, 1s);
+    
+    &--active {
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+}

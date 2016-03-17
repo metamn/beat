@@ -1,0 +1,7 @@
+@mixin author--avatar-only {
+  &__description,
+  &__name,
+  &__title {
+    display: none;
+  }
+}
