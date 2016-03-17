@@ -2,7 +2,7 @@
 
 <div class="avatar">
   {% if avatar.link %}
-    {{ l.link(link) }}
+    {{ l.link(avatar.link) }}
   {% endif %}
 
   {% if avatar.image %}

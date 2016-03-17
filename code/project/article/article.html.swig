@@ -37,7 +37,6 @@
   {% endif %}
 
   {% if (article.display.indexOf('artwork') !== -1) %}
-    {% set artwork = '../../../pages/' + article.url + '/__artwork/' + article.url + '__artwork.html.swig' %}
     {% include '__artwork/article__artwork.html.swig' %}
   {% endif %}
 </article>
