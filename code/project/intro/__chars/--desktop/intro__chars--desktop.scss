@@ -1,0 +1,10 @@
+@mixin intro__chars--desktop {
+  @include desktop {
+    @include grid(5, $lem * 2, $lem / 2);
+    @include scale(large-8);
+
+    .char {
+      padding: $lem / 8;
+    }
+  }
+}

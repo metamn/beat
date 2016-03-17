@@ -1,18 +1,8 @@
 @mixin default__grid {
   overflow-x: hidden;
-  position: relative;
-
-
-  .article,
-  .articles {
-    max-height: 100000vh;
-  }
 
   .articles,
   .footer {
-    position: relative;
-    z-index: 1;
-
     @include mobile {
       margin: $lem;
     }

@@ -1,8 +1,6 @@
 @mixin intro {
-  @include portrait {
-    display: none;
-  }
-
+  @include intro--mobile;
+  @include intro--tablet;
 
   position: fixed;
   top: 0;

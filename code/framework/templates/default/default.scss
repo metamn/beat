@@ -14,13 +14,8 @@ html {
     @include semantic-html5-titles;
     @include typography-reset;
     @include text-style(default);
-
     @include default__grid;
 
-    &.show-intro {
-      @include default__show-intro;
-    }
-    
     .intro {
       @include intro;
     }
@@ -31,10 +26,6 @@ html {
 
     .footer {
       @include footer;
-    }
-
-    .popup {
-      @include popup;
     }
   }
 }
