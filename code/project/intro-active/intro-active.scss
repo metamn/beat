@@ -1,6 +1,11 @@
 @mixin intro-active {
   @include transition(opacity);
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
   .articles,
   .article {
     opacity: 0;
@@ -8,6 +13,11 @@
   }
 
   .intro {
+    @include transition(all);
     @include intro--active;
+  }
+
+  .footer {
+
   }
 }
