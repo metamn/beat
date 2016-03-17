@@ -2,6 +2,22 @@
   display: flex;
   align-items: center;
 
+  &__avatar {
+    @include author__avatar;
+  }
+
+  &__name {
+    @include author__name;
+  }
+
+  &__title {
+    @include author__title;
+  }
+
+  &__description {
+    @include author__description($type);
+  }
+
   &__avatar,
   &__name,
   &__title {
@@ -22,19 +38,5 @@
 
   @include background-image-dotted;
 
-  &__avatar {
-    @include author__avatar;
-  }
 
-  &__name {
-    @include author__name;
-  }
-
-  &__title {
-    @include author__title;
-  }
-
-  &__description {
-    @include author__description($type);
-  }
 }
