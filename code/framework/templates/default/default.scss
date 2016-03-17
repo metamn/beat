@@ -15,6 +15,7 @@ html {
     @include typography-reset;
     @include text-style(default);
     @include default__grid;
+    @include transition(opacity);
 
     .intro {
       @include intro;
@@ -29,7 +30,8 @@ html {
     }
   }
 
-  &.home {
+  &.home,
+  &.template-article {
     &.intro-active {
       body {
         @include intro-active;

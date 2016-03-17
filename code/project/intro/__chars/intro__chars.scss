@@ -1,6 +1,7 @@
 @mixin intro__chars {
   @include intro__chars--laptop;
   @include intro__chars--desktop;
+  @include transition(all);
 
   .char {
     @include uppercase(1px);

@@ -1,23 +1,18 @@
 @mixin intro-active {
-  @include transition(opacity);
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
 
-  .articles,
+  .articles {
+    @include articles--inactive;
+  }
+
   .article {
-    opacity: 0;
-    display: none;
+    @include article--inactive;
   }
 
   .intro {
-    @include transition(all);
     @include intro--active;
-  }
-
-  .footer {
-
   }
 }

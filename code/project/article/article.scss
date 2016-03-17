@@ -5,6 +5,9 @@
 
   @include article-border($border);
 
+  opacity: 1;
+  @include transition(opacity);
+
 
   &--herculean {
     @include article--herculean;

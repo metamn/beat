@@ -9,7 +9,6 @@
   margin: 33vh 0;
 
   &__chars {
-    @include transition(all);
     @include intro__chars--active;
   }
 }

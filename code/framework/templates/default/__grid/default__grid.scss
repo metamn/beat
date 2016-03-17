@@ -1,6 +1,8 @@
 @mixin default__grid {
+  // For the blockquote skew
   overflow-x: hidden;
 
+  // For the intro
   position: relative;
   .articles,
   .article,
@@ -9,6 +11,7 @@
   }
 
 
+  // Make room for intro background text
   .articles,
   .footer {
     @include mobile {
@@ -24,6 +27,7 @@
     }
   }
 
+  // Add whitespace / Make room for intro background text
   .article {
     @include mobile {
       padding: $lem;
