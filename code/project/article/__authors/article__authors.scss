@@ -1,14 +1,9 @@
 @mixin article__authors($author_type) {
-
-  @if ($author_type == small) {
-    @include article__authors--small;
-  }
-
   .author {
     @include author($author_type);
   }
 
-  .section-title {
-    display: none;
-  }
+  @if ($author_type == small) {
+    @include article__authors--small;
+  }  
 }

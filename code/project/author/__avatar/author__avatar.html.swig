@@ -1,7 +1,4 @@
 <div class="author__avatar">
-  {% if author.avatar %}
-    <img class="img" src="{{ author.avatar }}" alt="{{ author.name }}">
-  {% else %}
-    <span class="initiale">{{ author.name | first }}</span>
-  {% endif %}
+  {% set avatar = { link: link, image: author.avatar, name: author.name } %}
+  {% include '../../../framework/design/decorations/avatar/avatar.html.swig' %}
 </div>

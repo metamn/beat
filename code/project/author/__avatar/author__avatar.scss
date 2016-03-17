@@ -1,12 +1,5 @@
 @mixin author__avatar($size: $lem * 2) {
-  cursor: pointer;
-
-  .img,
-  .initiale {
-    @include circle($size);
-  }
-
-  .initiale {
-    @include colors(white-on-black);
+  .avatar {
+    @include avatar($size);
   }
 }
