@@ -8,7 +8,7 @@ var clickOnChars = function(charsID) {
   click(chars, clickOnChar);
 
   function clickOnChar(event) {
-    klass(document.body, 'show-intro', 'toggle');
+    klass(document.documentElement, 'intro-active', 'toggle');
   }
 }
 

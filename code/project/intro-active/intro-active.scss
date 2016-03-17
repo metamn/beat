@@ -1,0 +1,13 @@
+@mixin intro-active {
+  @include transition(opacity);
+
+  .articles,
+  .article {
+    opacity: 0;
+    display: none;
+  }
+
+  .intro {
+    @include intro--active;
+  }
+}

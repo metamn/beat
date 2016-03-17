@@ -1,0 +1,14 @@
+@mixin intro__chars--active {
+  display: block;
+  text-align: center;
+  max-width: calc(#{25em * 1.333});
+  font-size: 1.333em;
+  font-weight: 300;
+
+  .char {
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+    flex-basis: auto;
+  }
+}

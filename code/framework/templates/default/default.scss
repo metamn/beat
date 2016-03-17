@@ -28,4 +28,12 @@ html {
       @include footer;
     }
   }
+
+  &.home {
+    &.intro-active {
+      body {
+        @include intro-active;
+      }
+    }
+  }
 }

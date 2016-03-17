@@ -1,0 +1,9 @@
+@mixin intro--active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__chars {
+    @include intro__chars--active;
+  }
+}
