@@ -1,7 +1,7 @@
 {% import "../../framework/helpers/classname/classname.swig" as c  %}
 {% set classname = c.classname(article.title) %}
 
-<article class="article {{ article.klass }} article-{{ classname }}">
+<article class="article article--{{ article.url }}">
   {% if (article.date) and (article.display.indexOf('date') !== -1) %}
     {% include '__date/article__date.html.swig' %}
   {% endif %}

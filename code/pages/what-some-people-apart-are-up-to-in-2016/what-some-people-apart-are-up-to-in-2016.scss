@@ -3,7 +3,7 @@ html {
     body {
       .articles {
         .article {
-          &.article-what-some-people-apart-are-up-to-in-2016 {
+          &--what-some-people-apart-are-up-to-in-2016 {
             .what-some-people-apart-are-up-to-in-2016__artwork {
               @include what-some-people-apart-are-up-to-in-2016__artwork;
             }

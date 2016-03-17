@@ -1,22 +1,12 @@
 @mixin articles {
   $margin: $lem * 2;
+
   @include articles-grid($margin);
 
   .article {
     @include article;
   }
 
-  .article-is-it-web-or-photoshop {
-    @include article-is-it-web-or-photoshop;
-  }
-
-  .article-masters-of-web-february-2016 {
-    @include article-masters-of-web-february-2016;
-  }
-
-  .article-herculean {
-    @include article-herculean;
-  }
-
+  // An article can modify the grid, so we need a regrid
   @include articles-grid-regrid($margin);
 }

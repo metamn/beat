@@ -5,6 +5,21 @@
 
   @include article-border($border);
 
+
+  &--herculean {
+    @include article--herculean;
+  }
+
+  &--is-it-web-or-photoshop {
+    @include article--is-it-web-or-photoshop;
+  }
+
+  &--masters-of-web-february-2016 {
+    @include article--masters-of-web-february-2016;
+  }
+
+
+
   &__title {
     @include article__title;
   }
