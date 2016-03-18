@@ -1,0 +1,7 @@
+@mixin author-grid-large--portrait {
+  @include portrait {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}

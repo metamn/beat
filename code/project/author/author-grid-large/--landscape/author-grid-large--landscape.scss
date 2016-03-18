@@ -1,6 +1,7 @@
-@mixin author-grid--landscape {
+@mixin author-grid-large--landscape {
   @include landscape {
     @include max-width(44em);
+    align-items: center;
 
     &__avatar,
     &__name,

@@ -1,4 +1,4 @@
-@mixin author-grid--desktop {
+@mixin author-grid-large--desktop {
   @include desktop {
     @include max-width(55em);
     flex-direction: row;

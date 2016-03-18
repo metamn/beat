@@ -1,6 +1,14 @@
 @mixin author($type) {
-  display: flex;
-  align-items: center;
+  @include background-image-dotted;
+
+  @if ($type == small) {
+    @include author-grid-small;
+  }
+
+  @if ($type == large) {
+    @include author-grid-large;
+  }
+
 
   &__avatar {
     @include author__avatar;
@@ -27,14 +35,4 @@
   &__description {
     order: 1;
   }
-
-  @if ($type == small) {
-    @include author-grid-small;
-  } @else {
-    @include author-grid;
-  }
-
-  @include author-grid--portrait;
-
-  @include background-image-dotted;
 }

@@ -6,14 +6,8 @@
   align-items: center;
 
   > * {
-    max-width: 33.325em;
-    width: 100%;
-
-    @include landscape {
-      min-width: 33.325em;
-    }
+    @include max-width(25em * 1.333);
   }
-
 
   figure,
   .figure {

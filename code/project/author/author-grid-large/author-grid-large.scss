@@ -1,0 +1,7 @@
+@mixin author-grid-large {
+  display: flex;
+
+  @include author-grid-large--portrait;
+  @include author-grid-large--landscape;
+  @include author-grid-large--desktop;
+}

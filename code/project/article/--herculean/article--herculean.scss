@@ -1,8 +1,4 @@
 @mixin article--herculean {
   flex-basis: 100%;
   margin-right: 0;
-
-  .article__authors {
-    @include article__authors(large);
-  }
 }
