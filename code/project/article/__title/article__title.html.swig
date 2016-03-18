@@ -5,6 +5,6 @@
   {% if (article.display.indexOf('title_with_url') !== -1) %}
     {{ l.link(link) }}{{ link.title }}</a>
   {% else %}
-    {{ article.title }}
+    <span>{{ article.title }}</span>
   {% endif %}
 </h3>
