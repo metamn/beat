@@ -1,9 +1,5 @@
 @mixin article__authors--small {
-  @include mobile-and-up {
-    @include max-width(80%);
-  }
-
-  @include desktop {
-    @include max-width(60%);
+  @include landscape {
+    @include max-width(60vw);
   }
 }
