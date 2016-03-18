@@ -1,4 +1,4 @@
-@mixin article-border($type) {
+@mixin article--border($type) {
   @include border(normal, all);
 
   @if ($type == landscape-only) {

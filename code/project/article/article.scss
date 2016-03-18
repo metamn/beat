@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
 
-  @include article-border($border);
+  @include article--border($border);
 
   opacity: 1;
   @include transition(opacity);
