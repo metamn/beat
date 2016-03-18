@@ -6,6 +6,11 @@
   // - when removed the title goes beyond the slider
   @include mobile {
     flex-direction: row;
+
+    .article__categories {
+      flex-basis: 100%;
+      text-align: center;
+    }
   }
 
   .article__date,
