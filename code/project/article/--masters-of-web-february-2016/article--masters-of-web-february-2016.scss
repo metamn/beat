@@ -36,6 +36,8 @@
 
     @include portrait {
       @include intrinsic-ratio(3, 4, '.slider__slides');
+      // make room for figcaption
+      padding-bottom: calc(133.33333% + #{$lem * 3})
     }
 
     @include landscape {

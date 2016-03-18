@@ -1,0 +1,17 @@
+@mixin slider-with-url--portrait {
+  @include portrait {
+    .figure {
+      flex-direction: column;
+
+      .figcaption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: $lem * 2;
+        @include colors(black-on-white);
+        @include scale(small-1);
+      }
+    }
+  }
+}
