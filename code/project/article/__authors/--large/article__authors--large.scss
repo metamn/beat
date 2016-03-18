@@ -1,0 +1,3 @@
+@mixin article__authors--large {
+  @include text-style(article-body-text);
+}

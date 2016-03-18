@@ -1,9 +1,21 @@
 @mixin article__authors($author_type) {
+  .title {
+    display: none;
+  }
+
   .author {
     @include author($author_type);
   }
 
   @if ($author_type == small) {
     @include article__authors--small;
-  }  
+  }
+
+  @if ($author_type == large) {
+    @include article__authors--large;
+  }
+
+  @if ($author_type == stacked) {
+    @include article__authors--stacked;
+  }
 }

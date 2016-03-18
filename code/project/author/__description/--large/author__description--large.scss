@@ -1,0 +1,13 @@
+@mixin author__description--large {
+  @include mobile {
+    @include text-skew(0deg);
+  }
+
+  .blockquote {
+    font-size: 1em;
+
+    @include desktop {
+      @include scale(large-1);
+    }
+  }
+}

@@ -1,5 +1,7 @@
 @mixin article__authors--stacked {
   position: relative;
+  top: -$lem;
+  left: -$lem;
 
   .author {
     @include author--stacked;
@@ -7,7 +9,9 @@
     @include author--avatar-only;
 
     &__avatar {
-      @include author__avatar($lem * 4);
+      @include landscape {
+        @include author__avatar($lem * 4);
+      }
     }
   }
 }

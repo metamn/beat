@@ -1,15 +1,5 @@
 @mixin what-some-people-apart-are-up-to-in-2016__artwork {
-  @include portrait {
-    margin: $lem * 2;
-  }
-
-  @include mobile {
-    position: relative;
-    top: -$lem * 2;
-    left: -$lem * 2;
-  }
-
   .article__authors {
-    @include article__authors--stacked;
+    @include article__authors(stacked);
   }
 }

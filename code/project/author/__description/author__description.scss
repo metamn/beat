@@ -2,8 +2,6 @@
   @include text-skew;
 
   @if ($type == large) {
-    @include mobile {
-      @include text-skew(0deg);
-    }
+    @include author__description--large;
   }
 }
