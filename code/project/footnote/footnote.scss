@@ -1,0 +1,14 @@
+@mixin footnote {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  .link {
+    @include link(black-on-white, black-on-white, black-on-white);
+  }
+
+  &__go-back {
+    @include footnote__go-back;
+  }
+}

@@ -5,7 +5,7 @@
     <ol class="ol">
       {% for link in footnotes %}
         <li class="li" id="footnotes--{{ loop.index }}">
-          {% include '__footnote/footnotes__footnote.html.swig' %}
+          {% include '../footnote/footnote.html.swig' %}
         </li>
       {% endfor %}
     </ol>

@@ -1,7 +1,7 @@
 @mixin footnotes {
   flex-basis: 100%;
 
-  @include footnotes__border;
+  @include footnotes--border;
   @include text-style(article-body-text);
 
   h3 {
@@ -9,7 +9,7 @@
     @include word-wrap;
   }
 
-  .footnotes__footnote {
-    @include footnotes__footnote;
+  .footnote {
+    @include footnote;
   }
 }
