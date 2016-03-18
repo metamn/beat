@@ -6,17 +6,10 @@
   min-height: 100vh;
   justify-content: space-around;
 
-  position: relative;
+  // reset padding, add margin instead
   .article {
-    position: relative;
-    z-index: 1;
-  }
-
-
-  .article,
-  .footer {
     @include landscape {
-      margin: 10vh 10%;
+      margin: 5vh 10vw;
       padding: 0;
     }
   }

@@ -16,8 +16,8 @@ html {
           @include text-style(article-body-text);
         }
 
-        .article-meta {
-          @include article-meta;
+        &__categories-and-date {
+          @include article__categories-and-date;
         }
 
         &__footnotes {

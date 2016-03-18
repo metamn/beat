@@ -1,0 +1,9 @@
+@mixin article__categories-and-date {
+  flex-basis: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include article__categories-and-date--portrait;
+}

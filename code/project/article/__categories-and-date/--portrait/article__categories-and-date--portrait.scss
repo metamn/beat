@@ -1,0 +1,10 @@
+@mixin article__categories-and-date--portrait {
+  @include portrait {
+    @include border(normal, all);
+    margin-top: $lem * 2;
+
+    .article__date {
+      margin-bottom: 0;
+    }
+  }
+}
