@@ -6,8 +6,8 @@
   min-height: 100vh;
   justify-content: space-around;
 
-  // reset padding, add margin instead
   .article {
+    // reset padding, add margin instead
     @include landscape {
       margin: 5vh 10vw;
       padding: 0;

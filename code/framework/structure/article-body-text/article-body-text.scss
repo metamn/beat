@@ -5,7 +5,9 @@
   flex-direction: column;
   align-items: center;
 
-  @include max-width(25em * 1.333);
+  > * {
+    @include max-width(25em * 1.333);
+  }
 
   figure,
   .figure {
