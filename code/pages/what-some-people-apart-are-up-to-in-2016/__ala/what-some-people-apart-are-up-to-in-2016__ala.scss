@@ -23,7 +23,7 @@
   }
 
   .text-around-circle {
-    @include text-around-circle(12.5em, 31);
+    @include text-around-circle(12.5em, 30);
 
     position: absolute;
     left: 47%;
