@@ -8,7 +8,9 @@
         justify-content: center;
         align-items: center;
 
-        height: $lem * 2;
+        height: $lem * 3;
+        width: 98%;
+        
         @include colors(black-on-white);
         @include scale(small-1);
       }
