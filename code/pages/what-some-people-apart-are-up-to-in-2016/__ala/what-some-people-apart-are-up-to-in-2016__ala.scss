@@ -1,11 +1,15 @@
 @mixin what-some-people-apart-are-up-to-in-2016__ala {
   .figure {
-    @include figure($figcaption: on);
+    @include figure;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background: transparent;
+  }
+
+  .text-around-circle {
+    @include text-around-circle;
   }
 }
