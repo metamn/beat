@@ -13,9 +13,9 @@ var splitStringToChars = function(sourceID, destinationID, linkURL = '', linkTit
     var link = '<a href="' + linkURL + '" title="' + linkTitle + '">';
   }
 
-  chars.loop(function(char) {
+  chars.loop(function(char, index) {
     if (link != '') { ret += link; }
-    ret += '<span class="char">' + char + '</span>';
+    ret += '<span class="char char--' + index + '">' + char + '</span>';
     if (link != '') { ret += '</a>' }
   });
 

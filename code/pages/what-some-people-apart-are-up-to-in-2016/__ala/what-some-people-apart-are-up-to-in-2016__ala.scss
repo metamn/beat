@@ -1,6 +1,21 @@
 @mixin what-some-people-apart-are-up-to-in-2016__ala {
+  position: relative;
+  width: 400px;
+  height: 400px;
+
+  .figure,
+  .text-around-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
   .figure {
     @include figure;
+
+    .picture {
+      padding: 0;
+    }
 
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +25,7 @@
   }
 
   .text-around-circle {
-    @include text-around-circle;
+    @include text-around-circle(400px, 68);
+    left: 125px;
   }
 }
