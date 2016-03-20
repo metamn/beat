@@ -1,5 +1,8 @@
 @mixin text-around-circle__chars($size, $num-letters: 100, $angle-span: 360deg, $angle-offset: 0deg) {
   position: relative;
+  display: flex;
+  width: $size;
+  height: $size;
 
   .char {
     @include uppercase(1px);
