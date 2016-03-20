@@ -1,5 +1,5 @@
 @mixin article__authors--small {
   @include landscape {
-    @include max-width(60vw);
+    @include max-width(60vw !important);
   }
 }
