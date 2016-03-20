@@ -2,7 +2,10 @@ var l = require('./../../helpers/js/loop.js');
 var select = require('./../../helpers/js/select.js');
 var click = require('./../../helpers/js/click.js');
 
-var splitStringToChars = function(sourceID, destinationID, linkURL = '', linkTitle = '') {
+var splitStringToChars = function(sourceID, destinationID, linkURL, linkTitle) {
+  linkURL = linkURL || '';
+  linkTitle = linkTitle || '';
+
   var text = select(sourceID);
   var chars = text[0].innerHTML.split('');
 

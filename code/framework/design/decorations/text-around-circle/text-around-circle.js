@@ -1,6 +1,8 @@
 var splitStringToChars = require('./../../../helpers/js/splitStringToChars.js');
 
-var textAroundCircle = function(sourceID, destinationID, isLink = false) {
+var textAroundCircle = function(sourceID, destinationID, isLink) {
+  isLink = isLink || false;
+  
   var text = document.querySelector(sourceID);
   if (!text) return;
 
