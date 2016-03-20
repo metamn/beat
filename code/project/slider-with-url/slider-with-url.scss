@@ -1,5 +1,4 @@
 @mixin slider-with-url {
-  @include background-image-dotted;
   @include slider-with-url--portrait;
   @include slider-with-url--landscape;
 
@@ -7,8 +6,14 @@
     display: flex;
 
     .figcaption {
+      display: inline-block;
+
       .link {
         @include link(black-on-white, black-on-white, black-on-white);
+        @include link-linethrough;
+        @include word-wrap;
+        line-height: 1;
+        margin: $lem;
       }
     }
   }

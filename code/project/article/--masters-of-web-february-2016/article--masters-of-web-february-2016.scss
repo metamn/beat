@@ -4,20 +4,17 @@
 
   // This fixes the flexbox word-wrap bug
   // - when removed the title goes beyond the slider
-  /*
   @include mobile {
     flex-direction: row;
-
-    .article__categories {
+    > * {
       flex-basis: 100%;
-      text-align: center;
     }
   }
-  */
 
   .article__date,
   .article__categories {
     align-self: center;
+    text-align: center;
   }
 
   // Without this the slider will overlap the articles after

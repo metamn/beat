@@ -4,15 +4,11 @@
       flex-direction: column;
 
       .figcaption {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        height: $lem * 3;
-        width: 98%;
-        
-        @include colors(black-on-white);
-        @include scale(small-1);
+        .link {
+          @include scale(small-1);
+          padding: $lem / 4;
+          text-align: center;
+        }
       }
     }
   }

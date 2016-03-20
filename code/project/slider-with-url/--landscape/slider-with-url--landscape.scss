@@ -1,16 +1,11 @@
 @mixin slider-with-url--landscape {
   @include landscape {
+    @include background-image-dotted;
+    
     .figure {
       .figcaption {
-        display: inline-block;
-
         .link {
-          @include link-linethrough;
           @include scale(large-1);
-          @include word-wrap;
-          line-height: 1;
-
-          margin: $lem;
         }
       }
     }
