@@ -12,4 +12,12 @@ html {
       }
     }
   }
+
+  &.what-some-people-apart-are-up-to-in-2016 {
+    .article {
+      .what-some-people-apart-are-up-to-in-2016__ala {
+        @include what-some-people-apart-are-up-to-in-2016__ala;
+      }
+    }
+  }
 }
