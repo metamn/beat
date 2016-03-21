@@ -30,4 +30,19 @@
   @include portrait {
     @include scale(small-1);
   }
+
+
+  .figure {
+    @include animation(flip, 1s, true);
+  }
+}
+
+@include keyframes(flip) {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(180deg);
+  }
 }
