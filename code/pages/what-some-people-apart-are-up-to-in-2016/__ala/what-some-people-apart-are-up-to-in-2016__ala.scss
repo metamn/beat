@@ -5,8 +5,14 @@
   align-items: center;
   margin-bottom: $lem;
 
+  @include max-width(12.5em);
+  height: 12.5em;
+
   .figure {
     @include figure;
+    @include circle(12.5em / 1.5);
+
+    display: block;
     background: transparent;
 
     .picture {
@@ -15,40 +21,13 @@
   }
 
   .text-around-circle {
-    @include text-around-circle(12.5em, 30);
-
+    @include text-around-circle(12.5em, 32);
     position: absolute;
     left: 47%;
     top: 0;
   }
 
-
-  @include landscape {
-    @include max-width(12.5em);
-    height: 12.5em;
-
-    .figure {
-      @include circle(12.5em / 1.5);
-      display: block;
-    }
-
-    .text-around-circle {
-      @include text-around-circle(12.5em, 30);
-    }
-  }
-
-
   @include portrait {
-    @include max-width(8.33em);
-    height: 8.33em;
-
-    .figure {
-      @include circle(8.33em / 1.5);
-      display: block;
-    }
-
-    .text-around-circle {
-      @include text-around-circle(8.33em, 30);
-    }
+    @include scale(small-1);
   }
 }
