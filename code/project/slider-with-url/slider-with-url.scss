@@ -12,7 +12,6 @@
         @include link(black-on-white, black-on-white, black-on-white);
         @include link-linethrough;
         @include word-wrap;
-        line-height: 1;
         margin: $lem;
       }
     }
