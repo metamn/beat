@@ -25,13 +25,13 @@ To deliver the message, first, we have to know our audience. Then we will have t
 There is a single prerequisite standing outside of the designer's & developer's competence. The quality of content. If the content is perfect the website will be perfect.
 
 
-### Content
+### 1.1 Content
 
 
-### Focus groups
+### 1.2 Focus groups
 
 
-### Focus points
+### 1.3 Focus points
 
 
 ## 2. Fast
@@ -49,13 +49,13 @@ Technically if you have a static website built upon a *JSON file-database* <sup 
 This is liberating. When you think in website speed first think in front-end speed then server speed.
 There are battle-tested, common tools and technologies which are making front-end code and design the fastest possible.
 
-### HTML
+### 2.1 HTML
 
-### CSS
+### 2.2 CSS
 
-### Javascript
+### 2.3 Javascript
 
-### Images
+### 2.4 Images
 
 
 
