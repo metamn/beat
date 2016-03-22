@@ -27,11 +27,15 @@ There is a single prerequisite standing outside of the designer's & developer's 
 
 ### 1.1 Content
 
+chunks, image sizes, ... JSON
 
 ### 1.2 Focus groups
 
+clients not educated
 
 ### 1.3 Focus points
+
+always done
 
 
 ## 2. Fast
@@ -51,12 +55,19 @@ There are battle-tested, common tools and technologies which are making front-en
 
 ### 2.1 HTML
 
+compress
+
 ### 2.2 CSS
+
+compress, remove unused
 
 ### 2.3 Javascript
 
+compress, webpack chunks
+
 ### 2.4 Images
 
+resize, optimize
 
 
 ## 3. Compatible
@@ -87,8 +98,30 @@ During that 5-6 years spent with designing and developing responsive websites I'
 
 ## 4. Accessible
 
+Many people think of accessibility in terms of humans. Yes, around [5-7 percent](http://www.ncddr.org/products/researchexchange/v03n03/who.html) of the population have disabilities perceiving web content. We should treat them equal and offer a way to enjoy our website.
+
+A much bigger number of different users &mdash; the largest segment of our visitors &mdash; needs also to understand our website. They are the web robots, the web crawlers and all other bots, which determine if a website is successful or not.
+
+Think Google Analytics, think sharing, think API.
+
+### 4.1 People
+
+### 4.2 Robots
+
 
 ## 5. Maintainable
+
+Perhaps the most underrated aspect of an ideal website is maintainability. The hype is about the product, user experience, scaling, responsiveness, accessibility. It's normal. First you have to have a successful product then think about improving and getting to a larger audience.
+
+Web design and development matured to a level where new trends and technologies put maintainability at the foremost focus. It's about your assets, team effort, and long term success.
+
+Imagine your website is built in a way everybody in your team understands it, can reason about, and participate in it's progress. Not just now but years later. People and technologies go your website stays. It's maintainable and evolvable whatever happens.
+
+This is not an utopia, it happens right now. The buzzwords you've already heard but can't relate yet are the styleguide, web components, BEM and OOCSS, Material Design, React and React Native, headless CMS, push the web forward, installable web apps, node.js, Gulp, Webpack, front-end workflow.
+
+What they do is to *separate concerns* yet offer *full control*. Divide et impera. 
+
+
 
 
 {% endmarkdown %}
