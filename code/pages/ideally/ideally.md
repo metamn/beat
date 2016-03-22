@@ -14,6 +14,13 @@ Massimo Vignelli was lucky. He had Photoshop, fixed viewport, no webservers, no 
 As disciples we should follow him, no matter the context and the medium became chaotic, universally brutal.
 
 
+vignely slider
+
+
+notice / toc
+main chapters are a general overview, subchapters how I'm solving currently the problem
+
+
 ## 1. Deliver The Message
 
 Every website sells something. A product, a service, a subscription, a photo, information. Design is the art and craft to make that sales happen. We are up to delight visitors yet deliver business goals.
@@ -38,7 +45,7 @@ clients not educated
 always done
 
 
-## 2. Fast
+## 2. Be Fast
 
 You can have the best content and design which will produce no reach if your website is slow. Performance is a feature.
 
@@ -70,7 +77,7 @@ compress, webpack chunks
 resize, optimize
 
 
-## 3. Compatible
+## 3. Be Compatible
 
 ### 3.1 Browsers
 
@@ -96,7 +103,7 @@ During that 5-6 years spent with designing and developing responsive websites I'
 
 
 
-## 4. Accessible
+## 4. Be Accessible
 
 Many people think of accessibility in terms of humans. Yes, around [5-7 percent](http://www.ncddr.org/products/researchexchange/v03n03/who.html) of the population have disabilities perceiving web content. We should treat them equal and offer a way to enjoy our website.
 
@@ -109,7 +116,7 @@ Think Google Analytics, think sharing, think API.
 ### 4.2 Robots
 
 
-## 5. Maintainable
+## 5. Be Maintainable
 
 Perhaps the most underrated aspect of an ideal website is maintainability. The hype is about the product, user experience, scaling, responsiveness, accessibility. It's normal. First you have to have a successful product then think about improving and getting to a larger audience.
 
