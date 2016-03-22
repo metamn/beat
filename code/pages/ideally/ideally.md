@@ -25,6 +25,15 @@ To deliver the message, first, we have to know our audience. Then we will have t
 There is a single prerequisite standing outside of the designer's & developer's competence. The quality of content. If the content is perfect the website will be perfect.
 
 
+### Content
+
+
+### Focus groups
+
+
+### Focus points
+
+
 ## 2. Fast
 
 You can have the best content and design which will produce no reach if your website is slow. Performance is a feature.
@@ -40,7 +49,40 @@ Technically if you have a static website built upon a *JSON file-database* <sup 
 This is liberating. When you think in website speed first think in front-end speed then server speed.
 There are battle-tested, common tools and technologies which are making front-end code and design the fastest possible.
 
+### HTML
+
+### CSS
+
+### Javascript
+
+### Images
+
+
+
 ## 3. Compatible
+
+### 3.1 Browsers
+
+We have spent at least ten years trying to make websites run seamlessly in all browsers. The solution recently found is very elegant: it is effortless and it is transparent for the developer making the problem like never existed.
+
+Project owners must be aware the era when half of the bill was for fixing Internet Explorer bugs is gone. Cross browser compatibility is now default.
+
+### 3.2 Devices
+
+Half of the bill now is responsiveness.
+
+I’m in a constant hunt for perfect mobile web experiences since the beginning of responsive web design in 2010. Now in 2016 I can say only *1 out of 10 websites* from the highly respectable [Siteinspire](http://siteinspire.com) offer a fully enjoyable mobile experience.
+
+Remember we are on the quest for a perfect website. All devices must be equal.
+
+During that 5-6 years spent with designing and developing responsive websites I've realized a few things:
+
+1. There is no global strategy like mobile-first or progressive enhancement or grateful degradation.
+
+2. Designing in the browser solves half of the problem. If the designer is up-to-date and hands-on with the latest browser capabilities and quirks &mdash; the designer is also a front-end developer &mdash; the project time, budget, effort is reduced at least with 50%.
+
+3. Making a site responsive is instant. You create a component on big screen and test immediately on smaller screens. Tweak until is perfect everywhere. This makes the component to be very solid, uncluttered, minimal, focusing only on the major goals.
+
 
 
 ## 4. Accessible
