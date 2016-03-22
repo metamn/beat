@@ -6,7 +6,13 @@
   min-height: 100vh;
   justify-content: space-around;
 
+  // For the blockquote skew
+  overflow-x: hidden;
+
   .article {
+    // For the blockquote skew
+    overflow-x: hidden;
+
     // reset padding, add margin instead
     @include landscape {
       margin: 5vh 10vw;
