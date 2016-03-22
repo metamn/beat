@@ -1,7 +1,7 @@
 {
   "title": "Creating A Styleguide With Gulp",
   "excerpt": "Creating a component layer which both our user-facing applications and our Style Guide can work from.",
-  "klass": "article-post",
+  "thumb": "styleguide-architecture_mobile.png",
   "template": "article",
   "categories": [
     "code"

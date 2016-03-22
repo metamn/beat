@@ -1,6 +1,7 @@
 {
   "title": "Masters Of Web, February 2016",
-  "klass": "article-slider",
+  "excerpt": "Best of web design, February 2016",
+  "thumb": "tennetbrown-portrait_mobile.png",
   "template": "article",
   "categories": [
     "design"

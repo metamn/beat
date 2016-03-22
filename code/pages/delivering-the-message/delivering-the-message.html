@@ -56,6 +56,29 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "/",
+  "name": "Beat",
+  "author": {
+    "@type": "Person",
+    "name": "Csongor Bartus"
+  },
+  "description": "Beat is a blog about design and code. It&#39;s lazy yet meta. With focus on that few stories which are shaping the front-end a year.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
+}
+</script>
+
+
 <section class="intro">
   <h3>Intro</h3>
 
@@ -401,19 +424,36 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
+  "mainEntityOfPage":{
+     "@type":"WebPage",
+     "@id":"/delivering-the-message"
+   },
   "headline": "Delivering The Message",
   "alternativeHeadline": "How to delight visitors yet deliver business goals.",
   
     
-    
-    "image": "/assets/images/focus-points-landscape_mobile.png",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/focus-points-portrait_mobile.png",
+        "height": 426,
+        "width": 320
+    },
   
   "author": "Csongor Bartus",
   "genre": "web design and development",
   "keywords": "design",
   "url": "/delivering-the-message",
   "datePublished": "2015-08-08",
-  "description": "How to delight visitors yet deliver business goals."
+  "dateModified": "2016-03-22",
+  "description": "How to delight visitors yet deliver business goals.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
 }
 </script>
 

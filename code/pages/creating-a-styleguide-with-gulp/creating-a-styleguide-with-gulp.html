@@ -56,6 +56,29 @@
 
 
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "/",
+  "name": "Beat",
+  "author": {
+    "@type": "Person",
+    "name": "Csongor Bartus"
+  },
+  "description": "Beat is a blog about design and code. It&#39;s lazy yet meta. With focus on that few stories which are shaping the front-end a year.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
+}
+</script>
+
+
 <section class="intro">
   <h3>Intro</h3>
 
@@ -111,7 +134,7 @@ It&#39;s overhelming. You don&#39;t know where to start, which one to choose to 
 <p>Never mind. This article will help you understand how styleguides work and how you can roll your own with a small effort.</p>
 <h2 id="styleguide-for-whom-">Styleguide for whom?</h2>
 <p>The first question everybody should ask is who needs a styleguide and why.</p>
-<p>Project owners might need it to be sure the design and development are in sync, everybody speaks the same language, new team members can catch up instantly, and the whole project is like done by a single person.</p>
+<p>Project owners might need it to be sure the design and development are in sync, everybody speaks the same language, new team members can catch up instantly, and the whole project is like to be done by a single person.</p>
 <p>Designers might need it to be able to make design decisions on a granular level. They can overview the whole picture or the smallest details.</p>
 <p>Developers might need it to have a framework easy to learn and participate where they can write error-free code.</p>
 <p>A <em>complete</em> styleguide covers all above scenarios and provides:</p>
@@ -442,7 +465,7 @@ or contribute to the <a href="https://github.com/metamn/ssgg">open source versio
 
   <a class="link footnote__go-back" title="Back to the footnote" href="#footnote--1">
   
-  <span class="arrow-with-triangle arrow-with-triangle--top article-post">
+  <span class="arrow-with-triangle arrow-with-triangle--top ">
   <span class="arrow-with-triangle__line"></span>
 
   
@@ -481,7 +504,7 @@ or contribute to the <a href="https://github.com/metamn/ssgg">open source versio
 
   <a class="link footnote__go-back" title="Back to the footnote" href="#footnote--2">
   
-  <span class="arrow-with-triangle arrow-with-triangle--top article-post">
+  <span class="arrow-with-triangle arrow-with-triangle--top ">
   <span class="arrow-with-triangle__line"></span>
 
   
@@ -520,7 +543,7 @@ or contribute to the <a href="https://github.com/metamn/ssgg">open source versio
 
   <a class="link footnote__go-back" title="Back to the footnote" href="#footnote--3">
   
-  <span class="arrow-with-triangle arrow-with-triangle--top article-post">
+  <span class="arrow-with-triangle arrow-with-triangle--top ">
   <span class="arrow-with-triangle__line"></span>
 
   
@@ -559,19 +582,36 @@ or contribute to the <a href="https://github.com/metamn/ssgg">open source versio
 {
   "@context": "http://schema.org",
   "@type": "Article",
+  "mainEntityOfPage":{
+     "@type":"WebPage",
+     "@id":"/creating-a-styleguide-with-gulp"
+   },
   "headline": "Creating A Styleguide With Gulp",
   "alternativeHeadline": "Creating a component layer which both our user-facing applications and our Style Guide can work from.",
   
     
-    
-    "image": "/assets/images/styleguide-architecture_mobile.png",
+    "image": {
+        "@type": "ImageObject",
+        "url": "/assets/images/styleguide-architecture_mobile.png",
+        "height": 426,
+        "width": 320
+    },
   
   "author": "Csongor Bartus",
   "genre": "web design and development",
   "keywords": "code",
   "url": "/creating-a-styleguide-with-gulp",
   "datePublished": "2015-05-15",
-  "description": "Creating a component layer which both our user-facing applications and our Style Guide can work from."
+  "dateModified": "2016-03-22",
+  "description": "Creating a component layer which both our user-facing applications and our Style Guide can work from.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
 }
 </script>
 

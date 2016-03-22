@@ -1,8 +1,6 @@
 {% extends '../../framework/templates/article/article.html.swig' %}
 {% block content %}
 
-  <blockquote class="blockquote">
-    {{ excerpt | safe }}
-  </blockquote>
+  {% include '../../project/article/__authors/article__authors.html.swig' %}
 
 {% endblock %}

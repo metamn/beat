@@ -17,7 +17,7 @@ Never mind. This article will help you understand how styleguides work and how y
 
 The first question everybody should ask is who needs a styleguide and why.
 
-Project owners might need it to be sure the design and development are in sync, everybody speaks the same language, new team members can catch up instantly, and the whole project is like done by a single person.
+Project owners might need it to be sure the design and development are in sync, everybody speaks the same language, new team members can catch up instantly, and the whole project is like to be done by a single person.
 
 Designers might need it to be able to make design decisions on a granular level. They can overview the whole picture or the smallest details.
 

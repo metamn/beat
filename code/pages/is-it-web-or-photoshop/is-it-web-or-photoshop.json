@@ -1,6 +1,7 @@
 {
   "title": "Is It Web Or Photoshop?",
-  "klass": "article-slider",
+  "excerpt": "Experiment with creating print-like, magazine-like, tv-like websites",
+  "thumb": "yale_mobile.png",
   "template": "article",
   "categories": [
     "design"
