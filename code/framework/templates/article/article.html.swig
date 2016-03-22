@@ -6,7 +6,7 @@
 
 <article class="article">
   {% set display = ['title_with_url'] %}
-  {% set article = { title: title, url: url, date: date, categories: categories, excerpt: excerpt, display: display } %}
+  {% set article = { title: title, url: url, date: date, categories: categories, excerpt: excerpt, display: display, images: images } %}
 
   {% include '../../../project/article/__title/article__title.html.swig' %}
 
@@ -17,6 +17,9 @@
   {% include '../../../project/footnotes/footnotes.html.swig' %}
   {% include '../../../project/article/__categories-and-date/article__categories-and-date.html.swig' %}
 </article>
+
+{% include '__seo/article__seo.html.swig' %}
+
 
 {% include '../../../project/footer/footer.html.swig' %}
 {% include '../footer/footer.html.swig' %}
