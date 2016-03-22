@@ -117,10 +117,31 @@ Web design and development matured to a level where new trends and technologies 
 
 Imagine your website is built in a way everybody in your team understands it, can reason about, and participate in it's progress. Not just now but years later. People and technologies go your website stays. It's maintainable and evolvable whatever happens.
 
-This is not an utopia, it happens right now. The buzzwords you've already heard but can't relate yet are the styleguide, web components, BEM and OOCSS, Material Design, React and React Native, headless CMS, push the web forward, installable web apps, node.js, Gulp, Webpack, front-end workflow.
+This is not an utopia, it happens right now. The buzzwords you've already heard but can't relate yet are the styleguide, web components, BEM and OOCSS, Material Design, React and React Native, headless CMS, push the web forward, installable web apps, node.js, Gulp, Webpack, front-end workflow, lean UX and lean startup, containers and more.
 
-What they do is to *separate concerns* yet offer *full control*. Divide et impera. 
+What they do is *separate concerns* yet offer *full control*. Divide et impera. Embrace change. Stay flexible.
 
+Everything used to create a website is separated into different layers which are independent yet interconnectable and synchronizable into a whole managed by a general dashboard.
+
+> Do one thing and do it well
+
+This original [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) started to pour in to web design, development and deployment making that once considered utopia reality.
+
+Now we have a separated *data* representation layer with an universal standard, JSON. An ecosystem based on Javascript to *structure* that data into an all accessible and understandable format either for the web / app / humans or for the APIs / servers / machines.
+
+A new *presentation* layer &mdash; React and React Native &mdash; to display information and *behavior* the same way both in browsers and native apps.      
+
+All these above packaged into standalone, self-containing, reusable components which together can form a system like Google's Material Design. A living styleguide <sup id="footnote--3">[3](#footnotes--3)</sup>, a dashboard which controls all technical and human aspects of a web product now and on the long run.
+
+### 5.1 Data
+
+### 5.2 Structure
+
+### 5.3 Presentation
+
+### 5.4 Behavior
+
+### 5.5 Styleguide
 
 
 
