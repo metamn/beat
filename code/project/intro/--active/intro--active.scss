@@ -3,10 +3,10 @@
   justify-content: center;
   align-items: center;
 
-  position: relative;
+  // make intro to flow into the current viewport
+  top: auto;
+  bottom: 0;
   z-index: 1;
-  height: auto;
-  margin: 33vh 0;
 
   &__chars {
     @include intro__chars--active;

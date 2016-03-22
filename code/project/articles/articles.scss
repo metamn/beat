@@ -3,7 +3,7 @@
   @include articles-grid($margin);
 
   opacity: 1;
-  @include transition(opacity);
+  @include transition(all);
 
   .article {
     @include article;

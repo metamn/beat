@@ -11,4 +11,7 @@
     @include text-style(metamn);
     @include link-with-fliptext;
   }
+
+  opacity: 1;
+  @include transition(all);
 }
