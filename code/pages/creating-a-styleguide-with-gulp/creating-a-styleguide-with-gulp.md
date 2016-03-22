@@ -9,32 +9,33 @@ Lonely Planet’s Rizzo <sup id="footnote--2">[2](#footnotes--2)</sup>, and Patt
 All unique in design, content and the tools behind creating them.
 
 If you check out [styleguides.io](http://styleguides.io/) you'll find dozens of tools & ways to create a styleguide.
-It's overhelming. You don't know where to start, which one to choose, how to have a future-proof solution.
+It's overhelming. You don't know where to start, which one to choose to have a future-proof solution.
 
-Never mind. This article will help you understand how styleguides work and how you can roll your own with less effort.
+Never mind. This article will help you understand how styleguides work and how you can roll your own with a small effort.
 
 ## Styleguide for whom?
 
 The first question everybody should ask is who needs a styleguide and why.
 
-Project owners might need it to be sure the design and development are in sync, everybody speaks the same language.
-Designers might need it to be able to make design decisions on a granular level.
-Developers might need it to have a consistent, well documented code base, understandable by new team members.
+Project owners might need it to be sure the design and development are in sync, everybody speaks the same language, new team members can catch up instantly, and the whole project is like done by a single person.
+Designers might need it to be able to make design decisions on a granular level. They can overview the whole picture or the smallest details.
+Developers might need it to have a framework easy to learn and participate where they can write error-free code.
 
-A *complete* solution covers all scenarios above and provides:
+A *complete* styleguide covers all above scenarios and provides:
 
 1. A styleguide living together with the associated website.
-Any change in design updates the styleguide in an automatic way.
+Any change in the site design is automatically updated in the styleguide.
 
 2. A decision making tool. All components and groups of components building the site will have their own styleguide entry.
 Designers will be able to overview a part of the user interface or a whole segment of it.
 
-3. Code documentation tool to generate the styleguide. To support the styleguide developers will have no other burden than to maintain the documentation.
+3. Error-free code. Components living in multiple environments &mdash; the website itself and in the various styleguide entries &mdash; are more error-proof than those *made to work* in a single context.
 
 
-A few tools offer a complete styleguide and Lonely Planet's Rizzo is best of them. No wonder the styleguides.io starts with it.
-If you have a Ruby / Rails based project go ahead and use it, problem solved.
-If not read on. The rest of this article will focus on how to create a Rizzo-like styleguide not tied to a specific programming language.
+A few tools offer a complete styleguide and if they do their solution is bound to a specific platform &mdash; Ruby On Rails for Lonely Planet's Rizzo, PHP for Pattern Lab &mdash; or to a specific outcome &mdash; Google's Material Design is likely to produce the same experience for any website.
+
+What if to have a platform independent complete styleguide? One created with front-end tools and easily attachable to any back-end?
+You can have it more easily than you might thought.
 
 ## Styleguide architecture
 
@@ -49,9 +50,8 @@ In other words there is a need for a database to store all user interface parame
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
-Since the styleguide architecture is so simple we can implement with our existing tools.
-Building with the Javascript ecosystem will make us choose JSON as the database and (probably) Gulp the glue engine
-to sync the database with the front-end code.
+Since the styleguide architecture is so simple we can implement with our existing front-end tools.
+The database can be a JSON file, Gulp / Grunt / etc. can be the glue engine to sync the database with the front-end code.
 
 {% endmarkdown %}
 
@@ -60,6 +60,9 @@ to sync the database with the front-end code.
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
+
+The rules are simple:
+
 1. Every user interface definition goes into a JSON file
 
 2. Gulp creates HTML and CSS files from the database both for the site and the styleguide
@@ -99,7 +102,7 @@ A designer can hand over a JSON file with user interface definitions and the sin
 Once styles are generated we will need the HTML to display them.
 Like the CSS, HTML will use the JSON data to create the structure displaying styles.
 
-The example below is the styleguide entry for colors. It's a HTML skeleton code displaying which colors are used to build the site. These colors can change, new ones can be added or others removed.
+The example below is the styleguide entry for colors. It's a HTML skeleton code displaying which colors are used to build the site. The code is independent of the colors it displays. Colors can change, new ones can be added or others removed. This code's outcome is only defined by JSON data.
 {% endmarkdown %}
 <script src="https://gist.github.com/metamn/dc1b4efc4e71f31abf22.js"></script>
 
@@ -119,4 +122,4 @@ Gulp transforms the skeleton into a final HTML which contains the same colors as
 
 My portfolio features a complete, living styleguide built on these principles and technologies.
 You can [see it live](http://metamn.io/styleguide/), check the source code on [Github](https://github.com/metamn/metamn-v1),
-contribute to the [open source version](https://github.com/metamn/ssgg) or add comments on [Medium](https://medium.com/@metamn/creating-a-styleguide-with-gulp-2298fc928086#.2vd32i6c4).
+or contribute to the [open source version](https://github.com/metamn/ssgg).
