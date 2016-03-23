@@ -1,0 +1,12 @@
+@mixin contact--grid {
+  display: flex;
+  flex-direction: column;
+
+  // min full height
+  min-height: 100vh;
+  justify-content: space-around;
+
+  .article {
+    @include text-style(article-body-text);
+  }
+}

@@ -1,9 +1,6 @@
 @mixin mailchimp {
   display: flex;
-
-  &__title {
-    display: flex;
-  }
+  margin: $lem 0;
 
   &__signup-form {
     @include mailchimp__signup-form;

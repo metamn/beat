@@ -1,7 +1,7 @@
 {
   "title": "Contact",
   "excerpt": "Subscribe to newsletter / contact by email",
-  "template": "article",
+  "template": "contact",
   "url": "contact",
   "date": "2015-01-01",
   "display": [

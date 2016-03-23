@@ -1,1 +1,37 @@
-@mixin mailchimp__signup-form {}
+@mixin mailchimp__signup-form {
+  #mc_embed_signup_scroll {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      > * {
+        order: 1;
+      }
+
+      // View campaigns
+      p {
+        order: 2;
+        margin-top: $lem;
+
+        @include mobile {
+          margin-top: 0;
+        }
+      }
+
+      // The submit button
+      .clear {
+        align-self: flex-end;
+        display: flex;
+        margin: 0 $lem;
+
+        @include mobile {
+          margin: 0 0 $lem;
+        }
+      }
+
+      #mce-responses {
+        flex-basis: 100%;
+        order: 3;
+      }
+  }
+}
