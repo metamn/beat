@@ -4,6 +4,7 @@
   justify-content: space-around;
 
   @include article--border($border);
+  @include colors(black-on-white);
 
   opacity: 1;
   @include transition(all);

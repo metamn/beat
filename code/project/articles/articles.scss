@@ -1,7 +1,9 @@
 @mixin articles {
   $margin: $lem * 2;
-  @include articles-grid($margin);
 
+  @include articles-grid($margin);
+  @include colors(black-on-white);
+  
   opacity: 1;
   @include transition(all);
 

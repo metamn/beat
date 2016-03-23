@@ -10,7 +10,6 @@ html {
 
       .article {
         @include article($border: landscape-only, $author_type: small);
-        @include colors(black-on-white);
 
         &__content {
           @include text-style(article-body-text);

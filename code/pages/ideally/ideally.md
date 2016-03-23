@@ -21,6 +21,8 @@ notice / toc
 main chapters are a general overview, subchapters how I'm solving currently the problem
 
 
+SO IDEALLY A WEBSITE SHOULD ...
+
 ## 1. Deliver The Message
 
 Every website sells something. A product, a service, a subscription, a photo, information. Design is the art and craft to make that sales happen. We are up to delight visitors yet deliver business goals.
