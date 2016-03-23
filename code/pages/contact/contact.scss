@@ -1,0 +1,15 @@
+html {
+  &.home {
+    body {
+      .articles {
+        .article {
+          &--contact {
+            .contact__artwork {
+              @include contact__artwork;
+            }
+          }
+        }
+      }
+    }
+  }
+}
