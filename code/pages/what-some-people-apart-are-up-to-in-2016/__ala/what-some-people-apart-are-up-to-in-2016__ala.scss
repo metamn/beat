@@ -1,48 +1,12 @@
 @mixin what-some-people-apart-are-up-to-in-2016__ala {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: $lem;
-
-  @include max-width(12.5em);
-  height: 12.5em;
+  @include figure-with-text-around-circle($number-of-chars: 32);
 
   .figure {
-    @include figure;
-    @include circle(12.5em / 1.5);
-
     display: block;
     background: transparent;
 
     .picture {
       padding: 0;
     }
-  }
-
-  .text-around-circle {
-    @include text-around-circle(12.5em, 32);
-    position: absolute;
-    left: 47%;
-    top: 0;
-  }
-
-  @include portrait {
-    @include scale(small-1);
-  }
-
-
-  .figure {
-    @include animation(flip, 1s, true);
-  }
-}
-
-@include keyframes(flip) {
-  from {
-    transform: rotateY(0deg);
-  }
-
-  to {
-    transform: rotateY(180deg);
   }
 }
