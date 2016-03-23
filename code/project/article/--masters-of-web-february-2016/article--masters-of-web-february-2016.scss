@@ -1,6 +1,7 @@
 @mixin article--masters-of-web-february-2016 {
   flex-basis: 100%;
   flex-direction: column;
+  margin-right: 0;
 
   // This fixes the flexbox word-wrap bug
   // - when removed the title goes beyond the slider
