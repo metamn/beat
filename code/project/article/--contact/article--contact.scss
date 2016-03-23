@@ -1,4 +1,8 @@
 @mixin article--contact {
   border: none;
   align-items: center;
+
+  .figure-with-text-around-circle {
+    @include figure-with-text-around-circle($number-of-chars: 19);
+  }
 }

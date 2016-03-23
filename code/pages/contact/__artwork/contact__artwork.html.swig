@@ -1,5 +1,5 @@
 <aside class="contact__artwork">
-  <h3>Contact</h3>
+  <h3>Contact artwork</h3>
 
   {% set image = article.images[0] %}
   {% set link = image.link %}

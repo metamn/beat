@@ -23,5 +23,6 @@
 {% include '__seo/article__seo.html.swig' %}
 
 
+{% include '../../../project/contact-artwork/contact-artwork.html.swig' %}
 {% include '../../../project/footer/footer.html.swig' %}
 {% include '../footer/footer.html.swig' %}

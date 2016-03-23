@@ -1,0 +1,20 @@
+// This is the clone of contact__artwork
+// - because it is used in the article template
+// - it will be displayed above the footer for every article
+@mixin contact-artwork {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+
+  // make clickable on the active intro screen
+  position: relative;
+  z-index: 10;
+  margin: $lem 0;
+
+  // reset article default grid
+  @include max-width(none);
+
+  .figure-with-text-around-circle {
+    @include figure-with-text-around-circle($number-of-chars: 19);
+  }
+}
