@@ -1,1 +1,3 @@
-@mixin contact__artwork {}
+@mixin contact__artwork {
+  @include figure-with-text-around-circle($number-of-chars: 19);
+}
