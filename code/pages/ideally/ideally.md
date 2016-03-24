@@ -13,14 +13,6 @@ We are thinking / dreaming / working on a perfect website. Even if the success i
 Massimo Vignelli was lucky. He had Photoshop, fixed viewport, no webservers, no SEO, no browsers, no bugs.
 As disciples we should follow him, no matter the context became chaotic, universally brutal.
 
-
-vignely slider
-
-
-notice / toc
-main chapters are a general overview, subchapters how I'm solving currently the problem
-
-
 SO IDEALLY A WEBSITE SHOULD ...
 
 ## 1. Deliver The Message
@@ -32,19 +24,6 @@ To deliver the message, first, we have to know our audience. Then we will have t
 "It's easier said than done" &mdash; no, with [focus groups and focus points](http://metamn.io/beat/delivering-the-message) we can achieve that.
 
 There is a single prerequisite standing outside of the designer's & developer's competence. The quality of content. If the content is perfect the website will be perfect.
-
-
-### 1.1 Content
-
-chunks, image sizes, ... JSON
-
-### 1.2 Focus groups
-
-clients not educated
-
-### 1.3 Focus points
-
-always done
 
 
 ## 2. Be Fast
@@ -60,32 +39,12 @@ A static website is the fastest possible today. And is 100% secure. And a future
 This is liberating. When you think in website speed first think in front-end speed then server speed.
 There are battle-tested, common tools and technologies which are making front-end code and design the fastest possible.
 
-### 2.1 HTML
-
-compress
-
-### 2.2 CSS
-
-compress, remove unused
-
-### 2.3 Javascript
-
-compress, webpack chunks
-
-### 2.4 Images
-
-resize, optimize
-
 
 ## 3. Be Compatible
-
-### 3.1 Browsers
 
 We have spent at least ten years trying to make websites run seamlessly in all browsers. The solution recently found is very elegant: it is effortless and it is transparent for the developer making the problem like never existed.
 
 Project owners must be aware the era when half of the bill was for fixing Internet Explorer bugs is gone. Cross browser compatibility is now default.
-
-### 3.2 Devices
 
 Half of the bill now is responsiveness.
 
@@ -111,10 +70,6 @@ A much bigger number of different kind of users needs also to understand our web
 
 Think Google Analytics, think sharing, think API.
 
-### 4.1 People
-
-### 4.2 Robots
-
 
 ## 5. Be Maintainable
 
@@ -139,19 +94,6 @@ Now we have a separated *data* representation layer with an universal standard, 
 A new *presentation* layer &mdash; React and React Native &mdash; to display information and *behavior* the same way both in browsers and native apps.      
 
 All these above packaged into standalone, self-containing, reusable components which together can form a system like Google's Material Design. A living styleguide <sup id="footnote--3">[3](#footnotes--3)</sup>, a dashboard which controls all technical and human aspects of a web product for now and for the long run.
-
-### 5.1 Data
-
-### 5.2 Structure
-
-### 5.3 Presentation
-
-### 5.4 Behavior
-
-### 5.5 Styleguide
-
-
-
 {% endmarkdown %}
 
 
