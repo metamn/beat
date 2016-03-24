@@ -4,18 +4,39 @@
       flex-direction: column;
       justify-content: center;
 
-      > * {
-        order: 1;
-      }
-
       // Email input label
       label {
         display: none;
       }
 
-      // The submit button
-      .clear {
+      // Email input
+      .email {
+        @include max-width(25em * 1.333);
 
+        @include mobile {
+          width: calc(100% - #{$lem * 2});
+        }
+      }
+
+      .email,
+      .button {
+        @include text-style(name);
+        @include colors(black-on-white);
+        @include border(thin, all);
+        padding: $lem / 2;
+      }
+
+      // The submit button
+      .button {
+        margin-top: 1px;
+
+        transform: skew(5deg);
+        @include colors(white-on-black);
+        @include transition(transform);
+
+        &:hover {
+          transform: skew(-5deg);
+        }
       }
 
       // View campaigns

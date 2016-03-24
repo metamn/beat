@@ -26,7 +26,8 @@
     display: block;
   }
 
-  button {
+  button,
+  input[type="submit"] {
     border: none;
     margin: 0;
     padding: 0;
