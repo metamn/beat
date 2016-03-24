@@ -3,9 +3,6 @@
 
   <p>
     You can send an email to <a href="mailto:bartus.csongor@gmail.com" title="bartus.csongor@gmail.com">bartus.csongor@gmail.com</a>.
-  </p>
-
-  <p>
-    Comments are welcome. They will be published in an elegant way.
+    Or a comment. They are welcome. And published in an elegant way.
   </p>
 </article>
