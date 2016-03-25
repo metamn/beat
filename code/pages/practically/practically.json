@@ -1,0 +1,18 @@
+{
+  "title": "Practically",
+  "excerpt": "How an ideally perfect website looks in practice.",
+  "template": "article",
+  "categories": [
+    "design",
+    "code"
+  ],
+  "url": "practically",
+  "date": "2016-03-25",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ],
+}

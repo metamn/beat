@@ -54,7 +54,7 @@ Remember we are on the quest for a perfect website. All devices must be equal.
 
 During that 5-6 years spent with designing and developing responsive websites I've realized a few things:
 
-1. There is no global strategy like mobile-first or progressive enhancement or grateful degradation.
+1. There is no global strategy like mobile-first design or progressive enhancement or grateful degradation.
 
 2. Designing in the browser solves the problem. If the designer is up-to-date and hands-on with the latest browser capabilities and quirks &mdash; the designer is preferably a front-end developer &mdash; the project time, budget, effort is reduced considerably.
 

@@ -14,5 +14,80 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "toc": [
+    {
+      "title": "Deliver The Message",
+      "subtitles": [
+        {
+          "title": "Content"
+        },
+        {
+          "title": "Focus Groups"
+        },
+        {
+          "title": "Focus Points"
+        }
+      ]
+    },
+    {
+      "title": "Fast",
+      "subtitles": [
+        {
+          "title": "HTML"
+        },
+        {
+          "title": "CSS"
+        },
+        {
+          "title": "Images"
+        },
+        {
+          "title": "Javascript"
+        }
+      ]
+    },
+    {
+      "title": "Compatible",
+      "subtitles": [
+        {
+          "title": "Browsers"
+        },
+        {
+          "title": "Devices"
+        }
+      ]
+    },
+    {
+      "title": "Accessible",
+      "subtitles": [
+        {
+          "title": "People with disabilities"
+        },
+        {
+          "title": "Bots"
+        }
+      ]
+    },
+    {
+      "title": "Maintainable",
+      "subtitles": [
+        {
+          "title": "Data"
+        },
+        {
+          "title": "Structure"
+        },
+        {
+          "title": "Presentation"
+        },
+        {
+          "title": "Behavior"
+        },
+        {
+          "title": "Control"
+        }
+      ]
+    }
   ]
 }
