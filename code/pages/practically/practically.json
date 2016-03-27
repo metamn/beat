@@ -1,6 +1,6 @@
 {
   "title": "Practically",
-  "excerpt": "How an ideally perfect website looks in practice.",
+  "excerpt": "How an ideally perfect website can be designed and developed today.",
   "template": "article",
   "categories": [
     "design",
@@ -14,5 +14,5 @@
     "categories",
     "date",
     "excerpt"
-  ],
+  ]
 }

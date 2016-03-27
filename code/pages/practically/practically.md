@@ -1,34 +1,37 @@
 {% markdown %}
 
-This is an article accompanying [Ideally](http://metamn.io/beat/ideally).
-It is purely technical offering real-life solutions to the ideals presented there.
+This is a technical article accompanying it's theoretical sibling [Ideally](http://metamn.io/beat/ideally).
+In fact these two articles are one. They share the same sections but present them differently.
 
-In fact these two articles are one. They share the same sections but highlight them differently.
-Ideally is theory and meant to be a thought provoking reading.
+Ideally is theory and meant to be a thought provoking reading for web industry professionals.
 
-This counterpart is pure practice.
-It's an overview of the technologies and tools one can use to make an ideally perfect website today.
-It's like an offer for my next clients, a checklist of what they'll get working with me, and how they can contribute to the design and development process to make the outcome ... perfect.
+This counterpart is pure practice. It's an overview of the technologies and tools one can use today to make a 'perfect' website.
+It's an offer for my next clients, a checklist of what they'll get working with me, and a tutorial how they can contribute to the design and development process to make the outcome ... perfect.
 
 
-# Content
+## Content
 
-Content defines everything. Your audience, your market position, who you commission to turn into a web product. And the outcome of this common effort defines your success.
+Defines everything. Your audience, your market position, who do you commission to turn it into a web product, and how successful your product can become.
 
-Our tasks as designers and developers is to advice you on how your content would work best on the web.
-How we can communicate your message on this medium; How to transform your content to be accessible for all, fast yet maintainable; How to transform your text, images, videos into data reusable in the future even without our assistance.
+Our task as designers and developers is to make your content work best on the web.
+For that, first of all, your content needs to be transformed into data and metadata.
+Content has a meaning for human audience. Machines don't understand content but data. When your content is transformed into data machines can *reason* about it and make it work better.
 
-My current practice is to turn content into `JSON`.
+The first phase of every new project I'm working on is to transform content into JSON.
 
-JSON is a database without database. It's a plain text file describing data and metadata together. It's the de-facto standard for applications to communicate between each other. It's easily understandable by non technical people. It's English for Data.
-Check yourself the [JSON behind this article](http://metamn.io/beat/ideally/ideally.json)
+JSON is a database without database. It's a plain text file describing data and metadata together. It's English for Data.
+It's human readable and de-facto standard for machine communication.
 
-Converting content into JSON has another advantage. Monolithic information (like an entire article or blog post) is split into smaller individual chunks. These chunks can be combined together to present the same information in a multiple way.
+{% endmarkdown %}
+<script src="https://gist.github.com/metamn/6c3b0b03a7dd3400607b.js"></script>
+{% markdown %}
 
-With the help of this technique I've managed to have an article split into two independent, still interconnected article, one targeting the design and development community and the other targeting my own clients.
+Converting content into JSON has another advantage. Monolithic information (like an entire article or blog post) is split into small standalone chunks. These chunks can be combined together in multiple ways for multiple purposes.
+
+For example, with the help of this technique I've managed to have an article split into two independent, still interconnected articles, one targeting the design and development community and the other targeting my own clients.
 
 
-# Structure
+## Structure
 
 Once content is transformed into reusable, semantic data it is ready to be assembled into semantic structure.
 A structure understandable by people and machines.
@@ -47,7 +50,7 @@ Using BEM makes the source code to be like being written by a single person.
 It does not distorts the existing HTML, it connects automatically to style (CSS) and behaviour (Javascript), and the learning curve is a single afternoon.
 
 
-# Typography
+## Typography
 
 After content and structure comes typography. As this blog shows typography is the backbone of the user interface design. It can be the user interface design, alone. Take a look at my portfolio http://metamn.io. The whole design is typography and positioning.
 
@@ -56,7 +59,7 @@ I put emphasis on this design phase. This is where content finally shows itself 
 I follow a single rule setting the type. The color contrast must be high enough to support people with disabilities.
 
 
-# Presentation
+## Presentation
 
 > 80% of web design is typography
 
@@ -68,8 +71,12 @@ How this is possible in just a few steps? Did we skip something? What about thos
 
 Yes, they are the reusable BEM components I've created during other projects and now I'm simply dropping it speeding up the user interface design.
 
+= you'll get them for free. either your project will be more quickly ready, or you can spend time make it outstanding by focussing a smooth things like behaviuour / animation
 
 
+
+- components
+- styleguide
 
 
 
