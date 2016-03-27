@@ -28,19 +28,19 @@ It's human readable and de-facto standard for machine communication.
 
 Converting content into JSON has another advantage. Monolithic information (like an entire article or blog post) is split into small standalone chunks. These chunks can be combined together in multiple ways for multiple purposes.
 
-For example, with the help of this technique I've managed to have an article split into two independent, still interconnected articles, one targeting the design and development community and the other targeting my own clients.
+For example, with the help of this technique I've managed to have an article split into two independent, still interconnected articles, one targeting the design and development community and the other targeting clients.
 
 Content turned into data adds magic.
 
 ## Structure
 
-Structuring data for web has two equally important facets: the structure must be understandable by both people and machines.
+Structuring data for web has two equally important roles: the structure must be understandable by both people and machines.
 On people I mean team members, anybody working with code. On machines I mean browsers and bots, screen readers and web crawlers.
 
-For people I use BEM. For the browser I use Semantic HTML5. For bots the JSON+LD SEO descriptor.
+For people I use BEM. For the browser I use Semantic HTML5. For bots the JSON+LD SEO microdata.
 
 Semantic HTML5 is done right &mdash; only and only &mdash; if it runs well in the HTML5 Outliner.
-Using `<article>` instead of `<div>` doesn't makes a markup semantic. It's the proper usage of the HTML5 elements. If they display well in the Outliner it means the structuring logic is flawless, accessibility tools can understand it, and even maybe SEO bots. (To make sure I'm accompanying each structure with a JSON+LD SEO descriptor file)
+Using `<article>` instead of `<div>` doesn't makes a markup semantic. It's the proper usage of the HTML5 elements. If they display well in the Outliner it means the structuring logic is flawless, accessibility tools can understand it, and even / maybe SEO bots. (To make sure I'm accompanying each structure with a JSON+LD SEO microdata file)
 
 The Block-Element-Model (BEM) methodology makes sure every developer &mdash; working *now* on the project *or in the future* &mdash; is on the same page.
 It tells exactly where the source files are, how they are related to each other and to the design, and how they can be extended.
@@ -67,8 +67,11 @@ This blog you are reading now is a minimum viable version + a single additional 
 How this can be possible? Where the other design elements come from? The image slider, the dotted background, the avatars?
 They are all reusable BEM components created previously and now integrated in this project.
 
-Components are useful. They summarise previous experience. They make design and development superfast. And less expensive.
+Building user interface from reusable, reliable components is useful.
+They summarise previous experience. They make design and development superfast. And less expensive.
 New clients get for free the components created for previous clients.
+
+
 
 
 ## Behavior
@@ -96,7 +99,7 @@ News are good. You can deliver your message &mdash; have your own material desig
 
 Cherry picking. Sweat. Refactoring. Art. The Final Touch.
 
-This last phase offers a chance to rethink everything, done and imagined. To see if the message shines through the every bit of the site. To realign, refine, to be brave, to make art not just engineering. To make a difference. To win yourself an award.
+This last design phase offers a chance to rethink everything, done and imagined. To see if the message shines through the every bit of the site. To realign, refine, to be brave, to make art not just engineering. To make a difference. To win yourself an award.
 
 Identity makes the site to be one, and only. Fully completed, nothing to fix, enhance, tweak. Not even after years.
 
