@@ -30,54 +30,45 @@ Converting content into JSON has another advantage. Monolithic information (like
 
 For example, with the help of this technique I've managed to have an article split into two independent, still interconnected articles, one targeting the design and development community and the other targeting my own clients.
 
+Content turned into data adds magic.
 
 ## Structure
 
-Once content is transformed into reusable, semantic data it is ready to be assembled into semantic structure.
-A structure understandable by people and machines.
+Structuring data for web has two equally important facets: the structure must be understandable by both people and machines.
+On people I mean team members, anybody working with code. On machines I mean browsers and bots, screen readers and web crawlers.
 
-On people I mean fellow designers and developers who might work on this project now or in the future. On machines I mean browsers and bots, screen readers and web crawlers.
+For people I use BEM. For the browser I use Semantic HTML5. For bots the JSON+LD SEO descriptor.
 
-When a structure is well defined from multiple angles it means it is well-thought. During the years I've used many formats and techniques and the current ones &mdash; Semantic HTML5 and BEM &mdash; are really breakthrough. Often times when I feel something is not right on the user interface it turns out the problem lies in the structure. Fixing the structure makes clear how to fix the design. Having a solid structure makes design more fit.
+Semantic HTML5 is done right &mdash; only and only &mdash; if it runs well in the HTML5 Outliner.
+Using `<article>` instead of `<div>` doesn't makes a markup semantic. It's the proper usage of the HTML5 elements. If they display well in the Outliner it means the structuring logic is flawless, accessibility tools can understand it, and even maybe SEO bots. (To make sure I'm accompanying each structure with a JSON+LD SEO descriptor file)
 
-Semantic HTML5 is done right only and only if it runs well in the HTML5 Outliner.
-Using `<article>` instead of `<div>` doesn't makes a markup semantic. What it makes is the proper usage of the HTML5 elements. If they display well in the Outliner it means the structuring logic is flawless, accessibility tools can understand it, and even maybe SEO bots. (To make sure I'm accompanying each structure with a JSON+LD SEO descriptor file)
-
-The Block-Element-Model (BEM) methodology is in the same way crucial for humans as Semantic HTML5 is for machines.
-BEM makes sure every developer working on the project is on the same page.
-They know exactly where the source files are, how they are related to each other and to the design, and how they can be extended.
+The Block-Element-Model (BEM) methodology makes sure every developer &mdash; working *now* on the project *or in the future* &mdash; is on the same page.
+It tells exactly where the source files are, how they are related to each other and to the design, and how they can be extended.
 Using BEM makes the source code to be like being written by a single person.
-It does not distorts the existing HTML, it connects automatically to style (CSS) and behaviour (Javascript), and the learning curve is a single afternoon.
 
+BEM is a not a plugin, not a script, not a framework, not an extension, not a tool. It's a mindset.
+You don't have to install anything and the learning curve is an afternoon.
 
-## Typography
-
-After content and structure comes typography. As this blog shows typography is the backbone of the user interface design. It can be the user interface design, alone. Take a look at my portfolio http://metamn.io. The whole design is typography and positioning.
-
-I put emphasis on this design phase. This is where content finally shows itself on all devices. This is when finally I can reason about the entire site. Where the focus is, how attention flows, what changes the layout can bare, how many colors we will need, which decorations to use, how the navigation will fit in.
-
-I follow a single rule setting the type. The color contrast must be high enough to support people with disabilities.
+Semantic HTML5 and BEM are real breakthroughs. They 'force' you to create the best structure possible.
+When I feel something smells on the user interface it turns out the problem lies in the structure. Fixing the structure makes clear how to fix the design. Having a solid structure is a prerequisite for a solid design.
 
 
 ## Presentation
 
-> 80% of web design is typography
+After content and structure comes presentation. Presentation is major part typography and minor part decoration.
 
-With typography done we should have a first working version of the website presentable for feedback.
-This very blog is that first working version minus the animated contact button.
-With this kind of content this product is ready to be launched.
+Typography is the backbone of the user interface design. It can be the user interface design alone.
 
-How this is possible in just a few steps? Did we skip something? What about those image sliders? That dotted background? The avatars? The footnote link navigation?
+I put emphasis on this design phase. This is where content shows itself first time, on all devices. This is where, first time, I can reason about the entire site. Where the focus is, how attention flows, what changes the layout can bare, how many colors we will need, which decorations to use, how the navigation will fit in.
 
-Yes, they are the reusable BEM components I've created during other projects and now I'm simply dropping it speeding up the user interface design.
+Once the type is set we can say the first, minimum viable version of the site is ready.
+This blog you are reading now is a minimum viable version + a single additional decorative element, the contact button.
 
-= you'll get them for free. either your project will be more quickly ready, or you can spend time make it outstanding by focussing a smooth things like behaviuour / animation
+How this can be possible? Where the other design elements come from? The image slider, the dotted background, the avatars?
+They are all reusable BEM components created previously and now integrated in this project.
 
-
-
-- components
-- styleguide
-
+Components are useful. They summarise previous experience. They make design and development superfast. And less expensive.
+New clients get for free the components created for previous clients.
 
 
 {% endmarkdown %}
