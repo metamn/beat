@@ -126,4 +126,6 @@ We've converted content to data; structured into Semantic HTML5; organized into 
 For a total peace of mind I recommend another step. The living styleguide. The dashboard which makes the project a whole. Your assurance the money was spent well and you won't have to pay again for the same thing. Your assurance anybody can pick up the code in the next years and continue the work.
 
 Styleguides do two things: collect existing code documentation into an enjoyable view, and, makes sure the components building the site are error free.
+
+Ask for it.
 {% endmarkdown %}
