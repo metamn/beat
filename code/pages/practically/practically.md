@@ -1,12 +1,12 @@
 {% markdown %}
 
-This is a technical article accompanying it's theoretical sibling [Ideally](http://metamn.io/beat/ideally).
+This is a technical article accompanying it's theoretical sister [Ideally](http://metamn.io/beat/ideally).
 In fact these two articles are one. They share the same sections but present them differently.
 
 Ideally is theory and meant to be a thought provoking reading for web industry professionals.
 
 This counterpart is pure practice. It's an overview of the technologies and tools one can use today to make a 'perfect' website.
-It's an offer for my next clients, a checklist of what they'll get working with me, and a tutorial how they can contribute to the design and development process to make the outcome ... perfect.
+It's an offer for clients, a checklist of what they'll get, and a tutorial how they can contribute to the design and development process to make the outcome the best possible.
 
 
 ## Content
@@ -73,12 +73,34 @@ New clients get for free the components created for previous clients.
 
 ## Behavior
 
-tbd
+Behavior is business goals turned into user experiences and actions.
+Your content and message has been presented and now must be rewarded by visitors. It's about focus and flow.
+
+Motion. Navigation. Interaction. User involvement.
+
+There is a hype bursting into a bubble around animation and UX Design. Since these terms surfaced we have uniform looking websites and 90's-Flash-like motion sickness.
+
+Bringing them down to earth we got simple things: focus groups, focus points, and semantic animation.
+
+Focus groups are nothing new. It's a research about your users and market trying to predict how people will interact with your product. It's more empathy than science in your case. Unless your are Google to afford and must have a complete UX team.
+
+Focus points existed long before UX. It's about the capability of people to observe things on an user interface. They can focus only on five things and everything must be built around acknowledging this fact.
+
+Semantic animation is motion with meaning. It's about how we expect things to move on a screen. The best example is Google's Material Design. They've took the paper and the scissor and created user interfaces in real life. And converted back the findings into digital.
+
+News are good. You can deliver your message &mdash; have your own material design without looking like Google and without the efforts of Google.
+
 
 
 ## Identity
 
-tbd
+Cherry picking. Sweat. Refactoring. Art. The Final Touch.
+
+This last phase offers a chance to rethink everything, done and imagined. To see if the message shines through the every bit of the site. To realign, refine, to be brave, to make art not just engineering. To make a difference. To win yourself an award.
+
+Identity makes the site to be one, and only. Fully completed, nothing to fix, enhance, tweak. Not even after years.
+
+Yes, when this phase is done the work becomes a masterpiece.
 
 
 ## Deployment
@@ -96,9 +118,9 @@ Deployment tools are the collective wisdom of web developers and the de-facto st
 
 We've had a long journey making your content work best on the web.
 
-We've converted content to data; structured into Semantic HTML5; organized into source files and directories everybody understands; presented using reliable UI components; translated business goals into enjoyable user experiences; deployed in a fast, compatible and accessible manner using web standards.
+We've converted content to data; structured into Semantic HTML5; organized into source files and directories everybody understands; presented using reliable UI components; translated business goals into user experiences; deployed in a fast, compatible and accessible manner using web standards.
 
 For a total peace of mind I recommend another step. The living styleguide. The dashboard which makes the project a whole. Your assurance the money was spent well and you won't have to pay again for the same thing. Your assurance anybody can pick up the code in the next years and continue the work.
 
-
+Styleguides do two things: collect existing code documentation into an enjoyable view, and, makes sure the components building the site are error free.
 {% endmarkdown %}
