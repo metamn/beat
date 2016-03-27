@@ -71,4 +71,34 @@ Components are useful. They summarise previous experience. They make design and 
 New clients get for free the components created for previous clients.
 
 
+## Behavior
+
+tbd
+
+
+## Identity
+
+tbd
+
+
+## Deployment
+
+In [Ideally](http://metamn.io/beat/ideally) we said a website should be fast, compatible with different browsers and devices, accessible by people and machines.
+
+This phase makes sure all above are done. With no extra effort from our side since everything is automatic. Using build systems like Gulp and Webpack we can pass the assets, data, structure, presentation, behavior to scripts which will do the rest.
+
+They will create compressed, optimized, cross-browser compatible HTML, CSS and JS from our components. They will resize, optimize and compress images, icons to make them responsive, fast to download and bandwidth-savvy.
+
+Deployment tools are the collective wisdom of web developers and the de-facto standard used even by Google or Wordpress.
+
+
+## Documentation
+
+We've had a long journey making your content work best on the web.
+
+We've converted content to data; structured into Semantic HTML5; organized into source files and directories everybody understands; presented using reliable UI components; translated business goals into enjoyable user experiences; deployed in a fast, compatible and accessible manner using web standards.
+
+For a total peace of mind I recommend another step. The living styleguide. The dashboard which makes the project a whole. Your assurance the money was spent well and you won't have to pay again for the same thing. Your assurance anybody can pick up the code in the next years and continue the work.
+
+
 {% endmarkdown %}
