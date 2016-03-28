@@ -18,8 +18,141 @@
   "images": [
     {
       "title": "The homepage of Beat outlined in the Semantic HTML5 Outliner",
-      "name": "semantic-html-5",
-      "onesize": "mobile"
+      "name": "semantic-html-5"
+    },
+    {
+      "title": "The five focus points: 1.Identity 2.Offer 3.Values 4.Action 5.Entertainment",
+      "name": "focus-points-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "focus-points-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "focus-points-portrait"
+        }
+      ]
+    }
+  ],
+  "checklist": [
+    {
+      "title": "Content",
+      "items": [
+        {
+          "title": "Transformed into data & metadata with JSON",
+          "example": ""
+        },
+        {
+          "title": "Semantic data chunks",
+          "example": ""
+        },
+        {
+          "title": "Copy linted for better English"
+        },
+        {
+          "title": "Images",
+          "items": [
+            {
+              "title": "Responsive"
+            },
+            {
+              "title": "Retina ready"
+            },
+            {
+              "title": "Compressed"
+            }
+          ]
+        },
+        {
+          "title": "Icons with SVG icon maps"
+        }
+      ]
+    },
+    {
+      "title": "Structure (HTML)",
+      "items": [
+        {
+          "title": "Semantic HTML5"
+        },
+        {
+          "title": "Focus points"
+        },
+        {
+          "title": "Accesibility"
+        },
+        {
+          "title": "Microdata"
+        },
+        {
+          "title": "BEM folders"
+        },
+        {
+          "title": "Minified"
+        }
+      ]
+    },
+    {
+      "title": "Presentation (CSS)",
+      "items": [
+        {
+          "title": "SCSS"
+        },
+        {
+          "title": "Color contrast"
+        },
+        {
+          "title": "Responsive typography"
+        },
+        {
+          "title": "BEM Components"
+        },
+        {
+          "title": "Minified"
+        }
+      ]
+    },
+    {
+      "title": "Behavior (JS)",
+      "items": [
+        {
+          "title": "Plain Javascript no jQuery"
+        },
+        {
+          "title": "Cubic-bezier animation transitions"
+        },
+        {
+          "title": "Semantic animations"
+        },
+        {
+          "title": "Semantic chunks with Webpack"
+        },
+        {
+          "title": "Minified"
+        }
+      ]
+    },
+    {
+      "title": "Documentation",
+      "items": [
+        {
+          "title": "KSS"
+        },
+        {
+          "title": "Living styleguide"
+        }
+      ]
+    },
+    {
+      "title": "Deployment",
+      "items": [
+        {
+          "title": "Static site"
+        },
+        {
+          "title": "Wordpress CMS"
+        }
+      ]
     }
   ]
 }

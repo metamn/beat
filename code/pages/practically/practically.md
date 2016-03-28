@@ -130,6 +130,11 @@ Focus groups are nothing new. It's a research about your users and market trying
 
 Focus points existed long before UX. It's about the capability of people to observe things on an user interface. They can focus only on five things and everything must be built around acknowledging this fact.
 
+{% endmarkdown %}
+{% set image = images[1] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
+
 Semantic animation is motion with meaning. It's about how we expect things to move on a screen. The best example is Google's Material Design. They've took the paper and the scissor and created user interfaces in real life. And converted back the findings into digital.
 
 News are good. You can deliver your message &mdash; have your own material design without looking like Google and without the efforts of Google.
