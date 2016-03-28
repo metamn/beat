@@ -5,6 +5,7 @@
   "url": "contact",
   "date": "2015-01-01",
   "display": [
+    "title",
     "artwork"
   ],
   "images": [

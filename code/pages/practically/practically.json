@@ -14,5 +14,12 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "images": [
+    {
+      "title": "The homepage of Beat outlined in the Semantic HTML5 Outliner",
+      "name": "semantic-html-5",
+      "onesize": "mobile"
+    }
   ]
 }

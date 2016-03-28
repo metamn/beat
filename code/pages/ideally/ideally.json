@@ -15,6 +15,33 @@
     "date",
     "excerpt"
   ],
+  "images": [
+    {
+      "title": "Vignelli 1",
+      "name": "vignelli-1",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Vignelli 2",
+      "name": "vignelli-2",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Vignelli 3",
+      "name": "vignelli-3",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Vignelli 4",
+      "name": "vignelli-4",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Vignelli 5",
+      "name": "vignelli-5",
+      "extension": ".jpg"
+    }
+  ],
   "toc": [
     {
       "title": "Deliver The Message",

@@ -13,7 +13,10 @@ We are thinking / dreaming / working on a perfect website. Even if the success i
 Massimo Vignelli was lucky. He had Photoshop, fixed viewport, no webservers, no SEO, no browsers, no bugs.
 As disciples we should follow him, no matter the context became chaotic, universally brutal.
 
-SO IDEALLY A WEBSITE SHOULD ...
+{% endmarkdown %}
+{% set slides = images %}
+{% include "../../project/article/__slider/article__slider.html.swig" %}
+{% markdown %}
 
 ## 1. Deliver The Message
 

@@ -16,11 +16,8 @@
       }
     }
 
-
     .figcaption {
-      @include font(nimbus-sans-light);
-      @include scale(small-1);
-      @include colors(black-on-white);
+      @include text-style(figcaption);
     }
 
   }

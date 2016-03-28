@@ -1,1 +1,34 @@
-@mixin ideally {}
+html {
+  &.ideally {
+    body {
+      .article {
+        &__content {
+          .article__slider {
+            width: 100%;
+            margin-bottom: $lem;
+
+            // The slider has images
+            .slider {
+              @include slider--with-image;
+              @include intrinsic-ratio(3, 4, '.slider__slides');
+
+              @include mobile {
+                padding-bottom: 166%;
+              }
+
+              .figure {
+                // Remove default background
+                background: transparent;
+
+                // Remove default padding
+                .picture {
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

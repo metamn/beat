@@ -9,7 +9,7 @@ This counterpart is pure practice. It's an overview of the technologies and tool
 It's an offer for clients, a checklist of what they'll get, and a tutorial how they can contribute to the design and development process to make the outcome the best possible.
 
 
-## Content
+## 1. Content
 
 Defines everything. Your audience, your market position, who do you commission to turn it into a web product, and how successful your product can become.
 
@@ -32,7 +32,7 @@ For example, with the help of this technique I've managed to have an article spl
 
 Content turned into data adds magic.
 
-## Structure
+## 2. Structure
 
 Structuring data for web has two equally important roles: the structure must be understandable by both people and machines.
 On people I mean team members, anybody working with code. On machines I mean browsers and bots, screen readers and web crawlers.
@@ -42,6 +42,11 @@ For people I use BEM. For the browser I use Semantic HTML5. For bots the JSON+LD
 Semantic HTML5 is done right &mdash; only and only &mdash; if it runs well in the HTML5 Outliner.
 Using `<article>` instead of `<div>` doesn't makes a markup semantic. It's the proper usage of the HTML5 elements. If they display well in the Outliner it means the structuring logic is flawless, accessibility tools can understand it, and even / maybe SEO bots. (To make sure I'm accompanying each structure with a JSON+LD SEO microdata file)
 
+{% endmarkdown %}
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
+
 The Block-Element-Model (BEM) methodology makes sure every developer &mdash; working *now* on the project *or in the future* &mdash; is on the same page.
 It tells exactly where the source files are, how they are related to each other and to the design, and how they can be extended.
 Using BEM makes the source code to be like being written by a single person.
@@ -49,11 +54,47 @@ Using BEM makes the source code to be like being written by a single person.
 BEM is a not a plugin, not a script, not a framework, not an extension, not a tool. It's a mindset.
 You don't have to install anything and the learning curve is an afternoon.
 
+```
+code
+├── framework
+│   ├── behavior
+│   ├── design
+│   ├── helpers
+│   ├── structure
+│   └── templates
+├── pages
+│   ├── contact
+│   ├── creating-a-styleguide-with-gulp
+│   ├── delivering-the-message
+│   ├── herculean
+│   ├── home
+│   ├── ideally
+│   ├── is-it-web-or-photoshop
+│   ├── masters-of-web-february-2016
+│   ├── no-more-problems-on-the-front-end
+│   ├── practically
+│   └── what-some-people-apart-are-up-to-in-2016
+└── project
+    ├── article
+    ├── articles
+    ├── author
+    ├── contact-artwork
+    ├── footer
+    ├── footnote
+    ├── footnotes
+    ├── header
+    ├── intro
+    ├── intro-active
+    ├── mailchimp
+    └── slider-with-url
+```
+<p class="caption"><span class="caption__text">The BEM structure of this project</span></p>
+
 Semantic HTML5 and BEM are real breakthroughs. They 'force' you to create the best structure possible.
 When I feel something smells on the user interface it turns out the problem lies in the structure. Fixing the structure makes clear how to fix the design. Having a solid structure is a prerequisite for a solid design.
 
 
-## Presentation
+## 3. Presentation
 
 After content and structure comes presentation. Presentation is major part typography and minor part decoration.
 
@@ -74,7 +115,7 @@ New clients get for free the components created for previous clients.
 
 
 
-## Behavior
+## 4. Behavior
 
 Behavior is business goals turned into user experiences and actions.
 Your content and message has been presented and now must be rewarded by visitors. It's about focus and flow.
@@ -95,7 +136,7 @@ News are good. You can deliver your message &mdash; have your own material desig
 
 
 
-## Identity
+## 5. Identity
 
 Cherry picking. Sweat. Refactoring. Art. The Final Touch.
 
@@ -106,7 +147,7 @@ Identity makes the site to be one, and only. Fully completed, nothing to fix, en
 Yes, when this phase is done the work becomes a masterpiece.
 
 
-## Deployment
+## 6. Deployment
 
 In [Ideally](http://metamn.io/beat/ideally) we said a website should be fast, compatible with different browsers and devices, accessible by people and machines.
 
@@ -117,7 +158,7 @@ They will create compressed, optimized, cross-browser compatible HTML, CSS and J
 Deployment tools are the collective wisdom of web developers and the de-facto standard used even by Google or Wordpress.
 
 
-## Documentation
+## 7. Documentation
 
 We've had a long journey making your content work best on the web.
 

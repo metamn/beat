@@ -1,8 +1,13 @@
 <aside class="contact-artwork">
   <h3>Contact Artwork</h3>
 
-  {% set article = articles | last %}
-  {% set image = article.images[0] %}
+  {% for article in articles %}
+    {% if article.title == 'Contact' %}
+      {% set contact = article %}
+    {% endif %}
+  {% endfor %}
+
+  {% set image = contact.images[0] %}
   {% set link = image.link %}
   {% set text = image.link.title %}
 

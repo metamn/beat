@@ -83,6 +83,9 @@
         },
         {
           "name": "code"
+        },
+        {
+          "name": "pre"
         }
       ]
     },
@@ -152,6 +155,25 @@
         {
           "name": "padding",
           "value": "$lem / 8 $lem / 4"
+        }
+      ]
+    },
+    {
+      "name": "Figcaption",
+      "description": "The caption of a figure, code block etc.",
+      "based_on": "Nimbus Sans Light",
+      "mixins": [
+        {
+          "name": "font",
+          "value": "nimbus-sans-light"
+        },
+        {
+          "name": "scale",
+          "value": "small-1"
+        },
+        {
+          "name": "colors",
+          "value": "black-on-white"
         }
       ]
     },
