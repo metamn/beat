@@ -20,6 +20,8 @@
   {% include '../../../project/article/__categories-and-date/article__categories-and-date.html.swig' %}
 </article>
 
+{% block more %}{% endblock %}
+
 {% include '__seo/article__seo.html.swig' %}
 
 
