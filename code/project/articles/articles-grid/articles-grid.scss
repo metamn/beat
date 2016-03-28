@@ -1,9 +1,9 @@
 @mixin articles-grid($margin) {
   @include portrait {
-    @include grid(1, 0px, $margin);
+    @include grid(1, 0px, $margin, title);
   }
 
   @include landscape {
-    @include grid(2, $margin, $margin);
+    @include grid(2, $margin, $margin, title);
   }
 }

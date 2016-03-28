@@ -176,7 +176,7 @@ I believe the web is not dead, in fact, currently is living its renaissance. And
   "keywords": "design",
   "url": "/is-it-web-or-photoshop",
   "datePublished": "2015-12-25",
-  "dateModified": "2016-03-27",
+  "dateModified": "2016-03-28",
   "description": "Experiment with creating print-like, magazine-like, tv-like websites",
   "publisher": {
     "@type": "Organization",
@@ -215,6 +215,7 @@ I believe the web is not dead, in fact, currently is living its renaissance. And
 
   <!-- If 'onesize' is set all images will have the same size -->
   
+    <!-- Naming convention for responsive images -->
     
     
     
@@ -234,9 +235,6 @@ I believe the web is not dead, in fact, currently is living its renaissance. And
   
 
   
-    
-    
-  
 
 
   <!-- Image url can be relative or absolute -->
@@ -246,51 +244,21 @@ I believe the web is not dead, in fact, currently is living its renaissance. And
 
   <picture class="picture">
     <!--[if IE 9]><video style="display: none;"><![endif]-->
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" srcset="/assets/images/_desktop.png, /assets/images/_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/_laptop.png, /assets/images/_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/_tablet.png, /assets/images/_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/_mobile.png, /assets/images/_mobile2x.png 2x">
     <!--[if IE 9]></video><![endif]-->
     <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
     
-  
+      <img class="img" src="/assets/images/_laptop.png" alt="">
     
-  
-
-  
-
-
-  
-
-
-  
-
-  
-
-  <a class="link " href="/contact" title="• Follow • Contact ">
-      <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
-    </a>
   </picture>
 
-  <figcaption class="figcaption figcaption">
+  <figcaption class="figcaption figcaption--from-title">
     
-  
+      
     
-  
-
-  
-
-
-  
-
-
-  
-
-  
-
-  <a class="link " href="/contact" title="• Follow • Contact ">
-      Follow / Contact
-    </a>
   </figcaption>
 </figure>
 
@@ -300,21 +268,6 @@ I believe the web is not dead, in fact, currently is living its renaissance. And
   <span class="text-around-circle__text">
     
       
-  
-    
-  
-
-  
-
-
-  
-
-
-  
-
-  
-
-  <a class="link " href="/contact" title="• Follow • Contact ">• Follow • Contact 
     
   </span>
 
