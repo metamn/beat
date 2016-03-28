@@ -1,11 +1,9 @@
 {% macro makeLI(elem) %}
-  <li>
+  <li class="list-nested__sublist">
 
   {% if elem.items %}
     <div>{{ elem.title }}</div>
     {{ makeUL(elem.items) }}
-  {% else %}
-    {{ elem.title }}
   {% endif %}
 
   </li>
@@ -13,13 +11,13 @@
 
 
 {% macro makeUL(list) %}
-  <ul>
+  <ul class="list-nested">
 
   {% for item in list %}
     {% if item.items %}
       {{ makeLI(item) }}
     {% else %}
-      <li>{{ item.title }}</li>
+      {% include '../../structure/list-nested/__item/list-nested__item.html.swig' %}
     {% endif %}
   {% endfor %}
 
