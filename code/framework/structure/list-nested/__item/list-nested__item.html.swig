@@ -1,3 +1,5 @@
 <li class="list-nested__item">
-  {{ item.title }}
+  {% set direction = "bottom" %}
+  {% include '../../../design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
+  <span class="item-title">{{ item.title }}</span>
 </li>

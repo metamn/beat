@@ -1,8 +1,11 @@
+
+
 {% macro makeLI(elem, level) %}
-  <li class="list-nested__sublist">
+  {% import "../classname/classname.swig" as c  %}
+  <li class="list-nested__sublist list-nested__sublist--{{ c.classname(elem.title) }}">
 
   {% if elem.items %}
-    <div>{{ elem.title }}</div>
+    <span class="title">{{ elem.title }}</span>
     {% set level = level + 1 %}
     {{ makeUL(elem.items, level) }}
   {% endif %}

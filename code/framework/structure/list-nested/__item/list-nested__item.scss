@@ -1,1 +1,16 @@
-@mixin list-nested__item {}
+@mixin list-nested__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f1;
+
+  .arrow-with-triangle {
+    @include arrow-with-triangle(bottom, $size: $lem * 2);
+    margin: $lem;
+  }
+
+  .item-title {
+    @include word-wrap;
+  }
+}

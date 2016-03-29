@@ -1,6 +1,33 @@
 @mixin list-nested {
-  //@include ul;
-  @include grid(3, $lem, $lem);
+  @include ul;
+  
+  @include portrait {
+    @include grid(1);
+  }
+
+  @include landscape {
+    @include grid(3, $lem, $lem);
+  }
+
+
+  .title {
+    @include text-style(name);
+    display: flex;
+    margin-bottom: $lem;
+  }
+
+  &__item {
+    @include list-nested__item;
+  }
+
+  &__sublist {
+    @include border(normal, all);
+    padding: $lem;
+
+    &--images {
+      flex-grow: 2;
+    }
+  }
 
   &--level-2 {
     @include grid(1, $lem, $lem);
