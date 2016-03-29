@@ -5,9 +5,8 @@
   justify-content: center;
   background: #f1f1f1;
 
-  .arrow-with-triangle {
-    @include arrow-with-triangle(bottom, $size: $lem * 2);
-    margin: $lem;
+  .checkbox {
+    @include checkbox;
   }
 
   .item-title {

@@ -1,0 +1,14 @@
+@mixin checkbox($size: $lem) {
+  width: $size;
+  height: $size;
+
+  position: relative;
+
+  &__square {
+    @include checkbox__square($size);
+  }
+
+  &__checkmark {
+    @include checkbox__checkmark($size);
+  }
+}
