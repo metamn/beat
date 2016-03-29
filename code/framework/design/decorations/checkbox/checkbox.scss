@@ -1,7 +1,5 @@
 @mixin checkbox($size: $lem) {
-  width: $size;
-  height: $size;
-
+  display: flex;
   position: relative;
 
   &__square {

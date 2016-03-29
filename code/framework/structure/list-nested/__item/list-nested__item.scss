@@ -6,10 +6,12 @@
   background: #f1f1f1;
 
   .checkbox {
-    @include checkbox;
+    @include checkbox($lem / 2);
+    margin: $lem / 2;
   }
 
   .item-title {
-    @include word-wrap;
+    margin: $lem / 2;
+    text-align: center;
   }
 }
