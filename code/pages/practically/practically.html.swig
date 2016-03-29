@@ -1,7 +1,7 @@
 {% extends '../../framework/templates/article/article.html.swig' %}
 
 {% block content %}
-  {# include 'practically.md' #}
+  {% include 'practically.md' %}
 {% endblock %}
 
 {% block more %}

@@ -6,7 +6,7 @@
   background: #f1f1f1;
 
   .checkbox {
-    @include checkbox($lem / 2);
+    @include checkbox($lem);
     margin: $lem / 2;
   }
 
