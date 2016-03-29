@@ -1,1 +1,8 @@
-@mixin list-nested {}
+@mixin list-nested {
+  //@include ul;
+  @include grid(3, $lem, $lem);
+
+  &--level-2 {
+    @include grid(1, $lem, $lem);
+  }
+}

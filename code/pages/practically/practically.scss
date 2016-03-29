@@ -1,1 +1,9 @@
-@mixin practically {}
+html {
+  &.practically {
+    body {
+      .practically__checklist {
+        @include practically__checklist;
+      }
+    }
+  }
+}

@@ -1,1 +1,9 @@
-@mixin practically__checklist {}
+@mixin practically__checklist {
+  @include colors(black-on-white);
+  position: relative;
+  margin: $lem;
+
+  .list-nested {
+    @include list-nested;
+  }
+}

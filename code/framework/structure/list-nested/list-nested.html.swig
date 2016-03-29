@@ -1,3 +1,3 @@
 {% import "../../helpers/list-nested/list-nested.swig" as ln  %}
 
-{{ ln.makeUL(list) }}
+{{ ln.makeUL(list, 0) }}
