@@ -57,7 +57,7 @@ We've started to add meaning to everything we do and work with because we've rea
 
 Let's make our job easier and with that more people happy. Especially those complaining about the fact that 99% of all websites look the same.
 Let's play with the idea of creating websites, which like Zaha Hadid's buildings and David Hockney's paintings, are self-assembling themselves.
-Now we have watch, tablet, laptop, desktop, TV, projector screens but in the future we will have thousands, no media queries can comprehend.
+Now we have watch, tablet, laptop, desktop, TV, projector screens but in the future we will have thousands of no media queries can comprehend.
 
 
 ## History unite!
@@ -66,7 +66,7 @@ At some stage we will need AI in our web design and development process. I don't
 
 Let our content be both dead and alive in a <a href="http://whatis.techtarget.com/definition/superposition">superposition</a> of states. Let's focus on describing and designing all those states and let the machine compose a picture to the armada of observers we can't be aware during our work.
 
-Let's review again, and reconcile what *progress* meant five thousands year ago and means now, in a context everybody understands, for a new unknown universe waiting for us which we can't avoid.
+Let's review again, and reconcile what *progress* meant five thousands year ago and means now, in a context everybody understands, for a new unknown universe waiting for us and which we can't avoid.
 
 It's about how *view* works, viewing things works, about the process of understanding.
 
@@ -82,16 +82,16 @@ Since Design is the Observing let's see how we can involve / evolve in this spec
 
 To cut in, let's equip all content with all states and let it rest in superposition, where it shows nothing, waiting for an Observer (visitor) and its Observing skillset (device).
 
-What each visitors will see from our content depends on its mental capability (curiosity) and device capability (context). We can trust their capabilities &mdash; they are none of our concerns.  
+What each visitors will see from our content depends on its mental capability (curiosity) and device capability (context). We can trust their capabilities &mdash; these are none of our concerns.  
 
-With this step we let both the visitor and device (AI) to decide if they want to evolve or involve with/ into our content. It's not anymore a philosophical question but of individual will. Being responsible to cut out one of these crucial opportunities in such a connected era is something nobody wants to take.
+With this step we let both the visitor and device (AI) to decide if they want to evolve or involve with / into our content. It's not anymore a philosophical question but of individual will. Being responsible to cut out one of these crucial opportunities in such a connected era is something nobody wants to take.
 
 What's left for us, designers and developers, is to focus on content states and write AI algorithms to make the device so smart to be able to assembly any picture from our content states.
 
 
 ## What's good for?
 
-Current design / design thinking is too focused on Observing and neglects the Observer and Object.
+Current design / design thinking is focused on Observing and neglects the Observer and Object.
 
 You Observer want to get the news? The whole western press is a single pipe. No matter what you need you'll get the same. I have to put effort on finding new sources and inspirations. Read rt.com even it is amusing but at least has a different point of view. Or get *underground* blog articles about how user interfaces look in China.
 
@@ -108,12 +108,6 @@ Is that worth it? Of course, in unimaginable ways. http://www.theverge.com/2016/
 
 And what kind of creativity is left behind? Who will design the interfaces? The hero? The hamburger menu? The parallax scrolling?
 Worrying about the ways of creativity, well, is stupid. Let's give it more tools, more sources, and more different audience. And the rest will follow.
-
-
-
-
-
-
 
 
 {% endmarkdown %}
