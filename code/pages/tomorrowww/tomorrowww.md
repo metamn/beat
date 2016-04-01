@@ -93,11 +93,11 @@ What's left for us, designers and developers, is to focus on content states and 
 
 Current design / design thinking is focused on Observing and neglects the Observer and Object.
 
-You Observer want to get the news? The whole western press is a single pipe. No matter what you need you'll get the same. I have to put effort on finding new sources and inspirations. Read rt.com even it is amusing but at least has a different point of view. Or get *underground* blog articles about how user interfaces look in China.
+You Observer want to get the news? The whole western press is a single pipe. No matter what you need you'll get the same. You have to put effort on finding new sources and inspirations. Read rt.com even it is amusing but at least has a different point of view. Or get *underground* blog articles about how user interfaces look in China.
 
 You Object, the creative thing? You are lost in the noise, dribbbleized. Now algorithms decide if you are worth seeing or not. See the twist? Instead of algorithms letting you discover they force you to see the same.
 
-Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer bears not just that single best way we think is optimal. Let's step back in acting like God, instead use our powers in a liberating way.
+Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer can bear not just that single best way we think is optimal, trendy or can put us on hype. Let's step back in acting like God, instead use our powers in a liberating way.
 
 
 ## An example
