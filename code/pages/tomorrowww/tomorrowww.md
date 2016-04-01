@@ -91,13 +91,26 @@ What's left for us, designers and developers, is to focus on content states and 
 
 ## What's good for?
 
-1. Let's make important things not to be just a hype ( to remove, its like 3)
+Current design / design thinking is too focused on Observing and neglects the Observer and Object.
 
-2. Let's realize semantics reduces cognitive load and makes our lives easier.
+You Observer want to get the news? The whole western press is a single pipe. No matter what you need you'll get the same. I have to put effort on finding new sources and inspirations. Read rt.com even it is amusing but at least has a different point of view. Or get *underground* blog articles about how user interfaces look in China.
 
-3. Let's take control over our content. Do not let to evolve to extremes like when we become a product; or to involve to zero when good things are forgotten (styleguide)
+You Object, the creative thing? You are lost in the noise, dribbbleized. Now algorithms decide if you are worth seeing or not. See the twist? Instead of algorithms letting you discover they force you to see the same.
 
-let content be code;
+Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer bears not just that single best way we think is optimal. Let's step back in acting like God, instead use our powers in a liberating way.
+
+
+## An example
+
+Imagine content as code. With semantics. Built bottom up from tiny individual parts which are reusable, composable. Stored in a global repository where it can be accessed and forked. And searched in the smallest details (https://github.com/search?q=this+will+be+never+shown&type=Code&utf8=%E2%9C%93). And where credits go where credit is due and even giants are held accountable. (https://news.ycombinator.com/item?id=11384968)
+
+Is that worth it? Of course, in unimaginable ways. http://www.theverge.com/2016/3/30/11331014/microsoft-windows-linux-ubuntu-bash
+
+And what kind of creativity is left behind? Who will design the interfaces? The hero? The hamburger menu? The parallax scrolling?
+Worrying about the ways of creativity, well, is stupid. Let's give it more tools, more sources, and more different audience. And the rest will follow.
+
+
+
 
 
 
