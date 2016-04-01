@@ -1,4 +1,14 @@
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="http://t.co/5JaImlfh4P">http://t.co/5JaImlfh4P</a> the same was said to design: the golden age is coming. That&#39;s what I&#39;m afraid of :)</p>&mdash; metamn (@metamn) <a href="https://twitter.com/metamn/status/374795474899062784">September 3, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 {% markdown %}
+
+I knew something is wrong when I read about the golden age of design is coming. It first came from <a href="http://www.nytimes.com/2014/09/22/t-magazine/design-golden-age.html?_r=0" title="New York Times">The New York Times</a>, then from everywhere.
+IBM is hiring thousands of designers. Corporations all adopt design thinking. Startups are founded by designers. Banks and brands are buying entire design studios. <a href="http://www.kpcb.com/blog/design-in-tech-report-2015" title="Kleiner Perkins reports">Kleiner Perkins reports</a> and the O'Reilly radar are just about #design.
+
+Everything is around design yet everything is looking and working the same.
+Maybe we don't really understand what design is.
+
 
 ## Frank Chimero, David Hockney, Zaha Hadid
 
@@ -79,7 +89,17 @@ With this step we let both the visitor and device (AI) to decide if they want to
 What's left for us, designers and developers, is to focus on content states and write AI algorithms to make the device so smart to be able to assembly any picture from our content states.
 
 
-## An example
+## What's good for?
+
+1. Let's make important things not to be just a hype ( to remove, its like 3)
+
+2. Let's realize semantics reduces cognitive load and makes our lives easier.
+
+3. Let's take control over our content. Do not let to evolve to extremes like when we become a product; or to involve to zero when good things are forgotten (styleguide)
+
+let content be code;
+
+
 
 
 
