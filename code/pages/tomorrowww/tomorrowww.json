@@ -1,0 +1,19 @@
+{
+  "title": "Tomorrowww",
+  "excerpt": "",
+  "template": "article",
+  "categories": [
+    "design",
+    "code",
+    "trend"
+  ],
+  "url": "tomorrowww",
+  "date": "2016-04-01",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ],
+}
