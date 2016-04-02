@@ -65,6 +65,13 @@ Let our content be both dead and alive in a [superposition](http://whatis.techta
 
 Let's review again, and *reconcile* what progress and perception meant thousands year ago and means now. Let's think about how *view* works, viewing things works, about the process of understanding.
 
+{% endmarkdown %}
+
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
+
 We all know there is an Observer Observing an Object. What the Observer can see depends on its Observing capabilities and the properties of the Object. In history there were two totally different approaches to enhance understanding and define progress. Thousands of years ago it was involution &mdash; the progress inwards &mdash; when the Observer reduced its Observing capabilities to zero (sight, hear, smell, touch) and become one with the Object.
 
 Since then we have evolution where we develop our Observing capabilities &mdash; progress outwards &mdash; to an extreme extent like the Internet of Things.
@@ -104,7 +111,7 @@ Imagine content as code. Equipped with syntax and semantics. Built bottom up fro
 
 search picture ...
 
-Is that worth it? Of course, in [unimaginable ways](http://www.theverge.com/2016/3/30/11331014/microsoft-windows-linux-ubuntu-bash). Code and content wants to [spread](http://kk.org/books/what-technology-wants/).
+Is that worth it? Of course, in [unimaginable ways](http://www.theverge.com/2016/3/30/11331014/microsoft-windows-linux-ubuntu-bash). Code and content wants to [free](http://kk.org/books/what-technology-wants/).
 
 And what kind of creativity is left behind? Who will design the interfaces? The hero? The hamburger menu? The parallax scrolling?
 Worrying about the ways of creativity, well, is stupid. Let's give it more tools, more sources, and more different audience. And the rest will follow.

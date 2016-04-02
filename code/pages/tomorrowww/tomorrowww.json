@@ -15,5 +15,12 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "images": [
+    {
+      "title": "Observer - Observation - Object",
+      "name": "object",
+      "class": "illustration"
+    }
   ]
 }
