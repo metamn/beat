@@ -1,1 +1,28 @@
-@mixin tomorrowww {}
+html {
+  &.tomorrowww {
+    body {
+      .article {
+        &__content {
+          .article__slider {
+            width: 70vw;
+            margin-bottom: $lem;
+
+            // The slider has images
+            .slider {
+              @include slider--with-image;
+              @include intrinsic-ratio(16, 9, '.slider__slides');
+
+              .figure {
+                .picture {
+                  @include landscape {
+                    padding: $lem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

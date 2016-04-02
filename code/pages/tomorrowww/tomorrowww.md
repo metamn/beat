@@ -102,19 +102,32 @@ You Object, the creative thing? You are lost in the noise, dribbbleized. Now alg
 
 See the twist? Instead of algorithms letting you discover they force you to see the same.
 
-Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer can bear not what we think is optimal. Let's step back in acting like God, instead use our powers in a liberating way.
+Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer can bear not what we think is optimal. Let's step back from acting like God, instead use our powers in a liberating way.
 
 
 ## An example
 
-Imagine content as code. Equipped with syntax and semantics. Built bottom up from tiny individual parts which are reusable, composable. Stored in a global repository where it can be accessed and forked; searchable to the smallest details; where credits go where credit is due; and even giants are held [accountable](https://news.ycombinator.com/item?id=11384968)
-
-search picture ...
+Imagine content as code. Equipped with syntax and semantics. Built bottom up from tiny individual parts which are reusable, composable. Stored in a global repository where it can be accessed and forked; searchable to the smallest details; where credits go where credit is due; and even giants are held [accountable](https://news.ycombinator.com/item?id=11384968).
 
 Is that worth it? Of course, in [unimaginable ways](http://www.theverge.com/2016/3/30/11331014/microsoft-windows-linux-ubuntu-bash). Code and content wants to [free](http://kk.org/books/what-technology-wants/).
 
-And what kind of creativity is left behind? Who will design the interfaces? The hero? The hamburger menu? The parallax scrolling?
-Worrying about the ways of creativity, well, is stupid. Let's give it more tools, more sources, and more different audience. And the rest will follow.
+Now take a look at how [a search looks like](https://www.google.ro/search?q=content+wants+to+be+free) when content acts as classic as we know today, and [another search](https://github.com/search?q=code+is+free) where content is still not treated as code but the search engine is designed for code.
 
+{% endmarkdown %}
+{% include "../../project/article/__slider/article__slider.html.swig" %}
+{% markdown %}
+
+From Google we got nothing semantic just a plain list of text on the screen.
+
+From Github we got plenty of interesting information. Repositories are listing who (companies, etc.) is most interested in this search phrase, Code is listing the exact location (think article paragraph) where this content chunk can be found, Issues are showing what people find unclear about it.
+You can see when this item was last updated, how much time was spent on creating it, how many people are reusing and liking it, who are the authors and contributors.
+
+Now you can imagine what is like to focus on the Object.
+
+And there is still more. We didn't talk about our favorite subject &mdash; interface and experience design. Where is the hero? Should we add a hamburger menu somewhere? Can we use parallax scrolling on Issues?
+
+Those who got annoyed by "Devices are the designers", or asking what kind of creativity is left behind, or thinking about the disappearance of their profession: Don't worry.
+
+Worrying about the ways of creativity, well, is stupid. Let's give creativity more source, more different audience, more space, more room to play. And the rest will follow.
 
 {% endmarkdown %}

@@ -22,5 +22,15 @@
       "name": "object",
       "class": "illustration"
     }
+  ],
+  "slides": [
+    {
+      "title": "Google search",
+      "name": "google-search"
+    },
+    {
+      "title": "Github search",
+      "name": "github-search"
+    }
   ]
 }
