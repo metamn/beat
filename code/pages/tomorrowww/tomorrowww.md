@@ -15,11 +15,11 @@ First I did not get it. It's a long article &mdash; an elegant rant on how broke
 I've just built my first, [Lonely Planet's Rizzo](https://rizzo.lonelyplanet.com/styleguide/design-elements/colours)-like living styleguide which was lost in the noise.
 Nobody cared about in spite it was a feat of arms &mdash; done by a single guy instead of a team, rethinked from scratch instead of being mixed together from plugins and generators, made open source and available for other front-end developers.
 
-Realizing styleguides are a simple hype &mdash; I saw adds on Twitter by even Deloitte offering styleguides, now all gone &mdash; was a disappointment.
+Realizing styleguides are a simple hype &mdash; I saw ads on Twitter by even Deloitte offering styleguides, now all gone &mdash; was a disappointment.
 
-This year I've read Frank's article again, checked out [David Hockney's approach to create art from independent parts](http://metamn.tumblr.com/search/david+hockney), and got it. It become clear the future of (web) design is about embracing the unknown, to create art on an ever changing canvas from the size of a watch to a skyscraper.
+This year I've read Frank's article again, checked out [David Hockney's approach to create art from independent parts](http://metamn.tumblr.com/search/david+hockney), and got it. It became clear the future of (web) design is about embracing the unknown, to create art on an ever changing canvas from the size of a watch to a skyscraper.
 
-I've started immediately a new project, a blog, to better analyze an understand the technique. I was experimenting with targeting different audiences from the same content base. Assembling two views on the same subject from a single data source, Hockney style.
+I've started immediately a new project, a blog, to better analyze and understand the technique. I was experimenting with targeting different audiences from the same content base. Assembling two views on the same subject from a single data source, Hockney style.
 
 And then Zaha Hadid died. As always in these situations I'm trying to pay my tribute by reviewing the artist's work and life. I was fascinated by how this little lady built something incomprehensible beautiful, places so unreal that people seems to be shy banking up.
 And when reading [Alice Rawsthorn's](http://www.theguardian.com/artanddesign/2007/oct/17/architecture) article about how special Hadid buildings are for every visitor:
@@ -102,7 +102,7 @@ You Object, the creative thing? You are lost in the noise, dribbbleized. Now alg
 
 See the twist? Instead of algorithms letting you discover they force you to see the same.
 
-Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holly grail of The Lens. We designers must show everything the Object is capable and the Observer can bear not what we think is optimal. Let's step back from acting like God, instead use our powers in a liberating way.
+Let's democratize the whole process of Observing. Let people see and use things in their own way not through the holy grail of The Lens. We designers must show everything the Object is capable and the Observer can bear not what we think is optimal. Let's step back from acting like God, instead use our powers in a liberating way.
 
 
 ## An example
