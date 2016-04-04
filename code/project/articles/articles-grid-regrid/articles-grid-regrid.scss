@@ -1,9 +1,12 @@
 @mixin articles-grid-regrid($margin) {
   @include landscape {
-    .article--no-more-problems-on-the-front-end {
+
+    .article--no-more-problems-on-the-front-end,
+    .article--practically {
       margin-right: $margin;
     }
 
+    .article--ideally,
     .article--delivering-the-message {
       margin-right: 0;
     }
