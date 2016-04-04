@@ -10,7 +10,15 @@
   }
 
   figure,
-  .figure,
+  .figure {
+    max-width: 100%;
+
+    .picture,
+    picture {
+      max-width: 100%;
+    }
+  }
+
   .article__slider {
     max-width: none;
   }
