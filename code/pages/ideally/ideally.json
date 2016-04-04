@@ -42,6 +42,23 @@
       "extension": ".jpg"
     }
   ],
+  "footnotes": [
+    {
+      "title": "Herculean",
+      "url": "http://metamn.io/beat/herculean",
+      "type": "external"
+    },
+    {
+      "title": "No more problems on the front-end",
+      "url": "http://metamn.io/beat/no-more-problems-on-the-front-end",
+      "type": "external"
+    },
+    {
+      "title": "Creating a styleguide with Gulp",
+      "url": "http://metamn.io/beat/creating-a-styleguide-with-gulp",
+      "type": "external"
+    }
+  ],
   "toc": [
     {
       "title": "Deliver The Message",

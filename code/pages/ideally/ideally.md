@@ -24,7 +24,7 @@ Every website sells something. A product, a service, a subscription, a photo, in
 
 To deliver the message, first, we have to know our audience. Then we will have to drive our users attention to act according to our goals.
 
-"It's easier said than done" &mdash; no, with [focus groups and focus points](http://metamn.io/beat/delivering-the-message) we can achieve that.
+"It's easier said than done" &mdash; no, with focus groups and focus points <sup id="footnote--3">[3](#footnotes--3)</sup> we can achieve that.
 
 There is a single prerequisite standing outside of the designer's & developer's competence. The quality of content. If the content is perfect the website will be perfect.
 
