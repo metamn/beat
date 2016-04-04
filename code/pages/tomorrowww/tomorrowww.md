@@ -17,12 +17,12 @@ Nobody cared about in spite it was a feat of arms &mdash; done by a single guy i
 
 Realizing styleguides are a simple hype &mdash; I saw adds on Twitter by even Deloitte offering styleguides, now all gone &mdash; was a disappointment.
 
-This year I've read Frank's article again, checked out [David Hockney's approach to create art from independent parts](), and got it. It become clear the future of (web) design is about embracing the unknown, to create art on an ever changing canvas from the size of a watch to a skyscraper.
+This year I've read Frank's article again, checked out [David Hockney's approach to create art from independent parts](http://metamn.tumblr.com/search/david+hockney), and got it. It become clear the future of (web) design is about embracing the unknown, to create art on an ever changing canvas from the size of a watch to a skyscraper.
 
 I've started immediately a new project, a blog, to better analyze an understand the technique. I was experimenting with targeting different audiences from the same content base. Assembling two views on the same subject from a single data source, Hockney style.
 
 And then Zaha Hadid died. As always in these situations I'm trying to pay my tribute by reviewing the artist's work and life. I was fascinated by how this little lady built something incomprehensible beautiful, places so unreal that people seems to be shy banking up.
-And when reading <a href="http://www.theguardian.com/artanddesign/2007/oct/17/architecture" title="Alice Rawsthorn">Alice Rawsthorn's</a> article about how special Hadid buildings are for every visitor:
+And when reading [Alice Rawsthorn's](http://www.theguardian.com/artanddesign/2007/oct/17/architecture) article about how special Hadid buildings are for every visitor:
 
 > You choose your own way of navigating the space and its content
 
@@ -124,7 +124,7 @@ You can see when this item was last updated, how much time was spent on creating
 
 Now you can imagine what is like to focus on the Object.
 
-And there is still more. We didn't talk about our favorite subject &mdash; interface and experience design. Where is the hero? Should we add a hamburger menu somewhere? Can we use parallax scrolling on 'Issues'?
+And there is still more. We didn't talk about our favorite subject &mdash; user interface and experience design. Where is the hero? Should we add a hamburger menu somewhere? Can we use parallax scrolling on 'Issues'?
 
 Those who got annoyed by "Devices are the designers", or asking what kind of creativity is left behind, or thinking about the disappearance of their profession: Don't worry.
 
