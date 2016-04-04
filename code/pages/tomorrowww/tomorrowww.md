@@ -34,7 +34,7 @@ And when reading <a href="http://www.theguardian.com/artanddesign/2007/oct/17/ar
 
 Devices create the experience with the help of the designer. Devices choose how to put together the components forming the design. Our task is to design individual content chunks, equip them with metadata &mdash; add semantics &mdash; and then each device will assembly the page, the site according to it's unique hardware and software characteristics and best knowledge.
 
-Sounds AI, sounds crazy but it's simple. It's all about semantics.
+Sounds AI, sounds crazy but it's simple. It's all about semantics, a little history and a complete change of mind.
 
 
 ## Semantics
@@ -45,7 +45,7 @@ Since then poor semantics got forgotten until came back again with Semantic HTML
 
 Semantic HTML was godsend. It took away half of the cognitive load writing code for websites. Since then I write *real* semantic HTML which outlines well in the [HTML5 Outliner](https://gsnedders.html5.org/outliner/). And I'm happy.
 
-Working on my blog and musing about how an ideally perfect website can be designed and developed today I've found out everything rolls around semantics.
+Working on my blog and musing about how an ideally perfect website can be designed and developed today &mdash; I've found out everything rolls around semantics.
 
 Content is converted into data and metadata to be more useful for the designer; It is equipped with microdata to be meaningful for bots; It is organized into a (BEM) folder structure to be accessible for any developer; It is componentized to gain significance and be more thoughtful.
 Even [animations](http://alistapart.com/article/motion-with-meaning-semantic-animation-in-interface-design) are now semantic.
@@ -89,7 +89,7 @@ What each visitors will see from our content depends on its mental capability (c
 
 With this step we let both the visitor and device (AI) to decide if they want to evolve or involve with / into our content. It's not anymore a philosophical question but of individual will. Being responsible to cut out one of these crucial observation methods in such a connected era is something nobody wants to take.
 
-What's left for us, designers and developers, is to focus on content states and write AI algorithms to make the device so smart to be able to assembly any picture from any content state.
+What's left for us, designers and developers, is to focus on content states and write AI algorithms to make the device so smart to be able to assembly any picture from any content and state.
 
 
 ## What good is it?
@@ -119,12 +119,12 @@ Now take a look at how [a search looks like](https://www.google.ro/search?q=cont
 
 From Google we got nothing semantic just a plain list of text on the screen.
 
-From Github we got plenty of interesting information. Repositories are listing who (companies, etc.) is most interested in this search phrase, Code is listing the exact location (think article paragraph) where this content chunk can be found, Issues are showing what people find unclear about it.
+From Github we got plenty of interesting information. The 'Repositories' tab is listing who (companies, etc.) is most interested in this search phrase, 'Code' tab is listing the exact location (think article paragraph) where this content chunk can be found, 'Issues' are showing what people find unclear about it.
 You can see when this item was last updated, how much time was spent on creating it, how many people are reusing and liking it, who are the authors and contributors.
 
 Now you can imagine what is like to focus on the Object.
 
-And there is still more. We didn't talk about our favorite subject &mdash; interface and experience design. Where is the hero? Should we add a hamburger menu somewhere? Can we use parallax scrolling on Issues?
+And there is still more. We didn't talk about our favorite subject &mdash; interface and experience design. Where is the hero? Should we add a hamburger menu somewhere? Can we use parallax scrolling on 'Issues'?
 
 Those who got annoyed by "Devices are the designers", or asking what kind of creativity is left behind, or thinking about the disappearance of their profession: Don't worry.
 
