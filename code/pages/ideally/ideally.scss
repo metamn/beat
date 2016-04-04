@@ -10,11 +10,19 @@ html {
             // The slider has images
             .slider {
               @include slider--with-image;
-              @include intrinsic-ratio(3, 4, '.slider__slides');
+
+              @include landscape {
+                @include intrinsic-ratio(1, 1, '.slider__slides');
+              }
+
+              @include portrait {
+                @include intrinsic-ratio(3, 4, '.slider__slides');
+              }
 
               @include mobile {
                 padding-bottom: 166%;
               }
+
 
               .figure {
                 // Remove default background
