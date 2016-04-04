@@ -1,5 +1,5 @@
 {% markdown %}
-User interface design has been around for decades. Lately a brand new profession — User Experience / UX design — emerged from it. Before that we had Human-Computer Interaction and usability design.
+User interface design has been around for decades. Lately a brand new profession — User Experience / UX design   emerged from it. Before that we had Human-Computer Interaction and usability design.
 
 All these methodologies are focusing on a single issue: how to deliver a message to users via interactive visual interfaces. How to delight visitors yet deliver business goals.
 
@@ -11,15 +11,15 @@ And design is the art and craft to make that sales happen.
 
 Before UX there was Jakob Nielsen and usability. Since 1995 he taught us how to create effective websites, how to make people interact with your site in a way it will lead to certain, planned outcome.
 
-While most of his advices are valid for websites he made a statement universally true for other interactive interfaces.
+While most of his advices are valid for websites [he made a statement](http://www.nngroup.com/articles/113-design-guidelines-homepage-usability/) universally true for other interactive interfaces.
 
 > Visitors can focus only on five things on a single page.
 
-1. **Identity** — Making the visitor feeling safe, being in the right place
-2. **Offer** — What the page offers
-3. **Values** — What your site does that’s valuable from the user’s point of view, as well as how you differ from key competitors.
-4. **Action** — The highest priority tasks giving users a clear starting point for what to do next.
-5. **Entertainment** — If all above are not interesting for the user offer something fun which still connects / links back to your site.
+1. **Identity**  —  Making the visitor feeling safe, being in the right place
+2. **Offer**  —  What the page offers
+3. **Values**  —  What your site does that’s valuable from the user’s point of view, as well as how you differ from key competitors.
+4. **Action**  —  The highest priority tasks giving users a clear starting point for what to do next.
+5. **Entertainment**  —  If all above are not interesting for the user offer something fun which still connects / links back to your site.
 
 {% endmarkdown %}
 
@@ -33,7 +33,7 @@ Focus points define how a product is laid out and how drives attention.
 
 ## Focus Groups
 
-With UX we’ve got richer—finally!—with user research. Despite being seemingly complicated by the hype around and by the new tools and job descriptions springing every day, User Experience is all about answering a question:
+With UX we’ve got richer — finally! — with user research. Despite being seemingly complicated by the hype around and by the new tools and job descriptions springing every day, User Experience is all about answering a question:
 
 > Who does what, how does it feels and flows?
 
@@ -52,7 +52,7 @@ For development I’ve created a living styleguide accompanying my portfolio and
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
 {% markdown %}
-On design I went with something outside the box. I’ve picked an unusual layout, an electric and vibrant color palette, a modern typeface for text and a geeky one for the logo — thanks Jason Kottke! I’ve created a simple and minimal slider and accordion from scratch to communicate my visitors I’m out of the hype, I work with homegrown, unique ingredients and yet the result is enjoyable in all environments.
+On design I went with something outside the box. I’ve picked an unusual layout, an electric and vibrant color palette, a modern typeface for text and a geeky one for the logo  —  thanks Jason Kottke! I’ve created a simple and minimal slider and accordion from scratch to communicate my visitors I’m out of the hype, I work with homegrown, unique ingredients and yet the result is enjoyable in all environments.
 
 The portfolio should radiate now energy, strength in simplicity, courage in pushing the web forward yet sticking to it’s basic principles. This is how I think and feel, this is my message.
 {% endmarkdown %}
@@ -65,5 +65,5 @@ The portfolio should radiate now energy, strength in simplicity, courage in push
 
 You are always selling something. Get to know who you are selling to and come up with a message. Make that message shine through your every move, decision thus the final product.
 
-You can check another case study — more detailed — how to deliver the message written a few years ago featuring an e-commerce project.
+You can [check another case study](http://01.its-csongor.com/manifesto/)  —  more detailed  —  how to deliver the message written a few years ago featuring an e-commerce project.
 {% endmarkdown %}
