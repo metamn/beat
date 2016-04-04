@@ -2,6 +2,7 @@
   "title": "Tomorrowww",
   "excerpt": "",
   "template": "article",
+  "status": "draft",
   "categories": [
     "design",
     "code",
