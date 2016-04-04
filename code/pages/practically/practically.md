@@ -1,6 +1,6 @@
 {% markdown %}
 
-This is a technical article accompanying it's theoretical sister [Ideally](http://metamn.io/beat/ideally).
+This is a technical article accompanying it's theoretical sister [Ideally]({{ site.url }}/ideally).
 In fact these two articles are one. They share the same sections but present them differently.
 
 Ideally is theory and meant to be a thought provoking reading for web industry professionals.
@@ -154,7 +154,7 @@ Yes, when this phase is done the work becomes a masterpiece.
 
 ## 6. Deployment
 
-In [Ideally](http://metamn.io/beat/ideally) we said a website should be fast, compatible with different browsers and devices, accessible by people and machines.
+In [Ideally]({{ site.url }}/ideally) we said a website should be fast, compatible with different browsers and devices, accessible by people and machines.
 
 This phase makes sure all above are done. With no extra effort from our side since everything is automatic. Using build systems like Gulp and Webpack we can pass the assets, data, structure, presentation, behavior to scripts which will do the rest.
 
