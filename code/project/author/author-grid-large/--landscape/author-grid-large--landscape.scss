@@ -22,6 +22,7 @@
     &__title {
       margin-right: $lem / 2;
       @include word-wrap;
+      @include scale(small-1);
     }
   }
 }
