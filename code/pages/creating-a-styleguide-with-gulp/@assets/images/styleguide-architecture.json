@@ -12,11 +12,11 @@
     },
     {
       "name": "laptop",
-      "width": "1400"
+      "width": "768"
     },
     {
       "name": "desktop",
-      "width": "1400"
+      "width": "768"
     }
   ]
 }
