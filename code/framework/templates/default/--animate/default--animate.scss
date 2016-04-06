@@ -2,7 +2,7 @@
   @include animation(default--animate, 1s);
 }
 
-@include keyframes(articles--active) {
+@include keyframes(default--animate) {
   0% {
     opacity: 0;
     transform: scale(0);
