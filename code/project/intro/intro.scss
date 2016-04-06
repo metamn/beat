@@ -1,7 +1,7 @@
 @mixin intro {
   @include intro--mobile;
   @include intro--tablet;
-  @include transition(all);
+  @include transition(all, 1s);
 
   position: fixed;
   top: 0;

@@ -1,4 +1,4 @@
 @mixin articles--inactive {
   opacity: 0;
-  transform: translateX(100vw);
+  transform: scale(0);
 }
