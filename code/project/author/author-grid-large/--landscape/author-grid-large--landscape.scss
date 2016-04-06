@@ -3,10 +3,20 @@
     @include max-width(44em);
     align-items: center;
 
+    > * {
+      flex-basis: 0;
+    }
+
     &__avatar,
     &__name,
     &__title {
       margin-left: $lem;
+      flex-grow: 1;
+
+    }
+
+    &__description {
+      flex-grow: 7;
     }
 
     &__title {

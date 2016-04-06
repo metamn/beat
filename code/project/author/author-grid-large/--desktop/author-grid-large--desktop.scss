@@ -1,7 +1,7 @@
 @mixin author-grid-large--desktop {
   @include desktop {
     @include max-width(55em);
-    flex-direction: row;
-    flex-wrap: nowrap;
+    //flex-direction: row;
+    //flex-wrap: nowrap;
   }
 }
