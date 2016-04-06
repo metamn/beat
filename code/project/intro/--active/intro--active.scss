@@ -1,14 +1,9 @@
 @mixin intro--active {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  // make intro to flow into the current viewport
-  top: auto;
-  bottom: 0;
-  z-index: 1;
+  &__text {
+    @include intro__text--active;
+  }
 
   &__chars {
-    @include intro__chars--active;
+    @include intro__chars--inactive;
   }
 }

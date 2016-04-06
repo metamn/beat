@@ -1,4 +1,15 @@
 @mixin articles--inactive {
-  opacity: 0;
-  transform: scale(0);
+  @include animation(articles--inactive, 1s);
+}
+
+@include keyframes(articles--inactive) {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
 }

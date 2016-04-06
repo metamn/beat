@@ -1,0 +1,13 @@
+@mixin intro--inactive {
+  @include animation(intro--inactive, 1s);
+}
+
+@include keyframes(intro--inactive) {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

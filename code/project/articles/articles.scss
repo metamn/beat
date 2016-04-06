@@ -3,11 +3,7 @@
 
   @include articles-grid($margin);
   @include colors(black-on-white);
-
-  // animation
-  opacity: 1;
-  @include transition(all, 1s);
-  transform: scale(1);
+  @include articles--active;
 
   .article {
     @include article;

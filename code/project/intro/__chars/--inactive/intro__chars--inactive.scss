@@ -1,0 +1,16 @@
+@mixin intro__chars--inactive {
+  //@include animation(intro__chars--inactive);
+  display: none;
+}
+
+@include keyframes(intro__chars--inactive) {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
