@@ -1,9 +1,0 @@
-@mixin intro--active {
-  &__text {
-    @include intro__text--active;
-  }
-
-  &__chars {
-    @include intro__chars--inactive;
-  }
-}

@@ -1,5 +1,5 @@
-@mixin articles--active {
-  @include animation(articles--active, 1s);
+@mixin default--animate {
+  @include animation(default--animate, 1s);
 }
 
 @include keyframes(articles--active) {

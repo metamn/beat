@@ -3,7 +3,6 @@
 
   @include articles-grid($margin);
   @include colors(black-on-white);
-  @include articles--active;
 
   .article {
     @include article;

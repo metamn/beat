@@ -10,17 +10,13 @@
 @include html-css-reset;
 
 html {
-  @include default--intro-active;
+  @include default--animate;
 
   body {
     @include semantic-html5-titles;
     @include typography-reset;
     @include text-style(default);
     @include default__grid;
-
-    .intro {
-      @include intro;
-    }
 
     .header {
       @include header;
