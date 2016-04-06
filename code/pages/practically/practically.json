@@ -2,6 +2,7 @@
   "title": "Practically",
   "excerpt": "How an ideally perfect website <em>can be</em> designed and developed today.",
   "template": "article",
+  "status": "draft",
   "categories": [
     "design",
     "code"
