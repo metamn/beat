@@ -20,12 +20,15 @@
 
   // Without this the slider will overlap the articles after
   .article__slider {
+    
+    // article width = 100vw - margin-left - margin-right
+
     @include portrait {
-      height: calc(100vw / 0.75);
+      height: calc((100vw - (10vw * 2)) / 0.75);
     }
 
     @include landscape {
-      height: 75vh;
+      height: calc((100vw - (10vw * 2)) / 1.7778);
     }
   }
 
@@ -36,8 +39,6 @@
 
     @include portrait {
       @include intrinsic-ratio(3, 4, '.slider__slides');
-      // make room for figcaption
-      padding-bottom: calc(133.33333% + #{$lem * 3})
     }
 
     @include landscape {
