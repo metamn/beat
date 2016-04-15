@@ -1,19 +1,7 @@
 html {
   &.template-contact {
     body {
-      .contact {
-        &__info {
-          @include contact__info;
-        }
-
-        &__send-email {
-          @include contact__send-email;
-        }
-
-        &__follow {
-          @include contact__follow;
-        }
-      }
+      @include grid(2);
     }
   }
 }
