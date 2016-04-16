@@ -1,4 +1,7 @@
 @mixin contact__follow {
+  display: flex;
+  justify-content: center;
+  
   .mailchimp {
     @include mailchimp;
   }

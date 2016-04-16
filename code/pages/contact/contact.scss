@@ -2,10 +2,16 @@ html {
   &.template-contact {
     body {
       .contact {
+        @include text-style(article-body-text);
+
+        @include mobile {
+          font-size: 1em;
+        }
+
         &__send-email {
           @include contact__send-email;
         }
-        
+
         &__follow {
           @include contact__follow;
         }
