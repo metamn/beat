@@ -1,1 +1,7 @@
-@mixin delivering-the-message {}
+html {
+  &.delivering-the-message {
+    .article {
+      //
+    }
+  }
+}
