@@ -10,7 +10,8 @@
 
   // Make room for intro background text
   .articles,
-  .footer {
+  .footer,
+  .contact {
     @include mobile {
       margin: $lem;
     }

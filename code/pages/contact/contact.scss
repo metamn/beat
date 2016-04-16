@@ -1,7 +1,15 @@
 html {
   &.template-contact {
     body {
-      @include grid(2);
+      .contact {
+        &__send-email {
+          @include contact__send-email;
+        }
+        
+        &__follow {
+          @include contact__follow;
+        }
+      }
     }
   }
 }
