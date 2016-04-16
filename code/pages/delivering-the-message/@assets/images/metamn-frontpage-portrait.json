@@ -4,11 +4,11 @@
   "sizes": [
     {
       "name": "mobile",
-      "width": "420"
+      "width": "384"
     },
     {
       "name": "tablet",
-      "width": "768"
+      "width": "607"
     }
   ]
 }
