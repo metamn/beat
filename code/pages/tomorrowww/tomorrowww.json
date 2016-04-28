@@ -1,8 +1,7 @@
 {
   "title": "Tomorrowww",
-  "excerpt": "",
+  "excerpt": "Devices as designers",
   "template": "article",
-  "status": "draft",
   "categories": [
     "design",
     "code",
@@ -27,11 +26,31 @@
   "slides": [
     {
       "title": "Google search",
-      "name": "google-search"
+      "name": "google-search",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "google-search-mobile"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "google-search-tablet"
+        }
+      ]
     },
     {
       "title": "Github search",
-      "name": "github-search"
+      "name": "github-search",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "github-search-mobile"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "github-search-tablet"
+        }
+      ]
     }
   ]
 }

@@ -3,20 +3,12 @@
   "optimize": "true",
   "sizes": [
     {
-      "name": "mobile",
-      "width": "420"
-    },
-    {
-      "name": "tablet",
-      "width": "768"
-    },
-    {
       "name": "laptop",
-      "width": "1024"
+      "width": "952"
     },
     {
       "name": "desktop",
-      "width": "1376"
+      "width": "952"
     }
   ]
 }

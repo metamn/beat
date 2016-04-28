@@ -3,24 +3,60 @@ html {
     body {
       .article {
         &__content {
+          // Without this the slider will overlap the articles after
           .article__slider {
-            width: 70vw;
-            margin-bottom: $lem;
+            margin: $lem 0;
 
-            // The slider has images
-            .slider {
-              @include slider--with-image;
+            @include portrait {
+              width: calc(100vw - $lem * 2);
+              @include background-image-dotted;
+
+              .slider__bullets {
+                @include colors(black-on-white);
+              }
+            }
+
+            @include landscape {
+              width: 80vw;
+            }
+          }
+
+          // The slider has images and figcaption
+          .slider {
+            @include slider--with-image;
+            @include slider-with-url;
+
+            @include portrait {
+              @include intrinsic-ratio(3, 4, '.slider__slides');
+            }
+
+            @include landscape {
               @include intrinsic-ratio(16, 9, '.slider__slides');
+            }
 
-              .figure {
-                .picture {
-                  @include landscape {
-                    padding: $lem;
-                  }
+            .figure {
+              background: transparent;
+
+              .picture {
+                @include landscape {
+                  padding: 0;
+                }
+
+                @include portrait {
+                  padding: 0 $lem / 2;
+                }
+              }
+
+              .figcaption {
+                margin-top: $lem;
+
+                @include portrait {
+                  display: none;
                 }
               }
             }
           }
+
         }
       }
     }

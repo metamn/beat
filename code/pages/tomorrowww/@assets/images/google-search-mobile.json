@@ -1,0 +1,10 @@
+{
+  "resize": "false",
+  "optimize": "true",
+  "sizes": [
+    {
+      "name": "mobile",
+      "width": "384"
+    }
+  ]
+}

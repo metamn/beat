@@ -1,4 +1,21 @@
 @mixin article--tomorrowww {
   flex-basis: 100%;
   margin-right: 0;
+  flex-direction: column;
+
+  > * {
+    text-align: center;
+  }
+
+  .article__title {
+    margin-bottom: 0;
+  }
+
+  .article__excerpt {
+    max-width: none;
+  }
+
+  .article__categories {
+    order: 2;
+  }
 }
