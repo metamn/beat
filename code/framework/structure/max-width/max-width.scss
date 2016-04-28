@@ -5,4 +5,8 @@
   @include landscape {
     min-width: $width;
   }
+
+  @include tablet {
+    min-width: auto;
+  }
 }

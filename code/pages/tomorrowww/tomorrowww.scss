@@ -48,11 +48,7 @@ html {
               }
 
               .figcaption {
-                margin-top: $lem;
-
-                @include portrait {
-                  display: none;
-                }
+                display: none;
               }
             }
           }
