@@ -9,6 +9,9 @@
   opacity: 1;
   @include transition(all);
 
+  &--unit-of-sense {
+    @include article--unit-of-sense;
+  }
 
   &--tomorrowww {
     @include article--tomorrowww;

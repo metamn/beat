@@ -2,6 +2,7 @@
   "title": "The web stack",
   "excerpt": "HTML, CSS and JS on mobile and desktop",
   "template": "article",
+  "status": "draft",
   "categories": [
     "code",
     "trend"

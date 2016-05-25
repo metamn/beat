@@ -1,0 +1,28 @@
+{
+  "title": "Unit of sense",
+  "excerpt": "How to evaluate a designer’s work quantitatively",
+  "template": "article",
+  "categories": [
+    "design"
+  ],
+  "url": "unit-of-sense",
+  "date": "2016-05-25",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "authors"
+  ],
+  "authors": [
+    {
+      "property1": {
+        "name": "Artemy Lebedev",
+        "title": "Founder, Art Lebedev Studio",
+        "url": "http://www.artlebedev.com/mandership/148/",
+        "description": "<p>A designer is worth just what his works are worth. Still, it’s desirable to know the efficiency. The author’s approach successfully used in his everyday practice is based on the Unit of Sense concept.</p><p>A unit of sense must be intellectually rich. Things like good ideas, interesting concepts and fresh techniques are units of sense. A one-hundred-page brandbook may also be considered a unit of sense—not on a per-page basis, but as a whole. A front page, an original layout, a tricky way of connecting a cube to a cone, can represent units of sense, too.</p><p>Most designers score no more than two times a month. An average good designer is capable of coming with one–two ideas every month.</p><p>Four units of sense per month is a very very high mark. Art directors should run above six</p>",
+        "twitter": "Artemy Lebedev",
+        "avatar": "http://img.artlebedev.com/;-%29/lebedev2.jpg"
+      }
+    }
+  ]
+}
