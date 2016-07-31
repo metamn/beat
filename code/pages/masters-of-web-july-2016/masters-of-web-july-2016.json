@@ -1,0 +1,147 @@
+{
+  "title": "Masters Of Web, July 2016",
+  "excerpt": "Best of web design, July 2016",
+  "thumb": "tennetbrown-portrait_mobile.png",
+  "template": "article",
+  "categories": [
+    "design"
+  ],
+  "url": "masters-of-web-july-2016",
+  "date": "2016-07-31",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "slides"
+  ],
+  "slides": [
+    {
+      "title": "Theme.co Cornerstone",
+      "name": "cornerstone-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "cornerstone-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "cornerstone-portrait"
+        }
+      ],
+      "url": "https://theme.co/cornerstone/",
+      "figcaption": "<a class='link' href='https://theme.co/cornerstone/'>https://theme.co/cornerstone</a>"
+    },
+    {
+      "title": "Afterall Studio",
+      "name": "afterall-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "afterall-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "afterall-portrait"
+        }
+      ],
+      "url": "http://afterallstudio.com/",
+      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
+    },
+    {
+      "title": "Advanced Urban Design",
+      "name": "aud-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aud-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aud-portrait"
+        }
+      ],
+      "url": "https://advancedurbandesign.com/",
+      "figcaption": "<a class='link' href='https://advancedurbandesign.com/'>https://advancedurbandesign.com</a>"
+    },
+    {
+      "title": "Misplaced",
+      "name": "misplaced-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "misplaced-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "misplaced-portrait"
+        }
+      ],
+      "url": "http://misplaced.design/",
+      "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
+    },
+    {
+      "title": "Dan Gayfer Design",
+      "name": "dgd-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "dgd-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "dgd-portrait"
+        }
+      ],
+      "url": "http://dangayfer.com/",
+      "figcaption": "<a class='link' href='http://dangayfer.com/'>http://dangayfer.com</a>"
+    },
+    {
+      "title": "Gabriele Iglesias Dardon",
+      "name": "gid-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "gid-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "gid-portrait"
+        }
+      ],
+      "url": "http://www.gidmotion.com/",
+      "figcaption": "<a class='link' href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
+    },
+    {
+      "title": "Love + Money",
+      "name": "love-money-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "love-money-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "love-money-portrait"
+        }
+      ],
+      "url": "http://loveandmoney.agency/",
+      "figcaption": "<a class='link' href='http://loveandmoney.agency/'>http://loveandmoney.agency</a>"
+    },
+    {
+      "title": "SFCD",
+      "name": "sfcd-landscape-1",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "sfcd-portrait-1"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "sfcd-portrait-1"
+        }
+      ],
+      "url": "http://sfcd.com/",
+      "figcaption": "<a class='link' href='http://sfcd.com/'>http://sfcd.com</a>"
+    }
+  ]
+}

@@ -37,7 +37,9 @@
     @include article--what-some-people-apart-are-up-to-in-2016;
   }
 
-
+  &--masters-of-web-july-2016 {
+    @include article--masters-of-web-july-2016;
+  }
 
   &__title {
     @include article__title;
