@@ -80,68 +80,115 @@
       "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
     },
     {
-      "title": "Dan Gayfer Design",
-      "name": "dgd-landscape",
+      "title": "Grafik",
+      "name": "grafik-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "dgd-portrait"
+          "name": "grafik-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "dgd-portrait"
+          "name": "grafik-portrait"
         }
       ],
-      "url": "http://dangayfer.com/",
-      "figcaption": "<a class='link' href='http://dangayfer.com/'>http://dangayfer.com</a>"
+      "url": "https://www.grafik.net/",
+      "figcaption": "<a class='link' href='https://www.grafik.net/'>https://www.grafik.net</a>"
     },
     {
-      "title": "Gabriele Iglesias Dardon",
-      "name": "gid-landscape",
+      "title": "Red October",
+      "name": "redoctober-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "gid-portrait"
+          "name": "redoctober-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "gid-portrait"
+          "name": "redoctober-portrait"
         }
       ],
-      "url": "http://www.gidmotion.com/",
-      "figcaption": "<a class='link' href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
+      "url": "http://www.redoctober.com/",
+      "figcaption": "<a class='link' href='http://www.redoctober.com/'>http://www.redoctober.com</a>"
     },
     {
-      "title": "Love + Money",
-      "name": "love-money-landscape",
+      "title": "Cookbook Magazine",
+      "name": "cookbook-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "love-money-portrait"
+          "name": "cookbook-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "love-money-portrait"
+          "name": "cookbook-portrait"
         }
       ],
-      "url": "http://loveandmoney.agency/",
-      "figcaption": "<a class='link' href='http://loveandmoney.agency/'>http://loveandmoney.agency</a>"
+      "url": "http://cookbookmagazine.es/",
+      "figcaption": "<a class='link' href='http://cookbookmagazine.es/'>http://cookbookmagazine.es</a>"
     },
     {
-      "title": "SFCD",
-      "name": "sfcd-landscape-1",
+      "title": "Egyd",
+      "name": "egyd-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "sfcd-portrait-1"
+          "name": "egyd-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "sfcd-portrait-1"
+          "name": "egyd-portrait"
         }
       ],
-      "url": "http://sfcd.com/",
-      "figcaption": "<a class='link' href='http://sfcd.com/'>http://sfcd.com</a>"
+      "url": "http://egydegydegyd.com/",
+      "figcaption": "<a class='link' href='http://egydegydegyd.com/'>http://egydegydegyd.com</a>"
+    },
+    {
+      "title": "Aaronetrope",
+      "name": "aaron-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aaron-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aaron-portrait"
+        }
+      ],
+      "url": "http://www.aaronkoblin.com/Aaronetrope/",
+      "figcaption": "<a class='link' href='http://www.aaronkoblin.com/Aaronetrope/'>http://www.aaronkoblin.com/Aaronetrope</a>"
+    },
+    {
+      "title": "Aldrich Art",
+      "name": "aldrich-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aldrich-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aldrich-portrait"
+        }
+      ],
+      "url": "http://aldrichart.org/",
+      "figcaption": "<a class='link' href='http://aldrichart.org/'>http://aldrichart.org</a>"
+    },{
+      "title": "The Next Rembrandt",
+      "name": "rembrandt-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "rembrandt-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "rembrandt-portrait"
+        }
+      ],
+      "url": "https://www.nextrembrandt.com/",
+      "figcaption": "<a class='link' href='https://www.nextrembrandt.com/'>https://www.nextrembrandt.com</a>"
     }
   ]
 }
