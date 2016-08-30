@@ -1,0 +1,26 @@
+{
+  "title": "Please Design For The Web",
+  "excerpt": "And make everyone happy.",
+  "thumb": "/favicons/favicon-196x196.png",
+  "template": "article",
+  "categories": [
+    "code",
+    "design"
+  ],
+  "url": "please-design-for-the-web",
+  "date": "2016-08-30",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "A Designer’s Guide To Flexbox",
+      "url": "http://thenewcode.com/780/A-Designers-Guide-To-Flexbox",
+      "type": "external"
+    }
+  ]
+}

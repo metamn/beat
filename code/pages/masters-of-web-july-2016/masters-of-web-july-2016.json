@@ -16,20 +16,20 @@
   ],
   "slides": [
     {
-      "title": "Theme.co Cornerstone",
-      "name": "cornerstone-landscape",
+      "title": "Misplaced",
+      "name": "misplaced-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "cornerstone-portrait"
+          "name": "misplaced-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "cornerstone-portrait"
+          "name": "misplaced-portrait"
         }
       ],
-      "url": "https://theme.co/cornerstone/",
-      "figcaption": "<a class='link' href='https://theme.co/cornerstone/'>https://theme.co/cornerstone</a>"
+      "url": "http://misplaced.design/",
+      "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
     },
     {
       "title": "Afterall Studio",
@@ -64,20 +64,20 @@
       "figcaption": "<a class='link' href='https://advancedurbandesign.com/'>https://advancedurbandesign.com</a>"
     },
     {
-      "title": "Misplaced",
-      "name": "misplaced-landscape",
+      "title": "Theme.co Cornerstone",
+      "name": "cornerstone-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "misplaced-portrait"
+          "name": "cornerstone-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "misplaced-portrait"
+          "name": "cornerstone-portrait"
         }
       ],
-      "url": "http://misplaced.design/",
-      "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
+      "url": "https://theme.co/cornerstone/",
+      "figcaption": "<a class='link' href='https://theme.co/cornerstone/'>https://theme.co/cornerstone</a>"
     },
     {
       "title": "Grafik",
