@@ -1,7 +1,7 @@
 @mixin author-grid-small--landscape {
   @include landscape {
     align-items: center;
-    
+
     > * {
       flex-basis: 0;
       flex-grow: 2;
@@ -10,6 +10,10 @@
 
     &__avatar {
       flex-grow: 1
+    }
+
+    &__name {
+      margin-left: $lem / 2;
     }
 
     &__description {

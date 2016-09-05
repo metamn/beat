@@ -4,6 +4,11 @@
     @include circle($size);
   }
 
+  .avatar__image {
+    @include colors($color-scheme);
+    color: $black; // if the image is missing do not display it's caption
+  }
+
   .avatar__initiale {
     @include colors($color-scheme);
   }
