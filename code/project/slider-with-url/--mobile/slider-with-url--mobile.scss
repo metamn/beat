@@ -1,0 +1,11 @@
+@mixin slider-with-url--mobile {
+  @include mobile {
+    .figure {
+      .figcaption {
+        .link {
+          @include scale(small-1);
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 @mixin slider-with-url {
   @include slider-with-url--portrait;
+  @include slider-with-url--mobile;
   @include slider-with-url--landscape;
 
   .figure {

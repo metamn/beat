@@ -1,6 +1,5 @@
 @mixin article--masters-of-web {
   flex-basis: 100%;
-  flex-direction: column;
   margin-right: 0;
 
   // This fixes the flexbox word-wrap bug
@@ -21,6 +20,8 @@
   // Without this the slider will overlap the articles after
   // - article width = 100vw - margin-left - margin-right
   .article__slider {
+    width: 100%;
+    
     @include mobile {
       height: calc((100vw - (#{$lem  * 2})) / 0.75);
     }

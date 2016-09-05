@@ -5,7 +5,6 @@
 
       .figcaption {
         .link {
-          @include scale(small-1);
           padding: $lem / 4;
           text-align: center;
         }

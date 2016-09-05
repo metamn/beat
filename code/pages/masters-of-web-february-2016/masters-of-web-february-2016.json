@@ -16,6 +16,22 @@
   ],
   "slides": [
     {
+      "title": "Gabriele Iglesias Dardon",
+      "name": "gid-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "gid-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "gid-portrait"
+        }
+      ],
+      "url": "http://www.gidmotion.com/",
+      "figcaption": "<a class='link' href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
+    },
+    {
       "title": "Tennent Brown",
       "name": "tennetbrown-landscape",
       "responsive": [
@@ -94,22 +110,6 @@
       ],
       "url": "http://dangayfer.com/",
       "figcaption": "<a class='link' href='http://dangayfer.com/'>http://dangayfer.com</a>"
-    },
-    {
-      "title": "Gabriele Iglesias Dardon",
-      "name": "gid-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "gid-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "gid-portrait"
-        }
-      ],
-      "url": "http://www.gidmotion.com/",
-      "figcaption": "<a class='link' href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
     },
     {
       "title": "Love + Money",
