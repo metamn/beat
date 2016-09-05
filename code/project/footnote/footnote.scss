@@ -4,6 +4,8 @@
   justify-content: space-between;
   align-items: center;
 
+  @include footnote--mobile;
+
   .link {
     @include link(black-on-white, black-on-white, black-on-white);
   }
