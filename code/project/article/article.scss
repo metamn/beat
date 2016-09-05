@@ -9,6 +9,7 @@
   opacity: 1;
   @include transition(all);
 
+
   &--unit-of-sense {
     @include article--unit-of-sense;
   }
@@ -29,16 +30,13 @@
     @include article--is-it-web-or-photoshop;
   }
 
-  &--masters-of-web-february-2016 {
-    @include article--masters-of-web-february-2016;
+  &--masters-of-web-february-2016,
+  &--masters-of-web-july-2016 {
+    @include article--masters-of-web;
   }
 
   &--what-some-people-apart-are-up-to-in-2016 {
     @include article--what-some-people-apart-are-up-to-in-2016;
-  }
-
-  &--masters-of-web-july-2016 {
-    @include article--masters-of-web-july-2016;
   }
 
   &__title {

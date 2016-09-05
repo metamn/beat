@@ -1,4 +1,4 @@
-@mixin article--masters-of-web-february-2016 {
+@mixin article--masters-of-web {
   flex-basis: 100%;
   flex-direction: column;
   margin-right: 0;
@@ -19,12 +19,14 @@
   }
 
   // Without this the slider will overlap the articles after
+  // - article width = 100vw - margin-left - margin-right
   .article__slider {
-    
-    // article width = 100vw - margin-left - margin-right
+    @include mobile {
+      height: calc((100vw - (#{$lem  * 2})) / 0.75);
+    }
 
-    @include portrait {
-      height: calc((100vw - (10vw * 2)) / 0.75);
+    @include tablet {
+      height: calc((100vw - (#{$lem  * 2 * 2})) / 0.75);
     }
 
     @include landscape {
