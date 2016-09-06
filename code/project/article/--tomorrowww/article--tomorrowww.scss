@@ -1,22 +1,8 @@
 @mixin article--tomorrowww {
   flex-basis: 100%;
-  margin-right: 0;
-  flex-direction: column;
 
-  > * {
-    text-align: center;
-  }
-
-  .article__title {
-    margin-bottom: 0;
-  }
-
+  .article__categories,
   .article__excerpt {
-    max-width: none;
-    margin: $lem 0;
-  }
-
-  .article__categories {
-    order: 2;
+    align-self: center;
   }
 }
