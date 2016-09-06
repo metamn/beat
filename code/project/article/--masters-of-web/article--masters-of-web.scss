@@ -21,13 +21,17 @@
   // - article width = 100vw - margin-left - margin-right
   .article__slider {
     width: 100%;
-    
+
     @include mobile {
       height: calc((100vw - (#{$lem  * 2})) / 0.75);
     }
 
     @include tablet {
       height: calc((100vw - (#{$lem  * 2 * 2})) / 0.75);
+    }
+
+    @include ipad-pro {
+      height: calc((100vw - (#{$lem  * 2 * 2})) / 1.7778);
     }
 
     @include landscape {
@@ -42,6 +46,10 @@
 
     @include portrait {
       @include intrinsic-ratio(3, 4, '.slider__slides');
+    }
+
+    @include ipad-pro {
+      @include intrinsic-ratio(16, 9, '.slider__slides');
     }
 
     @include landscape {

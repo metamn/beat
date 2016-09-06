@@ -16,6 +16,10 @@ html {
               }
             }
 
+            @include ipad-pro {
+              width: 80vw;
+            }
+
             @include landscape {
               width: 80vw;
             }
@@ -28,6 +32,10 @@ html {
 
             @include portrait {
               @include intrinsic-ratio(3, 4, '.slider__slides');
+            }
+
+            @include ipad-pro {
+              @include intrinsic-ratio(16, 9, '.slider__slides');
             }
 
             @include landscape {
