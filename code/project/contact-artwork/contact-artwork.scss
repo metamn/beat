@@ -4,15 +4,7 @@
 @mixin contact-artwork {
   display: flex;
   justify-content: center;
-  flex-basis: 100%;
-
-  // make clickable on the active intro screen
-  position: relative;
-  z-index: 10;
-  margin: $lem 0;
-
-  // reset article default grid
-  @include max-width(none);
+  width: 100%;
 
   .figure-with-text-around-circle {
     @include figure-with-text-around-circle($number-of-chars: 19);
