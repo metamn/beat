@@ -1,6 +1,7 @@
 @mixin figure-with-text-around-circle--flip {
   .figure {
     @include animation(flip, 1s, true);
+    -webkit-animation-name: nothing;
   }
 }
 
