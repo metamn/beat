@@ -12,7 +12,7 @@
   $item-width: percentage(1 / $items-per-row);
 
   > * {
-    flex-basis: calc(#{$item-width} - (((#{$items-per-row} - 1) * #{$margin-right}) / #{$items-per-row}));
+    width: calc(#{$item-width} - (((#{$items-per-row} - 1) * #{$margin-right}) / #{$items-per-row}));
     margin-right: $margin-right;
     margin-bottom: $margin-bottom;
 

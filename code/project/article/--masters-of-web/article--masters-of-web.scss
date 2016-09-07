@@ -1,5 +1,5 @@
 @mixin article--masters-of-web {
-  flex-basis: 100%;
+  width: 100%;
   margin-right: 0;
 
   // This fixes the flexbox word-wrap bug
@@ -7,7 +7,7 @@
   @include mobile {
     flex-direction: row;
     > * {
-      flex-basis: 100%;
+      width: 100%;
     }
   }
 
