@@ -1,1 +1,3 @@
-@mixin list-expandable__more {}
+@mixin list-expandable__more {
+  cursor: pointer;
+}
