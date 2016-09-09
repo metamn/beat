@@ -39,6 +39,10 @@
     @include article--what-some-people-apart-are-up-to-in-2016;
   }
 
+  &--web-trends-september-2016 {
+    @include article--web-trends;
+  }
+
   &__title {
     @include article__title;
   }
@@ -61,7 +65,6 @@
 
   &__more {
     @include article__more;
-    display: none;
   }
 
   &__slider {

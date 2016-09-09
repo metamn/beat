@@ -1,6 +1,6 @@
 @mixin article__list {
-  padding-top: $lem;
-  
+  padding: $lem;
+
   .list-expandable {
     @include list-expandable;
   }

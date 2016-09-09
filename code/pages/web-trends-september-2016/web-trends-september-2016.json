@@ -8,9 +8,11 @@
   "date": "2016-09-09",
   "display": [
     "title",
+    "title_with_url",
     "categories",
     "date",
-    "list"
+    "list",
+    "more"
   ],
   "list": [
     "Image on hover",

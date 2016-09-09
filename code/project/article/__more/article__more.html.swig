@@ -2,6 +2,16 @@
 
 <div class="article__more">
   {% set direction = "right" %}
+  {% set link = { title: article.title, url: article.url } %}
+
+  {{ l.link(link) }}
+    {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+  </a>
+
+  {{ l.link(link) }}
+    {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+  </a>
+
   {{ l.link(link) }}
     {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
   </a>

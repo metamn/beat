@@ -1,0 +1,9 @@
+@mixin article--web-trends {
+  .article__more {
+    @include article__more--inactive;
+
+    &--active {
+      @include article__more--active;
+    }
+  }
+}
