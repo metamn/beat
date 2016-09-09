@@ -18,16 +18,44 @@
   ],
   "slides": [
     {
+      "title": "Mars Maiers",
+      "name": "marsmaiers",
+      "extension": ".jpg"
+    },
+    {
       "title": "Yale / Paul Rand",
       "name": "yale"
+    },
+    {
+      "title": "Bloomberg",
+      "name": "bloomberg",
+      "link": {
+        "title": "Bloomberg Business Week",
+        "url": "http://www.bloomberg.com/businessweek/design-conference/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Architetti Arco Alpino",
+      "name": "arco",
+      "link": {
+        "title": "Architetti Arco Alpino",
+        "url": "http://www.architettiarcoalpino.it/",
+        "type": "external"
+      }
     },
     {
       "title": "Holz.re",
       "name": "holz"
     },
     {
-      "title": "Bloomberg",
-      "name": "bloomberg"
+      "title": "After All Studio",
+      "name": "afterall",
+      "link": {
+        "title": "After All Studio",
+        "url": "http://afterallstudio.com/",
+        "type": "external"
+      }
     }
   ]
 }

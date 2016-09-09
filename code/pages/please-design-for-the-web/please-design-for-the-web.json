@@ -3,6 +3,7 @@
   "excerpt": "And make everyone happy.",
   "thumb": "/favicons/favicon-196x196.png",
   "template": "article",
+  "status": "draft",
   "categories": [
     "code",
     "design"

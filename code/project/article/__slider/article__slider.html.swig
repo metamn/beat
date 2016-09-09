@@ -7,6 +7,7 @@
     {% for slide in slides %}
       <div class='slide'>
         {% set image = slide %}
+        {% set image.link = '' %}
         {% include '../../../framework/structure/figure/figure.html.swig' %}
       </div>
     {% endfor %}
