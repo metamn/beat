@@ -26,7 +26,23 @@
     "Custom cursors",
     "3D typography",
     "Strong typography",
-    "Big background video",
+    "Video",
     "Scroll hijacking"
+  ],
+  "footnotes": [
+    {
+      "title": "Is It Web Or Photoshop",
+      "url": "is-it-web-or-photoshop"
+    },
+    {
+      "title": "Beware Horizontal Scrolling and Mimicking Swipe on Desktop",
+      "url": "https://www.nngroup.com/articles/horizontal-scrolling/",
+      "type": "external"
+    },
+    {
+      "title": "Brutalist websites ",
+      "url": "http://brutalistwebsites.com/",
+      "type": "external"
+    }
   ]
 }

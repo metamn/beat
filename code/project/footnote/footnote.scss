@@ -10,6 +10,10 @@
     @include link(black-on-white, black-on-white, black-on-white);
   }
 
+  &__link {
+    max-width: 15em;
+  }
+
   &__go-back {
     @include footnote__go-back;
   }
