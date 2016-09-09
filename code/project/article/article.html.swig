@@ -39,4 +39,8 @@
   {% if (article.display.indexOf('artwork') !== -1) %}
     {% include '__artwork/article__artwork.html.swig' %}
   {% endif %}
+
+  {% if (article.list) and (article.display.indexOf('list') !== -1) %}
+    {% include '__list/article__list.html.swig' %}
+  {% endif %}
 </article>

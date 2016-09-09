@@ -1,0 +1,30 @@
+{
+  "title": "Web Trends September 2016",
+  "template": "article",
+  "categories": [
+    "trend"
+  ],
+  "url": "web-trends-september-2016",
+  "date": "2016-09-09",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "list"
+  ],
+  "list": [
+    "Image on hover",
+    "Horizontal scrolling",
+    "Custom spacers",
+    "Background animation",
+    "Horizontal lines",
+    "Marquee",
+    "Raster images",
+    "Rolling chars",
+    "Custom cursors",
+    "3D typography",
+    "Strong typography",
+    "Big background video",
+    "Scroll hijacking"
+  ]
+}

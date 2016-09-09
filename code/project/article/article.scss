@@ -71,4 +71,8 @@
   &__authors {
     @include article__authors($author_type);
   }
+
+  &__list {
+    @include article__list;
+  }
 }
