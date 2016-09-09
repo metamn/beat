@@ -3,3 +3,4 @@ require('./../../project/article/--masters-of-web-february-2016/article--masters
 require('./../../project/article/__artwork/article__artwork.js');
 require('./../../project/contact-artwork/contact-artwork.js');
 require('./../../project/article/--masters-of-web-july-2016/article--masters-of-web-july-2016.js');
+require('./../../project/article/--web-trends-september-2016/article--web-trends-september-2016.js');

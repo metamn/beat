@@ -1,3 +1,11 @@
 @mixin list-expandable__more {
   cursor: pointer;
+
+  &--active {
+    @include list-expandable__more--active;
+  }
+
+  &--inactive {
+    @include list-expandable__more--inactive;
+  }
 }
