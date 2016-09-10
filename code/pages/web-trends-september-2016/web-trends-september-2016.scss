@@ -1,1 +1,13 @@
-@mixin web-trends-september-2016 {}
+html {
+  &.web-trends-september-2016 {
+    body {
+      .article {
+        &__content {
+          .video-with-poster {
+            @include video-with-poster;
+          }
+        }
+      }
+    }
+  }
+}
