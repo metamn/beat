@@ -97,5 +97,12 @@ module.exports = {
 
 
   // Sitemap
-  site_url: "http://metamn.io/beat"
+  site_url: "http://metamn.io/beat",
+
+
+  // video source folder
+  video_src: sourceCode + '/**/*.{mp4,webm,m4v}',
+
+  // video destination folder
+  video_dest: destination + '/assets/videos',
 }

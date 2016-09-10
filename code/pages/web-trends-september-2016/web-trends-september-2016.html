@@ -124,8 +124,86 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <ul>
 <li>a surprise</li>
 <li>very nice graphics</li>
-<li>just strengthening the message</li>
+<li>which strengthens the message</li>
 </ul>
+
+
+
+<aside class="video-with-poster">
+  <h3>Afterall</h3>
+
+  <video class="video" autoplay loop>
+  
+
+  
+    <source src="/assets/videos/afterall.mp4" type="video/mp4">
+  
+</video>
+
+
+  
+  
+
+
+
+
+<figure class="figure">
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Image url can be relative or absolute -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/afterall-poster_desktop.png, /assets/images/afterall-poster_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/afterall-poster_laptop.png, /assets/images/afterall-poster_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/afterall-poster_tablet.png, /assets/images/afterall-poster_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/afterall-poster_mobile.png, /assets/images/afterall-poster_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    
+      <img class="img" src="/assets/images/afterall-poster_laptop.png" alt="Afterall">
+    
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    
+      Afterall
+    
+  </figcaption>
+</figure>
+
+</aside>
+
+
 <h2 id="horizontal-scrolling">Horizontal scrolling</h2>
 <p>Horizontal scrolling is bad UX <sup id="footnote--2"><a href="#footnotes--2">2</a></sup>. I completely agree in cases when the horizontal scrollbar is visible. But these two examples are so smoothly executed they transform bad UX into something highly enjoyable.</p>
 <h2 id="custom-spacers">Custom spacers</h2>
@@ -134,15 +212,15 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <h2 id="background-animation">Background animation</h2>
 <p>First I saw them on the Lab 21 website and I was fascinated how well connects the different sections of the page. These small moving parts in the background makes you scroll more and reach the end of the page. Perfect to deliver long messages.</p>
 <h2 id="horizontal-lines">Horizontal lines</h2>
-<p>This again is a personal favorite. I&#39;m using simple lines, borders to connect or separate different elements on a page. I found these lines powerful and offering endless possibilities. Until I&#39;ll set type using the modern school (practical typography) I&#39;ll definitively use these decorators.</p>
+<p>This again is a personal favorite. I&#39;m using simple lines, borders to connect or separate different elements on a page. I found these lines powerful and offering endless possibilities. Until I&#39;ll set type using the modern school <sup id="footnote--3"><a href="#footnotes--3">3</a></sup> I&#39;ll definitively use these decorators.</p>
 <h2 id="marquee">Marquee</h2>
 <p>Haha. So nineties. Welcome back!</p>
 <p>Scrolling text is an ancient way to deliver a message. In real life our eyes have fallen into the habit to always check a moving text. Now on web we transpile this habit and guess what: the first thing you notice on a webpage is the marquee.</p>
 <h2 id="raster-images">Raster images</h2>
-<p>With video came bandwidth saving. That&#39;s reducing the size of the content to the smallest, still enjoyable format. A technique is rastering, eliminating some pixels and even whole lines to reduce weight.</p>
-<p>With the brutalist style rising<sup id="footnote--3"><a href="#footnotes--3">3</a></sup> this effect will be used by many.</p>
+<p>With video came bandwidth saving. That&#39;s reducing the size of the content to the smallest, still enjoyable format. Such a technique is rastering, eliminating some pixels and even whole lines to reduce weight.</p>
+<p>With the brutalist style rising<sup id="footnote--4"><a href="#footnotes--4">4</a></sup> this effect will be used by many.</p>
 <h2 id="rolling-chars">Rolling chars</h2>
-<p>It&#39;s like marquee but every single char is rotated, spinned before being displayed. It&#39;s clearly a trend which won&#39;t last long. Maybe it&#39;s just a hype.</p>
+<p>It&#39;s like marquee but every single char is rotated, spinned during being displayed. It&#39;s clearly a trend which won&#39;t last long. Maybe it&#39;s just a hype.</p>
 <h2 id="custom-cursors">Custom cursors</h2>
 <p>Like rolling chars I suppose this will be a hype instead of a trend. It goes well with brutalism, it&#39;s so new it grabs attention immediately. It makes people click. It does everything but I&#39;m afraid it will be overused and finally boring.</p>
 <h2 id="3d-typography">3D Typography</h2>
@@ -153,7 +231,7 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <p>Video became part of the web, full class citizen as images are.</p>
 <p>A year ago we&#39;ve seen big, full-screen background videos now they are embedded invisibly into the flow. It is just a start. Soon every studio will have to have a motion graphics designer / producer.</p>
 <h2 id="scroll-hijacking">Scroll hijacking</h2>
-<p>The best we can have still no support from browser vendors. Customizing website scrolling should be feature of the browser not something banned.</p>
+<p>The best we can have &mdash;  yet no support from browser vendors. Customizing website scrolling should be feature of the browser not something banned.</p>
 <p>Right now it is very difficult to make it work across devices, so <em>kudos</em> to all who executed well.</p>
 
 
@@ -273,12 +351,56 @@ Meantime is catching up with TV / video in motion and animation.</p>
     
   
 
-  <a class="link " href="http://brutalistwebsites.com/" title="Brutalist websites ">Brutalist websites </a>
+  <a class="link " href="http://practicaltypography.com/" title="Butterick’s Practical Typography">Butterick’s Practical Typography</a>
 
   </span>
   
   <span class="footnote__go-back">
   <a class="link" title="Back to the footnote" href="#footnote--3">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--4">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="http://brutalistwebsites.com/" title="Brutalist websites">Brutalist websites</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--4">
     
     <span class="arrow-with-triangle arrow-with-triangle--top ">
   <span class="arrow-with-triangle__line"></span>
@@ -334,7 +456,7 @@ Meantime is catching up with TV / video in motion and animation.</p>
   "keywords": "trend",
   "url": "/web-trends-september-2016",
   "datePublished": "2016-09-09",
-  "dateModified": "2016-09-09",
+  "dateModified": "2016-09-10",
   "description": "",
   "publisher": {
     "@type": "Organization",

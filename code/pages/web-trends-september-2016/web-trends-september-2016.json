@@ -29,6 +29,17 @@
     "Video",
     "Scroll hijacking"
   ],
+  "videos": [
+    {
+      "title": "Afterall",
+      "mp4": "afterall",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Afterall",
+        "name": "afterall-poster"
+      }
+    }
+  ],
   "footnotes": [
     {
       "title": "Is It Web Or Photoshop",
@@ -43,7 +54,7 @@
       "title": "Butterick’s Practical Typography",
       "url": "http://practicaltypography.com/",
       "type": "external"
-    }
+    },
     {
       "title": "Brutalist websites",
       "url": "http://brutalistwebsites.com/",

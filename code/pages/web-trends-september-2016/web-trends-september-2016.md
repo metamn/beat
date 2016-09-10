@@ -14,9 +14,12 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 - a surprise
 - very nice graphics
 - which strengthens the message
+{% endmarkdown %}
 
+{% set video = videos[0] %}
+{% include '../../framework/structure/video-with-poster/video-with-poster.html.swig' %}
 
-
+{% markdown %}
 ## Horizontal scrolling
 
 Horizontal scrolling is bad UX <sup id="footnote--2">[2](#footnotes--2)</sup>. I completely agree in cases when the horizontal scrollbar is visible. But these two examples are so smoothly executed they transform bad UX into something highly enjoyable.
