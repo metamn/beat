@@ -1,6 +1,11 @@
 @mixin circle($width: $lem) {
   width: $width;
   height: $width;
+
+  // do not shrink the circle when used with flexbox
+  min-width: $width;
+  min-height: $width;
+
   border-radius: $width / 2;
 
   display: flex;

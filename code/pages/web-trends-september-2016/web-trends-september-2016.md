@@ -13,7 +13,7 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 
 - a surprise
 - very nice graphics
-- just strengthening the message
+- which strengthens the message
 
 
 
@@ -35,7 +35,7 @@ First I saw them on the Lab 21 website and I was fascinated how well connects th
 
 ## Horizontal lines
 
-This again is a personal favorite. I'm using simple lines, borders to connect or separate different elements on a page. I found these lines powerful and offering endless possibilities. Until I'll set type using the modern school (practical typography) I'll definitively use these decorators.
+This again is a personal favorite. I'm using simple lines, borders to connect or separate different elements on a page. I found these lines powerful and offering endless possibilities. Until I'll set type using the modern school <sup id="footnote--3">[3](#footnotes--3)</sup> I'll definitively use these decorators.
 
 ## Marquee
 
@@ -46,13 +46,13 @@ Scrolling text is an ancient way to deliver a message. In real life our eyes hav
 
 ## Raster images
 
-With video came bandwidth saving. That's reducing the size of the content to the smallest, still enjoyable format. A technique is rastering, eliminating some pixels and even whole lines to reduce weight.
+With video came bandwidth saving. That's reducing the size of the content to the smallest, still enjoyable format. Such a technique is rastering, eliminating some pixels and even whole lines to reduce weight.
 
-With the brutalist style rising<sup id="footnote--3">[3](#footnotes--3)</sup> this effect will be used by many.
+With the brutalist style rising<sup id="footnote--4">[4](#footnotes--4)</sup> this effect will be used by many.
 
 ## Rolling chars
 
-It's like marquee but every single char is rotated, spinned before being displayed. It's clearly a trend which won't last long. Maybe it's just a hype.
+It's like marquee but every single char is rotated, spinned during being displayed. It's clearly a trend which won't last long. Maybe it's just a hype.
 
 ## Custom cursors
 
@@ -74,7 +74,7 @@ A year ago we've seen big, full-screen background videos now they are embedded i
 
 ## Scroll hijacking
 
-The best we can have still no support from browser vendors. Customizing website scrolling should be feature of the browser not something banned.
+The best we can have &mdash;  yet no support from browser vendors. Customizing website scrolling should be feature of the browser not something banned.
 
 Right now it is very difficult to make it work across devices, so *kudos* to all who executed well.
 
