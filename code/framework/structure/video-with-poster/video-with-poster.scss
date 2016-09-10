@@ -1,5 +1,5 @@
 @mixin video-with-poster {
-  //@include intrinsic-ratio(4, 3, '.video');
+  width: 100%;
 
   .video {
     @include video;

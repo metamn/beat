@@ -3,9 +3,7 @@ html {
     body {
       .article {
         &__content {
-          .video-with-poster {
-            @include video-with-poster;
-          }
+          
         }
       }
     }

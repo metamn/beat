@@ -17,7 +17,7 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 {% endmarkdown %}
 
 {% set video = videos[0] %}
-{% include '../../framework/structure/video-with-poster/video-with-poster.html.swig' %}
+{% include '../../project/article/__video/article__video.html.swig' %}
 
 {% markdown %}
 ## Horizontal scrolling

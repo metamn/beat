@@ -78,4 +78,8 @@
   &__list {
     @include article__list;
   }
+
+  &__video {
+    @include article__video;
+  }
 }
