@@ -182,6 +182,20 @@
         "name": "lovemoney-poster",
         "extension": ".png"
       }
+    },
+    {
+      "title": "The Next Rembrandt",
+      "mp4": "rembrandt",
+      "ogv": "rembrandt",
+      "webm": "rembrandt",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "The Next Rembrandt",
+        "name": "rembrandt-poster",
+        "extension": ".png"
+      }
     }
   ],
   "footnotes": [

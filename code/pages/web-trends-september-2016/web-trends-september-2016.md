@@ -141,3 +141,9 @@ The best we can have &mdash; yet no support from browser vendors. Customizing we
 Right now it is very difficult to make it work across devices, so *kudos* to all who executed well.
 
 {% endmarkdown %}
+
+{% set video = videos[10] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
+
+{% endmarkdown %}
