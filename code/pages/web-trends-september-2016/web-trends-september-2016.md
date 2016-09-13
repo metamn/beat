@@ -19,18 +19,38 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 {% set video = videos[0] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 
+{% set video = videos[1] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[2] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
 {% markdown %}
 ## Horizontal scrolling
 
 Horizontal scrolling is bad UX <sup id="footnote--2">[2](#footnotes--2)</sup>. Right, in cases when the horizontal scrollbar is visible. But these two examples are so smoothly executed they transform bad UX into something highly enjoyable.
 
 Today web scrolling is rethinked and even hijacked by designers and developers. Be prepared for unconventionally scrolling websites coming next years.  
+{% endmarkdown %}
+
+{% set video = videos[3] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[4] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% markdown %}
 
 ## Custom spacers / decorators
 
 I was interested long time ago how to fill white space with decorations other than color and image. Something typographic which suits well the text around.
 
 Athfield Architects found a stunning solution when creating their portfolio website. Alaa Mendili goes forward by adding animation to it.
+{% endmarkdown %}
+
+{% set video = videos[5] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
 
 Modern typography <sup id="footnote--3">[3](#footnotes--3)</sup> plays well with these decorators. Now it's time for the web to catch up.
 
@@ -42,6 +62,15 @@ First I saw them on the Lab 21 website and I was fascinated how well they connec
 Websites tend to be boring on small screens: an endless vertical flow of images and paragraphs; consecutive, similar sections made different only by their background color. No special design for mobile sites just a poor adaptation of their desktop version.
 
 With these little connectors the uniformity of that experience can be broken and spiced up.
+
+{% endmarkdown %}
+
+{% set video = videos[6] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[7] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
 
 
 ## Horizontal lines
@@ -57,6 +86,15 @@ Scrolling text is an ancient way to deliver a message. In real life our eyes hav
 
 Executed well the marquee is a hit. All brave designers should have it in their toolbox.
 
+{% endmarkdown %}
+
+{% set video = videos[8] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[9] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
+
 
 ## Raster images
 
@@ -71,6 +109,11 @@ It's like marquee but for characters. Every single char of a text is rotating an
 
 Unlike the trends above this is just a nice trick without being really useful and helpful. It won't stay long with us but it was refreshing.
 
+{% endmarkdown %}
+
+{% set video = videos[10] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
 
 ## Custom cursors
 

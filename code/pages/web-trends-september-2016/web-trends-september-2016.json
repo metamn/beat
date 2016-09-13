@@ -42,6 +42,146 @@
         "name": "afterall-poster",
         "extension": ".png"
       }
+    },
+    {
+      "title": "Grafik",
+      "mp4": "grafik",
+      "ogv": "grafik",
+      "webm": "grafik",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Grafik",
+        "name": "grafik-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Red October",
+      "mp4": "redoctober",
+      "ogv": "redoctober",
+      "webm": "redoctober",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Red October",
+        "name": "redoctober-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Austin Beer Works",
+      "mp4": "austinbeers",
+      "ogv": "austinbeers",
+      "webm": "austinbeers",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Austin Beer Works",
+        "name": "austinbeers-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Chris Wang",
+      "mp4": "chris-wang",
+      "ogv": "chris-wang",
+      "webm": "chris-wang",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Chris Wang",
+        "name": "chris-wang-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Alaa Mendili",
+      "mp4": "alaa-mendili",
+      "ogv": "alaa-mendili",
+      "webm": "alaa-mendili",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Alaa Mendili",
+        "name": "alaa-mendili-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Lab 21",
+      "mp4": "lab21",
+      "ogv": "lab21",
+      "webm": "lab21",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Lab 21",
+        "name": "lab21-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Athfield Architects",
+      "mp4": "athfield",
+      "ogv": "athfield",
+      "webm": "athfield",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Athfield Architects",
+        "name": "athfield-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Cookbook Magazine",
+      "mp4": "cookbook",
+      "ogv": "cookbook",
+      "webm": "cookbook",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Cookbook Magazine",
+        "name": "cookbook-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Architetti Alpino",
+      "mp4": "architetti",
+      "ogv": "architetti",
+      "webm": "architetti",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Architetti Alpino",
+        "name": "architetti-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Love and Money",
+      "mp4": "lovemoney",
+      "ogv": "lovemoney",
+      "webm": "lovemoney",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Love and Money",
+        "name": "lovemoney-poster",
+        "extension": ".png"
+      }
     }
   ],
   "footnotes": [

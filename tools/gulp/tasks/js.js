@@ -8,7 +8,7 @@
 var gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     onError = require('../utils/onError'),
-    
+
     uglify = require('gulp-uglify'),
     webpack = require('webpack-stream');
 
@@ -21,7 +21,7 @@ var js = function(webpack_config, dest) {
   return gulp.src('')
     .pipe(plumber({errorHandler: onError}))
     .pipe(webpack(require(webpack_config)))
-    //.pipe(uglify())
+    .pipe(uglify())
     .pipe(gulp.dest(dest));
 };
 
