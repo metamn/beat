@@ -93,7 +93,7 @@ A year ago we've seen big, full-screen background videos now they are embedded i
 
 ## Scroll hijacking
 
-The best we can have &mdash; yet no support from browser vendors. Customizing website scrolling should be feature of the browser not something banned.
+The best we can have &mdash; yet no support from browser vendors. Customizing website scrolling should be a feature of the browser not something banned.
 
 Right now it is very difficult to make it work across devices, so *kudos* to all who executed well.
 

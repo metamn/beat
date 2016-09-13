@@ -1,5 +1,6 @@
 @mixin list-expandable__more {
   cursor: pointer;
+  margin-left: $lem / 8; // border width
 
   &--active {
     @include list-expandable__more--active;

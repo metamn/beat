@@ -3,8 +3,7 @@
   align-items: center;
 
   .circle {
-    @include circle($lem * 1.5);
-    @include border(normal, all);
+    @include circle($lem * 1.5, thin);
     margin-right: $lem / 2;
   }
 

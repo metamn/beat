@@ -19,4 +19,9 @@
   &__more {
     @include list-expandable__more;
   }
+
+  &__item,
+  &__more {
+    @include transition(opacity);
+  }
 }

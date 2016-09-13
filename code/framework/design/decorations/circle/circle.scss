@@ -1,4 +1,8 @@
-@mixin circle($width: $lem) {
+@mixin circle($width: $lem, $border: none) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: $width;
   height: $width;
 
@@ -6,9 +10,10 @@
   min-width: $width;
   min-height: $width;
 
-  border-radius: $width / 2;
+  border-radius: 50%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @if $border != none {
+    @include border($border, all);
+  }
+
 }

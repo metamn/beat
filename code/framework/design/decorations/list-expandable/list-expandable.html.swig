@@ -8,21 +8,17 @@
     {% for item in list %}
       {% if (loop.index == more) %}
         {% include "__more/list-expandable__more.html.swig" %}
+        {% set klass = "inactive" %}
       {% else %}
         {% if (loop.index <= display) or loop.last %}
-          {% set index = loop.index %}
           {% set klass = "active" %}
         {% else %}
-          {% set index = loop.index - 1 %}
           {% set klass = "inactive" %}
         {% endif %}
-
-        {% if loop.last %}
-          {% set index = loop.index - 1 %}
-        {% endif %}
-
-        {% include "__item/list-expandable__item.html.swig" %}
       {% endif %}
+
+      {% set index = loop.index %}
+      {% include "__item/list-expandable__item.html.swig" %}
     {% endfor %}
   </ul>
 </nav>
