@@ -2,10 +2,12 @@
 //
 // Displays a video with a fallback image
 // Good source of free HD videos can be found at http://mazwai.com/#/videos
-// The fallback image to be responsive the `responsiveImageURL` script should be used
+//
+// - http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
+// - https://dzone.com/articles/cross-browser-compatible-html5
+// - https://developer.jwplayer.com/articles/html5-report/
 //
 // Styleguide video
-
 @mixin video {
   width: 100%;
 }

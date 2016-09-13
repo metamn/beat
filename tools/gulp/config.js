@@ -12,6 +12,9 @@ var destination = 'production';
 // supported image extensions
 var image_extensions = '/*.{png,jpg,gif,jpeg,svg}';
 
+// supported video extensions
+var video_extensions = '/*.{mp4,m4v,webm,ogv}';
+
 
 
 module.exports = {
@@ -101,7 +104,7 @@ module.exports = {
 
 
   // video source folder
-  video_src: sourceCode + '/**/*.{mp4,webm,m4v}',
+  video_src: sourceCode + '/**/' + video_extensions,
 
   // video destination folder
   video_dest: destination + '/assets/videos',

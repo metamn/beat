@@ -32,10 +32,15 @@
     {
       "title": "Afterall",
       "mp4": "afterall",
-      "params": "autoplay loop",
+      "ogv": "afterall",
+      "webm": "afterall",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
       "image": {
         "title": "Afterall",
-        "name": "afterall-poster"
+        "name": "afterall-poster",
+        "extension": ".png"
       }
     }
   ],

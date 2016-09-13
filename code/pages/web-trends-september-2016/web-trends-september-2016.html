@@ -135,12 +135,27 @@ Meantime is catching up with TV / video in motion and animation.</p>
   <aside class="video-with-poster">
   <h3>Afterall</h3>
 
-  <video class="video" autoplay loop>
-  
-
+  <video class="video" preload="metadata" poster="/assets/images/afterall-poster_laptop.png" controls>
   
     <source src="/assets/videos/afterall.mp4" type="video/mp4">
   
+
+  
+    <source src="/assets/videos/afterall.webm" type="video/webm">
+  
+
+  
+    <source src="/assets/videos/afterall.ogv" type="video/ogg">
+  
+
+  <!-- Flash fallback -->
+  <object type="application/x-shockwave-flash" data="flash-player.swf?videoUrl=/assets/videos/afterall.mp4" width="1024" height="768">
+     <param name="movie" value="flash-player.swf?videoUrl=/assets/videos/afterall.mp4" />
+     <param name="allowfullscreen" value="true" />
+     <param name="wmode" value="transparent" />
+     <param name="flashvars" value="controlbar=over&amp;image=/assets/images/afterall-poster_laptop.png&amp;file=flash-player.swf?videoUrl=/assets/videos/afterall.mp4" />
+     <img alt="Afterall" src="/assets/images/afterall-poster_laptop.png" width="1024" height="768" title="No video playback possible, please download the video from the link below" />
+  </object>
 </video>
 
 
@@ -153,6 +168,8 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <figure class="figure">
   <!-- The default extension is .png but other formats are handled too -->
   
+  
+    
   
 
   <!-- If 'onesize' is set all images will have the same size -->
