@@ -17,8 +17,8 @@
   "list": [
     "Image on hover",
     "Horizontal scrolling",
-    "Custom spacers",
-    "Background animation",
+    "Custom spacers / decorators",
+    "Tiny background animations",
     "Horizontal lines",
     "Marquee",
     "Raster images",
