@@ -4,6 +4,8 @@
 
 1. IE11 and Edge 13 gives an "Error: unsuported video type or invalid file path" because Github Pages is not able to serve videos for these browsers: http://stackoverflow.com/questions/15951012/can-mime-types-of-github-pages-files-be-configured
 
+2. On Galaxy S2 the entire mobile is freezing, restart needed.
+
 ## Poster images
 
 - IE 11, Edge 13, 14, Safari 10 ... needs them
