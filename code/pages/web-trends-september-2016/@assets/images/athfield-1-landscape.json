@@ -1,0 +1,14 @@
+{
+	"resize": "false",
+  "optimize": "true",
+  "sizes": [
+    {
+      "name": "laptop",
+      "width": "810"
+    },
+    {
+      "name": "desktop",
+      "width": "810"
+    }
+  ]
+}

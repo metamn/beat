@@ -481,6 +481,84 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <h2 id="raster-images">Raster images</h2>
 <p>With video came bandwidth saving. That&#39;s reducing the size of the content to the smallest, still enjoyable format. Such a technique is rastering, eliminating some pixels and even whole lines to reduce weight.</p>
 <p>The result plays well with the rising Brutalist style <sup id="footnote--4"><a href="#footnotes--4">4</a></sup> and is a building block of the Glitch art.</p>
+
+
+
+
+
+
+
+
+<figure class="figure">
+  <!-- The default extension is .png but other formats are handled too -->
+  
+  
+
+  <!-- If 'onesize' is set all images will have the same size -->
+  
+    <!-- Naming convention for responsive images -->
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  <!-- Showing different images for different devices -->
+  
+    
+    
+    
+    
+      
+      
+    
+  
+    
+    
+    
+      
+      
+    
+    
+  
+
+
+  <!-- Figcaption is image title unless is not set explicitely -->
+  
+  
+
+  
+
+
+  <!-- Image url can be relative or absolute -->
+  
+  
+
+
+  <picture class="picture">
+    <!--[if IE 9]><video style="display: none;"><![endif]-->
+    <source media="(min-width: 1600px)" srcset="/assets/images/aaron-landscape_desktop.png, /assets/images/aaron-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/aaron-landscape_laptop.png, /assets/images/aaron-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/aaron-portrait_tablet.png, /assets/images/aaron-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/aaron-portrait_mobile.png, /assets/images/aaron-portrait_mobile2x.png 2x">
+    <!--[if IE 9]></video><![endif]-->
+    <!-- to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' -->
+    
+      <img class="img" src="/assets/images/aaron-landscape_laptop.png" alt="Aaron Koblin">
+    
+  </picture>
+
+  <figcaption class="figcaption figcaption--from-title">
+    
+      Aaron Koblin
+    
+  </figcaption>
+</figure>
+
 <h2 id="rolling-chars">Rolling chars</h2>
 <p>It&#39;s like marquee but for characters. Every single char of a text is rotating and spinning during being displayed.</p>
 <p>Unlike the trends above this is just a nice trick without being really useful and helpful. It won&#39;t stay long with us but it was refreshing.</p>

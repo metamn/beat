@@ -28,6 +28,22 @@
     "Video",
     "Scroll hijacking"
   ],
+  "images": [
+    {
+      "title": "Aaron Koblin",
+      "name": "aaron-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aaron-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aaron-portrait"
+        }
+      ]
+    }
+  ],
   "videos": [
     {
       "title": "Afterall",

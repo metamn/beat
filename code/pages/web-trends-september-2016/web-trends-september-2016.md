@@ -106,6 +106,12 @@ With video came bandwidth saving. That's reducing the size of the content to the
 
 The result plays well with the rising Brutalist style <sup id="footnote--4">[4](#footnotes--4)</sup> and is a building block of the Glitch art.
 
+{% endmarkdown %}
+
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
+
 
 ## Rolling chars
 
