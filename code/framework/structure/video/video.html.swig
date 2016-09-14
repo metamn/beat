@@ -1,4 +1,4 @@
-<video class="video" preload="metadata" poster="{{ site.url }}{{ site.images }}{{ video.image.name }}_laptop{{ video.image.extension }}" {{ video.params }}>
+<video class="video" preload="metadata" poster="{{ site.url }}{{ site.images }}{{ video.image.name }}{{ video.image.extension }}" {{ video.params }}>
   {% if video.mp4 %}
     <source src="{{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" type="video/mp4">
   {% endif %}
@@ -16,8 +16,8 @@
      <param name="movie" value="flash-player.swf?videoUrl={{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" />
      <param name="allowfullscreen" value="true" />
      <param name="wmode" value="transparent" />
-     <param name="flashvars" value="controlbar=over&amp;image={{ site.url }}{{ site.images }}{{ video.image.name }}_laptop{{ video.image.extension }}&amp;file=flash-player.swf?videoUrl={{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" />
-     <img alt="{{ video.image.title }}" src="{{ site.url }}{{ site.images }}{{ video.image.name }}_laptop{{ video.image.extension }}" width="{{ video.width }}" height="{{ video.height }}" title="No video playback possible, please download the video from the link below" />
+     <param name="flashvars" value="controlbar=over&amp;image={{ site.url }}{{ site.images }}{{ video.image.name }}{{ video.image.extension }}&amp;file=flash-player.swf?videoUrl={{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" />
+     <img alt="{{ video.image.title }}" src="{{ site.url }}{{ site.images }}{{ video.image.name }}{{ video.image.extension }}" width="{{ video.width }}" height="{{ video.height }}" title="No video playback possible, please download the video from the link below" />
   </object>
 
   <!-- Offer download -->

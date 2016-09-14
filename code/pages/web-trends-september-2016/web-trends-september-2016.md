@@ -24,8 +24,9 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 
 {% set video = videos[2] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
-
 {% markdown %}
+
+
 ## Horizontal scrolling
 
 Horizontal scrolling is bad UX <sup id="footnote--2">[2](#footnotes--2)</sup>. Right, in cases when the horizontal scrollbar is visible. But these two examples are so smoothly executed they transform bad UX into something highly enjoyable.
@@ -38,8 +39,8 @@ Today web scrolling is rethinked and even hijacked by designers and developers. 
 
 {% set video = videos[4] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
-
 {% markdown %}
+
 
 ## Custom spacers / decorators
 
@@ -78,6 +79,8 @@ With these little connectors the uniformity of that experience can be broken and
 This might be a personal favorite: using simple lines, borders to connect or separate different elements on a page. Coming from modern typography / Swiss style / Bauhaus these lines are powerful offering endless possibilities to create a layout.
 
 
+
+
 ## Marquee
 
 Haha. So nineties. Welcome back!
@@ -94,6 +97,7 @@ Executed well the marquee is a hit. All brave designers should have it in their 
 {% set video = videos[9] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 {% markdown %}
+
 
 
 ## Raster images
@@ -115,11 +119,21 @@ Unlike the trends above this is just a nice trick without being really useful an
 {% include '../../project/article/__video/article__video.html.swig' %}
 {% markdown %}
 
+
 ## Custom cursors
 
 Like rolling chars I suppose this will be a hype instead of a trend. It goes well with Brutalism, it's so new it grabs attention immediately, it makes people click more. It does everything but I'm afraid it will be overused and finally boring.
 
 Custom cursors were present before the web. They are reborn now. After the hype they will be refined and used carefully.
+
+{% endmarkdown %}
+
+{% set video = videos[12] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[13] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
 
 
 ## Animated Typography
@@ -132,6 +146,15 @@ It's a clear trend yet in stealth mode. Lately we've seen font foundries special
 Video became part of the web, a full class citizen as images are.
 
 A year ago we've seen big, full-screen background videos now they are embedded invisibly into the page flow. It is just a start. Maybe we will have video icons maybe not. But soon every studio will have to have a motion graphics designer / producer.
+
+{% endmarkdown %}
+
+{% set video = videos[14] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[15] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+{% markdown %}
 
 
 ## Scroll hijacking

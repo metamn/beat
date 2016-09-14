@@ -1,4 +1,10 @@
 @mixin article__video {
+  margin: $lem 0;
+
+  + .article__video {
+    margin-top: 0;
+  }
+
   .video {
     @include video;
   }

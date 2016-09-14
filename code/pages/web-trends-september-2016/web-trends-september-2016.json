@@ -196,6 +196,62 @@
         "name": "rembrandt-poster",
         "extension": ".png"
       }
+    },
+    {
+      "title": "Lars Muller",
+      "mp4": "lars-muller",
+      "ogv": "lars-muller",
+      "webm": "lars-muller",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Lars Muller",
+        "name": "lars-muller-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Kid Studio",
+      "mp4": "kidstudio",
+      "ogv": "kidstudio",
+      "webm": "kidstudio",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Kid Studio",
+        "name": "kidstudio-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Hybrid Urbanism",
+      "mp4": "hybrid-u",
+      "ogv": "hybrid-u",
+      "webm": "hybrid-u",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Hybrid Urbanism",
+        "name": "hybrid-u-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "SFCD",
+      "mp4": "sfcd",
+      "ogv": "sfcd",
+      "webm": "sfcd",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "SFCD",
+        "name": "sfcd-poster",
+        "extension": ".png"
+      }
     }
   ],
   "footnotes": [
