@@ -8,4 +8,16 @@
   .video {
     @include video;
   }
+
+  .video-link {
+    @include background-image-lined;
+
+    display: flex;
+    justify-content: center;
+    padding: $lem / 2;
+
+    .link {
+      @include text-style(figcaption);
+    }
+  }
 }

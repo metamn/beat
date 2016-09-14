@@ -19,7 +19,10 @@
 
     .figcaption {
       @include text-style(figcaption);
-    }
 
+      .link {
+        font-weight: 300;
+      }
+    }
   }
 }

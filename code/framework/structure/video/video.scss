@@ -8,5 +8,6 @@
 //
 // Styleguide video
 @mixin video {
+  display: flex; // to remove a bottom border added by default browser settings
   width: 100%;
 }
