@@ -122,7 +122,7 @@ Like rolling chars I suppose this will be a hype instead of a trend. It goes wel
 Custom cursors were present before the web. They are reborn now. After the hype they will be refined and used carefully.
 
 
-## 3D Typography
+## Animated Typography
 
 It's a clear trend yet in stealth mode. Lately we've seen font foundries specialized in outlined, animated, layered type. As everything else on the screen &mdash; fonts will start moving too.
 
@@ -142,7 +142,7 @@ Right now it is very difficult to make it work across devices, so *kudos* to all
 
 {% endmarkdown %}
 
-{% set video = videos[10] %}
+{% set video = videos[11] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 {% markdown %}
 
