@@ -47,8 +47,16 @@ Today web scrolling is rethinked and even hijacked by designers and developers. 
 I was interested long time ago how to fill white space with decorations other than color and image. Something typographic which suits well the text around.
 
 Athfield Architects found a stunning solution when creating their portfolio website. Alaa Mendili goes forward by adding animation to it.
-{% endmarkdown %}
 
+{% endmarkdown %}
+{% set image = images[2] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[3] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
+
+{% endmarkdown %}
 {% set video = videos[5] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 {% markdown %}
@@ -78,7 +86,13 @@ With these little connectors the uniformity of that experience can be broken and
 
 This might be a personal favorite: using simple lines, borders to connect or separate different elements on a page. Coming from modern typography / Swiss style / Bauhaus these lines are powerful offering endless possibilities to create a layout.
 
+{% endmarkdown %}
+{% set image = images[4] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
 
+{% set image = images[6] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
 
 
 ## Marquee
@@ -107,8 +121,10 @@ With video came bandwidth saving. That's reducing the size of the content to the
 The result plays well with the rising Brutalist style <sup id="footnote--4">[4](#footnotes--4)</sup> and is a building block of the Glitch art.
 
 {% endmarkdown %}
-
 {% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[5] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 {% markdown %}
 
@@ -146,6 +162,10 @@ Custom cursors were present before the web. They are reborn now. After the hype 
 
 It's a clear trend yet in stealth mode. Lately we've seen font foundries specialized in outlined, animated, layered type. As everything else on the screen &mdash; fonts will start moving too.
 
+{% endmarkdown %}
+{% set image = images[1] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
 
 ## Video
 

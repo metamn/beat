@@ -42,6 +42,90 @@
           "name": "aaron-portrait"
         }
       ]
+    },
+    {
+      "title": "Anymography",
+      "name": "anymography-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "anymography-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "anymography-portrait"
+        }
+      ]
+    },
+    {
+      "title": "Athfield Architects",
+      "name": "athfield-1-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "athfield-1-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "athfield-1-portrait"
+        }
+      ]
+    },
+    {
+      "title": "Athfield Architects",
+      "name": "athfield-2-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "athfield-2-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "athfield-2-portrait"
+        }
+      ]
+    },
+    {
+      "title": "Advanced Urban Design",
+      "name": "aud-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aud-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aud-portrait"
+        }
+      ]
+    },
+    {
+      "title": "Kid Studio",
+      "name": "kidstudio-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "kidstudio-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "kidstudio-portrait"
+        }
+      ]
+    },
+    {
+      "title": "Misplaced",
+      "name": "misplaced-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "misplaced-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "misplaced-portrait"
+        }
+      ]
     }
   ],
   "videos": [
