@@ -1,4 +1,9 @@
 @mixin article--web-trends {
+
+  @include cursor('.article__title .link', 'arrow-top-left.png', 20, 20);
+  @include cursor('.list-expandable__item', 'arrow-right.png', 32, 48);
+  @include cursor('.list-expandable__more', 'arrow-top-left.png', 20, 20);
+
   .article__more {
     @include article__more--inactive;
 
