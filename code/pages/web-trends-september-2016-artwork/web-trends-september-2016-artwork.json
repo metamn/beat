@@ -1,0 +1,37 @@
+{
+  "title": "Artwork for Web Trends September 2016",
+  "excerpt": "Artwork for Web Trends September 2016",
+  "template": "article",
+  "url": "web-trends-september-2016-artwork",
+  "date": "2016-09-08",
+  "display": [
+    "artwork"
+  ],
+  "images": [
+    {
+      "title": "Kid Studio",
+      "name": "kidstudio-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "kidstudio-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "kidstudio-portrait"
+        }
+      ]
+    }
+  ],
+  "slides": [
+    {
+      "title": "Mars Maiers",
+      "name": "marsmaiers",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Yale / Paul Rand",
+      "name": "yale"
+    }
+  ]
+}

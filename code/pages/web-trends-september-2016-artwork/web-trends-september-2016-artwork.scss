@@ -1,0 +1,26 @@
+html {
+  &.home {
+    body {
+      .articles {
+        .article {
+          &--web-trends-september-2016-artwork {
+            border: none;
+            padding: 0;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .web-trends-september-2016-artwork__image-on-hover {
+              @include web-trends-september-2016-artwork__image-on-hover;
+            }
+
+            .web-trends-september-2016-artwork__horizontal-scrolling {
+              @include web-trends-september-2016-artwork__horizontal-scrolling;
+            }
+          }
+        }
+      }
+    }
+  }
+}

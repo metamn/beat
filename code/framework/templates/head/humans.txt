@@ -1,5 +1,5 @@
 /* TEAM */
-	Web designer: Csongor Bartus
+	Web designer and developer: Csongor Bartus
 	Website: http://metamn.io
 	From: Romania
 
