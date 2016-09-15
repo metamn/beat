@@ -4,4 +4,6 @@
   .list-expandable {
     @include list-expandable;
   }
+
+  @include cursor('.list-expandable', 'pointer.png', 20, 20);
 }
