@@ -1,1 +1,5 @@
-@mixin web-trends-september-2016-artwork__custom-spacers {}
+@mixin web-trends-september-2016-artwork__custom-spacers {
+  .spacer {
+    @include spacer;
+  }
+}

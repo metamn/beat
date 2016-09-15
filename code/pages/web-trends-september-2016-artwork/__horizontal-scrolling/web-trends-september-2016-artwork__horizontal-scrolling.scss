@@ -1,6 +1,6 @@
 @mixin web-trends-september-2016-artwork__horizontal-scrolling {
   width: 100%;
-  
+
   .article__slider {
     width: 90%;
   }
@@ -8,6 +8,7 @@
   .slider {
     @include slider;
     @include slider--with-image;
+
     @include intrinsic-ratio(3, 4, '.slider__slides');
   }
 }
