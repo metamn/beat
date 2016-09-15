@@ -1,0 +1,1 @@
+< class="web-trends-september-2016-artwork__marquee">

@@ -11,12 +11,61 @@ html {
             justify-content: center;
             align-items: center;
 
+            position: relative;
+
+            > * {
+              position: absolute;
+              top: 0;
+              left: 0;
+              opacity: .5;
+            }
+
             .web-trends-september-2016-artwork__image-on-hover {
               @include web-trends-september-2016-artwork__image-on-hover;
             }
 
             .web-trends-september-2016-artwork__horizontal-scrolling {
               @include web-trends-september-2016-artwork__horizontal-scrolling;
+            }
+
+            .web-trends-september-2016-artwork__custom-spacers {
+              @include web-trends-september-2016-artwork__custom-spacers;
+            }
+
+            .web-trends-september-2016-artwork__background-animation {
+              @include web-trends-september-2016-artwork__background-animation;
+            }
+
+            .web-trends-september-2016-artwork__horizontal-lines {
+              @include web-trends-september-2016-artwork__horizontal-lines;
+            }
+
+            .web-trends-september-2016-artwork__marquee {
+              @include web-trends-september-2016-artwork__marquee;
+            }
+
+            .web-trends-september-2016-artwork__raster-images {
+              @include web-trends-september-2016-artwork__raster-images;
+            }
+
+            .web-trends-september-2016-artwork__rolling-chars {
+              @include web-trends-september-2016-artwork__rolling-chars;
+            }
+
+            .web-trends-september-2016-artwork__custom-cursors {
+              @include web-trends-september-2016-artwork__custom-cursors;
+            }
+
+            .web-trends-september-2016-artwork__animated-typography {
+              @include web-trends-september-2016-artwork__animated-typography;
+            }
+
+            .web-trends-september-2016-artwork__video {
+              @include web-trends-september-2016-artwork__video;
+            }
+
+            .web-trends-september-2016-artwork__scroll-hijacking {
+              @include web-trends-september-2016-artwork__scroll-hijacking;
             }
           }
         }
