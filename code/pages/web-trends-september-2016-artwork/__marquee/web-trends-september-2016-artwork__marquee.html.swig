@@ -1,5 +1,5 @@
 <aside class="web-trends-september-2016-artwork__marquee">
   <h3>Marquee</h3>
 
-  <div class="marquee">Marquee - back to nineties</div>
+  <div class="marquee">{{ marquee | safe }}</div>
 </aside>

@@ -1,1 +1,5 @@
-@mixin web-trends-september-2016-artwork__video {}
+@mixin web-trends-september-2016-artwork__video {
+  .video {
+    @include video;
+  }
+}

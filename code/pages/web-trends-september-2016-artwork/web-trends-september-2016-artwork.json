@@ -7,6 +7,22 @@
   "display": [
     "artwork"
   ],
+  "videos": [
+    {
+      "title": "Architetti Alpino",
+      "mp4": "architetti",
+      "ogv": "architetti",
+      "webm": "architetti",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Architetti Alpino",
+        "name": "architetti-poster",
+        "extension": ".png"
+      }
+    }
+  ],
   "images": [
     {
       "title": "Kid Studio",
@@ -42,5 +58,6 @@
   "spacer": {
     "text": "///////////////////////////////////////////////////////////////////////////"
   },
-  "rolling_text": "Rolling chars, aye!"
+  "rolling_text": "Rolling chars, aye!",
+  "marquee": "Back to nineties !!! ♥ ♥ ♥ ♥ ♥"
 }
