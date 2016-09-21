@@ -1,3 +1,8 @@
+// Rolling text
+//
+// Displays a text with characters rolling when revealed
+//
+// Styleguide text-rolling
 @mixin text-rolling {
   &__text {
     display: none;
