@@ -1,6 +1,7 @@
 // Move elements
 //
-// Move elements from bottom to top
+// Move elements from bottom to top using requestAnimationFrame
+// - http://creativejs.com/resources/requestanimationframe/
 //
 
 var select = require('./../../../helpers/js/select.js');
@@ -35,19 +36,16 @@ MoveElements.prototype.moveUp = function() {
       newY = _this.originalPosition[index].y;
     }
 
-    console.log('ny:' + newY);
-
     item.style.top = newY + 'px';
   });
+
+  requestAnimationFrame(_this.moveUp.bind(_this));
 }
 
 // The main function
 var moveElements = function(ID) {
   me = new MoveElements(ID);
-
-  setInterval(function () {
-    me.moveUp();
-  }, 100);
+  me.moveUp();
 }
 
 module.exports = moveElements;
