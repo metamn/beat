@@ -10,6 +10,7 @@
   {% set images = article.images %}
   {% set slides = article.slides %}
   {% set spacer = article.spacer %}
+  {% set rolling_text = article.rolling_text %}
 
   {% include '../../../pages/web-trends-september-2016-artwork/web-trends-september-2016-artwork.html.swig' %}
 {% endif %}

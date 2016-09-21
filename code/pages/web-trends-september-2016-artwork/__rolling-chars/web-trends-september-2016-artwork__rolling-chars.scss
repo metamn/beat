@@ -1,1 +1,5 @@
-@mixin web-trends-september-2016-artwork__rolling-chars {}
+@mixin web-trends-september-2016-artwork__rolling-chars {
+  .text-rolling {
+    @include text-rolling;
+  }
+}
