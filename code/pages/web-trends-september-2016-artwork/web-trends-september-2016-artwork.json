@@ -21,6 +21,20 @@
         "name": "architetti-poster",
         "extension": ".png"
       }
+    },
+    {
+      "title": "The Next Rembrandt",
+      "mp4": "rembrandt",
+      "ogv": "rembrandt",
+      "webm": "rembrandt",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "The Next Rembrandt",
+        "name": "rembrandt-poster",
+        "extension": ".png"
+      }
     }
   ],
   "images": [

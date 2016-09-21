@@ -2,6 +2,12 @@ var l = require('./../../helpers/js/loop.js');
 var select = require('./../../helpers/js/select.js');
 var click = require('./../../helpers/js/click.js');
 
+// Split string to chars
+//
+// $sourceID - the container for the text
+// $destinationID - the container where the characters will be inserted
+// $linkURL - the URL, if the text is a link
+// $linkTitle - the link title, if the text is a link
 var splitStringToChars = function(sourceID, destinationID, linkURL, linkTitle) {
   linkURL = linkURL || '';
   linkTitle = linkTitle || '';

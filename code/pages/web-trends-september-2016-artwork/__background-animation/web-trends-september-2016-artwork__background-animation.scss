@@ -1,1 +1,21 @@
-@mixin web-trends-september-2016-artwork__background-animation {}
+@mixin web-trends-september-2016-artwork__background-animation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+
+  .arrow-with-triangle {
+    @include arrow-with-triangle;
+    margin-top: $lem;
+  }
+
+  .trapezoid {
+    @include trapezoid($lem, $lem, 10%);
+  }
+
+  .move-element {
+    transform: translateX(10px) translateY(10px);
+  }
+}

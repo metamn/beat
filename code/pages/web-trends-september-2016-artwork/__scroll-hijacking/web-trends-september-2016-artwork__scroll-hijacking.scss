@@ -1,1 +1,5 @@
-@mixin web-trends-september-2016-artwork__scroll-hijacking {}
+@mixin web-trends-september-2016-artwork__scroll-hijacking {
+  .video {
+    @include video;
+  }
+}
