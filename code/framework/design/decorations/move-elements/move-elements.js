@@ -30,7 +30,7 @@ MoveElements.prototype.moveUp = function() {
   _this.items.loop(function(item, index) {
     var position = elementPosition(item);
     var y = position.y;
-    var newY = y - 10;
+    var newY = y - Math.floor((Math.random() * 20) + 1);
 
     if (newY < 0) {
       newY = _this.originalPosition[index].y;

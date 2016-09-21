@@ -10,7 +10,6 @@
     <span>&bull;</span>
   </div>
 
-  <div class="trapezoid">
-
+  <div class="trapezoid move-element">
   </div>
 </aside>
