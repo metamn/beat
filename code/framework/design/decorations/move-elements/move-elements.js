@@ -5,20 +5,49 @@
 
 var select = require('./../../../helpers/js/select.js');
 var l = require('./../../../helpers/js/loop.js');
-var getElementTransform = require('./../../../helpers/js/getElementTransform.js');
-var transform = require('./../../../helpers/js/transform.js');
+var elementPosition = require('./../../../helpers/js/elementPosition.js');
 
-var moveElements = function(ID) {
-  var items = select(ID);
 
-  items.loop(function(item) {
-    var y = getElementTransform(item, 'X');
-    var x = getElementTransform(item, 'Y');
-    var newY = y + (y / 10);
+// Set up
+function MoveElements(ID) {
+  this.items = select(ID);
 
-    var t = 'translateY(' + newY + 'px) translateX(' + x + 'px)';
-    transform(item, t, t);
+  // save original positions
+  var originalPosition = [];
+
+  this.items.loop(function(item, index) {
+    originalPosition[index] = elementPosition(item);
   });
+
+  this.originalPosition = originalPosition;
+}
+
+// Do the move
+MoveElements.prototype.moveUp = function() {
+  _this = this;
+
+  _this.items.loop(function(item, index) {
+    var position = elementPosition(item);
+    var y = position.y;
+    var newY = y - 10;
+
+    if (newY < 0) {
+      newY = _this.originalPosition[index].y;
+    }
+
+    console.log('ny:' + newY);
+
+    item.style.top = newY + 'px';
+  });
+}
+
+// The main function
+var moveElements = function(ID) {
+  me = new MoveElements(ID);
+
+  setInterval(function () {
+    me.moveUp();
+  }, 100);
 }
 
 module.exports = moveElements;

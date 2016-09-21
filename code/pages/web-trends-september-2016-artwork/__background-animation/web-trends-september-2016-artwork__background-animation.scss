@@ -16,6 +16,6 @@
   }
 
   .move-element {
-    transform: translateX(10px) translateY(10px);
+    @include move-elements;
   }
 }
