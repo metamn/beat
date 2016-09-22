@@ -5,15 +5,10 @@
     &--1,
     &--3 {
       @include marquee(50vw, 10, marquee-wts16-1, off, 9.969em);
-      animation-delay: 1s;
     }
 
     &--2 {
       @include marquee(50vw, 26, marquee-wts16, off, 9.969em);
-    }
-
-    &--3 {
-      animation-delay: 5s;
     }
   }
 }
@@ -24,7 +19,7 @@
   }
 
   to {
-    text-indent: -907%;
+    text-indent: -807%;
   }
 }
 
@@ -45,7 +40,7 @@
   }
 
   to {
-    text-indent: -200%;
+    text-indent: -150%;
   }
 }
 
@@ -55,7 +50,7 @@
   }
 
   to {
-    text-indent: -150%;
+    text-indent: -100%;
   }
 }
 
