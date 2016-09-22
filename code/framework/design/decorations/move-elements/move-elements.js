@@ -10,8 +10,9 @@ var elementPosition = require('./../../../helpers/js/elementPosition.js');
 
 
 // Set up
-function MoveElements(ID) {
+function MoveElements(ID, speed) {
   this.items = select(ID);
+  this.speed = speed;
 
   // save original positions
   var originalPosition = [];
@@ -24,28 +25,37 @@ function MoveElements(ID) {
 }
 
 // Do the move
-MoveElements.prototype.moveUp = function() {
-  _this = this;
+MoveElements.prototype.moveUp = function(speed) {
+  var saveThis;
 
-  _this.items.loop(function(item, index) {
-    var position = elementPosition(item);
-    var y = position.y;
-    var newY = y - Math.floor((Math.random() * 20) + 1);
+  function move() {
+    _this = this;
+    _this.items.loop(function(item, index) {
+      var position = elementPosition(item);
+      var y = position.y;
+      var newY = y - Math.floor((Math.random() * 20) + 1);
 
-    if (newY < 0) {
-      newY = _this.originalPosition[index].y;
-    }
+      if (newY < 0) {
+        newY = _this.originalPosition[index].y;
+      }
 
-    item.style.top = newY + 'px';
-  });
+      item.style.top = newY + 'px';
+    });
+  }
+  saveThis = move.bind(this);
 
-  requestAnimationFrame(_this.moveUp.bind(_this));
+  function loop() {
+    requestAnimationFrame(saveThis);
+    if (true) // some end condition instead of globalAnimationCancel
+      globalAnimationCancel = setTimeout(loop, speed);
+  }
+  globalAnimationCancel = setTimeout(loop, speed);
 }
 
 // The main function
-var moveElements = function(ID) {
-  me = new MoveElements(ID);
-  me.moveUp();
+var moveElements = function(ID, speed) {
+  me = new MoveElements(ID, speed);
+  me.moveUp(speed);
 }
 
 module.exports = moveElements;
