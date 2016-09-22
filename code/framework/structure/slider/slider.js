@@ -31,7 +31,7 @@ function Slider(sliderID, bulletsID, autoScroll) {
 
 // The main function
 var slider = function(sliderID, bulletsID, autoScroll) {
-  if (typeof(autoScroll)==='undefined') autoScroll = false;
+  if (typeof(autoScroll)==='undefined') autoScroll = -1;
   s = new Slider(sliderID, bulletsID, autoScroll);
 
   // Make responsive
@@ -48,14 +48,14 @@ var slider = function(sliderID, bulletsID, autoScroll) {
   click(s.bullets, s.clickBullet.bind(s));
 
   // Auto scroll
-  if (s.autoScroll) {
-    s.autoPlay();
+  if (s.autoScroll != -1) {
+    s.autoPlay(a.autoScroll);
   }
 }
 
 
 // http://stackoverflow.com/questions/29223869/function-prototype-bind-for-requestanimationframe-results-in-unreadable-property
-Slider.prototype.autoPlay = function() {
+Slider.prototype.autoPlay = function(delay) {
   var saveThis;
 
   function click() {
@@ -66,9 +66,9 @@ Slider.prototype.autoPlay = function() {
   function loop() {
     requestAnimationFrame(saveThis);
     if (true) // some end condition instead of globalAnimationCancel
-      globalAnimationCancel = setTimeout(loop, 1000);
+      globalAnimationCancel = setTimeout(loop, delay);
   }
-  globalAnimationCancel = setTimeout(loop, 1000);
+  globalAnimationCancel = setTimeout(loop, delay);
 }
 
 
