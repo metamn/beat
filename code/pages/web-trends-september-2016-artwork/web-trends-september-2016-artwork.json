@@ -40,22 +40,13 @@
   "images": [
     {
       "title": "Kid Studio",
-      "name": "kidstudio-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "kidstudio-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "kidstudio-portrait"
-        }
-      ]
+      "name": "kidstudio-portrait",
+      "onesize": "tablet"
     },
     {
       "title": "Aaron Koblin",
-      "name": "aaron-landscape",
-      "onesize": "desktop"
+      "name": "aaron-portrait",
+      "onesize": "tablet"
     }
   ],
   "slides": [
