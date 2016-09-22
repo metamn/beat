@@ -1,9 +1,66 @@
 @mixin web-trends-september-2016-artwork__marquee {
   .marquee {
     @include scale(large-8);
-    @include marquee(50vw, 26, marquee-wts16, off, 9.969em);
+
+    &--1,
+    &--3 {
+      @include marquee(50vw, 10, marquee-wts16-1, off, 9.969em);
+      animation-delay: 1s;
+    }
+
+    &--2 {
+      @include marquee(50vw, 26, marquee-wts16, off, 9.969em);
+    }
+
+    &--3 {
+      animation-delay: 3s;
+    }
   }
 }
+
+@include keyframes(marquee-wts16-1-mobile) {
+  from  {
+    text-indent: 100%;
+  }
+
+  to {
+    text-indent: -907%;
+  }
+}
+
+
+@include keyframes(marquee-wts16-1-tablet) {
+  from  {
+    text-indent: 100%;
+  }
+
+  to {
+    text-indent: -400%;
+  }
+}
+
+@include keyframes(marquee-wts16-1-laptop) {
+  from  {
+    text-indent: 100%;
+  }
+
+  to {
+    text-indent: -200%;
+  }
+}
+
+@include keyframes(marquee-wts16-1-desktop) {
+  from  {
+    text-indent: 100%;
+  }
+
+  to {
+    text-indent: -150%;
+  }
+}
+
+
+
 
 @include keyframes(marquee-wts16-mobile) {
   from  {

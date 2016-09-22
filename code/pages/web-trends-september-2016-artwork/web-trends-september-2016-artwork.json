@@ -64,5 +64,9 @@
     "text": "///////////////////////////////////////////////////////////////////////////"
   },
   "rolling_text": "Rolling chars, aye!",
-  "marquee": "Back to nineties !!! ♥ ♥ ♥ ♥ ♥"
+  "marquees": [
+    "◈ ◈ ◈ ◈ ◈",
+    "Back to nineties !!! ♥ ♥ ♥ ♥ ♥",
+    "◈ ◈ ◈ ◈ ◈"
+  ]
 }

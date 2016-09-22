@@ -11,7 +11,7 @@
   {% set slides = article.slides %}
   {% set spacer = article.spacer %}
   {% set rolling_text = article.rolling_text %}
-  {% set marquee = article.marquee %}
+  {% set marquees = article.marquees %}
   {% set videos = article.videos %}
 
   {% include '../../../pages/web-trends-september-2016-artwork/web-trends-september-2016-artwork.html.swig' %}
