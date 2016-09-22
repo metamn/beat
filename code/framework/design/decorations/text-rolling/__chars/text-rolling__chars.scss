@@ -4,5 +4,5 @@
 
   @include text-rolling__chars--simple;
   @include text-rolling__chars--matrix;
-  @include text-rolling__chars--reveal(18);
+  @include text-rolling__chars--reveal-continuous(18);
 }

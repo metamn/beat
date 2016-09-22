@@ -2,12 +2,11 @@
   .char {
     opacity: 0;
     $duration: 0.1s;
-    $delay: 10s;
 
     @for $i from 1 to $count + 2 {
       &--#{$i - 1} {
         @include animation(text-rolling-chars-reveal, $duration);
-        animation-delay: ($i - 1) * $duration + $delay;
+        animation-delay: ($i - 1) * $duration;
         animation-fill-mode: forwards;
       }
     }

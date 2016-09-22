@@ -1,5 +1,9 @@
 @mixin web-trends-september-2016-artwork__rolling-chars {
   .text-rolling {
     @include text-rolling;
+
+    @include text-style(name);
+    @include scale(large-1);
+    padding: $lem;
   }
 }
