@@ -7,7 +7,7 @@ var klass = require('./../../helpers/js/klass.js');
 
 
 // Set up the slider
-function Slider(sliderID, bulletsID) {
+function Slider(sliderID, bulletsID, autoScroll) {
   // Slider
   this.slider = select(sliderID);
 
@@ -23,12 +23,16 @@ function Slider(sliderID, bulletsID) {
   this.direction = 'prev';
   this.slideCount = this.slides.length;
   this.bullets = select(bulletsID);
+
+  // Auto scroll
+  this.autoScroll = autoScroll;
 }
 
 
 // The main function
-var slider = function(sliderID, bulletsID) {
-  s = new Slider(sliderID, bulletsID);
+var slider = function(sliderID, bulletsID, autoScroll) {
+  if (typeof(autoScroll)==='undefined') autoScroll = false;
+  s = new Slider(sliderID, bulletsID, autoScroll);
 
   // Make responsive
   s.setTransform();
@@ -42,6 +46,29 @@ var slider = function(sliderID, bulletsID) {
 
   // Click on bullets
   click(s.bullets, s.clickBullet.bind(s));
+
+  // Auto scroll
+  if (s.autoScroll) {
+    s.autoPlay();
+  }
+}
+
+
+// http://stackoverflow.com/questions/29223869/function-prototype-bind-for-requestanimationframe-results-in-unreadable-property
+Slider.prototype.autoPlay = function() {
+  var saveThis;
+
+  function click() {
+    this.images[0].click();
+  }
+  saveThis = click.bind(this);
+
+  function loop() {
+    requestAnimationFrame(saveThis);
+    if (true) // some end condition instead of globalAnimationCancel
+      globalAnimationCancel = setTimeout(loop, 1000);
+  }
+  globalAnimationCancel = setTimeout(loop, 1000);
 }
 
 
