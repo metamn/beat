@@ -8,21 +8,15 @@
 
   .arrow-with-triangle {
     @include arrow-with-triangle;
-
-    padding: $lem;
-  }
-
-  .trapezoid {
-    @include trapezoid($lem * 2, $lem * 2, 10%);
-    padding: $lem * 2;
-  }
-
-  .char {
-    @include scale(large-8);
-    left: 0;
   }
 
   .move-element {
     @include move-elements;
+
+    @for $i from 1 to 9 {
+      &:nth-of-type(#{$i}) {
+        left: ($i - 1) * $lem * 4;
+      }
+    }
   }
 }
