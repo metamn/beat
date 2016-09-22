@@ -1,4 +1,4 @@
-<aside class="web-trends-september-2016-artwork__custom-cursors">
+<aside class="wts16a web-trends-september-2016-artwork__custom-cursors">
   <h3>Custom cursors</h3>
 
   {% set count = [1,2,3,4,5,6,7,8,9,10] %}

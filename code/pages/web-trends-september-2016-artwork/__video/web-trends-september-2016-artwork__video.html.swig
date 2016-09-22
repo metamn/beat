@@ -1,4 +1,4 @@
-<aside class="web-trends-september-2016-artwork__video">
+<aside class="wts16a web-trends-september-2016-artwork__video">
   <h3>Video</h3>
 
   {% set video = videos[0] %}

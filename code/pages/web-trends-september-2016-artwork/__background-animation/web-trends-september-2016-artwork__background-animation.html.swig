@@ -1,4 +1,4 @@
-<aside class="web-trends-september-2016-artwork__background-animation">
+<aside class="wts16a web-trends-september-2016-artwork__background-animation">
   <h3>Background animation</h3>
 
   <div class="arrow move-element">
