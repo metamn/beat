@@ -15,9 +15,6 @@
       },
       {
         "file": "vendors.js"
-      },
-      {
-        "file": "ga.js"
       }
     ],
     "footer": [

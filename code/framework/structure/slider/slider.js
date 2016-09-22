@@ -49,7 +49,7 @@ var slider = function(sliderID, bulletsID, autoScroll) {
 
   // Auto scroll
   if (s.autoScroll != -1) {
-    s.autoPlay(a.autoScroll);
+    s.autoPlay(s.autoScroll);
   }
 }
 
