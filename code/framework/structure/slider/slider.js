@@ -59,7 +59,6 @@ Slider.prototype.autoPlay = function(delay) {
   var saveThis;
 
   function click() {
-    console.log('c');
     this.images[0].click();
   }
   saveThis = click.bind(this);

@@ -3,7 +3,11 @@
 // Display a text as a matrix
 //
 // Styleguide spacer
-@mixin spacer($padding: $lem * 2) {
+@mixin spacer($padding: $lem / 2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  
   &__text {
     display: none;
   }
@@ -11,7 +15,7 @@
   &__chars {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     .char {

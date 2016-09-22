@@ -1,5 +1,15 @@
 @mixin web-trends-september-2016-artwork__custom-spacers {
   .spacer {
     @include spacer;
+    @include colors(black-on-white);
+
+    width: 25vw;
+    height: 25vw;
+    margin: $lem;
+
+    &:last-of-type {
+      width: 12.5vw;
+      height: 12.5vw;
+    }
   }
 }

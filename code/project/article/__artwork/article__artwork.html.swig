@@ -9,7 +9,7 @@
 {% if article.url == "web-trends-september-2016-artwork" %}
   {% set images = article.images %}
   {% set slides = article.slides %}
-  {% set spacer = article.spacer %}
+  {% set spacers = article.spacers %}
   {% set rolling_text = article.rolling_text %}
   {% set marquees = article.marquees %}
   {% set videos = article.videos %}
