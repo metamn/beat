@@ -1,7 +1,7 @@
 @mixin article--web-trends {
   @include landscape {
-    @include cursor('.list-expandable__item', 'arrow-right-small.png', 32, 48);
-    @include cursor('.list-expandable__more', 'arrow-top-left-small.png', 20, 20);
+    @include cursor('.list-expandable__item', 'arrow-right', 32, 48);
+    @include cursor('.list-expandable__more', 'arrow-top-left', 20, 20);
   }
 
   .article__more {
