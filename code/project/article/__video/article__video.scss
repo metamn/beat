@@ -1,4 +1,5 @@
 @mixin article__video {
+  @include background-image-dotted;
   margin: $lem 0;
 
   + .article__video {
@@ -7,14 +8,24 @@
 
   .video {
     @include video;
+
+    padding: $lem * 3;
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+
+    @include portrait {
+      padding: $lem;
+    }
+
+    @include mobile {
+      padding: $lem / 2;
+    }
   }
 
   .video-link {
-    @include background-image-lined;
-
     display: flex;
     justify-content: center;
-    padding: $lem / 2;
 
     .link {
       @include text-style(figcaption);

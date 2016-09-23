@@ -8,12 +8,15 @@
     flex-direction: column;
     align-items: center;
 
-
     .picture {
       padding: $lem * 3;
 
+      @include portrait {
+        padding: $lem;
+      }
+
       @include mobile {
-        padding: 0;
+        padding: $lem / 2;
       }
     }
 

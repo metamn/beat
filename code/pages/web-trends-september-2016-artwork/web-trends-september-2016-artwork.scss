@@ -25,11 +25,15 @@ html {
               align-items: center;
 
               @include transition(opacity);
-              
+
               &--active {
                 opacity: 1;
                 z-index: 100;
               }
+            }
+
+            @include portrait {
+              display: none;
             }
 
             .web-trends-september-2016-artwork__image-on-hover {

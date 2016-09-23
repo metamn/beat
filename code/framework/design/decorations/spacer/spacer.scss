@@ -7,7 +7,9 @@
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  
+
+  overflow: hidden;
+
   &__text {
     display: none;
   }
