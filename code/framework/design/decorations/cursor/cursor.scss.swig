@@ -22,8 +22,7 @@
 @mixin cursor($item, $cursor-image-name, $x: 0, $y: 0, $default: auto) {
   #{$item} {
     &:hover {
-      cursor: url({{ site.url }}{{ site.images }}#{$cursor-image-name}-small.png),
-              url({{ site.url }}{{ site.images }}#{$cursor-image-name}.png) #{$x} #{$y},
+      cursor: url({{ site.url }}{{ site.images }}#{$cursor-image-name}.png) #{$x} #{$y},
               url({{ site.url }}{{ site.images }}#{$cursor-image-name}-small.cur),
               #{$default};
     }

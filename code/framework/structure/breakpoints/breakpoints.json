@@ -19,9 +19,23 @@
       "name": "ie",
       "value": "n/a",
       "description": "IE 10/11"
+    },
+    {
+      "name": "osx",
+      "value": "n/a",
+      "description": "Mac / OSX"
     }
   ],
   "responsive_mixins": [
+    {
+      "name": "osx",
+      "media_query": "(-webkit-max-device-pixel-ratio:1) and (min-color-index:0)"
+    },
+    {
+      "name": "notosx",
+      "media_query": "(-webkit-max-device-pixel-ratio:1)",
+      "media_query_prefix": "not all and"
+    },
     {
       "name": "ie",
       "media_query": "(-ms-high-contrast: none), (-ms-high-contrast: active)"

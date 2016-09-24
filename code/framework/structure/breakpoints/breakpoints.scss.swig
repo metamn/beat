@@ -12,7 +12,12 @@ $breakpoint-{{ breakpoint.name }}: {{ breakpoint.value }};
 
 {% for mixin in responsive_mixins %}
 @mixin {{ mixin.name }} {
-  @media only screen and {{ mixin.media_query }} {
+  {% if mixin.media_query_prefix %}
+    {% set prefix = mixin.media_query_prefix %}
+  {% else %}
+    {% set prefix = "only screen and" %}
+  {% endif %}
+  @media {{ prefix}} {{ mixin.media_query }} {
     @content
   }
 }

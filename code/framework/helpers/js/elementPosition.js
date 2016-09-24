@@ -6,8 +6,10 @@
 
 var elementPosition = function(el) {
   var p = {};
+
   p.x = el.offsetLeft;
   p.y = el.offsetTop;
+
   while (el.offsetParent) {
       p.x = p.x + el.offsetParent.offsetLeft;
       p.y = p.y + el.offsetParent.offsetTop;
@@ -18,6 +20,7 @@ var elementPosition = function(el) {
           el = el.offsetParent;
       }
   }
+
   return p;
 }
 
