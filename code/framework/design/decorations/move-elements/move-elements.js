@@ -3,6 +3,9 @@
 // Move elements from bottom to top using requestAnimationFrame
 // - http://creativejs.com/resources/requestanimationframe/
 //
+// Experimental
+//
+// - in Firefox the requestAnimationFrame speed is visible slower than in all other browsers
 
 var select = require('./../../../helpers/js/select.js');
 var l = require('./../../../helpers/js/loop.js');
@@ -19,6 +22,11 @@ function MoveElements(ID, speed) {
 
   this.items.loop(function(item, index) {
     originalPosition[index] = elementPosition(item);
+
+    // Fix Safari bug
+    if (originalPosition[index].y == 0) {
+      originalPosition[index].y = Math.floor((Math.random() * 20) + 400);
+    }
   });
 
   this.originalPosition = originalPosition;
