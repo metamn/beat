@@ -1,4 +1,4 @@
-<aside class="article__video">
+<aside class="article__video article__video--{{ video_klass }}">
   <h3>Video</h3>
 
   {% include "../../../framework/structure/video/video.html.swig" %}

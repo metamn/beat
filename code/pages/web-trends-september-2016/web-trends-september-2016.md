@@ -16,6 +16,8 @@ In all cases, after the page load (no interaction yet), we have a calm layout an
 - which strengthens the message
 {% endmarkdown %}
 
+{% set video_klass = "inside-article" %}
+
 {% set video = videos[0] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 

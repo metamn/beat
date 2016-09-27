@@ -1,34 +1,13 @@
 @mixin article__video {
-  @include background-image-dotted;
-  margin: $lem 0;
-
-  + .article__video {
-    margin-top: 0;
-  }
-
   .video {
     @include video;
-
-    padding: $lem * 3;
-    box-sizing: border-box;
-    width: auto;
-    max-width: 100%;
-
-    @include portrait {
-      padding: $lem;
-    }
-
-    @include mobile {
-      padding: $lem / 2;
-    }
   }
 
   .video-link {
-    display: flex;
-    justify-content: center;
+    display: none;
+  }
 
-    .link {
-      @include text-style(figcaption);
-    }
+  &--inside-article {
+    @include article__video--inside-article;
   }
 }
