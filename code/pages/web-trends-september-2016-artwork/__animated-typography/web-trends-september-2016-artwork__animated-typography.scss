@@ -1,5 +1,11 @@
 @mixin web-trends-september-2016-artwork__animated-typography {
+  flex-direction: column;
+
   .img {
     @include img(stretched);
+
+    + .img {
+      margin-top: $lem;
+    }
   }
 }
