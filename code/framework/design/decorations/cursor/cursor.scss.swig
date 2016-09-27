@@ -11,7 +11,7 @@
 //
 // 1. Size
 // - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_User_Interface/Using_URL_values_for_the_cursor_property
-// - large .PNGs (> 48x48) are breaking all browsers under OSX while working over all other platforms
+// - large .PNGs (> 64x64) are breaking all browsers under OSX while working over all other platforms
 // - FF, Chrome support cursors up to 128x128px
 //
 // 2. IE, Edge
@@ -23,7 +23,7 @@
   #{$item} {
     &:hover {
       cursor: url({{ site.url }}{{ site.images }}#{$cursor-image-name}.png) #{$x} #{$y},
-              url({{ site.url }}{{ site.images }}#{$cursor-image-name}-small.cur),
+              url({{ site.url }}{{ site.images }}#{$cursor-image-name}.cur),
               #{$default};
     }
   }
