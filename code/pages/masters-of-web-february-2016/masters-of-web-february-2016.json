@@ -129,15 +129,15 @@
     },
     {
       "title": "SFCD",
-      "name": "sfcd-landscape-1",
+      "name": "sfcd-landscape-2",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "sfcd-portrait-1"
+          "name": "sfcd-portrait-2"
         },
         {
           "breakpoint": "tablet",
-          "name": "sfcd-portrait-1"
+          "name": "sfcd-portrait-2"
         }
       ],
       "url": "http://sfcd.com/",
