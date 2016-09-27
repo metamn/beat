@@ -8,8 +8,8 @@
     margin: $lem;
 
     &:last-of-type {
-      width: 12.5vw;
-      height: 12.5vw;
+      width: $lem * 9;
+      height: $lem * 9;
     }
   }
 }
