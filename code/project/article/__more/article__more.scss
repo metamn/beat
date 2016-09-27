@@ -1,12 +1,12 @@
 @mixin article__more {
   padding: $lem * 2;
   padding-bottom: 0;
-  
+
   order: 10;
   align-self: flex-end;
 
-  .arrow-with-saquo {
-    @include arrow-with-saquo;
+  .arrow-with-triangle {
+    @include arrow-with-triangle;
   }
 
   .link {

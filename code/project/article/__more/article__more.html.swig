@@ -5,14 +5,14 @@
   {% set link = { title: article.title, url: article.url } %}
 
   {{ l.link(link) }}
-    {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+    {% include '../../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
   </a>
 
   {{ l.link(link) }}
-    {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+    {% include '../../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
   </a>
 
   {{ l.link(link) }}
-    {% include '../../../framework/design/decorations/arrow-with-saquo/arrow-with-saquo.html.swig' %}
+    {% include '../../../framework/design/decorations/arrow-with-triangle/arrow-with-triangle.html.swig' %}
   </a>
 </div>
