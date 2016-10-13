@@ -1,0 +1,18 @@
+{
+  "title": "The checklist",
+  "excerpt": "How to analyze a website?",
+  "template": "article",
+  "categories": [
+    "design",
+    "code"
+  ],
+  "url": "the-checklist",
+  "date": "2016-10-13",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
