@@ -2,6 +2,7 @@
   "title": "The checklist",
   "excerpt": "How to analyze a website?",
   "template": "article",
+  "status": "draft",
   "categories": [
     "design",
     "code"
