@@ -1,5 +1,14 @@
 @mixin articles-grid-regrid($margin) {
   @include landscape {
+    .article--what-to-learn-next-december-2016 {
+      margin-right: 50%;
+    }
+    .article--web-trends-september-2016 {
+      margin-right: $margin;
+    }
+    .article--web-trends-september-2016-artwork {
+      margin-right: 0;
+    }
 
     .article--no-more-problems-on-the-front-end,
     .article--practically {

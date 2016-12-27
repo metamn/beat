@@ -1,0 +1,17 @@
+{
+  "title": "What To Learn Next, December 2016",
+  "excerpt": "A roundup of current web technologies and design trends worth learning",
+  "template": "article",
+  "categories": [
+    "trend"
+  ],
+  "url": "what-to-learn-next-december-2016",
+  "date": "2016-12-22",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
