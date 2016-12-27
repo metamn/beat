@@ -1,9 +1,30 @@
 {% markdown %}
 
+## Designing for thumbs
+
+Responsive design is not just about fitting content to various screen sizes but also about designing for thumb interactions.
+
+Mobile, phablets, tablets and now touch sensitive laptops are hold differently. We should put interactive elements near to the user's thumb to make their effort to interact with the app / site comfortable.
+{% endmarkdown %}
+
+{% set image = images[3] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[4] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[5] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[6] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% markdown %}
+
+
 ## Card Based User Interfaces
 
 [Cards](https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/)
-organize information into chunks of content, and users appreciate chunked content because it aids for *scannability*: it helps avoid walls of text, which can appear intimidating or time-consuming and allows users to dive deep into their interests quicker. Cards divide content into meaningful sections, similar to the way text paragraphs group sentences into distinct sections. They can gather various pieces of information to form one coherent piece of content.
+organize information into chunks of content, and users appreciate chunked content because it aids for *scannability*: it helps avoid walls of text, which can appear intimidating or time-consuming and allows users to dive deep into their interests quicker.
 {% endmarkdown %}
 
 {% set image = images[0] %}
@@ -65,7 +86,6 @@ https://css-tricks.com/things-ive-learned-css-grid-layout/
 https://24ways.org/2016/what-next-for-css-grid-layout/
 https://www.smashingmagazine.com/2016/11/css-grids-flexbox-and-box-alignment-our-new-system-for-web-layout/
 
-https://www.smashingmagazine.com/2016/10/designing-card-based-user-interfaces/
 https://www.smashingmagazine.com/2016/09/the-thumb-zone-designing-for-mobile-users/
 https://www.smashingmagazine.com/2016/09/boosting-conversion-rates-with-psychologically-validated-principles/
 https://www.smashingmagazine.com/2016/07/how-to-make-wordpress-hard-for-clients-to-mess-up/
