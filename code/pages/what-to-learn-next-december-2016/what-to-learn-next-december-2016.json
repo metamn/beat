@@ -1,6 +1,6 @@
 {
   "title": "What To Learn Next, December 2016",
-  "excerpt": "A roundup of current web technologies and design trends worth learning",
+  "excerpt": "Web design tricks, techniques, hacks worth learning",
   "template": "article",
   "categories": [
     "trend"
@@ -13,5 +13,21 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "images": [
+    {
+      "title": "Material design card",
+      "name": "material-design-card",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Material design card with details",
+      "name": "material-design-card-2",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Responsive cards",
+      "name": "material-design-card-3"
+    }
   ]
 }
