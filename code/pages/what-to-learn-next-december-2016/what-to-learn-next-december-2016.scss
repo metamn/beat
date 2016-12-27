@@ -1,8 +1,8 @@
 html {
   &.what-to-learn-next-december-2016 {
     .article {
-      img {
-        @include img;
+      .list-expandable {
+        @include list-expandable;
       }
     }
   }

@@ -2,8 +2,8 @@
   <h3>Expandable list</h3>
 
   <ul class="ul">
-    {% set display = 3 %}
-    {% set more = 4 %}
+    {% set display = 4 %}
+    {% set more = 5 %}
 
     {% for item in list %}
       {% if (loop.index == more) %}
