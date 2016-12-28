@@ -4,6 +4,9 @@
 //
 // Stylequide marquee-3d
 @mixin marquee-3d($color: $black) {
+  display: flex;
+  align-items: center;
+
   perspective: 500px;
   font-size: 0;
 
@@ -13,7 +16,7 @@
     width: 30rem;
     position: relative;
 
-    font-size: 8rem;
+    font-size: 10rem;
 	  overflow: hidden;
 
     .text {
