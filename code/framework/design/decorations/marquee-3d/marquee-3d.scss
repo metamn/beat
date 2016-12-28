@@ -1,0 +1,58 @@
+// Marquee 3D
+//
+// From https://thenewcode.com/1096/Wrapping-Animated-3D-Marquee-Text-with-Pure-CSS
+//
+// Stylequide marquee-3d
+@mixin marquee-3d {
+  perspective: 500px;
+  font-size: 0;
+
+  .div {
+    display: inline-block;
+    height: 12rem;
+    width: 30rem;
+    position: relative;
+
+    font-size: 8rem;
+	  overflow: hidden;
+
+    &--1 {
+      background: #e5233e;
+      transform-origin: top right;
+      transform: rotateY(-40deg);
+      color: #fff;
+
+      .text {
+        transform: translateX(60rem);
+      	animation: leftcrawl 14s linear infinite;
+      	text-shadow: 4px 0px 4px rgba(0,0,0,0.3);
+      }
+    }
+
+    &--2 {
+      background: #b31e31;
+      transform-origin: top left;
+      transform: rotateY(45deg);
+      color: #f8c9d9;
+
+      .text {
+        transform: translateX(30rem);
+	      animation: rightcrawl 14s linear infinite;
+      }
+    }
+
+    .text {
+      position: absolute;
+    	width: 400%;
+    	line-height: 1.4;
+    }
+  }
+}
+
+@keyframes leftcrawl {
+	to { transform: translateX(-100rem); }
+}
+
+@keyframes rightcrawl {
+	to { transform: translateX(-130rem); }
+}

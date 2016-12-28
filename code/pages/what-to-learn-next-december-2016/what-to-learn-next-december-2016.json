@@ -14,11 +14,15 @@
     "date",
     "excerpt"
   ],
-  "list": [
+  "list1": [
+    "Make websites look like and act like native applications",
+    "Make websites work perfect in any conditions",
+    "Find new ways to deliver unique, outside of the box experiences"
+  ],
+  "list2": [
     "Designing for thumbs",
-    "Card based User Interfaces",
-    "Page transitions",
-    "Goodies"
+    "Card based user interfaces",
+    "Page transitions"
   ],
   "images": [
     {

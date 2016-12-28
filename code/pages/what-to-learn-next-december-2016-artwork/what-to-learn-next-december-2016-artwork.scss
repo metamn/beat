@@ -1,0 +1,15 @@
+html {
+  &.home {
+    body {
+      .articles {
+        .article {
+          &--what-to-learn-next-december-2016-artwork {
+            .marquee-3d {
+              @include marquee-3d;
+            }
+          }
+        }
+      }
+    }
+  }
+}
