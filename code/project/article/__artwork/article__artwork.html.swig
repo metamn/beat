@@ -16,3 +16,7 @@
 
   {% include '../../../pages/web-trends-september-2016-artwork/web-trends-september-2016-artwork.html.swig' %}
 {% endif %}
+
+{% if article.url == "what-to-learn-next-december-2016-artwork" %}
+  {% include '../../../pages/what-to-learn-next-december-2016-artwork/what-to-learn-next-december-2016-artwork.html.swig' %}
+{% endif %}
