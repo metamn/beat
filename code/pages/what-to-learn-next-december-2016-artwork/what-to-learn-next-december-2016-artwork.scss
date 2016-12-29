@@ -5,7 +5,9 @@ html {
         .article {
           &--what-to-learn-next-december-2016-artwork {
             padding: 0;
-            
+            overflow: hidden;
+            border: 0;
+
             .marquee-3d {
               @include marquee-3d;
             }

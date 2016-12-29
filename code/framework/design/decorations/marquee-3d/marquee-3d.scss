@@ -4,8 +4,14 @@
 //
 // Stylequide marquee-3d
 @mixin marquee-3d($color: $black) {
+
+  // otherwise the rectangle will become square on small screens;
+  // the parent must have set overflow:hidden;
+  min-width: 1000px;
+
   display: flex;
   align-items: center;
+  justify-content: center;
 
   perspective: 500px;
   font-size: 0;
@@ -16,7 +22,7 @@
     width: 30rem;
     position: relative;
 
-    font-size: 10rem;
+    font-size: 8rem;
 	  overflow: hidden;
 
     .text {
@@ -50,6 +56,8 @@
       }
     }
   }
+
+  @include marquee-3d--responsive;
 }
 
 @keyframes leftcrawl {
