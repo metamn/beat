@@ -1,6 +1,6 @@
 // Move elements
 //
-// Move elements from bottom to top using requestAnimationFrame
+// Move elements from bottom to top inside a container, using requestAnimationFrame
 // - http://creativejs.com/resources/requestanimationframe/
 //
 // Experimental
@@ -9,7 +9,7 @@
 
 var select = require('./../../../helpers/js/select.js');
 var l = require('./../../../helpers/js/loop.js');
-var elementPosition = require('./../../../helpers/js/elementPosition.js');
+var elementSize = require('./../../../helpers/js/elementSize.js');
 
 
 // Set up
@@ -17,19 +17,13 @@ function MoveElements(ID, speed) {
   this.items = select(ID);
   this.speed = speed;
 
-  // save original positions
-  var originalPosition = [];
+  var parent = this.items[0].parentNode;
+  this.h = elementSize(parent).height;
 
+  // position all items to the bottom
   this.items.loop(function(item, index) {
-    originalPosition[index] = elementPosition(item);
-
-    // Fix Safari bug
-    if (originalPosition[index].y == 0) {
-      originalPosition[index].y = Math.floor((Math.random() * 20) + 400);
-    }
+    item.style.top = this.h + 'px';
   });
-
-  this.originalPosition = originalPosition;
 }
 
 // Do the move
@@ -39,12 +33,13 @@ MoveElements.prototype.moveUp = function(speed) {
   function move() {
     _this = this;
     _this.items.loop(function(item, index) {
-      var position = elementPosition(item);
-      var y = position.y;
+      var position = item.style.top;
+      var y = position.replace('px', '');
       var newY = y - Math.floor((Math.random() * 20) + 1);
 
+      // if reached the top move back to bottom
       if (newY < 0) {
-        newY = _this.originalPosition[index].y;
+        newY = _this.h;
       }
 
       item.style.top = newY + 'px';

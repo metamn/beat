@@ -1,6 +1,7 @@
 // Element position
 //
 // Get the position of an element
+// - this seems to be not working well ....
 //
 // $el - the element
 
