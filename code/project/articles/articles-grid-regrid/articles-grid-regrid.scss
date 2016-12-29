@@ -1,5 +1,13 @@
 @mixin articles-grid-regrid($margin) {
   @include landscape {
+    .article--what-to-learn-next-december-2016 {
+      border-right: 0;
+    }
+    .article--what-to-learn-next-december-2016-artwork {
+      border: 1px solid !important;
+      border-left: 0 !important;
+    }
+
     .article--no-more-problems-on-the-front-end,
     .article--practically {
       margin-right: $margin;
