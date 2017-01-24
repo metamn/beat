@@ -1,7 +1,7 @@
 {
   "title": "Brutalist Websites, January 2017",
   "excerpt": "Brutalist Websites, January 2017",
-  "thumb": "tennetbrown-portrait_mobile.png",
+  "thumb": "tish-portrait_mobile.png",
   "template": "article",
   "categories": [
     "design"
@@ -15,6 +15,22 @@
     "slides"
   ],
   "slides": [
+    {
+      "title": "Tish",
+      "name": "tish-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "tish-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "tish-portrait"
+        }
+      ],
+      "url": "http://theinternet.show/",
+      "figcaption": "<a class='link' href='http://theinternet.show/'>http://theinternet.show</a>"
+    },
     {
       "title": "listenand.watch",
       "name": "listen-and-watch-landscape",
@@ -48,22 +64,6 @@
       "figcaption": "<a class='link' href='https://froy.me/new/'>https://froy.me/new</a>"
     },
     {
-      "title": "Tish",
-      "name": "tish-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "tish-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "tish-portrait"
-        }
-      ],
-      "url": "http://theinternet.show/",
-      "figcaption": "<a class='link' href='http://theinternet.show/'>http://theinternet.show</a>"
-    },
-    {
       "title": "RFGraphics",
       "name": "rfg-landscape",
       "responsive": [
@@ -94,6 +94,70 @@
       ],
       "url": "http://art.yale.edu/",
       "figcaption": "<a class='link' href='http://art.yale.edu/'>http://art.yale.edu</a>"
+    },
+    {
+      "title": "What's For Lunch Soho",
+      "name": "wfls-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "wfls-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "wfls-portrait"
+        }
+      ],
+      "url": "http://whatsforlunchsoho.com/",
+      "figcaption": "<a class='link' href='http://whatsforlunchsoho.com/'>http://whatsforlunchsoho.com</a>"
+    },
+    {
+      "title": "Offshore Studio",
+      "name": "offshorestudio-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "offshorestudio-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "offshorestudio-portrait"
+        }
+      ],
+      "url": "http://www.offshorestudio.ch/",
+      "figcaption": "<a class='link' href='http://www.offshorestudio.ch/'>http://www.offshorestudio.ch</a>"
+    },
+    {
+      "title": "The Primal Urge",
+      "name": "primal-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "primal-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "primal-portrait"
+        }
+      ],
+      "url": "https://theprimalurge.com/",
+      "figcaption": "<a class='link' href='https://theprimalurge.com/'>https://theprimalurge.com</a>"
+    },
+    {
+      "title": "Vancouver Artbook Fair 2016",
+      "name": "vaf-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "vaf-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "vaf-portrait"
+        }
+      ],
+      "url": "http://2016.vancouverartbookfair.com/",
+      "figcaption": "<a class='link' href='http://2016.vancouverartbookfair.com/'>http://2016.vancouverartbookfair.com</a>"
     }
   ]
 }
