@@ -16,20 +16,20 @@
   ],
   "slides": [
     {
-      "title": "Afterall Studio",
-      "name": "afterall-landscape",
+      "title": "listenand.watch",
+      "name": "listen-and-watch-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "afterall-portrait"
+          "name": "listen-and-watch-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "afterall-portrait"
+          "name": "listen-and-watch-portrait"
         }
       ],
-      "url": "http://afterallstudio.com/",
-      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
+      "url": "http://listenand.watch/",
+      "figcaption": "<a class='link' href='http://listenand.watch/'>http://listenand.watch/</a>"
     }
   ]
 }
