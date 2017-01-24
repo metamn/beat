@@ -62,12 +62,14 @@ function sortByDate(data) {
 gulp.task('articleOrderArticles', function() {
   var articles = JSON.parse(fs.readFileSync(paths.articles_json, 'utf8'));
 
-  //articles = sortByDate(articles);
+  articles = sortByDate(articles);
+  /*
   articles.sort(function(a,b){
     // Turn your strings into dates, and then subtract them
     // to get a value that is either negative, positive, or zero.
     return new Date(b.date) - new Date(a.date);
   });
+  */
 
   fs.openSync(paths.articles_json, 'w');
   fs.appendFileSync(paths.articles_json, JSON.stringify(articles));
