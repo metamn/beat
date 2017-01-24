@@ -1,6 +1,6 @@
 {
   "title": "Brutalist Websites, January 2017",
-  "excerpt": "Brutalist Websites, January 2017",
+  "excerpt": "From <a class='link' href='http://brutalistwebsites.com/'>http://brutalistwebsites.com/</a> where one of my sites, <a class='link' href='http://brutalistwebsites.com/metamn.io_gust/'>Gust</a> was featured",
   "thumb": "tish-portrait_mobile.png",
   "template": "article",
   "categories": [
@@ -12,6 +12,7 @@
     "title",
     "categories",
     "date",
+    "excerpt",
     "slides"
   ],
   "slides": [

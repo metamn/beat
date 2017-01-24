@@ -30,6 +30,10 @@
     @include article--is-it-web-or-photoshop;
   }
 
+  &--brutalist-websites-january-2017 {
+    @include article--brutalist-websites-january-2017;
+  }
+
   &--masters-of-web-february-2016,
   &--masters-of-web-july-2016,
   &--brutalist-websites-january-2017 {
