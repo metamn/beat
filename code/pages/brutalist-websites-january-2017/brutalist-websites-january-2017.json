@@ -46,6 +46,54 @@
       ],
       "url": "https://froy.me/new/",
       "figcaption": "<a class='link' href='https://froy.me/new/'>https://froy.me/new</a>"
+    },
+    {
+      "title": "Tish",
+      "name": "tish-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "tish-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "tish-portrait"
+        }
+      ],
+      "url": "http://theinternet.show/",
+      "figcaption": "<a class='link' href='http://theinternet.show/'>http://theinternet.show</a>"
+    },
+    {
+      "title": "RFGraphics",
+      "name": "rfg-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "rfg-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "rfg-portrait"
+        }
+      ],
+      "url": "http://romain-fontaine.com/",
+      "figcaption": "<a class='link' href='http://romain-fontaine.com/'>http://romain-fontaine.com</a>"
+    },
+    {
+      "title": "Art Yale",
+      "name": "artyale-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "artyale-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "artyale-portrait"
+        }
+      ],
+      "url": "http://art.yale.edu/",
+      "figcaption": "<a class='link' href='http://art.yale.edu/'>http://art.yale.edu</a>"
     }
   ]
 }
