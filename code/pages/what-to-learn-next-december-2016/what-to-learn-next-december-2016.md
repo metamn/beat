@@ -8,7 +8,7 @@ But not vice versa. Even if there is a very cool technology I'm not starting to 
 This was the case with React. Since I'm not writing interaction-heavy applications I don't need it. So I've skipped React entirely.
 
 Now I have two things on my radar: CSS Grid Layout and Material Design for the web.
-Both of them are cool new technologies and looking to find the need to use them.
+Both of them are cool new technologies; let's see if there is a case to use them.
 
 ## CSS Grid Layout
 
@@ -21,6 +21,8 @@ I've started using it once I've read this article [Solved by Flexbox](https://ph
 Now I simply can't find a similar article for CSS Grid Layout, something which clearly shows what gap this specification fills. The only useful scenario I've found to use grid vs. flexbox is to avoid page flicks in [Don't use flexbox for overall page layout](https://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/)
 
 This scenario is real, but almost invisible for the human eye. I've managed to overcome this flick by using placeholders for images inside a flexbox item.
+
+However I'm sure there are use cases when grid layout is needed, like reordering a grid layout.
 
 
 ## Material design
@@ -35,6 +37,8 @@ I've always knew I won't create the 100,000th material-design-looking-website. E
 
 To my surprise their components are not 100% standalone and re-usable. They do only CSS and JS with [no HTML](https://github.com/material-components/material-components-web/tree/master/packages/mdc-checkbox).
 So you can't simply include a `button` component; you'll have to create the whole HTML first.
+
+What's really useful for me here are [the form controls](https://material-components-web.appspot.com/textfield.html).
 
 
 ## So what to learn?
@@ -137,6 +141,12 @@ This technique consist of preventing the normal link behavior, changing the brow
 </figure>
 
 {% markdown %}
+
+## So far so good
+
+With card based user interfaces and page transitions at least the "Make websites look like and act like native applications" goal can be touched.
+
+For "Find new ways to deliver unique, outside of the box experiences" I have the following list below.
 
 ## The learn list
 
