@@ -1,0 +1,35 @@
+{
+  "title": "Brutalist Websites, January 2017",
+  "excerpt": "Brutalist Websites, January 2017",
+  "thumb": "tennetbrown-portrait_mobile.png",
+  "template": "article",
+  "categories": [
+    "design"
+  ],
+  "url": "brutalist-websites-january-2017",
+  "date": "2017-01-24",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "slides"
+  ],
+  "slides": [
+    {
+      "title": "Afterall Studio",
+      "name": "afterall-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "afterall-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "afterall-portrait"
+        }
+      ],
+      "url": "http://afterallstudio.com/",
+      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
+    }
+  ]
+}
