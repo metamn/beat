@@ -15,5 +15,32 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "Brutalist Websites",
+      "url": "http://brutalistwebsites.com/",
+      "type": "external"
+    },
+    {
+      "title": "The New Aesthetic",
+      "url": "http://new-aesthetic.tumblr.com/",
+      "type": "external"
+    },
+    {
+      "title": "Pascal Deville",
+      "url": "https://www.freundlichegruesse.com/about/",
+      "type": "external"
+    },
+    {
+      "title": "The hottest trend in Web design is making intentionally ugly, difficult sites",
+      "url": "https://www.washingtonpost.com/news/the-intersect/wp/2016/05/09/the-hottest-trend-in-web-design-is-intentionally-ugly-unusable-sites/?utm_term=.81c138814c15",
+      "type": "external"
+    },
+    {
+      "title": "Design in Tech Report 2017",
+      "url": "https://designintechreport.wordpress.com/2017/03/11/design-in-tech-report-2017/",
+      "type": "external"
+    }
   ]
 }
