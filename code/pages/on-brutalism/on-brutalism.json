@@ -1,0 +1,19 @@
+{
+  "title": "On Brutalism",
+  "excerpt": "",
+  "thumb": "/favicons/favicon-196x196.png",
+  "template": "article",
+  "categories": [
+    "design",
+    "trend"
+  ],
+  "url": "on-brutalism",
+  "date": "2017-03-26",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
