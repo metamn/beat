@@ -51,6 +51,31 @@ And is more about content. You can't create a brutalist website on a non-brutali
 
 ## Content
 
-They say 90% of web design is typography &mdash; ergo content.    
+> Web design is 95% typography<sup id="footnote--6">[6](#footnotes--6)</sup>
+
+was said back in 2006. In 2015 Zeldman reduced to 90%. That 5% should be images.
+
+We've got used with this idea. Design is what makes the content work. Not vice versa.
+We take a content and present the best way possible to act on an audience, using design.
+
+When reading through the interviews associating the featured sites on Brutalist Websites I came across the same paradigm over and over. In majority of cases the content and the intent with the content resulted in a design which can be called brutalist.
+
+## Why is this so important?
+
+We know we live in the era of fake news. When the elites and their mainstream media lost the ground with the reality<sup id="footnote--7">[7](#footnotes--7)</sup>.
+When news are eating us.
+
+When New York Times says a day before the US elections one candidate has 80% chance of win.
+When other news disrupt real life violence. When your weather app says today the temperature will be between 10-23 &grade; C and you see 27&grade;C current temperature on the same screen.
+When you book a room at $26 on Airbnb and it gets $31 at checkout.
+
+Somehow all of us &mdash; are made to &mdash; loose the ground with reality. Our apps, phones, service providers, e-commerce and media outlets all think we are stupid. Really stupid. Like we have no right to get facts just the finest onboarding.
+
+I, naive, see a change with the brutalist movement. Back to roots, back to content, back to individual expression through design.
+
+## A Visual Walkthrough
+
+ 
+
 
 {% endmarkdown %}
