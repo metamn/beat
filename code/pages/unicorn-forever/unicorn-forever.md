@@ -32,7 +32,27 @@ Fragmentation is when new things are born; convergence is when they go stable.
 
 Our industry is yes fragmented but merging to a common sense. The boundary between native mobile and web, touch and non-touch, digital vs. print aesthetics is disappearing. It is clear where revenue can be generated on the internet and where it is impossible.
 
-I think if you have original content which is capable to grow, and, it flows seamlessly on all channels (mobile, web, print) then you have a case for a successful solo / small team business.
+I think if you have original content which is capable to *grow* and *flow* seamlessly on all channels (mobile, web, print) then you have a case for a successful solo / small business.
+
+## The case
+
+I have [original content](http://metamn.io/gust/) growing since 2006 and getting relevant day by day.
+
+It's about the control of culture on a more optimistic tone than the 'industry leader' [Adbusters](https://adbusters.org/). I'm not scaring people but guide them how to change and be prepared for the inevitable.
+
+What's missing is the flow; to make it stream across all channels and generate revenue where adequated.
+
+## In tech terms
+
+We need to convert content into semantic data. To make it queryable and multi-faceted. To make it re-usable. To make it real-time. To make it suitable for each channel. To make it monetizable.
+
+When content is data it's presentation is programmable. Algorithms are in charge to best present content or chunks on various channels. The human task resumes to create / curate content and fine tune how it will be displayed on screen or print.
+
+When content is data and flows freely across all channels it becomes marketable and monetizable. You can use an entire channel (web) for marketing, another channel (app) for basic revenue, and another channel for premium revenue (print).
+
+When content is data, it flows on all channels, and generates revenue your only task is to make it grow. To display a new facet regularly. To reach another type of audience. To get a new and better edition.
+
+   
 
 
 
