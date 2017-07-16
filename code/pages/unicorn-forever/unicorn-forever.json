@@ -13,5 +13,12 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "Herculean",
+      "url": "http://metamn.io/beat/herculean/",
+      "type": "external"
+    }
   ]
 }
