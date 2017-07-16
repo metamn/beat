@@ -1,0 +1,17 @@
+{
+  "title": "Artwork for Unicorn Forever",
+  "excerpt": "Artwork for Unicorn Forever",
+  "template": "article",
+  "url": "unicorn-forever-artwork",
+  "date": "2017-07-15",
+  "display": [
+    "artwork"
+  ],
+  "images": [
+    {
+      "title": "Unicorn",
+      "name": "unicorn",
+      "extension": ".jpg"
+    }
+  ]
+}

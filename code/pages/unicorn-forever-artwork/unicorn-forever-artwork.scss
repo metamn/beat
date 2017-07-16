@@ -1,0 +1,15 @@
+html {
+  &.home {
+    body {
+      .articles {
+        .article {
+          &--unicorn-forever-artwork {
+            .figure {
+              @include figure;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,10 @@
   opacity: 1;
   @include transition(all);
 
+  &--unicorn-forever-artwork {
+    @include article--unicorn-forever-artwork;
+  }
+
 
   &--unit-of-sense {
     @include article--unit-of-sense;
