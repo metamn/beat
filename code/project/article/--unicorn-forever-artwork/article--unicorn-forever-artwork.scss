@@ -1,4 +1,11 @@
 @mixin article--unicorn-forever-artwork {
   padding: 0;
-  border: 0;
+
+  @include landscape {
+    border-right: 0;
+  }
+
+  @include portrait {
+    border: none;
+  }
 }

@@ -1,0 +1,9 @@
+@mixin article--unicorn-forever {
+  @include landscape {
+    border-left: none;
+  }
+
+  @include portrait {
+    border-top: none;
+  }
+}

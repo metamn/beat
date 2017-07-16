@@ -13,6 +13,10 @@
     @include article--unicorn-forever-artwork;
   }
 
+  &--unicorn-forever {
+    @include article--unicorn-forever;
+  }
+
 
   &--unit-of-sense {
     @include article--unit-of-sense;
