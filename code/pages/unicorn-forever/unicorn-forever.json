@@ -19,6 +19,21 @@
       "title": "Herculean",
       "url": "http://metamn.io/beat/herculean/",
       "type": "external"
+    },
+    {
+      "title": "React's licensing controversies",
+      "url": "https://news.ycombinator.com/item?id=14779881",
+      "type": "external"
+    },
+    {
+      "title": "React rethinks best practices",
+      "url": "https://github.com/grab/front-end-guide/blob/master/README.md#user-interface---react",
+      "type": "external"
+    },
+    {
+      "title": "The Javascript fatigue",
+      "url": "https://medium.freecodecamp.org/a-study-plan-to-cure-javascript-fatigue-8ad3a54f2eb1",
+      "type": "external"
     }
   ]
 }
