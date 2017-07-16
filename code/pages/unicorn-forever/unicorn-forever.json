@@ -1,0 +1,17 @@
+{
+  "title": "Unicorn forever",
+  "excerpt": "A solo designer and developer's plan for the future",
+  "template": "article",
+  "categories": [
+    "trend"
+  ],
+  "url": "unicorn-forever",
+  "date": "2017-07-16",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
