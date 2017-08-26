@@ -87,7 +87,7 @@ While inactive in DOM, W3C is also unable to manage another important technology
 
 The learning curve is high with the possibility to have the framework completely rendered obsolete during your learning and adoption process.
 
-And without frameworks&mdash;a collective work of hundreds of developers supported with millions from companies&mdash;no single individual is able to implement the myriad of new standards and best practices injected daily into the ecosystem by multiple stakeholders.
+And without frameworks&mdash;a collective work of hundreds of developers supported with millions of dollars from companies&mdash;no single individual is able to implement the myriad of new standards and best practices injected daily into the ecosystem by multiple stakeholders.
 
 ### Code cost
 
