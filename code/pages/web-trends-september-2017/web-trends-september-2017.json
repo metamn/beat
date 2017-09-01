@@ -1,0 +1,489 @@
+{
+  "title": "Web Trends September 2017",
+  "template": "article",
+  "categories": [
+    "trend"
+  ],
+  "url": "web-trends-september-2017",
+  "date": "2017-09-01",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "list",
+    "more"
+  ],
+  "list": [
+    "Web design is typography",
+    "Interactive code art",
+    "New kind of image gallery",
+    "Borders",
+    "Layers",
+    "Hand drawn decorations",
+    "Live data",
+    "Hovers",
+    "Changing colors"
+  ],
+  "footnotes": [
+    {
+      "title": "Web Trends September 2016",
+      "url": "web-trends-september-2016"
+    },
+    {
+      "title": "Web Design is 95% Typography",
+      "url": "https://ia.net/topics/the-web-is-all-about-typography-period/",
+      "type": "external"
+    },
+    {
+      "title": "Is It Web Or Photoshop?",
+      "url": "is-it-web-or-photoshop"
+    },
+    {
+      "title": "Brutalist websites",
+      "url": "http://brutalistwebsites.com/",
+      "type": "external"
+    }
+  ],
+  "images": [
+    {
+      "title": "Aaron Koblin",
+      "name": "aaron-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aaron-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aaron-portrait"
+        }
+      ],
+      "link": {
+        "title": "Aaron Koblin",
+        "url": "http://www.aaronkoblin.com/Aaronetrope/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Anymography",
+      "name": "anymography-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "anymography-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "anymography-portrait"
+        }
+      ],
+      "link": {
+        "title": "Anymography",
+        "url": "http://animography.net/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Athfield Architects",
+      "name": "athfield-1-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "athfield-1-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "athfield-1-portrait"
+        }
+      ],
+      "link": {
+        "title": "Athfield Architects",
+        "url": "http://athfieldarchitects.co.nz/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Athfield Architects",
+      "name": "athfield-2-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "athfield-2-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "athfield-2-portrait"
+        }
+      ],
+      "link": {
+        "title": "Athfield Architects",
+        "url": "http://athfieldarchitects.co.nz/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Advanced Urban Design",
+      "name": "aud-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aud-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aud-portrait"
+        }
+      ],
+      "link": {
+        "title": "Advanced Urban Design",
+        "url": "https://advancedurbandesign.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Kid Studio",
+      "name": "kidstudio-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "kidstudio-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "kidstudio-portrait"
+        }
+      ],
+      "link": {
+        "title": "Kid Studio",
+        "url": "http://kidstudio.co/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Misplaced",
+      "name": "misplaced-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "misplaced-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "misplaced-portrait"
+        }
+      ],
+      "link": {
+        "title": "Misplaced Design",
+        "url": "http://misplaced.design/",
+        "type": "external"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "title": "Afterall",
+      "mp4": "afterall",
+      "ogv": "afterall",
+      "webm": "afterall",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Afterall",
+        "name": "afterall-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Afterall",
+        "url": "http://afterallstudio.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Grafik",
+      "mp4": "grafik",
+      "ogv": "grafik",
+      "webm": "grafik",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Grafik",
+        "name": "grafik-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Grafik",
+        "url": "http://grafik.net/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Red October",
+      "mp4": "redoctober",
+      "ogv": "redoctober",
+      "webm": "redoctober",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Red October",
+        "name": "redoctober-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Red October",
+        "url": "http://redoctober.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Austin Beer Works",
+      "mp4": "austinbeers",
+      "ogv": "austinbeers",
+      "webm": "austinbeers",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Austin Beer Works",
+        "name": "austinbeers-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Austin Beer Works",
+        "url": "http://austinbeerworks.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Chris Wang",
+      "mp4": "chris-wang",
+      "ogv": "chris-wang",
+      "webm": "chris-wang",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Chris Wang",
+        "name": "chris-wang-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Chris Wang",
+        "url": "http://chris-wang.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Alaa Mendili",
+      "mp4": "alaa-mendili",
+      "ogv": "alaa-mendili",
+      "webm": "alaa-mendili",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Alaa Mendili",
+        "name": "alaa-mendili-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Alaa Mendili",
+        "url": "http://a-l-a-a.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Lab 21",
+      "mp4": "lab21",
+      "ogv": "lab21",
+      "webm": "lab21",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Lab 21",
+        "name": "lab21-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Lab 21",
+        "url": "http://lab21.gr",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Athfield Architects",
+      "mp4": "athfield",
+      "ogv": "athfield",
+      "webm": "athfield",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Athfield Architects",
+        "name": "athfield-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Athfield Architects",
+        "url": "http://athfieldarchitects.co.nz",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Cookbook Magazine",
+      "mp4": "cookbook",
+      "ogv": "cookbook",
+      "webm": "cookbook",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Cookbook Magazine",
+        "name": "cookbook-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Cookbook Magazine",
+        "url": "http://cookbookmagazine.es/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Architetti Alpino",
+      "mp4": "architetti",
+      "ogv": "architetti",
+      "webm": "architetti",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Architetti Alpino",
+        "name": "architetti-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Architetti Alpino",
+        "url": "http://architettiarcoalpino.it/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Love and Money",
+      "mp4": "lovemoney",
+      "ogv": "lovemoney",
+      "webm": "lovemoney",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Love and Money",
+        "name": "lovemoney-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Love and Money",
+        "url": "http://loveandmoney.agency/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "The Next Rembrandt",
+      "mp4": "rembrandt",
+      "ogv": "rembrandt",
+      "webm": "rembrandt",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "The Next Rembrandt",
+        "name": "rembrandt-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "The Next Rembrandt",
+        "url": "https://www.nextrembrandt.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Lars Muller",
+      "mp4": "lars-muller",
+      "ogv": "lars-muller",
+      "webm": "lars-muller",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Lars Muller",
+        "name": "lars-muller-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Lars Muller",
+        "url": "https://www.lars-mueller-publishers.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Kid Studio",
+      "mp4": "kidstudio",
+      "ogv": "kidstudio",
+      "webm": "kidstudio",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Kid Studio",
+        "name": "kidstudio-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Kid Studio",
+        "url": "http://kidstudio.co/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Hybrid Urbanism",
+      "mp4": "hybrid-u",
+      "ogv": "hybrid-u",
+      "webm": "hybrid-u",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Hybrid Urbanism",
+        "name": "hybrid-u-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Hybrid Urbanism",
+        "url": "http://hybridurbanism.strelka.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "SFCD",
+      "mp4": "sfcd",
+      "ogv": "sfcd",
+      "webm": "sfcd",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "SFCD",
+        "name": "sfcd-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "SFCD",
+        "url": "http://sfcd.com/",
+        "type": "external"
+      }
+    }
+  ]
+}
