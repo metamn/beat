@@ -34,6 +34,23 @@ It took time from skeuomorphism through flat materialism to get to simple border
 
 It's not a trend but maybe a returning motif; perhaps inspired by the unstoppable Windows 95 error alerts; however the 3D effect they offer for cheap; the sense of deepness the visitors associate to the site (and to it's content); and the workish interaction they require&mdash;makes layered content a weapon you can always use when in doubt.
 
+## Hand drawn decorations
+
+My faves; I've been always mad about adding something human, offline-y to web design. To break the monopoly of the digital aesthetics; to break computed beauty with human fallibility.
+
+I'm afraid digital takes care to not let this happen ... until then we have this:
+
+## Live data
+
+Yes, think in embedded content, which from RSS feeds and Twitter widgets went to become the main content and main design element ... now only for Wade Jeffre but tomorrow for all of us.
+
+## Changing colors
+
+Static color schemes is our gender problem in web design; a site was born with a set of colors and dies with the same set of colors.
+
+End that. Let the site have as many color schemes wants, in order it wants, from all around that rainbow.
+
+
 
 {% endmarkdown %}
 
