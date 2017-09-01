@@ -18,9 +18,13 @@ The new typefaces of the last few years are immersive. Set to adaptively take th
 
 The browser is more and more capable. It can do whatever Photoshop can do <sup id="footnote--3">[3](#footnotes--3)</sup>; and soon will do whatever your TV can do.
 
-For start it does interactive code art, well, boosting the user's experience. It's enlightening to interact with machine intelligence.
+For start it does interactive code art, well, boosting the user's experience. It's enlightening to interact with machine intelligence. You feel like a god.
 
+## New kind of gallery
 
+The most exciting field in web design is the carousel: how to compress information in a way it does not takes space, yet on interest displays details in a much anticipated entertaining and possibly unique way.
+
+Now we have some people who took the time and started to play with the idea. The results are unique ... and fantastic.
 
 
 {% endmarkdown %}
