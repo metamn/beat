@@ -1,0 +1,47 @@
+{
+  "urls": [
+    "https://abscreenwear.com/",
+    "http://www.macaudesignbiennial.com/",
+    "http://showroom.littleworkshop.fr/",
+    "http://www.xxix.co/",
+    "http://101.at/",
+    "http://negativelabs.com/",
+    "http://mayicestudio.com/",
+    "https://clasebcn.com/",
+    "http://museionprize.museion.it/",
+    "http://www.athanor.world/5/",
+    "http://www.rge-partner.de/",
+    "http://lesgarconssauvages.com/",
+    "http://aku.co/"
+  ],
+  "sizes": [
+    {
+      "width": "1920",
+      "height": "1080",
+      "suffix": "landscape"
+    },
+    {
+      "width": "1130",
+      "height": "1900",
+      "suffix": "portrait"
+    }
+  ],
+  "responsive": [
+    {
+      "name": "mobile",
+      "width": "384"
+    },
+    {
+      "name": "tablet",
+      "width": "565"
+    },
+    {
+      "name": "laptop",
+      "width": "810"
+    },
+    {
+      "name": "desktop",
+      "width": "810"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "title": "Masters Of Web, September 2017",
+  "excerpt": "Best of web design, September 2017",
+  "thumb": "tennetbrown-portrait_mobile.png",
+  "template": "article",
+  "categories": [
+    "design"
+  ],
+  "url": "masters-of-web-september-2017",
+  "date": "2017-09-02",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "slides"
+  ],
+  "slides": [
+    {
+      "title": "Afterall Studio",
+      "name": "afterall-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "afterall-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "afterall-portrait"
+        }
+      ],
+      "url": "http://afterallstudio.com/",
+      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
+    },
+    {
+      "title": "Misplaced",
+      "name": "misplaced-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "misplaced-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "misplaced-portrait"
+        }
+      ],
+      "url": "http://misplaced.design/",
+      "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
+    },
+    {
+      "title": "Advanced Urban Design",
+      "name": "aud-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aud-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aud-portrait"
+        }
+      ],
+      "url": "https://advancedurbandesign.com/",
+      "figcaption": "<a class='link' href='https://advancedurbandesign.com/'>https://advancedurbandesign.com</a>"
+    },
+    {
+      "title": "Theme.co Cornerstone",
+      "name": "cornerstone-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "cornerstone-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "cornerstone-portrait"
+        }
+      ],
+      "url": "https://theme.co/cornerstone/",
+      "figcaption": "<a class='link' href='https://theme.co/cornerstone/'>https://theme.co/cornerstone</a>"
+    },
+    {
+      "title": "Grafik",
+      "name": "grafik-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "grafik-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "grafik-portrait"
+        }
+      ],
+      "url": "https://www.grafik.net/",
+      "figcaption": "<a class='link' href='https://www.grafik.net/'>https://www.grafik.net</a>"
+    },
+    {
+      "title": "Red October",
+      "name": "redoctober-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "redoctober-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "redoctober-portrait"
+        }
+      ],
+      "url": "http://www.redoctober.com/",
+      "figcaption": "<a class='link' href='http://www.redoctober.com/'>http://www.redoctober.com</a>"
+    },
+    {
+      "title": "Cookbook Magazine",
+      "name": "cookbook-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "cookbook-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "cookbook-portrait"
+        }
+      ],
+      "url": "http://cookbookmagazine.es/",
+      "figcaption": "<a class='link' href='http://cookbookmagazine.es/'>http://cookbookmagazine.es</a>"
+    },
+    {
+      "title": "Egyd",
+      "name": "egyd-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "egyd-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "egyd-portrait"
+        }
+      ],
+      "url": "http://egydegydegyd.com/",
+      "figcaption": "<a class='link' href='http://egydegydegyd.com/'>http://egydegydegyd.com</a>"
+    },
+    {
+      "title": "Aaronetrope",
+      "name": "aaron-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aaron-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aaron-portrait"
+        }
+      ],
+      "url": "http://www.aaronkoblin.com/Aaronetrope/",
+      "figcaption": "<a class='link' href='http://www.aaronkoblin.com/Aaronetrope/'>http://www.aaronkoblin.com/Aaronetrope</a>"
+    },
+    {
+      "title": "Aldrich Art",
+      "name": "aldrich-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "aldrich-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "aldrich-portrait"
+        }
+      ],
+      "url": "http://aldrichart.org/",
+      "figcaption": "<a class='link' href='http://aldrichart.org/'>http://aldrichart.org</a>"
+    },{
+      "title": "The Next Rembrandt",
+      "name": "rembrandt-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "rembrandt-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "rembrandt-portrait"
+        }
+      ],
+      "url": "https://www.nextrembrandt.com/",
+      "figcaption": "<a class='link' href='https://www.nextrembrandt.com/'>https://www.nextrembrandt.com</a>"
+    }
+  ]
+}
