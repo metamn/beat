@@ -1,4 +1,13 @@
 // Create sceenshots
+// - create screenshoots from URLs
+// - resize them responsively
+// - optimize them and move the to production
+// - create a JSON file with all information from the URLs
+//
+// Usage
+// - run the tasks step by step, ie first do the screenshots, then resize, then optimize & move
+//
+// Caveats:
 // - sometimes screenshots are blank (when WebGL is used, when render starts on mouse scroll, etc)
 // - this 'sometimes' means ~50% of cases ...
 // - the script sometimes doesn't stops, ctrl+c must be used
