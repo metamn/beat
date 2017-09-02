@@ -14,7 +14,14 @@ var gulp = require('gulp'),
     fs = require('fs'),
     webshot = require('webshot'),
     path = require('path'),
-    titleize = require('titleize');
+    titleize = require('titleize'),
+
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+
+    rename = require('gulp-rename'),
+    imageResize = require('gulp-image-resize'),
+    gulpif = require('gulp-if');
 
 
 // Configuration
@@ -197,13 +204,34 @@ var resize = function(urls, sizes, responsive, folder, resizeFolder) {
 
 
 
+// Optimize
+// ---
+
+// Optimize images from a folder
+var optimize = function(src, dest) {
+  return gulp.src(src)
+    .pipe(plumber({errorHandler: onError}))
+    .pipe(data(function(file) {
+      console.log('Optimizing ' + file.path);
+    }))
+    .pipe(imagemin({
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest(dest));
+}
+
+
+
+
 // The main task
 gulp.task('screenshot', function() {
   var fileName = process.argv[4];
   var action = process.argv[6]
 
   if (fileName === undefined || action === undefined) {
-    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshots|resize');
+    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshot|resize');
   } else {
 
     return gulp.src(fileName)
@@ -213,6 +241,7 @@ gulp.task('screenshot', function() {
         var data = getJSONData(fileName);
         var folder = path.dirname(fileName.path) + '/@assets/images/';
         var resizeFolder = folder + 'resized/';
+        var resizeFolderImages = resizeFolder.slice(0, -1) + paths.image_ext;
 
         if (data) {
 
@@ -224,11 +253,14 @@ gulp.task('screenshot', function() {
             case 'json':
               jsonImages(urls, sizes, folder);
               break;
-            case 'screenshots':
+            case 'screenshot':
               screenshots(urls, sizes, folder);
               break;
             case 'resize':
               resize(urls, sizes, responsive, folder, resizeFolder);
+              break;
+            case 'optimize':
+              optimize(resizeFolderImages, paths.image_dest);
               break;
             default:
 

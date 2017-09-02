@@ -67,6 +67,8 @@
   },
   "dependencies": {
     "cache-require-paths": "^0.1.2",
+    "optipng-bin": "^4.0.0",
+    "pngquant-bin": "^3.1.1",
     "swig": "^1.4.2"
   }
 }
