@@ -1,0 +1,249 @@
+[
+  {
+    "title": "Abscreenwear",
+    "name": "abscreenwear-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "abscreenwear-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "abscreenwear-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Abscreenwear",
+      "url": "https://abscreenwear.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Macaudesignbiennial",
+    "name": "macaudesignbiennial-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "macaudesignbiennial-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "macaudesignbiennial-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Macaudesignbiennial",
+      "url": "http://www.macaudesignbiennial.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Showroom Littleworkshop",
+    "name": "showroom-littleworkshop-fr-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "showroom-littleworkshop-fr-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "showroom-littleworkshop-fr-portrait"
+      }
+    ],
+    "link": {
+      "title": "Showroom Littleworkshop",
+      "url": "http://showroom.littleworkshop.fr/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Xxix",
+    "name": "xxix-co-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "xxix-co-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "xxix-co-portrait"
+      }
+    ],
+    "link": {
+      "title": "Xxix",
+      "url": "http://www.xxix.co/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "101",
+    "name": "101-at-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "101-at-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "101-at-portrait"
+      }
+    ],
+    "link": {
+      "title": "101",
+      "url": "http://101.at/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Negativelabs",
+    "name": "negativelabs-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "negativelabs-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "negativelabs-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Negativelabs",
+      "url": "http://negativelabs.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Mayicestudio",
+    "name": "mayicestudio-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "mayicestudio-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "mayicestudio-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Mayicestudio",
+      "url": "http://mayicestudio.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Clasebcn",
+    "name": "clasebcn-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "clasebcn-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "clasebcn-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Clasebcn",
+      "url": "https://clasebcn.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Museionprize Museion",
+    "name": "museionprize-museion-it-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "museionprize-museion-it-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "museionprize-museion-it-portrait"
+      }
+    ],
+    "link": {
+      "title": "Museionprize Museion",
+      "url": "http://museionprize.museion.it/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Athanor",
+    "name": "athanor-world5/-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "athanor-world5/-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "athanor-world5/-portrait"
+      }
+    ],
+    "link": {
+      "title": "Athanor",
+      "url": "http://www.athanor.world/5/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Rge Partner",
+    "name": "rge-partner-de-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "rge-partner-de-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "rge-partner-de-portrait"
+      }
+    ],
+    "link": {
+      "title": "Rge Partner",
+      "url": "http://www.rge-partner.de/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Lesgarconssauvages",
+    "name": "lesgarconssauvages-com-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "lesgarconssauvages-com-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "lesgarconssauvages-com-portrait"
+      }
+    ],
+    "link": {
+      "title": "Lesgarconssauvages",
+      "url": "http://lesgarconssauvages.com/",
+      "type": "external"
+    }
+  },
+  {
+    "title": "Aku",
+    "name": "aku-co-landscape",
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": "aku-co-portrait"
+      },
+      {
+        "breakpoint": "tablet",
+        "name": "aku-co-portrait"
+      }
+    ],
+    "link": {
+      "title": "Aku",
+      "url": "http://aku.co/",
+      "type": "external"
+    }
+  }
+]

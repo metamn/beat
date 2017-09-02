@@ -120,9 +120,10 @@ var jsonImages = function(urls, sizes, folder) {
 // The main task
 gulp.task('screenshot', function() {
   var fileName = process.argv[4];
+  var action = process.argv[6]
 
-  if (fileName === undefined ) {
-    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json>');
+  if (fileName === undefined || action === undefined) {
+    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshots');
   } else {
     return gulp.src(fileName)
       .pipe(plumber({errorHandler: onError}))
@@ -133,8 +134,16 @@ gulp.task('screenshot', function() {
           var urls = data.urls;
           var sizes = data.sizes;
 
-          jsonImages(urls, sizes, folder);
-          screenshots(urls, sizes, folder);
+          switch (action) {
+            case 'json':
+              jsonImages(urls, sizes, folder);
+              break;
+            case 'screenshots':
+              screenshots(urls, sizes, folder);
+              break;
+            default:
+
+          }
         }
       }))
   }
