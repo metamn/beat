@@ -13,6 +13,7 @@ var gulp = require('gulp'),
     gulpif = require('gulp-if'),
 
     webshot = require('webshot'),
+    path = require('path'),
 
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant');
@@ -35,10 +36,27 @@ var urlToFilename = function(url) {
 
 
 
-// Do the screenshot
-var screenshot = function(url) {
-  fileName = urlToFilename(url);
-  console.log(fileName);
+// Create single screenshot
+var screenshot = function(url, options, suffix, folder) {
+  var fileName = urlToFilename(url);
+  var dest = folder + fileName + '-' + suffix + '.png';
+  webshot(url, dest, options, function(err) {
+    console.log('Creating ' + dest);
+  });
+}
+
+
+// Create multiple screenshots
+var screenshots = function(url, sizes, folder) {
+  for (var i = 0; i < sizes.length; i++) {
+    var options = {
+      screenSize: {
+        width: sizes[i].width,
+        height: sizes[i].height
+      }
+    }
+    screenshot(url, options, sizes[i].suffix, folder);
+  }
 }
 
 
@@ -52,11 +70,13 @@ gulp.task('screenshot', function() {
     return gulp.src(fileName)
       .pipe(plumber({errorHandler: onError}))
       .pipe(data(function(fileName) {
-        data = getJSONData(fileName);
+        var data = getJSONData(fileName);
+        var folder = path.dirname(fileName.path) + '/@assets/images/';
         if (data) {
-          urls = data.urls;
+          var urls = data.urls;
+          var sizes = data.sizes;
           for (var i = 0; i < urls.length; i++) {
-            screenshot(urls[i]);
+            screenshots(urls[i], sizes, folder);
           }
         }
       }))

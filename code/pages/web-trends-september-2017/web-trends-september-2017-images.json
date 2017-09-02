@@ -13,5 +13,17 @@
     "http://www.rge-partner.de/",
     "http://lesgarconssauvages.com/",
     "http://aku.co/"
+  ],
+  "sizes": [
+    {
+      "width": "1920",
+      "height": "1080",
+      "suffix": "landscape"
+    },
+    {
+      "width": "1130",
+      "height": "1900",
+      "suffix": "portrait"
+    }
   ]
 }
