@@ -128,8 +128,9 @@ gulp.task('screenshot', function() {
         if (data) {
           var urls = data.urls;
           var sizes = data.sizes;
-          screenshots(urls, sizes, folder);
+
           jsonImages(urls, sizes, folder);
+          screenshots(urls, sizes, folder);
         }
       }))
   }
