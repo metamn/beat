@@ -1,4 +1,8 @@
 // Create sceenshots
+// - sometimes screenshots are blank (when WebGL is used, when render starts on mouse scroll, etc)
+// - this 'sometimes' means ~50% of cases ...
+// - the script sometimes doesn't stops, ctrl+c must be used
+
 
 // Plugins
 var gulp = require('gulp'),
