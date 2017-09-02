@@ -240,7 +240,7 @@ gulp.task('screenshot', function() {
   var action = process.argv[6]
 
   if (fileName === undefined || action === undefined) {
-    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshot|resize');
+    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshot|resize|optimize');
   } else {
 
     return gulp.src(fileName)
@@ -272,7 +272,7 @@ gulp.task('screenshot', function() {
               optimize(resizeFolderImages, paths.image_dest);
               break;
             default:
-
+              console.log('Action not recognized.');
           }
         }
       }))
