@@ -161,15 +161,15 @@
     },
     {
       "title": "Athanor",
-      "name": "athanor-world5/-landscape",
+      "name": "athanor-world5-landscape",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "athanor-world5/-portrait"
+          "name": "athanor-world5-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "athanor-world5/-portrait"
+          "name": "athanor-world5-portrait"
         }
       ],
       "url": "http://www.athanor.world/5/",
