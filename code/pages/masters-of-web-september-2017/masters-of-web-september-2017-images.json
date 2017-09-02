@@ -24,8 +24,8 @@
       "suffix": "landscape"
     },
     {
-      "width": "1130",
-      "height": "1900",
+      "width": "1200",
+      "height": "1600",
       "suffix": "portrait"
     }
   ],
@@ -36,15 +36,15 @@
     },
     {
       "name": "tablet",
-      "width": "565"
+      "width": "600"
     },
     {
       "name": "laptop",
-      "width": "810"
+      "width": "960"
     },
     {
       "name": "desktop",
-      "width": "810"
+      "width": "960"
     }
   ]
 }

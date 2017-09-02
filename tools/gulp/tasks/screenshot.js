@@ -6,6 +6,7 @@
 //
 // Usage
 // - run the tasks step by step, ie first do the screenshots, then resize, then optimize & move
+// - it's good to have `@assests/images/resized` created apriori running the script
 //
 // Caveats:
 // - sometimes screenshots are blank (when WebGL is used, when render starts on mouse scroll, etc)
@@ -174,35 +175,15 @@ var jsonImages = function(urls, sizes, folder, options) {
     switch (jsonType) {
       case 'for slider':
         var entry = jsonEntryForSlider(fileName, title, urls[i]);
+        json.push(entry);
         break;
       case 'for post':
         var entry = jsonEntryForPost(fileName, title, urls[i]);
+        json.push(entry);
         break;
       default:
         console.log('No options.json is set.');
     }
-
-    var entry = {
-      "title": title,
-      "name": fileName + '-landscape',
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": fileName + '-portrait'
-        },
-        {
-          "breakpoint": "tablet",
-          "name": fileName + '-portrait'
-        }
-      ],
-      "link": {
-        "title": title,
-        "url": urls[i],
-        "type": "external"
-      }
-    }
-
-    json.push(entry);
   }
 
   //console.log(JSON.stringify(json));
