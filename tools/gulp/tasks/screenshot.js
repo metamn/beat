@@ -83,7 +83,7 @@ var screenshots = function(urls, sizes, folder) {
 var jsonImages = function(urls, sizes, folder) {
   dest = folder + 'images.json';
   fs.openSync(dest, 'w');
-  json = {};
+  json = [];
 
   for (var i = 0; i < urls.length; i++) {
     var fileName = urlToFilename(urls[i]);
@@ -109,8 +109,11 @@ var jsonImages = function(urls, sizes, folder) {
       }
     }
 
-    console.log(entry);
+    json.push(entry);
   }
+
+  //console.log(JSON.stringify(json));
+  fs.appendFileSync(dest, JSON.stringify(json, null, 2));
 }
 
 
