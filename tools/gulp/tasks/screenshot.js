@@ -21,6 +21,9 @@ var gulp = require('gulp'),
 var paths = require('./../config');
 
 
+// Helpers
+// ---
+
 
 // URL to filename
 // - http://showroom.littleworkshop.fr/ => showroom.littleworkshop
@@ -44,10 +47,21 @@ var fileNameToTitle = function(fileName) {
 }
 
 
+// Final file name
+// - abscreenwear-landscape.png
+var finalFileName = function(folder, fileName, suffix, extension) {
+  return folder + fileName + '-' + suffix + extension;
+}
+
+
+// Screenshots
+// ---
+
+
 // Create single screenshot for an url
 var makeScreenshot = function(url, options, suffix, folder) {
   var fileName = urlToFilename(url);
-  var dest = folder + fileName + '-' + suffix + '.png';
+  var dest = finalFileName(folder, fileName, suffix, '.png');
   webshot(url, dest, options, function(err) {
     console.log('Creating ' + dest);
   });
@@ -77,6 +91,11 @@ var screenshots = function(urls, sizes, folder) {
     makeScreenshots(urls[i], sizes, folder);
   }
 }
+
+
+
+// JSON
+// ---
 
 
 // Create an 'images' JSON descriptor from a list of urls
@@ -117,22 +136,89 @@ var jsonImages = function(urls, sizes, folder) {
 }
 
 
+
+// Resize
+// ---
+
+
+// Resize a single image with ImageMagick
+var _imageResize = function(file, sizeType, size, name, dest) {
+  console.log("Resizing " + file + " " + sizeType + " to " + size);
+  gulp.src(file)
+    .pipe(plumber({errorHandler: onError}))
+    .pipe(gulpif(sizeType == 'height',
+      imageResize({
+        height : size,
+        sharpen: true,
+        imageMagick: true
+      }),
+      imageResize({
+        width : size,
+        sharpen: true,
+        imageMagick: true
+      })
+    ))
+    .pipe(rename(function (path) { path.basename += "_" + name; }))
+    .pipe(gulp.dest(dest));
+}
+
+
+// Resize an image to 1x and 2x
+var imageSize = function(file, sizes, dest) {
+  for (i in sizes) {
+
+    // Width or height?
+    size = sizes[i].width;
+    sizeType = 'width';
+    if (typeof sizes[i].height !== 'undefined') {
+      size = sizes[i].height;
+      sizeType = 'height';
+    }
+
+    // Normal and retina
+    _imageResize(file, sizeType, size, sizes[i].name, dest);
+    _imageResize(file, sizeType, size * 2, sizes[i].name + '2x', dest);
+  }
+}
+
+
+
+// Resize a list of images
+var resize = function(urls, sizes, responsive, folder, resizeFolder) {
+  for (var i = 0; i < urls.length; i++) {
+    var fileName = urlToFilename(urls[i]);
+
+    for (var j = 0; j < sizes.length; j++) {
+      var src = finalFileName(folder, fileName, sizes[j].suffix, '.png');
+      imageSize(src, responsive, resizeFolder)
+    }
+  }
+}
+
+
+
 // The main task
 gulp.task('screenshot', function() {
   var fileName = process.argv[4];
   var action = process.argv[6]
 
   if (fileName === undefined || action === undefined) {
-    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshots');
+    console.log('Usage: gulp screenshot --file <complete-path-to-imagelist-file.json> --action json|screenshots|resize');
   } else {
+
     return gulp.src(fileName)
       .pipe(plumber({errorHandler: onError}))
       .pipe(data(function(fileName) {
+
         var data = getJSONData(fileName);
         var folder = path.dirname(fileName.path) + '/@assets/images/';
+        var resizeFolder = folder + 'resized/';
+
         if (data) {
+
           var urls = data.urls;
           var sizes = data.sizes;
+          var responsive = data.responsive;
 
           switch (action) {
             case 'json':
@@ -140,6 +226,9 @@ gulp.task('screenshot', function() {
               break;
             case 'screenshots':
               screenshots(urls, sizes, folder);
+              break;
+            case 'resize':
+              resize(urls, sizes, responsive, folder, resizeFolder);
               break;
             default:
 
