@@ -1,5 +1,5 @@
 {
-  "urls": [
+  "urlsx": [
     "https://abscreenwear.com/",
     "http://www.macaudesignbiennial.com/",
     "http://showroom.littleworkshop.fr/",
@@ -13,6 +13,9 @@
     "http://www.rge-partner.de/",
     "http://lesgarconssauvages.com/",
     "http://aku.co/"
+  ],
+  "urls": [
+    "http://mayicestudio.com/"
   ],
   "options": {
     "json": "for slider"
