@@ -6,18 +6,12 @@ var gulp = require('gulp'),
     onError = require('../utils/onError'),
     getJSONData = require('../utils/getJSONData'),
 
-    rename = require('gulp-rename'),
     data = require('gulp-data'),
     fs = require('fs'),
-    imageResize = require('gulp-image-resize'),
-    gulpif = require('gulp-if'),
-
     webshot = require('webshot'),
     path = require('path'),
-    titleize = require('titleize'),
+    titleize = require('titleize');
 
-    imagemin = require('gulp-imagemin'),
-    pngquant = require('imagemin-pngquant');
 
 // Configuration
 var paths = require('./../config');
@@ -64,7 +58,9 @@ var makeScreenshots = function(url, sizes, folder) {
       screenSize: {
         width: sizes[i].width,
         height: sizes[i].height
-      }
+      },
+      renderDelay: 20000,
+      timout: 30000
     }
     makeScreenshot(url, options, sizes[i].suffix, folder);
   }
@@ -132,7 +128,7 @@ gulp.task('screenshot', function() {
         if (data) {
           var urls = data.urls;
           var sizes = data.sizes;
-          //screenshots(urls, sizes, folder);
+          screenshots(urls, sizes, folder);
           jsonImages(urls, sizes, folder);
         }
       }))
