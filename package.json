@@ -57,6 +57,7 @@
     "recursive-readdir": "^2.0.0",
     "run-sequence": "^1.1.0",
     "swig-marked": "0.0.1",
+    "titleize": "^1.0.0",
     "twit": "^2.2.2",
     "twitter": "^1.2.5",
     "typeset": "^0.2.1",

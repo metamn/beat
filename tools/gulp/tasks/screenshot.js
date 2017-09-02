@@ -14,6 +14,7 @@ var gulp = require('gulp'),
 
     webshot = require('webshot'),
     path = require('path'),
+    titleize = require('titleize'),
 
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant');
@@ -35,9 +36,18 @@ var urlToFilename = function(url) {
 }
 
 
+// Filename to title
+// - abscreenwear-com => Abscreenwear
+var fileNameToTitle = function(fileName) {
+  var s = fileName.replace(/-/g, ' ');
+  s = s.split(' ');
+  s = s.slice(0, s.length - 1).join(" ");
+  return titleize(s);
+}
 
-// Create single screenshot
-var screenshot = function(url, options, suffix, folder) {
+
+// Create single screenshot for an url
+var makeScreenshot = function(url, options, suffix, folder) {
   var fileName = urlToFilename(url);
   var dest = folder + fileName + '-' + suffix + '.png';
   webshot(url, dest, options, function(err) {
@@ -46,8 +56,9 @@ var screenshot = function(url, options, suffix, folder) {
 }
 
 
-// Create multiple screenshots
-var screenshots = function(url, sizes, folder) {
+// Create multiple screenshots for an url
+// - for portrait, landscape
+var makeScreenshots = function(url, sizes, folder) {
   for (var i = 0; i < sizes.length; i++) {
     var options = {
       screenSize: {
@@ -55,7 +66,50 @@ var screenshots = function(url, sizes, folder) {
         height: sizes[i].height
       }
     }
-    screenshot(url, options, sizes[i].suffix, folder);
+    makeScreenshot(url, options, sizes[i].suffix, folder);
+  }
+}
+
+
+// Create screenshots for a list of urls
+var screenshots = function(urls, sizes, folder) {
+  for (var i = 0; i < urls.length; i++) {
+    makeScreenshots(urls[i], sizes, folder);
+  }
+}
+
+
+// Create an 'images' JSON descriptor from a list of urls
+var jsonImages = function(urls, sizes, folder) {
+  dest = folder + 'images.json';
+  fs.openSync(dest, 'w');
+  json = {};
+
+  for (var i = 0; i < urls.length; i++) {
+    var fileName = urlToFilename(urls[i]);
+    var title = fileNameToTitle(fileName);
+
+    var entry = {
+      "title": title,
+      "name": fileName + '-landscape',
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": fileName + '-portrait'
+        },
+        {
+          "breakpoint": "tablet",
+          "name": fileName + '-portrait'
+        }
+      ],
+      "link": {
+        "title": title,
+        "url": urls[i],
+        "type": "external"
+      }
+    }
+
+    console.log(entry);
   }
 }
 
@@ -75,9 +129,8 @@ gulp.task('screenshot', function() {
         if (data) {
           var urls = data.urls;
           var sizes = data.sizes;
-          for (var i = 0; i < urls.length; i++) {
-            screenshots(urls[i], sizes, folder);
-          }
+          //screenshots(urls, sizes, folder);
+          jsonImages(urls, sizes, folder);
         }
       }))
   }
