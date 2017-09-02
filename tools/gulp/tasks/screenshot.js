@@ -113,16 +113,74 @@ var screenshots = function(urls, sizes, folder) {
 // JSON
 // ---
 
+// The JSON entry for sliders
+var jsonEntryForSlider = function(fileName, title, url) {
+  return {
+    "title": title,
+    "name": fileName + '-landscape',
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": fileName + '-portrait'
+      },
+      {
+        "breakpoint": "tablet",
+        "name": fileName + '-portrait'
+      }
+    ],
+    "url": url,
+    "figcaption": "<a class='link' href='" + url + "'>" + url + "</a>"
+  }
+}
+
+
+// The JSON entry for image inside a post
+var jsonEntryForPost = function(fileName, title, url) {
+  return {
+    "title": title,
+    "name": fileName + '-landscape',
+    "responsive": [
+      {
+        "breakpoint": "mobile",
+        "name": fileName + '-portrait'
+      },
+      {
+        "breakpoint": "tablet",
+        "name": fileName + '-portrait'
+      }
+    ],
+    "link": {
+      "title": title,
+      "url": url,
+      "type": "external"
+    }
+  }
+}
+
 
 // Create an 'images' JSON descriptor from a list of urls
-var jsonImages = function(urls, sizes, folder) {
+// - the JSON descriptor can be configured using options
+var jsonImages = function(urls, sizes, folder, options) {
   dest = folder + 'images.json';
+  jsonType = options.json;
+
   fs.openSync(dest, 'w');
   json = [];
 
   for (var i = 0; i < urls.length; i++) {
     var fileName = urlToFilename(urls[i]);
     var title = fileNameToTitle(fileName);
+
+    switch (jsonType) {
+      case 'for slider':
+        var entry = jsonEntryForSlider(fileName, title, urls[i]);
+        break;
+      case 'for post':
+        var entry = jsonEntryForPost(fileName, title, urls[i]);
+        break;
+      default:
+        console.log('No options.json is set.');
+    }
 
     var entry = {
       "title": title,
@@ -257,10 +315,11 @@ gulp.task('screenshot', function() {
           var urls = data.urls;
           var sizes = data.sizes;
           var responsive = data.responsive;
+          var options = data.options;
 
           switch (action) {
             case 'json':
-              jsonImages(urls, sizes, folder);
+              jsonImages(urls, sizes, folder, options);
               break;
             case 'screenshot':
               screenshots(urls, sizes, folder);
