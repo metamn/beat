@@ -1,0 +1,72 @@
+{
+  "title": "Artwork for Web Trends September 2017",
+  "excerpt": "Artwork for Web Trends September 2017",
+  "template": "article",
+  "url": "web-trends-september-2017-artwork",
+  "date": "2017-08-31",
+  "display": [
+    "artwork"
+  ],
+  "videos": [
+    {
+      "title": "Architetti Alpino",
+      "mp4": "architetti",
+      "ogv": "architetti",
+      "webm": "architetti",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Architetti Alpino",
+        "name": "architetti-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "The Next Rembrandt",
+      "mp4": "rembrandt",
+      "ogv": "rembrandt",
+      "webm": "rembrandt",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "The Next Rembrandt",
+        "name": "rembrandt-poster",
+        "extension": ".png"
+      }
+    }
+  ],
+  "images": [
+    {
+      "title": "Kid Studio",
+      "name": "kidstudio-portrait",
+      "onesize": "tablet"
+    }
+  ],
+  "slides": [
+    {
+      "title": "Mars Maiers",
+      "name": "marsmaiers",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Yale / Paul Rand",
+      "name": "yale"
+    }
+  ],
+  "spacers": [
+    {
+      "text": "///////////////////////////////////////////////////////////////////////////"
+    },
+    {
+      "text": "Thisisacustomspacer"
+    }
+  ],
+  "rolling_text": "Rolling chars, aye!",
+  "marquees": [
+    "◈ ◈ ◈ ◈ ◈",
+    "Back to nineties !!! ♥ ♥ ♥ ♥ ♥",
+    "◈ ◈ ◈ ◈ ◈"
+  ]
+}
