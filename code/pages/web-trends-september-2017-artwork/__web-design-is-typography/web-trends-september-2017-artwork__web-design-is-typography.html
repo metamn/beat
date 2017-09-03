@@ -4,4 +4,3 @@
   <img class="img" src="/assets/images/Friction_2_Anim_1024x1024.gif" alt="Friction" />
   <img class="img" src="/assets/images/BasicSpace_Anim_1024x1024.gif" alt="Basic Space" />
 </aside>
-

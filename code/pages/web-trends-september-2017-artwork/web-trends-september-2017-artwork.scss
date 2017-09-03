@@ -35,6 +35,10 @@ html {
             @include portrait {
               display: none;
             }
+
+            .web-trends-september-2017-artwork__web-design-is-typography {
+              @include web-trends-september-2017-artwork__web-design-is-typography;
+            }
           }
         }
       }
