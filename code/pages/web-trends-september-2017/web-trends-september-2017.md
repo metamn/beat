@@ -2,7 +2,7 @@
 
 It's been a short and busy year<sup id="footnote--1">[1](#footnotes--1)</sup>.
 
-Meantime the web got a whole new identity flowing freely among trends, styles, paradigms &mdash; Yes we can affirm finally *the web got it's very own indistinguishable style*.
+Meantime the web got a whole new identity flowing freely among trends, styles, paradigms &mdash; yes we can affirm &mdash; finally &mdash; *the web got it's very own indistinguishable style*.
 
 This second episode in *Web Trends* presents techniques marking this milestone.
 
@@ -13,6 +13,13 @@ We've got back to basics<sup id="footnote--2">[2](#footnotes--2)</sup>.
 Typography is now the main design element. Delivering the message first, then doing the branding.
 
 The new typefaces of the last few years are immersive. Set to adaptively take the whole screen; wrapped into a marquee; repeated all over again on scrolling; doing the magic on hover; equipped with smart features &mdash; text well set today tells more than thousands of images.
+
+{% endmarkdown %}
+
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
 
 ## Interactive code art
 

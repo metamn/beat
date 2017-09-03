@@ -46,135 +46,22 @@
   ],
   "images": [
     {
-      "title": "Aaron Koblin",
-      "name": "aaron-landscape",
+      "title": "Ontheinsideart",
+      "name": "ontheinsideart-com-landscape",
+      "figcaption": "On The Inside Art &mdash; Typography is the main design element",
       "responsive": [
         {
           "breakpoint": "mobile",
-          "name": "aaron-portrait"
+          "name": "ontheinsideart-com-portrait"
         },
         {
           "breakpoint": "tablet",
-          "name": "aaron-portrait"
+          "name": "ontheinsideart-com-portrait"
         }
       ],
       "link": {
-        "title": "Aaron Koblin",
-        "url": "http://www.aaronkoblin.com/Aaronetrope/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Anymography",
-      "name": "anymography-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "anymography-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "anymography-portrait"
-        }
-      ],
-      "link": {
-        "title": "Anymography",
-        "url": "http://animography.net/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Athfield Architects",
-      "name": "athfield-1-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "athfield-1-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "athfield-1-portrait"
-        }
-      ],
-      "link": {
-        "title": "Athfield Architects",
-        "url": "http://athfieldarchitects.co.nz/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Athfield Architects",
-      "name": "athfield-2-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "athfield-2-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "athfield-2-portrait"
-        }
-      ],
-      "link": {
-        "title": "Athfield Architects",
-        "url": "http://athfieldarchitects.co.nz/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Advanced Urban Design",
-      "name": "aud-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "aud-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "aud-portrait"
-        }
-      ],
-      "link": {
-        "title": "Advanced Urban Design",
-        "url": "https://advancedurbandesign.com/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Kid Studio",
-      "name": "kidstudio-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "kidstudio-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "kidstudio-portrait"
-        }
-      ],
-      "link": {
-        "title": "Kid Studio",
-        "url": "http://kidstudio.co/",
-        "type": "external"
-      }
-    },
-    {
-      "title": "Misplaced",
-      "name": "misplaced-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "misplaced-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "misplaced-portrait"
-        }
-      ],
-      "link": {
-        "title": "Misplaced Design",
-        "url": "http://misplaced.design/",
+        "title": "On The Inside Art",
+        "url": "http://ontheinsideart.com/",
         "type": "external"
       }
     }
