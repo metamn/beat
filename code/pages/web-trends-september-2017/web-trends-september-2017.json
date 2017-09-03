@@ -64,6 +64,66 @@
         "url": "http://ontheinsideart.com/",
         "type": "external"
       }
+    },
+    {
+      "title": "Philip Dibello",
+      "name": "philipdibello-com-landscape",
+      "figcaption": "Philip Dibello &mdash; Delivering the message first",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "philipdibello-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "philipdibello-com-portrait"
+        }
+      ],
+      "link": {
+        "title": "Philip Dibello",
+        "url": "http://philipdibello.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Museionprize",
+      "name": "museionprize-museion-it-landscape",
+      "figcaption": "Museionprize &mdash; Full screen adaptive typography",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "museionprize-museion-it-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "museionprize-museion-it-portrait"
+        }
+      ],
+      "link": {
+        "title": "Museionprize",
+        "url": "http://museionprize.museion.it/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Mayice Studio",
+      "name": "mayicestudio-com-landscape",
+      "figcaption": "Mayice Studio &mdash; Text wrapped into a marquee",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "mayicestudio-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "mayicestudio-com-portrait"
+        }
+      ],
+      "link": {
+        "title": "Mayice Studio",
+        "url": "http://mayicestudio.com/",
+        "type": "external"
+      }
     }
   ],
   "videos": [

@@ -19,6 +19,15 @@ The new typefaces of the last few years are immersive. Set to adaptively take th
 {% set image = images[0] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
+{% set image = images[1] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[2] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[3] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
 {% markdown %}
 
 ## Interactive code art

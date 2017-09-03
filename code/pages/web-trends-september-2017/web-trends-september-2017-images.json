@@ -1,6 +1,9 @@
 {
-  "urls": [
+  "urlsx": [
     "http://ontheinsideart.com/"
+  ],
+  "urls": [
+    "http://philipdibello.com/"
   ],
   "options": {
     "json": "for post"

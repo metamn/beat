@@ -1,20 +1,20 @@
 [
   {
-    "title": "Ontheinsideart",
-    "name": "ontheinsideart-com-landscape",
+    "title": "Philipdibello",
+    "name": "philipdibello-com-landscape",
     "responsive": [
       {
         "breakpoint": "mobile",
-        "name": "ontheinsideart-com-portrait"
+        "name": "philipdibello-com-portrait"
       },
       {
         "breakpoint": "tablet",
-        "name": "ontheinsideart-com-portrait"
+        "name": "philipdibello-com-portrait"
       }
     ],
     "link": {
-      "title": "Ontheinsideart",
-      "url": "http://ontheinsideart.com/",
+      "title": "Philipdibello",
+      "url": "http://philipdibello.com/",
       "type": "external"
     }
   }
