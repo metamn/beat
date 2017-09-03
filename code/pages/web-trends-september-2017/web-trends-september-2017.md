@@ -28,6 +28,10 @@ The new typefaces of the last few years are immersive. Set to adaptively take th
 {% set image = images[3] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
+{% set video_klass = "inside-article" %}
+{% set video = videos[0] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
 {% markdown %}
 
 ## Interactive code art

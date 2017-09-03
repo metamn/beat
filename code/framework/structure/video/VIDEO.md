@@ -1,5 +1,12 @@
 # HTML5 Video
 
+## How to make it
+
+1. Create an 1024x768 video with Vokoscreen in a selected area
+2. The video will be created in Videos as mp4
+3. Covert with https://video.online-convert.com/ to OGV and WEBM
+
+
 ## Bugs, Tweaks
 
 1. IE11 and Edge 13 gives an "Error: unsuported video type or invalid file path" because Github Pages is not able to serve videos for these browsers: http://stackoverflow.com/questions/15951012/can-mime-types-of-github-pages-files-be-configured
