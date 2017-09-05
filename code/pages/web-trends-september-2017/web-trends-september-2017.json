@@ -22,7 +22,8 @@
     "Layers",
     "Hand drawn decorations",
     "Live data",
-    "Changing colors"
+    "Changing colors",
+    "Animated cursors"
   ],
   "footnotes": [
     {
@@ -377,6 +378,25 @@
       "link": {
         "title": "Negative Labs — Changing colors",
         "url": "http://negativelabs.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Daniel Givens",
+      "mp4": "danielgivens",
+      "ogv": "danielgivens",
+      "webm": "danielgivens",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Daniel Givens",
+        "name": "danielgivens-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Daniel Givens — Animated cursors",
+        "url": "https://danielgivens.com/",
         "type": "external"
       }
     }

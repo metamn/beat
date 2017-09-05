@@ -132,3 +132,16 @@ End that. Let the site have as many color schemes wants, in order it wants, from
 
 {% set video = videos[6] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
+
+{% markdown %}
+
+## Animated cursors
+
+First there were popping up images on hover; now we have a constant visual feedback when the cursor is moved across the screen.
+
+That can be simply stunning when executed well: not too obtrusive and keeping the mood of the site when it rests.
+
+{% endmarkdown %}
+
+{% set video = videos[7] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
