@@ -1,20 +1,20 @@
 [
   {
-    "title": "Xxix",
-    "name": "xxix-co-landscape",
+    "title": "Wadejeffree",
+    "name": "wadejeffree-com-landscape",
     "responsive": [
       {
         "breakpoint": "mobile",
-        "name": "xxix-co-portrait"
+        "name": "wadejeffree-com-portrait"
       },
       {
         "breakpoint": "tablet",
-        "name": "xxix-co-portrait"
+        "name": "wadejeffree-com-portrait"
       }
     ],
     "link": {
-      "title": "Xxix",
-      "url": "http://www.xxix.co/",
+      "title": "Wadejeffree",
+      "url": "http://www.wadejeffree.com/",
       "type": "external"
     }
   }

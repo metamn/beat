@@ -184,6 +184,66 @@
         "url": "http://www.athanor.world/",
         "type": "external"
       }
+    },
+    {
+      "title": "Les Garcons Sauvages",
+      "name": "lesgarconssauvages-com-landscape",
+      "figcaption": "Les Garcons Sauvages &mdash; Layers",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "lesgarconssauvages-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "lesgarconssauvages-com-portrait"
+        }
+      ],
+      "link": {
+        "title": "Les Garcons Sauvages",
+        "url": "http://lesgarconssauvages.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "xxix co",
+      "name": "xxix-co-landscape",
+      "figcaption": "xxix co &mdash; Layers",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "xxix-co-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "xxix-co-portrait"
+        }
+      ],
+      "link": {
+        "title": "xxix co",
+        "url": "http://www.xxix.co/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Wade Jeffree",
+      "name": "wadejeffree-com-landscape",
+      "figcaption": "Wade Jeffre &mdash; Live data",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "wadejeffree-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "wadejeffree-com-portrait"
+        }
+      ],
+      "link": {
+        "title": "Wadejeffree",
+        "url": "http://www.wadejeffree.com/",
+        "type": "external"
+      }
     }
   ],
   "videos": [
@@ -279,6 +339,25 @@
       "link": {
         "title": "Abscreenwear — Image gallery",
         "url": "https://abscreenwear.com/releases/kahn",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Macau Design Biennial",
+      "mp4": "macau",
+      "ogv": "macau",
+      "webm": "macau",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Abscreenwear",
+        "name": "macau-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Macau Design Biennial — Hand drawn decorations",
+        "url": "http://www.macaudesignbiennial.com/en/",
         "type": "external"
       }
     }
