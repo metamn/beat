@@ -144,6 +144,46 @@
         "url": "http://www.xxix.co/",
         "type": "external"
       }
+    },
+    {
+      "title": "Macau Design Biennial",
+      "name": "macaudesignbiennial-com-landscape",
+      "figcaption": "Macau Design Biennial &mdash; Borders",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "macaudesignbiennial-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "macaudesignbiennial-com-portrait"
+        }
+      ],
+      "link": {
+        "title": "Macau Design Biennial",
+        "url": "http://www.macaudesignbiennial.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Athanor",
+      "name": "athanor-world5-landscape",
+      "figcaption": "Athanor &mdash; Borders",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "athanor-world5-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "athanor-world5-portrait"
+        }
+      ],
+      "link": {
+        "title": "Athanor",
+        "url": "http://www.athanor.world/",
+        "type": "external"
+      }
     }
   ],
   "videos": [

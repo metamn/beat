@@ -74,6 +74,16 @@ Now we have some people who took the time and started to play with the idea. The
 
 It took time from skeuomorphism through flat materialism to get to simple borders delimiting and marking chunks of information. Before brutalism<sup id="footnote--4">[4](#footnotes--4)</sup> they were a sin. Now, personally, I'm thrilled to see some perfect bordering.
 
+{% endmarkdown %}
+
+{% set image = images[5] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[6] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
+
 ## Layers
 
 It's not a trend but maybe a returning motif; perhaps inspired by the unstoppable Windows 95 error alerts; however the 3D effect they offer for cheap; the sense of deepness the visitors associate to the site (and to it's content); and the workish interaction they require &mdash; makes layered content a weapon you can always use when in doubt.
