@@ -129,3 +129,6 @@ Static color schemes is our gender problem in web design; a site was born with a
 End that. Let the site have as many color schemes wants, in order it wants, from all around that rainbow.
 
 {% endmarkdown %}
+
+{% set video = videos[6] %}
+{% include '../../project/article/__video/article__video.html.swig' %}

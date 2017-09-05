@@ -360,6 +360,25 @@
         "url": "http://www.macaudesignbiennial.com/en/",
         "type": "external"
       }
+    },
+    {
+      "title": "Negative Labs",
+      "mp4": "negativelabs",
+      "ogv": "negativelabs",
+      "webm": "negativelabs",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Negative Labs",
+        "name": "negativelabs-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Negative Labs — Changing colors",
+        "url": "http://negativelabs.com/",
+        "type": "external"
+      }
     }
   ]
 }
