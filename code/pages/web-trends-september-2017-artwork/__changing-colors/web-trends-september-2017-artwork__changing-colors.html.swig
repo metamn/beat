@@ -1,4 +1,4 @@
-<aside class="web-trends-september-2017-artwork__changing-colors">
+<aside class="wts17a web-trends-september-2017-artwork__changing-colors">
   <h3>Web trends September 2017 artwork changing colors/h3>
 
   {% set video = videos[3] %}
