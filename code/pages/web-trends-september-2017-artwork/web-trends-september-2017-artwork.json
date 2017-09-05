@@ -9,8 +9,13 @@
   ],
   "images": [
     {
-      "title": "Ontheinsideart",
+      "title": "On The Inside Art",
       "name": "ontheinsideart-com-portrait"
+    },
+    {
+      "title": "Abscreenwear gallery",
+      "name": "abscreenwear-gallery",
+      "onesize": "tablet"
     }
   ],
   "videos": [
