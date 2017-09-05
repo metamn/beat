@@ -10,11 +10,22 @@
   "images": [
     {
       "title": "On The Inside Art",
-      "name": "ontheinsideart-com-portrait"
+      "name": "ontheinsideart-com-portrait",
+      "onesize": "tablet"
     },
     {
       "title": "Abscreenwear gallery",
       "name": "abscreenwear-gallery",
+      "onesize": "tablet"
+    },
+    {
+      "title": "Macau Design Biennial",
+      "name": "macaudesignbiennial-com-portrait",
+      "onesize": "tablet"
+    },
+    {
+      "title": "XXIX",
+      "name": "xxix-co-portrait",
       "onesize": "tablet"
     }
   ],
