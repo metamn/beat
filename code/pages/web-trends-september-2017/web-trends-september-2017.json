@@ -124,6 +124,26 @@
         "url": "http://mayicestudio.com/",
         "type": "external"
       }
+    },
+    {
+      "title": "Xxix",
+      "name": "xxix-co-landscape-2",
+      "figcaption": "XXIX &mdash; Smart text",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "xxix-co-portrait-2"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "xxix-co-portrait-2"
+        }
+      ],
+      "link": {
+        "title": "Xxix",
+        "url": "http://www.xxix.co/",
+        "type": "external"
+      }
     }
   ],
   "videos": [
@@ -143,6 +163,25 @@
       "link": {
         "title": "Abscreenwear — Endless scrolling text",
         "url": "https://abscreenwear.com/about",
+        "type": "external"
+      }
+    },
+    {
+      "title": "101at",
+      "mp4": "101at",
+      "ogv": "101at",
+      "webm": "101at",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "101at",
+        "name": "101at-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "101at — Interactive code art",
+        "url": "http://101.at/",
         "type": "external"
       }
     }

@@ -1,20 +1,20 @@
 [
   {
-    "title": "Philipdibello",
-    "name": "philipdibello-com-landscape",
+    "title": "Xxix",
+    "name": "xxix-co-landscape",
     "responsive": [
       {
         "breakpoint": "mobile",
-        "name": "philipdibello-com-portrait"
+        "name": "xxix-co-portrait"
       },
       {
         "breakpoint": "tablet",
-        "name": "philipdibello-com-portrait"
+        "name": "xxix-co-portrait"
       }
     ],
     "link": {
-      "title": "Philipdibello",
-      "url": "http://philipdibello.com/",
+      "title": "Xxix",
+      "url": "http://www.xxix.co/",
       "type": "external"
     }
   }

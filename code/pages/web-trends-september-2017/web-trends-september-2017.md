@@ -32,6 +32,10 @@ The new typefaces of the last few years are immersive. Set to adaptively take th
 {% set video = videos[0] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 
+{% set image = images[4] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+
 {% markdown %}
 
 ## Interactive code art
@@ -39,6 +43,13 @@ The new typefaces of the last few years are immersive. Set to adaptively take th
 The browser is more and more capable. It can do whatever Photoshop can do<sup id="footnote--3">[3](#footnotes--3)</sup> and soon will do whatever your TV can do.
 
 For start it does interactive code art, well, boosting the user's experience. It's enlightening to interact with machine intelligence. You feel like a god.
+
+{% endmarkdown %}
+
+{% set video = videos[1] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% markdown %}
 
 ## New kind of gallery
 
