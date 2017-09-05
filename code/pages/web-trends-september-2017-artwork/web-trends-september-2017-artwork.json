@@ -7,66 +7,50 @@
   "display": [
     "artwork"
   ],
-  "videos": [
-    {
-      "title": "Architetti Alpino",
-      "mp4": "architetti",
-      "ogv": "architetti",
-      "webm": "architetti",
-      "width": "1024",
-      "height": "768",
-      "params": "autoplay loop",
-      "image": {
-        "title": "Architetti Alpino",
-        "name": "architetti-poster",
-        "extension": ".png"
-      }
-    },
-    {
-      "title": "The Next Rembrandt",
-      "mp4": "rembrandt",
-      "ogv": "rembrandt",
-      "webm": "rembrandt",
-      "width": "1024",
-      "height": "768",
-      "params": "autoplay loop",
-      "image": {
-        "title": "The Next Rembrandt",
-        "name": "rembrandt-poster",
-        "extension": ".png"
-      }
-    }
-  ],
   "images": [
     {
-      "title": "Kid Studio",
-      "name": "kidstudio-portrait",
-      "onesize": "tablet"
+      "title": "Ontheinsideart",
+      "name": "ontheinsideart-com-portrait"
     }
   ],
-  "slides": [
+  "videos": [
     {
-      "title": "Mars Maiers",
-      "name": "marsmaiers",
-      "extension": ".jpg"
+      "title": "101at",
+      "mp4": "101at",
+      "ogv": "101at",
+      "webm": "101at",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "101at",
+        "name": "101at-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "101at — Interactive code art",
+        "url": "http://101.at/",
+        "type": "external"
+      }
     },
     {
-      "title": "Yale / Paul Rand",
-      "name": "yale"
+      "title": "RGE Partner",
+      "mp4": "rge",
+      "ogv": "rge",
+      "webm": "rge",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "RGE Partner",
+        "name": "rge-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "RGE Partner — Interactive code art",
+        "url": "http://www.rge-partner.de/",
+        "type": "external"
+      }
     }
-  ],
-  "spacers": [
-    {
-      "text": "///////////////////////////////////////////////////////////////////////////"
-    },
-    {
-      "text": "Thisisacustomspacer"
-    }
-  ],
-  "rolling_text": "Rolling chars, aye!",
-  "marquees": [
-    "◈ ◈ ◈ ◈ ◈",
-    "Back to nineties !!! ♥ ♥ ♥ ♥ ♥",
-    "◈ ◈ ◈ ◈ ◈"
   ]
 }

@@ -1,11 +1,7 @@
 @mixin web-trends-september-2017-artwork__web-design-is-typography {
   flex-direction: column;
 
-  .img {
-    @include img(stretched);
-
-    + .img {
-      margin-top: $lem;
-    }
+  .figure {
+    @include figure;
   }
 }
