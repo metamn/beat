@@ -42,11 +42,6 @@
         "title": "101at",
         "name": "101at-poster",
         "extension": ".png"
-      },
-      "link": {
-        "title": "101at — Interactive code art",
-        "url": "http://101.at/",
-        "type": "external"
       }
     },
     {
@@ -61,11 +56,34 @@
         "title": "RGE Partner",
         "name": "rge-poster",
         "extension": ".png"
-      },
-      "link": {
-        "title": "RGE Partner — Interactive code art",
-        "url": "http://www.rge-partner.de/",
-        "type": "external"
+      }
+    },
+    {
+      "title": "Wade Jeffree",
+      "mp4": "wade",
+      "ogv": "wade",
+      "webm": "wade",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Wade Jeffre",
+        "name": "wade-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Negative Labs",
+      "mp4": "negativelabs",
+      "ogv": "negativelabs",
+      "webm": "negativelabs",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Negative Labs",
+        "name": "negativelabs-poster",
+        "extension": ".png"
       }
     }
   ]
