@@ -1,6 +1,5 @@
 {% include "__web-design-is-typography/web-trends-september-2017-artwork__web-design-is-typography.html.swig" %}
 {% include "__interactive-code-art/web-trends-september-2017-artwork__interactive-code-art.html.swig" %}
-{% include "__interactive-code-art/web-trends-september-2017-artwork__interactive-code-art.html.swig" %}
 {% include "__new-kind-of-gallery/web-trends-september-2017-artwork__new-kind-of-gallery.html.swig" %}
 {% include "__bordered-layout/web-trends-september-2017-artwork__bordered-layout.html.swig" %}
 {% include "__layers/web-trends-september-2017-artwork__layers.html.swig" %}

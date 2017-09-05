@@ -3,7 +3,4 @@
 
   {% set video = videos[0] %}
   {% include '../../../project/article/__video/article__video.html.swig' %}
-
-  {% set video = videos[1] %}
-  {% include '../../../project/article/__video/article__video.html.swig' %}
 </aside>

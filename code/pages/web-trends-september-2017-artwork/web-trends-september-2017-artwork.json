@@ -37,7 +37,7 @@
       "webm": "101at",
       "width": "1024",
       "height": "768",
-      "params": "controls",
+      "params": "autoplay loop",
       "image": {
         "title": "101at",
         "name": "101at-poster",
@@ -51,7 +51,7 @@
       "webm": "rge",
       "width": "1024",
       "height": "768",
-      "params": "controls",
+      "params": "autoplay loop",
       "image": {
         "title": "RGE Partner",
         "name": "rge-poster",
@@ -65,7 +65,7 @@
       "webm": "wade",
       "width": "1024",
       "height": "768",
-      "params": "controls",
+      "params": "autoplay loop",
       "image": {
         "title": "Wade Jeffre",
         "name": "wade-poster",
@@ -79,7 +79,7 @@
       "webm": "negativelabs",
       "width": "1024",
       "height": "768",
-      "params": "controls",
+      "params": "autoplay loop",
       "image": {
         "title": "Negative Labs",
         "name": "negativelabs-poster",
