@@ -49,6 +49,9 @@ For start it does interactive code art, well, boosting the user's experience. It
 {% set video = videos[1] %}
 {% include '../../project/article/__video/article__video.html.swig' %}
 
+{% set video = videos[2] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
 {% markdown %}
 
 ## New kind of gallery
