@@ -60,6 +60,16 @@ The most exciting field in web design is the carousel: how to compress informati
 
 Now we have some people who took the time and started to play with the idea. The results are unique ... and fantastic.
 
+{% endmarkdown %}
+
+{% set video = videos[3] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% set video = videos[4] %}
+{% include '../../project/article/__video/article__video.html.swig' %}
+
+{% markdown %}
+
 ## Bordered layout
 
 It took time from skeuomorphism through flat materialism to get to simple borders delimiting and marking chunks of information. Before brutalism<sup id="footnote--4">[4](#footnotes--4)</sup> they were a sin. Now, personally, I'm thrilled to see some perfect bordering.

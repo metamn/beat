@@ -203,6 +203,44 @@
         "url": "http://www.rge-partner.de/",
         "type": "external"
       }
+    },
+    {
+      "title": "Mayice Studio",
+      "mp4": "mayice",
+      "ogv": "mayice",
+      "webm": "mayice",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Mayice Studio",
+        "name": "mayice-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Mayice Studio — Image thumbnails",
+        "url": "http://mayicestudio.com/",
+        "type": "external"
+      }
+    },
+    {
+      "title": "Abscreenwear",
+      "mp4": "abscreenwear2",
+      "ogv": "abscreenwear2",
+      "webm": "abscreenwear2",
+      "width": "1024",
+      "height": "768",
+      "params": "controls",
+      "image": {
+        "title": "Abscreenwear",
+        "name": "abscreenwear-poster",
+        "extension": ".png"
+      },
+      "link": {
+        "title": "Abscreenwear — Image gallery",
+        "url": "https://abscreenwear.com/releases/kahn",
+        "type": "external"
+      }
     }
   ]
 }
