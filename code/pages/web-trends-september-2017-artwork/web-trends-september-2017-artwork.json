@@ -85,6 +85,34 @@
         "name": "negativelabs-poster",
         "extension": ".png"
       }
+    },
+    {
+      "title": "Daniel Givens",
+      "mp4": "danielgivens",
+      "ogv": "danielgivens",
+      "webm": "danielgivens",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Daniel Givens",
+        "name": "danielgivens-poster",
+        "extension": ".png"
+      }
+    },
+    {
+      "title": "Macau Design Biennial",
+      "mp4": "macau",
+      "ogv": "macau",
+      "webm": "macau",
+      "width": "1024",
+      "height": "768",
+      "params": "autoplay loop",
+      "image": {
+        "title": "Macau Design Biennial",
+        "name": "macau-poster",
+        "extension": ".png"
+      }
     }
   ],
   "spacers": [
