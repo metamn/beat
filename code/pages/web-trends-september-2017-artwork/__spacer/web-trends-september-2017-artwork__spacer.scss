@@ -1,0 +1,9 @@
+@mixin web-trends-september-2017-artwork__spacer {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  
+  .spacer {
+    @include spacer;
+  }
+}

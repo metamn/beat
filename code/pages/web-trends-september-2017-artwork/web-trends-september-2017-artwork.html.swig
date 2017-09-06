@@ -7,3 +7,4 @@
 {% include "__live-data/web-trends-september-2017-artwork__live-data.html.swig" %}
 {% include "__changing-colors/web-trends-september-2017-artwork__changing-colors.html.swig" %}
 {% include "__animated-cursors/web-trends-september-2017-artwork__animated-cursors.html.swig" %}
+{% include "__spacer/web-trends-september-2017-artwork__spacer.html.swig" %}

@@ -11,6 +11,11 @@ html {
             overflow: hidden;
 
             .wts17a {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+              
               position: absolute;
               top: 0;
               left: 0;
@@ -18,11 +23,6 @@ html {
 
               width: 100%;
               height: 100%;
-
-              display: flex;
-              flex-wrap: wrap;
-              justify-content: center;
-              align-items: center;
 
               @include transition(opacity);
 
@@ -34,6 +34,10 @@ html {
 
             @include portrait {
               display: none;
+            }
+
+            .web-trends-september-2017-artwork__spacer {
+              @include web-trends-september-2017-artwork__spacer;
             }
 
             .web-trends-september-2017-artwork__web-design-is-typography {
