@@ -8,5 +8,9 @@
 
   .figure-with-text-around-circle {
     @include figure-with-text-around-circle($number-of-chars: 19);
+
+    .figure {
+      @include figure($placeholder-color: $white);
+    }
   }
 }

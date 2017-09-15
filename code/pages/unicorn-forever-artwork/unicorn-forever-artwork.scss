@@ -5,7 +5,7 @@ html {
         .article {
           &--unicorn-forever-artwork {
             .figure {
-              @include figure;
+              @include figure($placeholder-color: $white);
             }
           }
         }

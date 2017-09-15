@@ -7,7 +7,7 @@
 // $placeholder-color - displaying a background color until the image is loaded
 //
 // Styleguide img
-@mixin img($stretch: fluid, $preloading: false, $placeholder-color: $white) {
+@mixin img($stretch: fluid, $preloading: true, $placeholder-color: $black) {
   @if ($stretch == fluid) {
     @include img--fluid;
   }

@@ -22,6 +22,12 @@ html {
         &__footnotes {
           @include footnotes;
         }
+
+        .figure {
+          &--loaded {
+            @include background-image-dotted;
+          }
+        }
       }
 
       .contact-artwork {

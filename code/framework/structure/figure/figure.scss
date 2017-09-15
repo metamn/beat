@@ -9,7 +9,7 @@
 // $figcaption - when `off` the figcaption won't be displayed; when `on` it will be displayed
 //
 // Styleguide figure
-@mixin figure($stretch: fluid, $preloading: false, $placeholder-color: false, $figcaption: off) {
+@mixin figure($stretch: fluid, $preloading: true, $placeholder-color: $black, $figcaption: off) {
   figcaption,
   .figcaption{
     @include figure__figcaption($figcaption);
@@ -19,7 +19,6 @@
   .img {
     @include img($stretch, $preloading, $placeholder-color);
   }
-
 
   @if ($preloading == true) {
     @include figure--preloading($placeholder-color);
