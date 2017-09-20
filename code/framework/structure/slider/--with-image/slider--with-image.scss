@@ -50,6 +50,6 @@
   */
 
   .figure {
-    @include figure(stretched);
+    @include figure(stretched, $figcaption: on);
   }
 }
