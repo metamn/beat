@@ -52,36 +52,27 @@
           "name": "weedsheets-2-portrait"
         }
       ]
-    },
-    {
-      "title": "Cards are responsive",
-      "name": "material-design-card-3"
-    },
-    {
-      "title": "Thumbs for mobile, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
-      "name": "thumb-mobile",
-      "extension": ".jpg"
-    },
-    {
-      "title": "Thumbs for phablet, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
-      "name": "thumb-phablet",
-      "extension": ".jpg"
-    },
-    {
-      "title": "Thumbs for tablet, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
-      "name": "thumb-tablet",
-      "extension": ".jpg"
-    },
-    {
-      "title": "Thumbs for touch laptops, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
-      "name": "thumb-laptop",
-      "extension": ".jpg"
     }
   ],
   "footnotes": [
     {
       "title": "What To Learn Next, December 2016",
       "url": "http://metamn.io/beat/what-to-learn-next-december-2016/",
+      "type": "external"
+    },
+    {
+      "title": "Unicorn Forever",
+      "url": "http://metamn.io/beat/unicorn-forever/",
+      "type": "external"
+    },
+    {
+      "title": "Creating A Styleguide With Gulp",
+      "url": "http://metamn.io/beat/creating-a-styleguide-with-gulp/",
+      "type": "external"
+    },
+    {
+      "title": "Gust is featured on Brutalist Websites",
+      "url": "http://metamn.io/beat/gust/",
       "type": "external"
     }
   ]
