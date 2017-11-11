@@ -1,0 +1,19 @@
+html {
+  &.home {
+    body {
+      .articles {
+        .article {
+          &--what-to-learn-next-november-2017-artwork {
+            padding: 0;
+            overflow: hidden;
+            border: 0;
+
+            .marquee-3d {
+              @include marquee-3d;
+            }
+          }
+        }
+      }
+    }
+  }
+}

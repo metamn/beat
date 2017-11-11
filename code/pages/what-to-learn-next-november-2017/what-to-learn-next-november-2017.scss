@@ -1,0 +1,9 @@
+html {
+  &.what-to-learn-next-november-2017 {
+    .article {
+      .list-expandable {
+        @include list-expandable;
+      }
+    }
+  }
+}

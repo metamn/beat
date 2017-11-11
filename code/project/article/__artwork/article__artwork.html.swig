@@ -32,6 +32,10 @@
   {% include '../../../pages/what-to-learn-next-december-2016-artwork/what-to-learn-next-december-2016-artwork.html.swig' %}
 {% endif %}
 
+{% if article.url == "what-to-learn-next-november-2017-artwork" %}
+  {% include '../../../pages/what-to-learn-next-november-2017-artwork/what-to-learn-next-november-2017-artwork.html.swig' %}
+{% endif %}
+
 
 {% if article.url == 'unicorn-forever-artwork' %}
   {% include '../../../pages/unicorn-forever-artwork/unicorn-forever-artwork.html.swig' %}

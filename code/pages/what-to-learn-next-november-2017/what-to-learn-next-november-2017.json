@@ -1,0 +1,63 @@
+{
+  "title": "What To Learn Next, November 2017",
+  "excerpt": "Web design tricks, techniques, hacks worth learning",
+  "template": "article",
+  "categories": [
+    "trend"
+  ],
+  "url": "what-to-learn-next-november-2017",
+  "date": "2017-11-11",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ],
+  "list1": [
+    "Make websites look like and act like native applications",
+    "Make websites work perfect in any conditions",
+    "Find new ways to deliver unique, outside of the box experiences"
+  ],
+  "list2": [
+    "Designing for thumbs",
+    "Card based user interfaces",
+    "Page transitions"
+  ],
+  "images": [
+    {
+      "title": "Cards are scannable",
+      "name": "material-design-card",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Cards display details very well",
+      "name": "material-design-card-2",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Cards are responsive",
+      "name": "material-design-card-3"
+    },
+    {
+      "title": "Thumbs for mobile, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
+      "name": "thumb-mobile",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Thumbs for phablet, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
+      "name": "thumb-phablet",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Thumbs for tablet, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
+      "name": "thumb-tablet",
+      "extension": ".jpg"
+    },
+    {
+      "title": "Thumbs for touch laptops, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
+      "name": "thumb-laptop",
+      "extension": ".jpg"
+    }
+  ]
+}

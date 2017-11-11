@@ -1,10 +1,12 @@
 @mixin articles-grid-regrid($margin) {
   @include landscape {
-    .article--what-to-learn-next-december-2016 {
+    .article--what-to-learn-next-december-2016,
+    .article--what-to-learn-next-november-2017 {
       border-right: 0;
     }
 
-    .article--what-to-learn-next-december-2016-artwork {
+    .article--what-to-learn-next-december-2016-artwork,
+    .article--what-to-learn-next-december-november-2017 {
       border: 1px solid !important;
       border-left: 0 !important;
     }
@@ -12,6 +14,7 @@
     .article--no-more-problems-on-the-front-end,
     .article--practically,
     .article--what-to-learn-next-december-2016,
+    .article--what-to-learn-next-december-november-2017,
     .article--web-trends-september-2016,
     .article--web-trends-september-2017,
     .article--unicorn-forever-artwork {
