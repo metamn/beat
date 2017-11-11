@@ -26,14 +26,32 @@
   ],
   "images": [
     {
-      "title": "Cards are scannable",
-      "name": "material-design-card",
-      "onesize": "mobile"
+      "title": "Weed Sheets using cards to display categories",
+      "name": "weedsheets-1-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "weedsheets-1-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "weedsheets-1-portrait"
+        }
+      ]
     },
     {
-      "title": "Cards display details very well",
-      "name": "material-design-card-2",
-      "onesize": "mobile"
+      "title": "Weed Sheets using cards and card inspired design to display a category",
+      "name": "weedsheets-2-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "weedsheets-2-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "weedsheets-2-portrait"
+        }
+      ]
     },
     {
       "title": "Cards are responsive",
@@ -58,6 +76,13 @@
       "title": "Thumbs for touch laptops, from&nbsp;<a href='http://alistapart.com/article/how-we-hold-our-gadgets'>A List Apart</a>",
       "name": "thumb-laptop",
       "extension": ".jpg"
+    }
+  ],
+  "footnotes": [
+    {
+      "title": "What To Learn Next, December 2016",
+      "url": "http://metamn.io/beat/what-to-learn-next-december-2016/",
+      "type": "external"
     }
   ]
 }

@@ -3,6 +3,18 @@ html {
     .article {
       .list-expandable {
         @include list-expandable;
+
+        &:first-of-type {
+          .ul {
+            .li {
+              text-decoration: line-through;
+
+              &:first-of-type {
+                text-decoration: none;
+              }
+            }
+          }
+        }
       }
     }
   }
