@@ -65,7 +65,7 @@ I'm porting currently my *award-winning*<sup id="footnote--4">[4](#footnotes-4)<
 
 Technical debt everywhere. A [risk](https://medium.com/@metamn/co-founding-4423b323fdc1) one needs to avoid.
 
-It seems last year I've pinned down better what is a debt-free framework.
+It seems last year<sup id="footnote--1">[1](#footnotes-1)</sup> I've pinned down better what is a debt-free framework.
 {% endmarkdown %}
 
 {% set list = list1 %}
@@ -76,7 +76,22 @@ I still consider it a goal well worth following.
 
 While 1.) and 2.) can be solved by Vue or a similar ecosystem 3.) is fully personal and subjective.
 
-### Unique experiences
+### Find new ways
+
+The Adbusters is this year's revelation. The printed magazine is the proudest on my coffee table; the app is the app on my iPad; the content is my lifelong hobby; and the ad-free model is probably unique in the mainstream media.
+
+What else? It's a masterwork: perfect in all aspects.
+
+After eliminating the code-debt / finding the best framework which lets me focus on design I'll go after<sup id="footnote--2">[2](#footnotes-2)</sup> the Adbusters model: design a publication which looks the same way brilliant on all platforms be it print, web, app, or display.  
+
+Web is to focus here. The rest can be done easily.
+
+## The learn list
+
+During the year I'm collecting interesting technical tricks and tips into my Gmail's `To learn` folder. Interesting technical articles go to `To clients` folder which gets published regularly at [Pulse](http://metamn.io/pulse/). The best websites go to the `ww` folder and are compiled here as a *Masters of Web* slideshow. The trends found in these websites are compiled into the *Web Trends* series of this very blog.
+
+Now is time to compile the learn list: web techniques which put you on the edge, collected from newsletters, hacker and designer news forums, blogs and magazines.
+
 
 
 {% endmarkdown %}
