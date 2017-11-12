@@ -17,13 +17,13 @@
   ],
   "slides": [
     {
+      "title": "Yale / Paul Rand",
+      "name": "yale"
+    },
+    {
       "title": "Mars Maiers",
       "name": "marsmaiers",
       "extension": ".jpg"
-    },
-    {
-      "title": "Yale / Paul Rand",
-      "name": "yale"
     },
     {
       "title": "Bloomberg",

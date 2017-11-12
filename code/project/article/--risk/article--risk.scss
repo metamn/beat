@@ -1,0 +1,14 @@
+@mixin article--risk {
+  flex-basis: 100%;
+  margin-right: 0;
+
+  .blockquote {
+    ol {
+      list-style: none;
+
+      li + li {
+        margin-top: 0;
+      }
+    }
+  }
+}

@@ -16,22 +16,6 @@
   ],
   "slides": [
     {
-      "title": "Afterall Studio",
-      "name": "afterall-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "afterall-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "afterall-portrait"
-        }
-      ],
-      "url": "http://afterallstudio.com/",
-      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
-    },
-    {
       "title": "Misplaced",
       "name": "misplaced-landscape",
       "responsive": [
@@ -46,6 +30,22 @@
       ],
       "url": "http://misplaced.design/",
       "figcaption": "<a class='link' href='http://misplaced.design//'>http://misplaced.design/</a>"
+    },
+    {
+      "title": "Afterall Studio",
+      "name": "afterall-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "afterall-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "afterall-portrait"
+        }
+      ],
+      "url": "http://afterallstudio.com/",
+      "figcaption": "<a class='link' href='http://afterallstudio.com/'>http://afterallstudio.com</a>"
     },
     {
       "title": "Advanced Urban Design",

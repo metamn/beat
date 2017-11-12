@@ -1,0 +1,28 @@
+{
+  "title": "Risk",
+  "excerpt": "There are five key risks in any deal: Market, Product (a/k/a technology), Management, Business Model, and Capital",
+  "template": "article",
+  "categories": [
+    "business"
+  ],
+  "url": "risk",
+  "date": "2017-11-12",
+  "display": [
+    "title",
+    "categories",
+    "date",
+    "authors"
+  ],
+  "authors": [
+    {
+      "property1": {
+        "name": "Brad Feld",
+        "title": "Early stage investor and entrepreneur",
+        "url": "https://feld.com/archives/2015/08/venture-capital-history-perspective-jack-tankersley.html",
+        "description": "<p>There are five key risks in any deal:<p><ol><li>Market</li><li>Product (a/k/a technology)</li><li>Management</li><li>Business Model</li><li>Capital</li></ol><p>Taking all five at once is crazy.</p><p>Most losses happen when you combine Market and Product risk – take one, not both, and take it with a proven entrepreneur.</p>",
+        "twitter": "bfeld",
+        "avatar": "https://pbs.twimg.com/profile_images/441605100440547328/vJhIbf6j_400x400.png"
+      }
+    }
+  ]
+}

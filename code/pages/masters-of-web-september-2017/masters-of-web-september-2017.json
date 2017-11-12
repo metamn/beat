@@ -16,22 +16,6 @@
   ],
   "slides": [
     {
-      "title": "Negative Labs",
-      "name": "negativelabs-com-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "negativelabs-com-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "negativelabs-com-portrait"
-        }
-      ],
-      "url": "http://negativelabs.com/",
-      "figcaption": "<a class='link' href='http://negativelabs.com/'>http://negativelabs.com/</a>"
-    },
-    {
       "title": "Abscreenwear",
       "name": "abscreenwear-com-landscape",
       "responsive": [
@@ -46,6 +30,22 @@
       ],
       "url": "https://abscreenwear.com/",
       "figcaption": "<a class='link' href='https://abscreenwear.com/'>https://abscreenwear.com/</a>"
+    },
+    {
+      "title": "Negative Labs",
+      "name": "negativelabs-com-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "negativelabs-com-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "negativelabs-com-portrait"
+        }
+      ],
+      "url": "http://negativelabs.com/",
+      "figcaption": "<a class='link' href='http://negativelabs.com/'>http://negativelabs.com/</a>"
     },
     {
       "title": "Macau Design Biennial",

@@ -9,6 +9,10 @@
   opacity: 1;
   @include transition(all);
 
+  &--risk {
+    @include article--risk;
+  }
+
   &--unicorn-forever-artwork {
     @include article--unicorn-forever-artwork;
   }

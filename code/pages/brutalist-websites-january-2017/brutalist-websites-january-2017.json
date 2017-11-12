@@ -17,6 +17,22 @@
   ],
   "slides": [
     {
+      "title": "Froy",
+      "name": "froy-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "froy-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "froy-portrait"
+        }
+      ],
+      "url": "https://froy.me/new/",
+      "figcaption": "<a class='link' href='https://froy.me/new/'>https://froy.me/new</a>"
+    },
+    {
       "title": "Tish",
       "name": "tish-landscape",
       "responsive": [
@@ -47,22 +63,6 @@
       ],
       "url": "http://listenand.watch/",
       "figcaption": "<a class='link' href='http://listenand.watch/'>http://listenand.watch</a>"
-    },
-    {
-      "title": "Froy",
-      "name": "froy-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "froy-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "froy-portrait"
-        }
-      ],
-      "url": "https://froy.me/new/",
-      "figcaption": "<a class='link' href='https://froy.me/new/'>https://froy.me/new</a>"
     },
     {
       "title": "RFGraphics",
