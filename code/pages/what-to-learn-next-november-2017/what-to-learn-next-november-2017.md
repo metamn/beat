@@ -1,8 +1,6 @@
 {% markdown %}
 
-Another year<sup id="footnote--1">[1](#footnotes--1)</sup> another retrospective.
-
-It's good to review what are the new tricks and techniques on the web scene, and to see if the last year's tricks were learned or not.
+Another year another retrospective<sup id="footnote--1">[1](#footnotes--1)</sup>.
 
 This year was lucky; the most important goals set up a year ago were achieved.
 {% endmarkdown %}
@@ -61,7 +59,7 @@ It's hard to do that. A year ago the BEM / SCSS / Gulp / Webpack stack was the i
 
 I'm porting currently my *award-winning*<sup id="footnote--4">[4](#footnotes-4)</sup> BEM / SCSS / HTML / JS / JSON / MD / Styleguide driven components to Vue and I have to make hard trade-offs. Vue is in many aspects better but in some aspects not yet advanced as my old framework.
 
-Technical debt everywhere. A [risk](https://medium.com/@metamn/co-founding-4423b323fdc1) one needs to avoid.
+Technical debt everywhere. A risk one needs to avoid.
 
 It seems last year<sup id="footnote--1">[1](#footnotes-1)</sup> I've pinned down better what is a debt-free framework.
 {% endmarkdown %}
@@ -76,7 +74,7 @@ While 1.) and 2.) can be solved by Vue or a similar ecosystem 3.) is fully perso
 
 ### Find new ways
 
-The Adbusters is this year's revelation. The printed magazine is the proudest on my coffee table; the app is the app on my iPad; the content is my lifelong hobby<sup id="footnote--4">[4](#footnotes-4)</sup>; and the ad-free model is probably unique in the mainstream media.
+Adbusters is this year's revelation. The printed magazine is the proudest on my coffee table; the app is the app on my iPad; the content is my lifelong hobby<sup id="footnote--4">[4](#footnotes-4)</sup>; and the ad-free model is making it resilient to the current advertising / fake news scandal.
 
 What else? It's a masterwork: perfect in all aspects.
 
