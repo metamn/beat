@@ -1,0 +1,18 @@
+{
+  "title": "Blame The Algorithm",
+  "excerpt": "From people to machine",
+  "template": "article",
+  "categories": [
+    "trend",
+    "code"
+  ],
+  "url": "blame-the-algorithm",
+  "date": "2017-11-21",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}
