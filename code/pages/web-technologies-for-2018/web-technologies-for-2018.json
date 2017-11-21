@@ -1,0 +1,18 @@
+{
+  "title": "Web Technologies for 2018",
+  "excerpt": "From websites to webapps",
+  "template": "article",
+  "categories": [
+    "trend",
+    "code"
+  ],
+  "url": "web-technologies-for-2018",
+  "date": "2017-11-21",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}

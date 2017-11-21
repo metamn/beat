@@ -9,6 +9,10 @@
   opacity: 1;
   @include transition(all);
 
+  &--web-technologies-for-2018 {
+    @include article--web-technologies-for-2018;
+  }
+
   &--risk {
     @include article--risk;
   }
@@ -20,7 +24,6 @@
   &--unicorn-forever {
     @include article--unicorn-forever;
   }
-
 
   &--unit-of-sense {
     @include article--unit-of-sense;
