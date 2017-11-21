@@ -18,6 +18,8 @@
 
   You can rent machine time to run your functions; spin up servers on demand when traffic goes high; use specific programming languages for specific tasks; decouple user interface from backend; compose applications on the fly; have same good looking apps like internet giants; many more and all for *free*.
 
+  Such a perfect time to do web! It's never been easier and more enjoyable to create!
+
   ## From People To Machine
 
   How this fine progress can't be enough for the web to hit the headlines again?
