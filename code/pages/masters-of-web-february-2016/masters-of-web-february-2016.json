@@ -16,22 +16,6 @@
   ],
   "slides": [
     {
-      "title": "Tennent Brown",
-      "name": "tennetbrown-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "tennetbrown-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "tennetbrown-portrait"
-        }
-      ],
-      "url": "http://tennentbrown.co.nz/",
-      "figcaption": "<a class='link' href='http://tennentbrown.co.nz/'>http://tennentbrown.co.nz</a>"
-    },
-    {
       "title": "Gabriele Iglesias Dardon",
       "name": "gid-landscape",
       "responsive": [
@@ -46,6 +30,22 @@
       ],
       "url": "http://www.gidmotion.com/",
       "figcaption": "<a class='link' href='http://www.gidmotion.com/'>http://www.gidmotion.com</a>"
+    },
+    {
+      "title": "Tennent Brown",
+      "name": "tennetbrown-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "tennetbrown-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "tennetbrown-portrait"
+        }
+      ],
+      "url": "http://tennentbrown.co.nz/",
+      "figcaption": "<a class='link' href='http://tennentbrown.co.nz/'>http://tennentbrown.co.nz</a>"
     },
     {
       "title": "A1 Office",

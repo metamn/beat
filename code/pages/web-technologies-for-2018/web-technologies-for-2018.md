@@ -1,7 +1,7 @@
 {% markdown %}
-  There is an [accompanying quick rant]() to this article discussing how interactive web decomposed the monolithic approach into atomic components and microservices. I hope you'll enjoy it.
+  There is an [accompanying quick rant](http://metamn.io/beat/blame-the-algorithm) to this article discussing how interactive web decomposed the monolithic approach into atomic components and microservices. I hope you'll enjoy it.
 
-  This twin article is highly technical about how we've got to components: to the new paradigm for app / web / development / design which already dominate the edges of the industry.
+  This twin article is highly technical about how we've got to components: to the new paradigm for app / web / development / design which already dominate the edge of the industry.
 
   Interactivity, scalability and designer-developer communication led to components. Let's see how.
 

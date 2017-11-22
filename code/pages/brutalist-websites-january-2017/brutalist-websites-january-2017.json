@@ -17,6 +17,22 @@
   ],
   "slides": [
     {
+      "title": "Offshore Studio",
+      "name": "offshorestudio-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "offshorestudio-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "offshorestudio-portrait"
+        }
+      ],
+      "url": "http://www.offshorestudio.ch/",
+      "figcaption": "<a class='link' href='http://www.offshorestudio.ch/'>http://www.offshorestudio.ch</a>"
+    },
+    {
       "title": "Froy",
       "name": "froy-landscape",
       "responsive": [
@@ -111,22 +127,6 @@
       ],
       "url": "http://whatsforlunchsoho.com/",
       "figcaption": "<a class='link' href='http://whatsforlunchsoho.com/'>http://whatsforlunchsoho.com</a>"
-    },
-    {
-      "title": "Offshore Studio",
-      "name": "offshorestudio-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "offshorestudio-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "offshorestudio-portrait"
-        }
-      ],
-      "url": "http://www.offshorestudio.ch/",
-      "figcaption": "<a class='link' href='http://www.offshorestudio.ch/'>http://www.offshorestudio.ch</a>"
     },
     {
       "title": "The Primal Urge",
