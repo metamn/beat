@@ -1,1 +1,23 @@
 @mixin web-technologies-for-2018 {}
+html {
+  &.web-technologies-for-2018 {
+    .article {
+      .list-expandable {
+        @include list-expandable;
+      }
+
+      .video {
+        @include border(normal, all);
+        max-width: none;
+
+        .video-wrapper {
+          @include intrinsic-ratio(16, 9, 'iframe');
+        }
+
+        + .video {
+          margin-top: $lem;
+        }
+      }
+    }
+  }
+}

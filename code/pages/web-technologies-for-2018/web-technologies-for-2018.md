@@ -37,6 +37,30 @@
 
   Interactive user interfaces decomposed not just web technologies but design thinking and frameworks. Today the dice rolls around components and modules. Everything is built bottom up with interactivity, accessibility, interoperability and scalability in mind.
 
-  It sounds too much but is the bare enough minimum to make the web great again.
-
+  A typical workflow follows:
 {% endmarkdown %}
+
+{% set list = list %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
+
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src='https://www.youtube.com/embed/KRlje1h6caU' frameborder='0' allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src='https://www.youtube.com/embed/XEf1RnbZ4ZQ' frameborder='0' allowfullscreen></iframe>
+  </div>
+</div>
+
+<div class="video">
+  <div class="video-wrapper">
+    <iframe src='https://www.youtube.com/embed/VIMhg4zYeE4' frameborder='0' allowfullscreen></iframe>
+  </div>
+</div>
+
+
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
