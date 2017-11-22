@@ -14,5 +14,22 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "Basics of the Unix Philosophy",
+      "url": "http://www.faqs.org/docs/artu/ch01s06.html",
+      "type": "external"
+    },
+    {
+      "title": "Orthogonality and CSS in JS",
+      "url": "https://benmccormick.org/2017/01/03/orthogonality-and-css-in-js/",
+      "type": "external"
+    },
+    {
+      "title": "Web Components",
+      "url": "https://en.wikipedia.org/wiki/Web_Components",
+      "type": "external"
+    }
   ]
 }

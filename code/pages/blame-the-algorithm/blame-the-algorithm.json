@@ -14,5 +14,12 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "Advertising",
+      "url": "http://metamn.io/gust/advertising",
+      "type": "external"
+    }
   ]
 }
