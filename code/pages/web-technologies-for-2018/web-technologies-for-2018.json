@@ -1,6 +1,6 @@
 {
   "title": "Web Technologies for 2018",
-  "excerpt": "From websites to webapps",
+  "excerpt": "From monoliths to components",
   "template": "article",
   "categories": [
     "trend",
@@ -29,6 +29,26 @@
     {
       "title": "Web Components",
       "url": "https://en.wikipedia.org/wiki/Web_Components",
+      "type": "external"
+    },
+    {
+      "title": "CSS Modules — Welcome to the Future",
+      "url": "https://glenmaddern.com/articles/css-modules",
+      "type": "external"
+    },
+    {
+      "title": "Interoperable CSS",
+      "url": "https://github.com/css-modules/icss",
+      "type": "external"
+    },
+    {
+      "title": "Creating A Styleguide With Gulp",
+      "url": "http://metamn.io/beat/creating-a-styleguide-with-gulp/",
+      "type": "external"
+    },
+    {
+      "title": "Material Design",
+      "url": "https://material.io/",
       "type": "external"
     }
   ]
