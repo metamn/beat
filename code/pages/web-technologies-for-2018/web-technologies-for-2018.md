@@ -3,7 +3,7 @@
 
   This twin article is highly technical about how we've got to components: to the new paradigm for app / web / development / design which already dominate the edge of the industry.
 
-  Interactivity, scalability and designer-developer communication led to components. Let's see how.
+  Interactivity, scalability and designer-developer communication are the main reasons. Let's see them.
 
   ## Interactivity
 
@@ -23,15 +23,17 @@
 
   With that, finally, CSS follows the current Javascript workflow and web components model. It became cohesive &mdash; has one single purpose; decoupled &mdash; no class-bindings to HTML; and orthogonal &mdash; no global classes to make change ripple to unwanted places.
 
-  With web components and CSS modules we've everything covered on the technical part.
+  With web components and CSS modules the web stack is fully interactive and scalable.
 
   ## Communication
 
   As sarcastic as I am the [should designers code?](https://www.google.ro/search?q=should+designers+code) debate always excites me. I do both &mdash; and there are about 17,900,000 results in that Google search.
 
-  However that chicken fight led to a very pleasant outcome: styleguides a.k.a. design systems. I've been using them since the beginning<sup id="footnote--6">[6](#footnotes--6)</sup> and I can see the benefit. Perfect designer &larr;&rarr; developer communication.
+  However that pseudo-fight led to a very pleasant outcome: styleguides a.k.a. design systems. I've been using them since the beginning<sup id="footnote--6">[6](#footnotes--6)</sup> and I can see the benefit. Perfect designer &larr;&rarr; developer communication.
 
   Design systems<sup id="footnote--7">[7](#footnotes--7)</sup> are a set of visual, interactive components created by designers to be translated 1:1 to web components by developers. They are the first real bridge between design and development. They've replaced Photoshop comps as web apps replaced web sites.
+
+  Design systems break monolithic user interfaces delivered by designers as large image blocks into small reusable components which developers can easily adapt to mobile and web platforms. As the problem is divided into small parts the reasoning and communication about is more straightforward.
 
   ## Web Components
 
@@ -64,3 +66,9 @@
 
 {% set image = images[0] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
+  We can say a new era has begun. Development is more abstracted and better integrated with design. Everything is decomposed into small parts to make change immediate. The difference between elegant native and clumsy web interactions are disappearing.
+
+  We can put the web problem behind and focus on new challenges brought to us by the new realities: virtual, augmented and machine.
+{% endmarkdown %}
