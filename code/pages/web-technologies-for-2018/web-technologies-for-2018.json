@@ -26,7 +26,7 @@
   "list": [
     "Designers create a design system in Sketch, Invision or UXPin",
     "Developers implement the design system with React or Vue components",
-    "Design and code are synced via Storybook"
+    "Design and code are synced via tools like Storybook"
   ],
   "footnotes": [
     {
