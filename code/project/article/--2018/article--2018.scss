@@ -1,0 +1,9 @@
+@mixin article--2018 {
+	@include landscape {
+		//border-right: none;
+	}
+
+	@include portrait {
+		//border-bottom: none;
+	}
+}

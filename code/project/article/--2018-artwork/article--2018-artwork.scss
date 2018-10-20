@@ -1,0 +1,11 @@
+@mixin article--2018-artwork {
+	@include landscape {
+		// border-left: none;
+	}
+
+	@include portrait {
+		// border-top: none;
+	}
+
+	border: none;
+}

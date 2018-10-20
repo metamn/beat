@@ -9,6 +9,14 @@
   opacity: 1;
   @include transition(all);
 
+  &--2018 {
+    @include article--2018;
+  }
+
+  &--2018-artwork {
+    @include article--2018-artwork;
+  }
+
   &--web-technologies-for-2018 {
     @include article--web-technologies-for-2018;
   }
