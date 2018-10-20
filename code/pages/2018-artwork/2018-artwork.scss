@@ -1,0 +1,15 @@
+html {
+	&.home {
+	  body {
+		.articles {
+		  .article {
+			&--2018-artwork {
+			  .figure {
+				@include figure($placeholder-color: $white);
+			  }
+			}
+		  }
+		}
+	  }
+	}
+  }

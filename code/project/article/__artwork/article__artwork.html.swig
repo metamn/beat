@@ -40,3 +40,7 @@
 {% if article.url == 'unicorn-forever-artwork' %}
   {% include '../../../pages/unicorn-forever-artwork/unicorn-forever-artwork.html.swig' %}
 {% endif %}
+
+{% if article.url == '2018-artwork' %}
+  {% include '../../../pages/2018-artwork/2018-artwork.html.swig' %}
+{% endif %}
