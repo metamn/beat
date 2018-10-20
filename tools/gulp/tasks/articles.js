@@ -38,13 +38,16 @@ gulp.task('articleCreateFile', function() {
 
 
 // Close the JSON article file
+// - no knowledge how to not add the last, or remove it ','
+// - we will add then an 'empty' entry here
+// - which must contain a `date` argument otherwise the sort will broke  
 gulp.task('articleCloseFile', function() {
-  fs.appendFileSync(paths.articles_json, '{}]');
+  fs.appendFileSync(paths.articles_json, '{"date": "2000-10-20"}]');
 });
 
 
 // Sort articles by date
-// - after working well for a year this code broke without being touched
+// - if there is an {} entry the sort won't work
 function sortByDate(data) {
   var sorted = [];
 
@@ -63,13 +66,6 @@ gulp.task('articleOrderArticles', function() {
   var articles = JSON.parse(fs.readFileSync(paths.articles_json, 'utf8'));
 
   articles = sortByDate(articles);
-  /*
-  articles.sort(function(a,b){
-    // Turn your strings into dates, and then subtract them
-    // to get a value that is either negative, positive, or zero.
-    return new Date(b.date) - new Date(a.date);
-  });
-  */
 
   fs.openSync(paths.articles_json, 'w');
   fs.appendFileSync(paths.articles_json, JSON.stringify(articles));
