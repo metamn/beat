@@ -1,22 +1,64 @@
 {
-  "title": "2018",
-  "excerpt": "A retrospective &bull; What's next?",
-  "template": "article",
-  "categories": [
-    "trend"
-  ],
-  "url": "2018",
-  "date": "2018-10-20",
-  "display": [
-    "title",
-    "title_with_url",
-    "categories",
-    "date",
-    "excerpt"
-  ],
-  "list": [
-    "Be less dependent on technology change",
-    "Be more capable to generate revenue on your own",
-    "Think in convergence instead of fragmentation"
-  ]
+	"title": "2018",
+  	"excerpt": "A retrospective &bull; What's next?",
+  	"template": "article",
+  	"categories": [
+    	"trend"
+  	],
+  	"url": "2018",
+  	"date": "2018-10-20",
+  	"display": [
+    	"title",
+    	"title_with_url",
+    	"categories",
+    	"date",
+    	"excerpt"
+  	],
+  	"list": [
+    	"Be less dependent on technology change",
+    	"Be more capable to generate revenue on your own",
+    	"Think in convergence instead of fragmentation"
+	],
+	"footnotes": [
+		{
+			"title": "Unicorn forever",
+			"url": "http://metamn.io/beat/unicorn-forever",
+			"type": "external"
+		},
+		{
+			"title": "The Log Lolla theme",
+			"url": "https://morethemes.baby/themes/log-lolla-pro/",
+			"type": "external"
+		},
+		{
+			"title": "Gust",
+			"url": "http://metamn.io/gust/",
+			"type": "external"
+		},
+		{
+			"title": "Pulse",
+			"url": "http://metamn.io/pulse/",
+			"type": "external"
+		},
+		{
+			"title": "Topic summaries on Log Lolla",
+			"url": "https://morethemes.baby/summaries/",
+			"type": "external"
+		},
+		{
+			"title": "The 10:1 rule of writing and programming",
+			"url": "https://morethemes.baby/2018/08/18/the-101-rule-of-writing-and-programming/",
+			"type": "external"
+		},
+		{
+			"title": "More Theme Baby's WordPress Best Practices on Github",
+			"url": "https://github.com/morethemesbaby/wp-best-practices",
+			"type": "external"
+		},
+		{
+			"title": "How hackers are creating knowledge",
+			"url": "https://morethemes.baby/2018/09/14/how-hackers-are-creating-knowledge/",
+			"type": "external"
+		}
+	]
 }

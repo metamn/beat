@@ -1,1 +1,7 @@
-@mixin m2018 {}
+html {
+	.article {
+  		.list-expandable {
+  	  		@include list-expandable;
+  		}
+    }
+}
