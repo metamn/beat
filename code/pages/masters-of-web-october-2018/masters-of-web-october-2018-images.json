@@ -1,0 +1,53 @@
+{
+  "urlsx": [
+    "https://abscreenwear.com/",
+    "http://www.macaudesignbiennial.com/",
+    "http://showroom.littleworkshop.fr/",
+    "http://www.xxix.co/",
+    "http://101.at/",
+    "http://negativelabs.com/",
+    "http://mayicestudio.com/",
+    "https://clasebcn.com/",
+    "http://museionprize.museion.it/",
+    "http://www.athanor.world/5/",
+    "http://www.rge-partner.de/",
+    "http://lesgarconssauvages.com/",
+    "http://aku.co/"
+  ],
+  "urls": [
+    "http://www.xxix.co/"
+  ],
+  "options": {
+    "json": "for slider"
+  },
+  "sizes": [
+    {
+      "width": "1920",
+      "height": "1080",
+      "suffix": "landscape"
+    },
+    {
+      "width": "1200",
+      "height": "1600",
+      "suffix": "portrait"
+    }
+  ],
+  "responsive": [
+    {
+      "name": "mobile",
+      "width": "384"
+    },
+    {
+      "name": "tablet",
+      "width": "600"
+    },
+    {
+      "name": "laptop",
+      "width": "960"
+    },
+    {
+      "name": "desktop",
+      "width": "960"
+    }
+  ]
+}

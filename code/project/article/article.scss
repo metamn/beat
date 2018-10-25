@@ -17,6 +17,10 @@
     @include article--2018-artwork;
   }
 
+  &--blame-the-algorithm {
+    @include article--blame-the-algorithm;
+  }
+
   &--web-technologies-for-2018 {
     @include article--web-technologies-for-2018;
   }
@@ -60,7 +64,8 @@
   &--masters-of-web-february-2016,
   &--masters-of-web-july-2016,
   &--brutalist-websites-january-2017,
-  &--masters-of-web-september-2017, {
+  &--masters-of-web-september-2017,
+  &--masters-of-web-october-2018 {
     @include article--masters-of-web;
   }
 

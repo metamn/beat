@@ -1,0 +1,5 @@
+@mixin article--blame-the-algorithm {
+	@include landscape {
+		margin-right: $lem * 2 !important;
+	}
+}

@@ -10,3 +10,4 @@ require('./../../project/article/--brutalist-websites-january-2017/article--brut
 require('./../../project/article/--masters-of-web-september-2017/article--masters-of-web-september-2017.js');
 require('./../../project/article/--web-trends-september-2017/article--web-trends-september-2017.js');
 require('./../web-trends-september-2017-artwork/web-trends-september-2017-artwork.js');
+require('./../../project/article/--masters-of-web-october-2018/article--masters-of-web-october-2018.js');
