@@ -1,7 +1,7 @@
 {
   "title": "Masters Of Web, October 2018",
   "excerpt": "Best of web design, October 2018",
-  "thumb": "tennetbrown-portrait_mobile.png",
+  "thumb": "bohen-portrait_mobile.png",
   "template": "article",
   "categories": [
     "design"
@@ -15,6 +15,22 @@
     "slides"
   ],
   "slides": [
+	  {
+    	"title": "Bohen",
+    	"name": "bohen-landscape",
+    	"responsive": [
+    	  {
+    		"breakpoint": "mobile",
+    		"name": "bohen-portrait"
+    	  },
+    	  {
+    		"breakpoint": "tablet",
+    		"name": "bohen-portrait"
+    	  }
+    	],
+    		"url": "http://bohen.org/splash",
+    		"figcaption": "<a class='link' href='http://bohen.org/splash'>http://bohen.org/splash</a>"
+    	},
     {
       "title": "New Models",
       "name": "newmodels-landscape",
@@ -110,22 +126,6 @@
   	],
   		"url": "http://spin.co.uk/",
   		"figcaption": "<a class='link' href='http://spin.co.uk/'>http://spin.co.uk</a>"
-  	},
-	{
-  	"title": "Bohen",
-  	"name": "bohen-landscape",
-  	"responsive": [
-  	  {
-  		"breakpoint": "mobile",
-  		"name": "bohen-portrait"
-  	  },
-  	  {
-  		"breakpoint": "tablet",
-  		"name": "bohen-portrait"
-  	  }
-  	],
-  		"url": "http://bohen.org/splash",
-  		"figcaption": "<a class='link' href='http://bohen.org/splash'>http://bohen.org/splash</a>"
   	}
   ]
 }
