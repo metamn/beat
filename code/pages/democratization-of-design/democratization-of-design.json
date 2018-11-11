@@ -14,5 +14,17 @@
     "categories",
     "date",
     "excerpt"
+  ],
+  "footnotes": [
+    {
+      "title": "WordPress Gutenberg",
+      "url": "https://wordpress.org/gutenberg/",
+      "type": "external"
+    },
+    {
+      "title": "Devices as designers",
+      "url": "http://metamn.io/beat/tomorrowww/",
+      "type": "external"
+    }
   ]
 }

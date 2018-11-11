@@ -2,9 +2,9 @@
 
 WordPress, a company started at the same time like Facebook, Twitter, Tumblr, Shopify &mdash; and which powers 30% of all websites today &mdash; is rolling out a new version of it's web app this month with a game changing feature called Gutenberg.
 
-Gutenberg is a new web editor enabling people to design their own website visually.
+Gutenberg<sup id="footnote--1">[1](#footnotes--1)</sup> is a new web editor enabling people to design their own website visually.
 
-This is not the first attempt to let people freely design their own websites. Atavist, Wix, ReadyMag, Jux have all tried before but, as it always happens, after ahead-of-time-innovation there is a momentum when and attempt becomes truly successful.
+This is not the first attempt to let people freely design their own websites. Atavist, Wix, ReadyMag, Jux have all tried before but, as it always happens, after ahead of time innovation and failure there is a momentum when and attempt becomes truly successful.
 
 That momentum is now. Delivered by WordPress via it's huge reach and ecosystem together with React a revolutionary tool created by Facebook.  
 
@@ -22,7 +22,7 @@ They won't fire up Photoshop or Sketch to design and wait for god / miracle / ye
 
 They won't fire up the browser and go to the back-end, to a dashboard, a content management system, or e-commerce engine as we know today. They will make changes on the front-end in a *what you see is what you get* fashion in real time.
 
-Instead components will be everywhere. A mix of UI/UX design, front-end code with back-end support, packaged in an atomic fashion. You just drop content on them and pick up a style to display. Nothing more.
+Instead monolithic, incompatible, divided, incumbent systems, servers and apps components will be everywhere. A mix of UI/UX design, front-end code with back-end support, packaged in an atomic, self-sustaining fashion. You just drop content on them and pick up a style to display. Nothing more.
 
 ## Painful
 
@@ -52,9 +52,9 @@ Or: to create a highly customizable design system built on intelligent component
 
 We don't want another Theme Forrest or Geocities.
 
-Years ago I wrote a similar tech-fiction article *Devices as Designers* where I was musing about highly intelligent components assembled into a system ny AI and displayed from watches, websites to interactive installations on skyscrapers.
+Years ago I wrote a similar tech-fiction article called *Devices as Designers*<sup id="footnote--2">[2](#footnotes--2)</sup> where I was musing about highly intelligent components assembled into a system by AI and displayed from watches, websites to interactive installations on skyscrapers.
 
-We are not too far from that and neither closer. But still to follow that path.
+We are not too far from that and neither closer. But still to follow that path. Instead of devices people will do the task of assembling interfaces in a less intelligent way forcing us to come up with more intelligent components and design systems.
 
 Our new tools first of all has to teach people how to design. To realize what they really want is not to throw another slider and two gradients with a killer hero on a canvas, but to deliver a message.
 
@@ -62,6 +62,6 @@ We should come up with design wizzards framing the everyday designers' urge and 
 
 The winners in this race will be companies who educate their users, force them to stick to best practices, and after the basics are set up unleash their users with novel, AI based components instead of drowning them with sliders, heroes and hamburger menus again.
 
-Yes, we will have to equip our components with semantics, making them understandable by both their users who will act as designers, and by the underlying tech stack powered by AI bringing in the entertainment.
+Yes, we will have to equip our components with semantics, making them understandable by both their users who will act as designers, and by the underlying tech stack powered by AI bringing in the entertainment and perhaps the new enlightenment.
 
 {% endmarkdown %}

@@ -16,6 +16,22 @@
   ],
   "slides": [
     {
+      "title": "Dan Gayfer Design",
+      "name": "dgd-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "dgd-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "dgd-portrait"
+        }
+      ],
+      "url": "http://dangayfer.com/",
+      "figcaption": "<a class='link' href='http://dangayfer.com/'>http://dangayfer.com</a>"
+    },
+    {
       "title": "Gabriele Iglesias Dardon",
       "name": "gid-landscape",
       "responsive": [
@@ -94,22 +110,6 @@
       ],
       "url": "http://basics09.de/",
       "figcaption": "<a class='link' href='http://basics09.de/'>http://basics09.de</a>"
-    },
-    {
-      "title": "Dan Gayfer Design",
-      "name": "dgd-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "dgd-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "dgd-portrait"
-        }
-      ],
-      "url": "http://dangayfer.com/",
-      "figcaption": "<a class='link' href='http://dangayfer.com/'>http://dangayfer.com</a>"
     },
     {
       "title": "Love + Money",

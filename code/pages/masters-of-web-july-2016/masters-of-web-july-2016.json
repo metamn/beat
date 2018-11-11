@@ -16,6 +16,22 @@
   ],
   "slides": [
     {
+      "title": "Cookbook Magazine",
+      "name": "cookbook-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "cookbook-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "cookbook-portrait"
+        }
+      ],
+      "url": "http://cookbookmagazine.es/",
+      "figcaption": "<a class='link' href='http://cookbookmagazine.es/'>http://cookbookmagazine.es</a>"
+    },
+    {
       "title": "Afterall Studio",
       "name": "afterall-landscape",
       "responsive": [
@@ -110,22 +126,6 @@
       ],
       "url": "http://www.redoctober.com/",
       "figcaption": "<a class='link' href='http://www.redoctober.com/'>http://www.redoctober.com</a>"
-    },
-    {
-      "title": "Cookbook Magazine",
-      "name": "cookbook-landscape",
-      "responsive": [
-        {
-          "breakpoint": "mobile",
-          "name": "cookbook-portrait"
-        },
-        {
-          "breakpoint": "tablet",
-          "name": "cookbook-portrait"
-        }
-      ],
-      "url": "http://cookbookmagazine.es/",
-      "figcaption": "<a class='link' href='http://cookbookmagazine.es/'>http://cookbookmagazine.es</a>"
     },
     {
       "title": "Egyd",

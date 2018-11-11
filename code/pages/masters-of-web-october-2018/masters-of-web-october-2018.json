@@ -15,6 +15,38 @@
     "slides"
   ],
   "slides": [
+		{
+			"title": "Puma",
+			"name": "puma-landscape",
+			"responsive": [
+				{
+				"breakpoint": "mobile",
+				"name": "puma-portrait"
+				},
+				{
+				"breakpoint": "tablet",
+				"name": "puma-portrait"
+				}
+			],
+				"url": "https://www.rs0playthegame.com/",
+				"figcaption": "<a class='link' href='https://www.rs0playthegame.com/'>https://www.rs0playthegame.com</a>"
+			},
+		{
+			"title": "Spin",
+			"name": "spin-landscape",
+			"responsive": [
+				{
+				"breakpoint": "mobile",
+				"name": "spin-portrait"
+				},
+				{
+				"breakpoint": "tablet",
+				"name": "spin-portrait"
+				}
+			],
+				"url": "http://spin.co.uk/",
+				"figcaption": "<a class='link' href='http://spin.co.uk/'>http://spin.co.uk</a>"
+			},
 	  {
     	"title": "Bohen",
     	"name": "bohen-landscape",
@@ -94,38 +126,6 @@
 	],
 		"url": "http://eeerik.com/",
 		"figcaption": "<a class='link' href='http://eeerik.com/'>http://eeerik.com</a>"
-	},
-	{
-  	"title": "Puma",
-  	"name": "puma-landscape",
-  	"responsive": [
-  	  {
-  		"breakpoint": "mobile",
-  		"name": "puma-portrait"
-  	  },
-  	  {
-  		"breakpoint": "tablet",
-  		"name": "puma-portrait"
-  	  }
-  	],
-  		"url": "https://www.rs0playthegame.com/",
-  		"figcaption": "<a class='link' href='https://www.rs0playthegame.com/'>https://www.rs0playthegame.com</a>"
-  	},
-	{
-  	"title": "Spin",
-  	"name": "spin-landscape",
-  	"responsive": [
-  	  {
-  		"breakpoint": "mobile",
-  		"name": "spin-portrait"
-  	  },
-  	  {
-  		"breakpoint": "tablet",
-  		"name": "spin-portrait"
-  	  }
-  	],
-  		"url": "http://spin.co.uk/",
-  		"figcaption": "<a class='link' href='http://spin.co.uk/'>http://spin.co.uk</a>"
-  	}
+	}
   ]
 }
