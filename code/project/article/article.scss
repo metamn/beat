@@ -9,6 +9,10 @@
   opacity: 1;
   @include transition(all);
 
+  &--democratization-of-design {
+    @include article--democratization-of-design;
+  }
+
   &--2018 {
     @include article--2018;
   }

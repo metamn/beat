@@ -1,0 +1,18 @@
+{
+  "title": "Democratization of design",
+  "excerpt": "People as designers",
+  "template": "article",
+  "categories": [
+    "design",
+    "trend"
+  ],
+  "url": "democratization-of-design",
+  "date": "2018-11-11",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt"
+  ]
+}

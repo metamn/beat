@@ -1,0 +1,10 @@
+@mixin article--democratization-of-design {
+	flex-basis: 100%;
+	width: 100%;
+	margin-right: 0;
+
+	.article__categories,
+	.article__excerpt {
+		align-self: center;
+	}
+}
