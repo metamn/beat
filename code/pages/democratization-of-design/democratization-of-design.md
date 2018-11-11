@@ -46,6 +46,22 @@ What we can do in the next short years to satisfy them all? We don't want every 
 
 ## Intelligent components
 
+I guess the race is to create intelligent components which can't be abused by layman to break the associated design system.
 
+Or: to create a highly customizable design system built on intelligent components which preserves their unity even under heavy misuse.
+
+We don't want another Theme Forrest or Geocities.
+
+Years ago I wrote a similar tech-fiction article *Devices as Designers* where I was musing about highly intelligent components assembled into a system ny AI and displayed from watches, websites to interactive installations on skyscrapers.
+
+We are not too far from that and neither closer. But still to follow that path.
+
+Our new tools first of all has to teach people how to design. To realize what they really want is not to throw another slider and two gradients with a killer hero on a canvas, but to deliver a message.
+
+We should come up with design wizzards framing the everyday designers' urge and push into creating usable content first then let the rampage happen, in a coordinated way, when these newly found design flamethrowers &mdash; we call components &mdash; are put in practice.
+
+The winners in this race will be companies who educate their users, force them to stick to best practices, and after the basics are set up unleash their users with novel, AI based components instead of drowning them with sliders, heroes and hamburger menus again.
+
+Yes, we will have to equip our components with semantics, making them understandable by both their users who will act as designers, and by the underlying tech stack powered by AI bringing in the entertainment.
 
 {% endmarkdown %}
