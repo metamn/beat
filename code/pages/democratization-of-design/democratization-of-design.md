@@ -16,13 +16,15 @@ Log in to WordPress, throw together some React components called Gutenberg block
 
 When everybody is a designer seismic shift happens in the background. A few classic software jobs &mdash; UI/UX designer, front-end and back-end developer &mdash; will sink together with entire industries.
 
-There won't be any, or much less need for these roles and their tools. People will use the browser in a new way with a new technology to design their online presence in real time.
+There won't be any, or much less need for these roles and their tools. People will use a new design tool &mdash; the browser! &mdash; and they'll use it in real time.
 
 They won't fire up Photoshop or Sketch to design and wait for god / miracle / yet another developer to implement their creation.
 
-They won't fire up the browser and go to the back-end, to a dashboard, a content management system, or e-commerce engine as we know today. They will make changes on the front-end in a *what you see is what you get* fashion in real time.
+They won't fire up the browser and go to the back-end, to a dashboard, to a content management system or e-commerce engine as we know today. They will make changes on the front-end in a *what you see is what you get* fashion in real time.
 
-Instead monolithic, incompatible, divided, incumbent systems, servers and apps components will be everywhere. A mix of UI/UX design, front-end code with back-end support, packaged in an atomic, self-sustaining fashion. You just drop content on them and pick up a style to display. Nothing more.
+Instead of monolithic, incompatible, incumbent systems, servers and apps &mdash; atomic, highly interactive and interoperable components will be everywhere running on micro service architecture. 
+
+Components. A mix of UI/UX design, front-end code with back-end support, packaged in a self-sustaining fashion. You just drop content on them and pick up a style to display. Nothing more.
 
 ## Painful
 
@@ -30,7 +32,7 @@ The democratisation of design starts with WordPress and it will painful for the 
 
 Instead of millions of themes, hundreds of visual theme builders, dozens of content management and e-commerce systems there will be a few component frameworks, compatible with each other, using universal design systems like Google's Material Design or another system coming from another major player.
 
-Personally I'm happy with this. Our industry is overpopulated, deeply perverted, with lots of charlatans and overnight pixel pushers reinventing the same wheel every day, hidden behind soundy job titles for large sums of money driving the global gentrification. It's time to cool down and make a reality check.
+Personally I'm happy with this. Our industry is overpopulated, deeply perverted, with lots of charlatans and overnight pixel pushers reinventing the same wheel every day hidden behind soundy job titles for large sums of money driving the global gentrification. It's time to cool down and make a reality check.
 
 ## The scenario
 
@@ -58,7 +60,7 @@ We are not too far from that and neither closer. But still to follow that path. 
 
 Our new tools first of all has to teach people how to design. To realize what they really want is not to throw another slider and two gradients with a killer hero on a canvas, but to deliver a message.
 
-We should come up with design wizzards framing the everyday designers' urge and push into creating usable content first then let the rampage happen, in a coordinated way, when these newly found design flamethrowers &mdash; we call components &mdash; are put in practice.
+We should come up with design wizards framing the everyday designers' urge and push into creating usable content first then let the rampage happen, in a coordinated way, when these newly found design flamethrowers &mdash; we call components &mdash; are put in practice.
 
 The winners in this race will be companies who educate their users, force them to stick to best practices, and after the basics are set up unleash their users with novel, AI based components instead of drowning them with sliders, heroes and hamburger menus again.
 
