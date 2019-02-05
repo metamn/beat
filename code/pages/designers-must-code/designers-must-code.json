@@ -1,0 +1,21 @@
+{
+  "title": "Designers must code",
+  "excerpt": "And keep the budget sane",
+  "template": "article",
+  "categories": ["design", "code"],
+  "url": "designers-must-code",
+  "date": "2019-02-05",
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "footnotes": [
+    {
+      "title": "WordPress Gutenberg",
+      "url": "https://wordpress.org/gutenberg/",
+      "type": "external"
+    },
+    {
+      "title": "Devices as designers",
+      "url": "http://metamn.io/beat/tomorrowww/",
+      "type": "external"
+    }
+  ]
+}
