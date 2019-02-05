@@ -6,16 +6,23 @@
   "url": "the-designer-who-doesnt-code",
   "date": "2019-02-05",
   "display": ["title", "title_with_url", "categories", "date", "excerpt"],
-  "footnotes": [
+  "images": [
     {
-      "title": "WordPress Gutenberg",
-      "url": "https://wordpress.org/gutenberg/",
-      "type": "external"
+      "title": "The comp on large screens",
+      "name": "comp-large"
     },
     {
-      "title": "Devices as designers",
-      "url": "http://metamn.io/beat/tomorrowww/",
-      "type": "external"
+      "title": "The comp on medium screens",
+      "name": "comp-medium"
+    },
+    {
+      "title": "The comp on tablet",
+      "name": "comp-tablet"
+    },
+    {
+      "title": "The comp on mobile",
+      "name": "comp-mobile",
+      "onesize": "mobile"
     }
   ]
 }

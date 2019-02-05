@@ -16,7 +16,25 @@ If no design thinking there is no design system and both the code, project, budg
 
 It sounds simple: list the latest posts on the homepage in a responsive way. On large screens there should be 8 posts displayed 4 in a row, on medium screens 6 posts / 3 in a row, on tablet 4 posts / 2 in a row, on mobile 2 posts each on its own row.
 
-Since the designer doesn't code
+{% endmarkdown %}
+
+{% set image = images[0] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[1] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[2] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% set image = images[3] %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+
+{% markdown %}
+
+The comps are blurred to protect the designer and the company.
+
+## Since the designer doesn't code
 
 > it doesn't knows content cannot be get in a responsive way only displayed in a responsive way.
 
