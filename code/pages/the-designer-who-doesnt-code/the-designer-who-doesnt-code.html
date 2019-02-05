@@ -116,12 +116,24 @@
 <h2 id="the-comps">The comps</h2>
 <p>Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the front-end developer they are in the same way unusable.</p>
 <p>One has to slice and measure and convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions which finally will blow the source code and the project.</p>
-<p>If no design thinking then there is no design system then the code is bloated.</p>
+<p>If no design thinking there is no design system and both the code, project, budget, people gets bloated.</p>
 <h2 id="the-task">The task</h2>
 <p>It sounds simple: list the latest posts on the homepage in a responsive way. On large screens there should be 8 posts displayed 4 in a row, on medium screens 6 posts / 3 in a row, on tablet 4 posts / 2 in a row, on mobile 2 posts each on its own row.</p>
-<p>Since the designer doesn&#39;t code <strong><em>it doesn&#39;t knows content cannot be get in a responsive way only displayed in a responsive way</em></strong>. In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.</p>
-<p>Since the designer doesn&#39;t code it spiced up the design with vertical lines separating the columns. <strong><em>It doesn&#39;t knows the CSS Grid specification</em></strong> doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
-<p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code. It seems the designer who doesn&#39;t code <strong><em>it doesn&#39;t knows exceptions inject bloat into source code forever</em></strong> &mdash; both during development time and later when extending code.</p>
+<p>Since the designer doesn&#39;t code</p>
+<blockquote>
+<p>it doesn&#39;t knows content cannot be get in a responsive way only displayed in a responsive way.</p>
+</blockquote>
+<p>In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.</p>
+<p>Since the designer doesn&#39;t code it spiced up the design with vertical lines separating the columns.</p>
+<blockquote>
+<p>It doesn&#39;t knows the CSS Grid specification</p>
+</blockquote>
+<p>doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
+<p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code. It seems the designer who doesn&#39;t code</p>
+<blockquote>
+<p>it doesn&#39;t knows exceptions inject bloat into source code forever</p>
+</blockquote>
+<p>Both during development time and later when extending code.</p>
 <h2 id="the-numbers">The numbers</h2>
 <p>If the designer were coding the following design decisions were taken:</p>
 <ol>
@@ -141,8 +153,11 @@
 <p>Time spent: around 1.5 hours.</p>
 <h2 id="the-pain">The pain</h2>
 <p>This project has around a good few dozens of components like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in a same way costly implementable way.</p>
-<p>Remember: on this component we&#39;ve spent around 3 hours instead of half an hour. Yes, <strong><em>6 times or 600% more than usual</em></strong>.</p>
-<p>That&#39;s immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for <em>Should designers code?</em>.</p>
+<p>Remember: on this component we&#39;ve spent around 3 hours instead of half an hour. Yes,</p>
+<blockquote>
+<p>6 times or 600% more than usual.</p>
+</blockquote>
+<p>That&#39;s immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for <em>&quot;Should designers code?&quot;</em>.</p>
 
 
 
@@ -374,11 +389,11 @@
     
   
     
+  
+    
+  
+    
       
-    
-  
-    
-  
     
   
     
