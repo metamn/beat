@@ -32,7 +32,9 @@ It sounds simple: list the latest posts on the homepage in a responsive way. On 
 
 {% markdown %}
 
-The comps are blurred to protect the designer and the company.
+The comps are blurred to protect the designer and the company. The black and red boxes are ad placeholders, and, there are gray vertical lines between columns the blurred screenshots can't show.
+
+There is [a live example with mockups]() replicating the original design comps. Please check it out for better understanding the problem.
 
 ## Since the designer doesn't code
 
