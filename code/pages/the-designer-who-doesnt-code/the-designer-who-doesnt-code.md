@@ -4,7 +4,7 @@ The _"Should designers code"_ debate is nonsense yet very popular. The [search q
 
 I've been long waiting for a case study which speaks for itself. Let's see it.
 
-## The comps
+## Comps
 
 Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the front-end developer they are in the same way unusable.
 
@@ -34,6 +34,8 @@ It sounds simple: list the latest posts on the homepage in a responsive way. On 
 
 The comps are blurred to protect the designer and the company. The black and red boxes are ad placeholders, and, there are gray vertical lines between columns the blurred screenshots can't show.
 
+The comps are replicated using mockups. You can check it [live on Codepen](https://codepen.io/metamn/pen/OdjaGE?editors=0100#0) to better sense the task.
+
 {% endmarkdown %}
 
 {% set image = images[4] %}
@@ -41,25 +43,27 @@ The comps are blurred to protect the designer and the company. The black and red
 
 {% markdown %}
 
-## Since the designer doesn't code
+## Problems
 
-> it doesn't knows content cannot be get in a responsive way only displayed in a responsive way.
+Since the designer doesn't code
+
+> The designer doesn't knows content cannot be get in a responsive way only _displayed_ in a responsive way.
 
 In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.
 
 Since the designer doesn't code it spiced up the design with vertical lines separating the columns.
 
-> It doesn't knows the CSS Grid specification
+> The designer doesn't knows the CSS Grid specification
 
-doesn't support [grid gap styling](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) and a [nasty hack](https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693) has to be used to accomplish this original design masterpiece.
+has no support for [grid gap styling](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) and a [nasty hack](https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693) has to be used to accomplish this original design masterpiece.
 
-If that was not enough the designer who doesn't code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code. It seems the designer who doesn't code
+If that was not enough the designer who doesn't code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code.
 
-> it doesn't knows exceptions inject bloat into source code forever
+> The designer who doesn't code doesn't knows exceptions are painful and bloat the source code
 
-Both during development time and later when extending code.
+Both during development time and later during maintenance.
 
-## The numbers
+## Numbers
 
 If the designer were coding the following design decisions were taken:
 
@@ -67,13 +71,13 @@ If the designer were coding the following design decisions were taken:
 
 2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Make form follow function, not vice versa.
 
-3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the post list will spare 82% of development time and budget.
+3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the post list will spare around half of development time and budget.
 
 Without the vertical borders between columns and the ad inserted between the rows the task to implement the design would have been easy: use the CSS grid. Time spent would be from minutes to around half an hour.
 
 To add borders the CSS grid technique &mdash; used across the site up until now &mdash; cannot be used since the CSS Grid specification doesn't support the styling of the grid gap. A research has to be done to see if the specification added this feature recently, if there is a polyfill, or a nice workaround.
 
-In this current case only a workaround exists which won't fully solve the problem since the bordering is tricky &mdash; it applies only to the middle columns not all columns.
+In this current case only a workaround exists which won't fully solve the problem since the bordering is not uniform &mdash; it applies only to the middle columns not to all columns.
 
 Time spent with research and workarounds: around an hour.
 
@@ -83,7 +87,7 @@ Inserting the ad between the posts was more complicated. The back-end code displ
 
 Time spent: around 1.5 hours.
 
-## The pain
+## Pain
 
 This project has around a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in a same way costly implementable way.
 

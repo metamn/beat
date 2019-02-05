@@ -113,7 +113,7 @@
     
   <p>The <em>&quot;Should designers code&quot;</em> debate is nonsense yet very popular. The <a href="https://www.google.com/search?q=%22Should+designers+code%22">search query</a> just returned 27,800 results.</p>
 <p>I&#39;ve been long waiting for a case study which speaks for itself. Let&#39;s see it.</p>
-<h2 id="the-comps">The comps</h2>
+<h2 id="comps">Comps</h2>
 <p>Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the front-end developer they are in the same way unusable.</p>
 <p>One has to slice and measure and convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions which finally will blow the source code and the project.</p>
 <p>If no design thinking there is no design system and both the code, project, budget, people gets bloated.</p>
@@ -377,7 +377,7 @@
 
 
 <p>The comps are blurred to protect the designer and the company. The black and red boxes are ad placeholders, and, there are gray vertical lines between columns the blurred screenshots can&#39;t show.</p>
-<p>There is <a href="https://codepen.io/metamn/pen/OdjaGE?editors=0100#0">a live example with mockups</a> replicating the original design comps. Please check it out for better understanding the problem.</p>
+<p>The comps are replicated using mockups. You can check it <a href="https://codepen.io/metamn/pen/OdjaGE?editors=0100#0">live on Codepen</a> to better sense the task.</p>
 
 
 
@@ -432,34 +432,35 @@
     
     
     
-    <img class="img" src="/assets/images/comp-mockup-large_laptop.png" alt="The comp on large screens with mockups">
+    <img class="img" src="/assets/images/comp-mockup-large_laptop.png" alt="The comp on large screens replicated with mockups">
     
   </picture>
 
   <figcaption class="figcaption figcaption--from-title">
     
-      The comp on large screens with mockups
+      The comp on large screens replicated with mockups
     
   </figcaption>
 </figure>
 
 
-<h2 id="since-the-designer-doesn-t-code">Since the designer doesn&#39;t code</h2>
+<h2 id="problems">Problems</h2>
+<p>Since the designer doesn&#39;t code</p>
 <blockquote>
-<p>it doesn&#39;t knows content cannot be get in a responsive way only displayed in a responsive way.</p>
+<p>the designer doesn&#39;t knows content cannot be get in a responsive way only <em>displayed</em> in a responsive way.</p>
 </blockquote>
 <p>In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.</p>
 <p>Since the designer doesn&#39;t code it spiced up the design with vertical lines separating the columns.</p>
 <blockquote>
-<p>It doesn&#39;t knows the CSS Grid specification</p>
+<p>The designer doesn&#39;t knows the CSS Grid specification</p>
 </blockquote>
 <p>doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
-<p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code. It seems the designer who doesn&#39;t code</p>
+<p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code.</p>
 <blockquote>
-<p>it doesn&#39;t knows exceptions inject bloat into source code forever</p>
+<p>The designer who doesn&#39;t code doesn&#39;t knows exceptions inject bloat into source code</p>
 </blockquote>
-<p>Both during development time and later when extending code.</p>
-<h2 id="the-numbers">The numbers</h2>
+<p>Both during development time and later during maintenance.</p>
+<h2 id="numbers">Numbers</h2>
 <p>If the designer were coding the following design decisions were taken:</p>
 <ol>
 <li><p>Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts would have been not wasted.</p>
@@ -476,7 +477,7 @@
 <p>The solution is to loop over grid elements and add border only where needed. For that I&#39;ve already had <a href="https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss">a component built on Flexbox</a> so I&#39;ve imported in this project. I&#39;ve added small modifications like adjusting to the current project&#39;s layout and drawing the borders. Time spent: around half an hour.</p>
 <p>Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth <a href="https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120">taking a look at it</a></p>
 <p>Time spent: around 1.5 hours.</p>
-<h2 id="the-pain">The pain</h2>
+<h2 id="pain">Pain</h2>
 <p>This project has around a good few dozens of components like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in a same way costly implementable way.</p>
 <p>Remember: on this component we&#39;ve spent around 3 hours instead of half an hour. Yes,</p>
 <blockquote>
