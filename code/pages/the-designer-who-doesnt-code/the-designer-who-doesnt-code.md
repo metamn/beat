@@ -83,15 +83,100 @@ Time spent with research and workarounds: around an hour.
 
 The solution is to loop over grid elements and add border only where needed. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss) so I've imported in this project. I've added small modifications like adjusting to the current project's layout and drawing the borders. Time spent: around half an hour.
 
-Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth [taking a look at it](https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120)
+Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth [taking a look at it](https://codepen.io/metamn/pen/OdjaGE)
 
-Time spent: around 1.5 hours.
+Time spent: around an hour.
+
+{% endmarkdown %}
+
+<table>
+  <thead>
+    <tr>
+      <th>New code</th>
+      <th>Lines of code (LOC/SLOC)</th>
+      <th>Time spent (mins)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://gist.github.com/metamn/b052d61cc36ae86a4c0de4e7fed38638">post-list-with-ad.php</a></td>
+      <td>37 / 32</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid mixin</td>
+      <td>62 / 54</td>
+      <td>60 (if were not existing and imported but written from scratch)</td>  
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid</td>
+      <td>48 / 39</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid-borders mixin</td>
+        <td>30 / 26</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts mixin new code</td>
+        <td>15 / 15</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts--regrid-for-ad mixin</td>
+        <td>108 / 97</td>
+      <td>45</td>
+    </tr>    
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <th>300 / 263</th>
+      <th>145</th>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Operation</th>
+      <th>Exception</th>
+    </tr>
+  </thead>
+  <tbody>
+	  <tr>
+		<td>Post list with ad</td>
+		<td>Added</td>
+		<td>It might be not re-used again</td>
+	  </tr>
+    <tr>
+      <td>Flexbox grid</td>
+      <td>Added</td>
+      <td>It might be not re-used again</td>
+    </tr>
+    <tr>
+      <td>Responsive flexbox grid</td>
+      <td>Added</td>
+      <td>It might be not re-used again</td>
+    </tr>
+    <tr>
+      <td>Responsive grid</td>
+      <td>Skipped</td>
+      <td>It is not re-used now while re-used across the entire site</td>
+    </tr>
+  </tbody>
+</table>
+
+{% markdown %}
 
 ## Pain
 
 This project has around a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in a same way costly implementable way.
 
-Remember: on this component we've spent around 3 hours instead of half an hour. Yes,
+Remember: on this component we've spent at least 3 hours instead of half an hour. Yes,
 
 > 6 times or 600% more than usual.
 

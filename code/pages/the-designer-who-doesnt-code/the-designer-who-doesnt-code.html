@@ -447,17 +447,17 @@
 <h2 id="problems">Problems</h2>
 <p>Since the designer doesn&#39;t code</p>
 <blockquote>
-<p>the designer doesn&#39;t knows content cannot be get in a responsive way only <em>displayed</em> in a responsive way.</p>
+<p>The designer doesn&#39;t knows content cannot be get in a responsive way only <em>displayed</em> in a responsive way.</p>
 </blockquote>
 <p>In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.</p>
 <p>Since the designer doesn&#39;t code it spiced up the design with vertical lines separating the columns.</p>
 <blockquote>
 <p>The designer doesn&#39;t knows the CSS Grid specification</p>
 </blockquote>
-<p>doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
+<p>has no support for <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
 <p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code.</p>
 <blockquote>
-<p>The designer who doesn&#39;t code doesn&#39;t knows exceptions inject bloat into source code</p>
+<p>The designer who doesn&#39;t code doesn&#39;t knows exceptions are painful and bloat the source code</p>
 </blockquote>
 <p>Both during development time and later during maintenance.</p>
 <h2 id="numbers">Numbers</h2>
@@ -467,19 +467,102 @@
 </li>
 <li><p>Forget the vertical column separator lines. They can&#39;t be implemented with current best practices and they need workaround. Make form follow function, not vice versa.</p>
 </li>
-<li><p>Put that ad elsewhere. Combined with 2.) it&#39;s dangerous. Moving out of the post list will spare 82% of development time and budget.</p>
+<li><p>Put that ad elsewhere. Combined with 2.) it&#39;s dangerous. Moving out of the post list will spare around half of development time and budget.</p>
 </li>
 </ol>
 <p>Without the vertical borders between columns and the ad inserted between the rows the task to implement the design would have been easy: use the CSS grid. Time spent would be from minutes to around half an hour.</p>
 <p>To add borders the CSS grid technique &mdash; used across the site up until now &mdash; cannot be used since the CSS Grid specification doesn&#39;t support the styling of the grid gap. A research has to be done to see if the specification added this feature recently, if there is a polyfill, or a nice workaround.</p>
-<p>In this current case only a workaround exists which won&#39;t fully solve the problem since the bordering is tricky &mdash; it applies only to the middle columns not all columns.</p>
+<p>In this current case only a workaround exists which won&#39;t fully solve the problem since the bordering is not uniform &mdash; it applies only to the middle columns not to all columns.</p>
 <p>Time spent with research and workarounds: around an hour.</p>
 <p>The solution is to loop over grid elements and add border only where needed. For that I&#39;ve already had <a href="https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss">a component built on Flexbox</a> so I&#39;ve imported in this project. I&#39;ve added small modifications like adjusting to the current project&#39;s layout and drawing the borders. Time spent: around half an hour.</p>
-<p>Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth <a href="https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120">taking a look at it</a></p>
-<p>Time spent: around 1.5 hours.</p>
+<p>Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth <a href="https://codepen.io/metamn/pen/OdjaGE">taking a look at it</a></p>
+<p>Time spent: around an hour.</p>
+
+
+<table>
+  <thead>
+    <tr>
+      <th>New code</th>
+      <th>Lines of code (LOC/SLOC)</th>
+      <th>Time spent (mins)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://gist.github.com/metamn/b052d61cc36ae86a4c0de4e7fed38638">post-list-with-ad.php</a></td>
+      <td>37 / 32</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid mixin</td>
+      <td>62 / 54</td>
+      <td>60 (if were not existing and imported but written from scratch)</td>  
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid</td>
+      <td>48 / 39</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid-borders mixin</td>
+        <td>30 / 26</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts mixin new code</td>
+        <td>15 / 15</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts--regrid-for-ad mixin</td>
+        <td>108 / 97</td>
+      <td>45</td>
+    </tr>    
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <th>300 / 263</th>
+      <th>145</th>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Operation</th>
+      <th>Exception</th>
+    </tr>
+  </thead>
+  <tbody>
+	  <tr>
+		<td>Post list with ad</td>
+		<td>Added</td>
+		<td>It might be not re-used again</td>
+	  </tr>
+    <tr>
+      <td>Flexbox grid</td>
+      <td>Added</td>
+      <td>It might be not re-used again</td>
+    </tr>
+    <tr>
+      <td>Responsive flexbox grid</td>
+      <td>Added</td>
+      <td>It might be not re-used again</td>
+    </tr>
+    <tr>
+      <td>Responsive grid</td>
+      <td>Skipped</td>
+      <td>It is not re-used now while re-used across the entire site</td>
+    </tr>
+  </tbody>
+</table>
+
 <h2 id="pain">Pain</h2>
 <p>This project has around a good few dozens of components like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in a same way costly implementable way.</p>
-<p>Remember: on this component we&#39;ve spent around 3 hours instead of half an hour. Yes,</p>
+<p>Remember: on this component we&#39;ve spent at least 3 hours instead of half an hour. Yes,</p>
 <blockquote>
 <p>6 times or 600% more than usual.</p>
 </blockquote>
