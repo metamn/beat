@@ -1,0 +1,22 @@
+{
+  "resize": "true",
+  "optimize": "false",
+  "sizes": [
+    {
+      "name": "laptop",
+      "width": "960"
+    },
+    {
+      "name": "desktop",
+      "width": "960"
+    },
+    {
+      "name": "tablet",
+      "width": "640"
+    },
+    {
+      "name": "mobile",
+      "width": "320"
+    }
+  ]
+}
