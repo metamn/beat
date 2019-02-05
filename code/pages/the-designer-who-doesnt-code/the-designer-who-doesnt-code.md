@@ -30,6 +30,28 @@ If the designer were coding the following design decisions were taken:
 
 2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Make form follow function, not vice versa.
 
-3. Put that ad elsewhere. It will spare 82% of development time and budget.
+3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the post list will spare 82% of development time and budget.
+
+Without the vertical borders between columns and the ad inserted between the rows the task to implement the design would have been easy: use the CSS grid. Time spent would be from minutes to around half an hour.
+
+To add borders the CSS grid technique &mdash; used across the site up until now &mdash; cannot be used since the CSS Grid specification doesn't support the styling of the grid gap. A research has to be done to see if the specification added this feature recently, if there is a polyfill, or a nice workaround.
+
+In this current case only a workaround exists which won't fully solve the problem since the bordering is tricky &mdash; it applies only to the middle columns not all columns.
+
+Time spent with research and workarounds: around an hour.
+
+The solution is to loop over grid elements and add border only where needed. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss) so I've imported in this project. I've added small modifications like adjusting to the current project's layout and drawing the borders. Time spent: around half an hour.
+
+Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth taking a look at it: [https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120](https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120)
+
+Time spent: around 1.5 hours.
+
+## The pain
+
+This project has around a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in a same way costly implementable way.
+
+Remember: on this component we've spent around 3 hours instead of half an hour. Yes, **_6 times or 600% more than usual_**.
+
+That's immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for _Should designers code?_.
 
 {% endmarkdown %}

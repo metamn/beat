@@ -120,10 +120,29 @@
 <h2 id="the-task">The task</h2>
 <p>It sounds simple: list the latest posts on the homepage in a responsive way. On large screens there should be 8 posts displayed 4 in a row, on medium screens 6 posts / 3 in a row, on tablet 4 posts / 2 in a row, on mobile 2 posts each on its own row.</p>
 <p>Since the designer doesn&#39;t code <strong><em>it doesn&#39;t knows content cannot be get in a responsive way only displayed in a responsive way</em></strong>. In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.</p>
-<p>Since the designer doesn&#39;t code it spiced up the design with horizontal lines separating the columns. <strong><em>It doesn&#39;t knows the CSS Grid specification</em></strong> doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
+<p>Since the designer doesn&#39;t code it spiced up the design with vertical lines separating the columns. <strong><em>It doesn&#39;t knows the CSS Grid specification</em></strong> doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
 <p>If that was not enough the designer who doesn&#39;t code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code. It seems the designer who doesn&#39;t code <strong><em>it doesn&#39;t knows exceptions inject bloat into source code forever</em></strong> &mdash; both during development time and later when extending code.</p>
 <h2 id="the-numbers">The numbers</h2>
-<p>If the designer were coding</p>
+<p>If the designer were coding the following design decisions were taken:</p>
+<ol>
+<li><p>Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts would have been not wasted.</p>
+</li>
+<li><p>Forget the vertical column separator lines. They can&#39;t be implemented with current best practices and they need workaround. Make form follow function, not vice versa.</p>
+</li>
+<li><p>Put that ad elsewhere. Combined with 2.) it&#39;s dangerous. Moving out of the post list will spare 82% of development time and budget.</p>
+</li>
+</ol>
+<p>Without the vertical borders between columns and the ad inserted between the rows the task to implement the design would have been easy: use the CSS grid. Time spent would be from minutes to around half an hour.</p>
+<p>To add borders the CSS grid technique &mdash; used across the site up until now &mdash; cannot be used since the CSS Grid specification doesn&#39;t support the styling of the grid gap. A research has to be done to see if the specification added this feature recently, if there is a polyfill, or a nice workaround.</p>
+<p>In this current case only a workaround exists which won&#39;t fully solve the problem since the bordering is tricky &mdash; it applies only to the middle columns not all columns.</p>
+<p>Time spent with research and workarounds: around an hour.</p>
+<p>The solution is to loop over grid elements and add border only where needed. For that I&#39;ve already had <a href="https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss">a component built on Flexbox</a> so I&#39;ve imported in this project. I&#39;ve added small modifications like adjusting to the current project&#39;s layout and drawing the borders. Time spent: around half an hour.</p>
+<p>Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth taking a look at it: <a href="https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120">https://gist.github.com/metamn/3f51efec8530e5f21d99212582d2d120</a></p>
+<p>Time spent: around 1.5 hours.</p>
+<h2 id="the-pain">The pain</h2>
+<p>This project has around a good few dozens of components like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in a same way costly implementable way.</p>
+<p>Remember: on this component we&#39;ve spent around 3 hours instead of half an hour. Yes, <strong><em>6 times or 600% more than usual</em></strong>.</p>
+<p>That&#39;s immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for <em>Should designers code?</em>.</p>
 
 
 
