@@ -1,0 +1,555 @@
+
+
+
+<!doctype html>
+<html lang="en" class="the-designer-who-doesnt-code template-article">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="author" content="humans.txt">
+
+<meta property="og:title" content="Beat">
+<meta property="og:url" content="/">
+
+
+    <title>The designer who doesn&#39;t code &mdash; Beat</title>
+    <link href="/assets/styles/site.min.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    
+    
+      <script src="https://use.typekit.net/syb1owt.js"></script>
+    
+  
+    
+      <script src="/assets/scripts/vendors.js"></script>
+    
+  
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/images/favicons/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/images/favicons/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/images/favicons/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/images/favicons/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/images/favicons/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="&nbsp;"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/assets/images/favicons/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/assets/images/favicons/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/assets/images/favicons/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/assets/images/favicons/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/assets/images/favicons/mstile-310x310.png" />
+
+  </head>
+
+  <body>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "/",
+  "name": "Beat",
+  "author": {
+    "@type": "Person",
+    "name": "Csongor Bartus"
+  },
+  "description": "Beat is a blog about design and code. It&#39;s lazy yet meta. With focus on that few stories which are shaping the front-end a year.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
+}
+</script>
+
+
+<header class="header">
+  <h3 class="header__title">Beat</h3>
+</header>
+
+
+<article class="article">
+  
+  
+
+  
+
+
+<h3 class="article__title">
+  
+    
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link " href="/the-designer-who-doesnt-code" title="The designer who doesn&#39;t code">The designer who doesn&#39;t code</a>
+  
+</h3>
+
+
+  <div class='article__content'>
+    
+  <p>The <em>&quot;Should designers code&quot;</em> debate is nonsense yet very popular. The <a href="https://www.google.com/search?q=%22Should+designers+code%22">search query</a> just returned 27,800 results.</p>
+<p>I&#39;ve been long waiting for a case study which speaks for itself. Let&#39;s see it.</p>
+<h2 id="the-comps">The comps</h2>
+<p>Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the front-end developer they are in the same way unusable.</p>
+<p>One has to slice and measure and convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions which finally will blow the source code and the project.</p>
+<p>If no design thinking then there is no design system then the code is bloated.</p>
+<h2 id="the-task">The task</h2>
+<p>It sounds simple: list the latest posts in the homepage in a responsive way. On large screens there should be 8 posts displayed 4 in a row, on medium screens 6 posts / 3 in a row, on tablet 4 posts / 2 in a row, on mobile 2 posts each on its own row.</p>
+<p>Since the designer doesn&#39;t code it doesn&#39;t knows <em>content cannot be get in a responsive way only displayed in a responsive way</em>. In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste and search engine optimization bad practice.</p>
+<p>Since the designer doesn&#39;t code it spiced up the design with horizontal lines separating the columns. It doesn&#39;t knows the CSS Grid specification doesn&#39;t support <a href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps">grid gap styling</a> and a <a href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693">nasty hack</a> has to be used to accomplish this original design masterpiece.</p>
+<p>If that was not enough the designer who doesn&#39;t code</p>
+
+
+
+  </div>
+
+  
+  <nav class="article__footnotes">
+    <h3>Footnotes</h3>
+
+    <ol class="ol">
+      
+        <li class="li" id="footnotes--1">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://wordpress.org/gutenberg/" title="WordPress Gutenberg">WordPress Gutenberg</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--1">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--2">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="http://metamn.io/beat/tomorrowww/" title="Devices as designers">Devices as designers</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--2">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+    </ol>
+  </nav>
+
+
+  <aside class="article__categories-and-date">
+  <h3>Article categories and date</h3>
+
+  <nav class="article__categories">
+  <h3 class="title">Categories</h3>
+
+  <span class="categories">design, code</span>
+</nav>
+
+  <time class="article__date">Feb 5, 19</time>
+
+</aside>
+
+</article>
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage":{
+     "@type":"WebPage",
+     "@id":"/the-designer-who-doesnt-code"
+   },
+  "headline": "The designer who doesn&#39;t code",
+  "alternativeHeadline": "But blows the budget elegantly",
+  
+  "author": "Csongor Bartus",
+  "genre": "web design and development",
+  "keywords": "design code",
+  "url": "/the-designer-who-doesnt-code",
+  "datePublished": "2019-02-05",
+  "dateModified": "2019-02-05",
+  "description": "But blows the budget elegantly",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Metamn",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://metamn.io/assets/images/icons/favicon-196x196.png"
+    }
+  }
+}
+</script>
+
+
+
+<aside class="contact-artwork">
+  <h3>Contact Artwork</h3>
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      
+    
+  
+    
+  
+    
+  
+    
+  
+
+  
+  
+  
+
+  
+<aside class="figure-with-text-around-circle">
+  <h3>Figure with a text around in circle</h3>
+
+  
+
+
+
+
+<figure class="figure">
+
+  
+  
+  
+
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+
+  
+  
+
+
+  
+  
+  
+
+  
+    
+    
+  
+
+
+  
+  
+  
+
+
+  <picture class="picture">
+    
+    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    
+
+    
+    
+    
+    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    
+  </picture>
+
+  <figcaption class="figcaption figcaption">
+    
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link " href="/contact" title="• Follow • Contact ">
+      Follow / Contact
+    </a>
+  </figcaption>
+</figure>
+
+  
+
+<div class="text-around-circle">
+  <span class="text-around-circle__text">
+    
+      
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+
+  <a class="link " href="/contact" title="• Follow • Contact ">• Follow • Contact 
+    
+  </span>
+
+  <span class="text-around-circle__chars"></span>
+</div>
+
+</aside>
+
+</aside>
+
+<footer class="footer">
+  <h3>Footer</h3>
+
+  
+  
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link flip beat" href="/" title="Beat">
+  
+  
+<span class="flip__span" data-hover="Beat">Beat</span>
+
+</a>
+
+
+  by
+
+  
+  
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link flip metamn" href="http://metamn.io" title="METAMN">
+  
+  
+<span class="flip__span" data-hover="METAMN">METAMN</span>
+
+</a>
+
+</footer>
+
+
+
+
+
+    
+      <script src="/assets/scripts/site.footer.min.js"></script>
+    
+  
+
+</body>
+</html>
+

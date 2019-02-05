@@ -1,9 +1,9 @@
 {
-  "title": "Designers must code",
-  "excerpt": "And keep the budget sane",
+  "title": "The designer who doesn't code",
+  "excerpt": "Blows the budget you've never thought",
   "template": "article",
   "categories": ["design", "code"],
-  "url": "designers-must-code",
+  "url": "the-designer-who-doesnt-code",
   "date": "2019-02-05",
   "display": ["title", "title_with_url", "categories", "date", "excerpt"],
   "footnotes": [
