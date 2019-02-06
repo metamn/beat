@@ -65,23 +65,23 @@ If the designer were coding the following design decisions were taken:
 
 1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.
 
-2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Let form follow function. In this case function is coding standards.
+2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Let form follow function even if function is coding standards.
 
-3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the post list will spare around half of development time and budget.
+3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the grid will spare around half of development time and budget.
 
-With these above the task to implement the design would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.
+With these practical design decisions the implementation would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.
 
 With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.
 
-It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns excepting columns at the edge of the grid.
+It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns treating columns at the edge as exceptions.
 
 Time spent with research and workarounds: around an hour.
 
-To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
+To implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
 
-Inserting the ad between the posts is way more complicated. It's about adding exceptions to an existing well working code.
+Inserting the ad between the posts is way more complicated. It's about adding exceptions to an existing well working code. The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered.
 
-The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth a look. <sup id="footnote--2">[2](#footnotes--2)</sup>
+The final front-end code is so ugly it is worth a look. <sup id="footnote--2">[2](#footnotes--2)</sup>
 
 Time spent: around an hour.
 
@@ -91,7 +91,7 @@ Time spent: around an hour.
 
 <table>
   <caption>
-  	<span class="text">An overview of possible solutions</span>
+  	<span class="text">The cost of the solutions</span>
   </caption>
   <thead>
     <tr>
@@ -102,7 +102,7 @@ Time spent: around an hour.
   </thead>
   <tbody>
 	  <tr>
-		<td>Standards based implementation</td>
+		<td>Practical implementation</td>
 		<td>30</td>
 		<td>Using the CSS Grid</td>
 	  </tr>
@@ -215,7 +215,7 @@ Time spent: around an hour.
 
 ## Pain
 
-This project has a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in the same _costly implementable_ way.
+This project has a good few dozens of sections like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in the same _costly implementable_ way.
 
 Remember: on this component alone we've spent at least 3 hours instead of half an hour. Yes,
 
