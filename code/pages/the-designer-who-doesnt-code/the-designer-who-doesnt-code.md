@@ -51,15 +51,11 @@ Since the designer doesn't code ...
 
 ... and creates comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.
 
-Since the designer doesn't code ...
-
 > The designer doesn't knows the CSS Grid specification
 
 ... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--3">[3](#footnotes--3)</sup> and a nasty hack <sup id="footnote--4">[4](#footnotes--4)</sup> has to be used to accomplish this original design idea.
 
-The designer who doesn't code ...
-
-> Doesn't knows exceptions are painful and bloat the source code
+> The designer doesn't knows exceptions are painful and bloat the source code
 
 ... and inserts an ad between the rows. The ad has different dimension and positioning which breaks the grid. An exception has to be added to support this design decision bloating the code during development time and later during maintenance.
 
@@ -77,7 +73,7 @@ With these above the task to implement the design would have been easy: use the 
 
 With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.
 
-It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies only to the middle columns not to columns at the edge of the grid.
+It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns excepting columns at the edge of the grid.
 
 Time spent with research and workarounds: around an hour.
 
@@ -94,7 +90,9 @@ Time spent: around an hour.
 {% endmarkdown %}
 
 <table>
-  <caption>An overview of possible solutions</caption>
+  <caption>
+  	<span class="text">An overview of possible solutions</span>
+  </caption>
   <thead>
     <tr>
       <th>Solution</th>
@@ -115,7 +113,7 @@ Time spent: around an hour.
     </tr>
     <tr>
       <td>Vertical borders &mdash; implementation</td>
-      <td>30</td>
+      <td>60</td>
       <td>+60 mins if the Flexbox grid component were not be already written</td>
     </tr>
     <tr>
@@ -127,7 +125,9 @@ Time spent: around an hour.
 </table>
 
 <table>
-  <caption>The amount and cost of new code added</caption>
+  <caption>
+  	<span class="text">The amount and cost of new code added</span>
+  </caption>
   <thead>
     <tr>
       <th>New code</th>
@@ -139,7 +139,7 @@ Time spent: around an hour.
     <tr>
       <td><a href="https://gist.github.com/metamn/b052d61cc36ae86a4c0de4e7fed38638">post-list-with-ad.php</a></td>
       <td>37 / 32</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid mixin</td>
@@ -147,19 +147,19 @@ Time spent: around an hour.
       <td>60</td>  
     </tr>
     <tr>
-      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-gridmixin</td>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid mixin</td>
       <td>48 / 39</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid-borders mixin</td>
         <td>30 / 26</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts mixin new code</td>
         <td>15 / 15</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts--regrid-for-ad mixin</td>
@@ -171,13 +171,15 @@ Time spent: around an hour.
     <tr>
       <th>Total</th>
       <th>300 / 263</th>
-      <th>145</th>
+      <th>165</th>
     </tr>
   </tfoot>
 </table>
 
 <table>
-  <caption>Code bloat</caption>
+  <caption>
+  	<span class="text">Code bloat</span>
+  </caption>
   <thead>
     <tr>
       <th>Component</th>

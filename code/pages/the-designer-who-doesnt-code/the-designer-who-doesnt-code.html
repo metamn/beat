@@ -450,14 +450,12 @@
 <p>The designer doesn&#39;t knows content cannot be get in a responsive way only <em>displayed</em> in a responsive way.</p>
 </blockquote>
 <p>... and creates comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.</p>
-<p>Since the designer doesn&#39;t code ...</p>
 <blockquote>
 <p>The designer doesn&#39;t knows the CSS Grid specification</p>
 </blockquote>
 <p>... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--3"><a href="#footnotes--3">3</a></sup> and a nasty hack <sup id="footnote--4"><a href="#footnotes--4">4</a></sup> has to be used to accomplish this original design idea.</p>
-<p>The designer who doesn&#39;t code ...</p>
 <blockquote>
-<p>Doesn&#39;t knows exceptions are painful and bloat the source code</p>
+<p>The designer doesn&#39;t knows exceptions are painful and bloat the source code</p>
 </blockquote>
 <p>... and inserts an ad between the rows. The ad has different dimension and positioning which breaks the grid. An exception has to be added to support this design decision bloating the code during development time and later during maintenance.</p>
 <h2 id="solutions">Solutions</h2>
@@ -472,7 +470,7 @@
 </ol>
 <p>With these above the task to implement the design would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.</p>
 <p>With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.</p>
-<p>It turned out only a workaround exists which won&#39;t fully solve the problem since the suggested bordering is ... complicated: it applies only to the middle columns not to columns at the edge of the grid.</p>
+<p>It turned out only a workaround exists which won&#39;t fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns excepting columns at the edge of the grid.</p>
 <p>Time spent with research and workarounds: around an hour.</p>
 <p>To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I&#39;ve already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.</p>
 <p>Inserting the ad between the posts is way more complicated. It&#39;s about adding exceptions to an existing well working code.</p>
@@ -482,7 +480,9 @@
 
 
 <table>
-  <caption>Time taken by various solutions</caption>
+  <caption>
+  	<span class="text">An overview of possible solutions</span>
+  </caption>
   <thead>
     <tr>
       <th>Solution</th>
@@ -499,23 +499,25 @@
     <tr>
       <td>Vertical borders &mdash; research</td>
       <td>60</td>
-      <td></td>
+      <td>Wasted. Only a nasty hack found</td>
     </tr>
     <tr>
       <td>Vertical borders &mdash; implementation</td>
-      <td>30</td>
+      <td>60</td>
       <td>+60 mins if the Flexbox grid component were not be already written</td>
     </tr>
     <tr>
       <td>Ad between rows</td>
       <td>60</td>
-      <td></td>
+      <td>The result is a very ugly patch over a well written code</td>
     </tr>
   </tbody>
 </table>
 
 <table>
-  <caption>The amount and cost of new code added</caption>
+  <caption>
+  	<span class="text">The amount and cost of new code added</span>
+  </caption>
   <thead>
     <tr>
       <th>New code</th>
@@ -527,27 +529,27 @@
     <tr>
       <td><a href="https://gist.github.com/metamn/b052d61cc36ae86a4c0de4e7fed38638">post-list-with-ad.php</a></td>
       <td>37 / 32</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid mixin</td>
       <td>62 / 54</td>
-      <td>60 (if were not existing and imported but written from scratch)</td>  
+      <td>60</td>  
     </tr>
     <tr>
-      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid</td>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid mixin</td>
       <td>48 / 39</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid-borders mixin</td>
         <td>30 / 26</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts mixin new code</td>
         <td>15 / 15</td>
-      <td>10</td>
+      <td>15</td>
     </tr>
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">latest-posts--regrid-for-ad mixin</td>
@@ -559,13 +561,15 @@
     <tr>
       <th>Total</th>
       <th>300 / 263</th>
-      <th>145</th>
+      <th>165</th>
     </tr>
   </tfoot>
 </table>
 
 <table>
-  <caption>Code bloat</caption>
+  <caption>
+  	<span class="text">Code bloat</span>
+  </caption>
   <thead>
     <tr>
       <th>Component</th>
@@ -592,7 +596,7 @@
     <tr>
       <td>Responsive grid</td>
       <td>Skipped</td>
-      <td>It is not re-used now while re-used across the entire site</td>
+      <td>It is not re-used now while it is re-used across the entire site</td>
     </tr>
   </tbody>
 </table>
@@ -923,11 +927,11 @@
     
   
     
-  
-    
-  
-    
       
+    
+  
+    
+  
     
   
     

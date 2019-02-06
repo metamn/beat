@@ -56,6 +56,7 @@ $text-block-width: 25em;
     @include article-body-text;
     @include code;
     @include pre;
+    @include table;
     
     
     
@@ -170,6 +171,7 @@ $text-block-width: 25em;
   @include article-body-text;
   @include code;
   @include pre;
+  @include table;
   
   
   
