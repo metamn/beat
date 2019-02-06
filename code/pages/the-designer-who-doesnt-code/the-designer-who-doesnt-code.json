@@ -28,5 +28,27 @@
       "title": "The comp on large screens replicated with mockups",
       "name": "comp-mockup-large"
     }
+  ],
+  "footnotes": [
+    {
+      "title": "`Should designers code` search results",
+      "url": "https://www.google.com/search?q=%22Should+designers+code%22",
+      "type": "external"
+    },
+    {
+      "title": "The design comp replicated using mockups",
+      "url": "https://codepen.io/metamn/pen/OdjaGE?editors=0100#0",
+      "type": "external"
+    },
+    {
+      "title": "No grid gap styling support for CSS Grid",
+      "url": "https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps",
+      "type": "external"
+    },
+    {
+      "title": "Show border grid lines only between elements - An ugly hack",
+      "url": "https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693",
+      "type": "external"
+    }
   ]
 }

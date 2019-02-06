@@ -1,6 +1,6 @@
 {% markdown %}
 
-The [Should designers code](https://www.google.com/search?q=%22Should+designers+code%22) debate is nonsense yet popular. The search query returned 27,800 results.
+The _Should designers code_ <sup id="footnote--1">[1](#footnotes--1)</sup> debate is nonsense yet popular. The search query returned 27,800 results.
 
 I've been long waiting for a case study which speaks for itself. Let's see it.
 
@@ -45,19 +45,19 @@ The comps were replicated using mockups. You can check it [live on Codepen](http
 
 ## Problems
 
-Since the designer doesn't code :&mdash;
+Since the designer doesn't code ...
 
 > The designer doesn't knows content cannot be get in a responsive way only _displayed_ in a responsive way.
 
-... and created comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.
+... and creates comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.
 
-Since the designer doesn't code :&mdash;
+Since the designer doesn't code ...
 
 > The designer doesn't knows the CSS Grid specification
 
-... and spiced up the design with vertical lines separating the columns. CSS Grid has no support for [grid gap styling](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) and a [nasty hack](https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693) has to be used to accomplish this original design idea.
+... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--3">[3](#footnotes--3)</sup> and a nasty hack <sup id="footnote--4">[4](#footnotes--4)</sup> has to be used to accomplish this original design idea.
 
-The designer who doesn't code :&mdash;
+The designer who doesn't code ...
 
 > Doesn't knows exceptions are painful and bloat the source code
 
@@ -81,11 +81,11 @@ It turned out only a workaround exists which won't fully solve the problem since
 
 Time spent with research and workarounds: around an hour.
 
-To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss). Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
+To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
 
 Inserting the ad between the posts is way more complicated. It's about adding exceptions to an existing well working code.
 
-The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth [a look](https://codepen.io/metamn/pen/OdjaGE)
+The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth a look. <sup id="footnote--2">[2](#footnotes--2)</sup>
 
 Time spent: around an hour.
 
