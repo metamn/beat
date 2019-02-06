@@ -94,7 +94,7 @@ Time spent: around an hour.
 {% endmarkdown %}
 
 <table>
-  <caption>Time taken by various solutions</caption>
+  <caption>An overview of possible solutions</caption>
   <thead>
     <tr>
       <th>Solution</th>
@@ -111,7 +111,7 @@ Time spent: around an hour.
     <tr>
       <td>Vertical borders &mdash; research</td>
       <td>60</td>
-      <td></td>
+      <td>Wasted. Only a nasty hack found</td>
     </tr>
     <tr>
       <td>Vertical borders &mdash; implementation</td>
@@ -121,7 +121,7 @@ Time spent: around an hour.
     <tr>
       <td>Ad between rows</td>
       <td>60</td>
-      <td></td>
+      <td>The result is a very ugly patch over a well written code</td>
     </tr>
   </tbody>
 </table>
@@ -144,10 +144,10 @@ Time spent: around an hour.
     <tr>
       <td><a href="https://codepen.io/metamn/pen/OdjaGE">flexbox-grid mixin</td>
       <td>62 / 54</td>
-      <td>60 (if were not existing and imported but written from scratch)</td>  
+      <td>60</td>  
     </tr>
     <tr>
-      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-grid</td>
+      <td><a href="https://codepen.io/metamn/pen/OdjaGE">responsive-flexbox-gridmixin</td>
       <td>48 / 39</td>
       <td>10</td>
     </tr>
@@ -204,7 +204,7 @@ Time spent: around an hour.
     <tr>
       <td>Responsive grid</td>
       <td>Skipped</td>
-      <td>It is not re-used now while re-used across the entire site</td>
+      <td>It is not re-used now while it is re-used across the entire site</td>
     </tr>
   </tbody>
 </table>
