@@ -67,23 +67,25 @@ The designer who doesn't code :&mdash;
 
 If the designer were coding the following design decisions were taken:
 
-1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts would have been not wasted.
+1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.
 
-2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Make form follow function, not vice versa.
+2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Let form follow function. In this case function is coding standards.
 
 3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the post list will spare around half of development time and budget.
 
-Without the vertical borders between columns and the ad inserted between the rows the task to implement the design would have been easy: use the CSS grid. Time spent would be from minutes to around half an hour.
+With these above the task to implement the design would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.
 
-To add borders the CSS grid technique &mdash; used across the site up until now &mdash; cannot be used since the CSS Grid specification doesn't support the styling of the grid gap. A research has to be done to see if the specification added this feature recently, if there is a polyfill, or a nice workaround.
+With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.
 
-In this current case only a workaround exists which won't fully solve the problem since the bordering is not uniform &mdash; it applies only to the middle columns not to all columns.
+It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies only to the middle columns not to columns at the edge of the grid.
 
 Time spent with research and workarounds: around an hour.
 
-The solution is to loop over grid elements and add border only where needed. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss) so I've imported in this project. I've added small modifications like adjusting to the current project's layout and drawing the borders. Time spent: around half an hour.
+To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss). Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
 
-Inserting the ad between the posts was more complicated. The back-end code displaying a post list had to be modified to insert the ad; on the front-end everything had to be re-grid and re-bordered. The front-end code is so ugly it is worth [taking a look at it](https://codepen.io/metamn/pen/OdjaGE)
+Inserting the ad between the posts is more complicated. It's all about adding exceptions to an existing well working code.
+
+The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth [a look](https://codepen.io/metamn/pen/OdjaGE)
 
 Time spent: around an hour.
 
@@ -174,9 +176,9 @@ Time spent: around an hour.
 
 ## Pain
 
-This project has around a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in a same way costly implementable way.
+This project has a good few dozens of components like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in the same _costly implementable_ way.
 
-Remember: on this component we've spent at least 3 hours instead of half an hour. Yes,
+Remember: on this component alone we've spent at least 3 hours instead of half an hour. Yes,
 
 > 6 times or 600% more than usual.
 
