@@ -1,16 +1,16 @@
 {% markdown %}
 
-The _"Should designers code"_ debate is nonsense yet very popular. The [search query](https://www.google.com/search?q=%22Should+designers+code%22) just returned 27,800 results.
+The [Should designers code](https://www.google.com/search?q=%22Should+designers+code%22) debate is nonsense yet popular. The search query returned 27,800 results.
 
 I've been long waiting for a case study which speaks for itself. Let's see it.
 
 ## Comps
 
-Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the front-end developer they are in the same way unusable.
+Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the modern front-end developer they are in the same way unusable.
 
-One has to slice and measure and convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions which finally will blow the source code and the project.
+One has to slice, calculate, convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with blowing the source code and the project.
 
-If no design thinking there is no design system and both the code, project, budget, people gets bloated.
+If no design thinking there is no design system and code, project, budget, people gets bloated.
 
 ## The task
 
@@ -32,9 +32,9 @@ It sounds simple: list the latest posts on the homepage in a responsive way. On 
 
 {% markdown %}
 
-The comps are blurred to protect the designer and the company. The black and red boxes are ad placeholders, and, there are gray vertical lines between columns the blurred screenshots can't show.
+The comps are blurred out to protect the designer and the company. The black and red boxes are ad placeholders, and, there are gray vertical lines between columns the blurred screenshots can't show.
 
-The comps are replicated using mockups. You can check it [live on Codepen](https://codepen.io/metamn/pen/OdjaGE?editors=0100#0) to better sense the task.
+The comps were replicated using mockups. You can check it [live on Codepen](https://codepen.io/metamn/pen/OdjaGE?editors=0100#0) to better sense the task.
 
 {% endmarkdown %}
 
@@ -45,23 +45,23 @@ The comps are replicated using mockups. You can check it [live on Codepen](https
 
 ## Problems
 
-Since the designer doesn't code
+Since the designer doesn't code :&mdash;
 
 > The designer doesn't knows content cannot be get in a responsive way only _displayed_ in a responsive way.
 
-In this current case this means on smaller screens the code has to fetch all 8 posts and hide some of them &mdash; such a performance waste on a device which has the poorest resources.
+... and created comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.
 
-Since the designer doesn't code it spiced up the design with vertical lines separating the columns.
+Since the designer doesn't code :&mdash;
 
 > The designer doesn't knows the CSS Grid specification
 
-has no support for [grid gap styling](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) and a [nasty hack](https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693) has to be used to accomplish this original design masterpiece.
+... and spiced up the design with vertical lines separating the columns. CSS Grid has no support for [grid gap styling](https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps) and a [nasty hack](https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693) has to be used to accomplish this original design idea.
 
-If that was not enough the designer who doesn't code inserts an ad between the rows. The ad has different dimension and positioning which makes it an exception for the source code.
+The designer who doesn't code :&mdash;
 
-> The designer who doesn't code doesn't knows exceptions are painful and bloat the source code
+> Doesn't knows exceptions are painful and bloat the source code
 
-Both during development time and later during maintenance.
+... and inserts an ad between the rows. The ad has different dimension and positioning which breaks the grid. An exception has to be added to support this design decision bloating the code during development time and later during maintenance.
 
 ## Numbers
 
