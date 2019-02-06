@@ -63,7 +63,7 @@ The designer who doesn't code :&mdash;
 
 ... and inserts an ad between the rows. The ad has different dimension and positioning which breaks the grid. An exception has to be added to support this design decision bloating the code during development time and later during maintenance.
 
-## Numbers
+## Solutions
 
 If the designer were coding the following design decisions were taken:
 
@@ -83,15 +83,51 @@ Time spent with research and workarounds: around an hour.
 
 To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I've already had [a component built on Flexbox](https://github.com/metamn/beat/blob/master/code/framework/structure/grid/grid.scss). Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.
 
-Inserting the ad between the posts is more complicated. It's all about adding exceptions to an existing well working code.
+Inserting the ad between the posts is way more complicated. It's about adding exceptions to an existing well working code.
 
 The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth [a look](https://codepen.io/metamn/pen/OdjaGE)
 
 Time spent: around an hour.
 
+## Numbers
+
 {% endmarkdown %}
 
 <table>
+  <caption>Time taken by various solutions</caption>
+  <thead>
+    <tr>
+      <th>Solution</th>
+      <th>Duration (min)</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+	  <tr>
+		<td>Standards based implementation</td>
+		<td>30</td>
+		<td>Using the CSS Grid</td>
+	  </tr>
+    <tr>
+      <td>Vertical borders &mdash; research</td>
+      <td>60</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vertical borders &mdash; implementation</td>
+      <td>30</td>
+      <td>+60 mins if the Flexbox grid component were not be already written</td>
+    </tr>
+    <tr>
+      <td>Ad between rows</td>
+      <td>60</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <caption>The amount and cost of new code added</caption>
   <thead>
     <tr>
       <th>New code</th>
@@ -141,6 +177,7 @@ Time spent: around an hour.
 </table>
 
 <table>
+  <caption>Code bloat</caption>
   <thead>
     <tr>
       <th>Component</th>
