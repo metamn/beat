@@ -111,12 +111,15 @@
 
   <div class='article__content'>
     
-  <p>The <em>Should designers code</em> <sup id="footnote--1"><a href="#footnotes--1">1</a></sup> debate is nonsense yet popular. The search query returned 27,800 results.</p>
-<p>I&#39;ve been long waiting for a case study which speaks for itself. Let&#39;s see it.</p>
+  <p><strong>&lt;update</strong></p>
+<p>After <a href="http://localhost:3000/the-designer-who-doesnt-code/">the comments on Lobste.rs</a> the first introductory part (Comps) and the last sections (Pain; Cure) of this article were rewritten. The rest, the case study was untouched.</p>
+<p>The original article is still available <a href="https://dev.to/metamn/the-designer-who-doesnt-code-1l8d">here</a>.</p>
+<p><strong>/update&gt;</strong></p>
 <h2 id="comps">Comps</h2>
-<p>Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the modern front-end developer they are in the same way unusable.</p>
-<p>One has to slice, calculate, convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with blowing the source code and the project.</p>
-<p>If no design thinking there is no design system and code, project, budget, people gets bloated.</p>
+<p>I&#39;m both a designer and developer primarily focusing on my own projects. Occasionally I do freelancing for clients and often times I&#39;m hired at the development phase.</p>
+<p>This means I&#39;m receiving comps from designers either coming from Photoshop or Sketch, wrapped or not into Zeplin. I find these comps unusable.</p>
+<p>I have to slice, calculate, convert pixels to elastic measures; have to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with &mdash; blowing the source code and the project.</p>
+<p>I&#39;ve been long waiting for a case study which speaks for itself. Let&#39;s see it.</p>
 <h2 id="the-task">The task</h2>
 <p>It sounds simple: list the latest posts on the homepage in a responsive way. On large screens there should be 8 posts displayed 4 in a row, on medium screens 6 posts / 3 in a row, on tablet 4 posts / 2 in a row, on mobile 2 posts each on its own row.</p>
 
@@ -453,7 +456,7 @@
 <blockquote>
 <p>The designer doesn&#39;t knows the CSS Grid specification</p>
 </blockquote>
-<p>... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--3"><a href="#footnotes--3">3</a></sup> and a nasty hack <sup id="footnote--4"><a href="#footnotes--4">4</a></sup> has to be used to accomplish this original design idea.</p>
+<p>... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--2"><a href="#footnotes--2">2</a></sup> and a nasty hack <sup id="footnote--3"><a href="#footnotes--3">3</a></sup> has to be used to accomplish this original design idea.</p>
 <blockquote>
 <p>The designer doesn&#39;t knows exceptions are painful and bloat the source code</p>
 </blockquote>
@@ -463,25 +466,25 @@
 <ol>
 <li><p>Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.</p>
 </li>
-<li><p>Forget the vertical column separator lines. They can&#39;t be implemented with current best practices and they need workaround. Let form follow function. In this case function is coding standards.</p>
+<li><p>Forget the vertical column separator lines. They can&#39;t be implemented with current best practices and they need workaround. Let form follow function even if function is coding standards.</p>
 </li>
-<li><p>Put that ad elsewhere. Combined with 2.) it&#39;s dangerous. Moving out of the post list will spare around half of development time and budget.</p>
+<li><p>Put that ad elsewhere. Combined with 2.) it&#39;s dangerous. Moving out of the grid will spare around half of development time and budget.</p>
 </li>
 </ol>
-<p>With these above the task to implement the design would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.</p>
+<p>With these practical design decisions the implementation would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.</p>
 <p>With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.</p>
-<p>It turned out only a workaround exists which won&#39;t fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns excepting columns at the edge of the grid.</p>
+<p>It turned out only a workaround exists which won&#39;t fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns treating columns at the edge as exceptions.</p>
 <p>Time spent with research and workarounds: around an hour.</p>
-<p>To move forward and implement the comp a loop has to be created over grid elements adding border only where necessary. For that I&#39;ve already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.</p>
-<p>Inserting the ad between the posts is way more complicated. It&#39;s about adding exceptions to an existing well working code.</p>
-<p>The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered. The final front-end code is so ugly it is worth a look. <sup id="footnote--2"><a href="#footnotes--2">2</a></sup></p>
+<p>To implement the comp a loop has to be created over grid elements adding border only where necessary. For that I&#39;ve already had a component built on Flexbox. Importing, adjusting to this current project took around half an hour. If it had to be written from scratch it would take at least an hour in plus.</p>
+<p>Inserting the ad between the posts is way more complicated. It&#39;s about adding exceptions to an existing well working code. The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered.</p>
+<p>The final front-end code is so ugly it is worth a look. <sup id="footnote--1"><a href="#footnotes--1">1</a></sup></p>
 <p>Time spent: around an hour.</p>
 <h2 id="numbers">Numbers</h2>
 
 
 <table>
   <caption>
-  	<span class="text">An overview of possible solutions</span>
+  	<span class="text">The cost of the solutions</span>
   </caption>
   <thead>
     <tr>
@@ -492,7 +495,7 @@
   </thead>
   <tbody>
 	  <tr>
-		<td>Standards based implementation</td>
+		<td>Practical implementation</td>
 		<td>30</td>
 		<td>Using the CSS Grid</td>
 	  </tr>
@@ -503,7 +506,7 @@
     </tr>
     <tr>
       <td>Vertical borders &mdash; implementation</td>
-      <td>60</td>
+      <td>30</td>
       <td>+60 mins if the Flexbox grid component were not be already written</td>
     </tr>
     <tr>
@@ -602,12 +605,15 @@
 </table>
 
 <h2 id="pain">Pain</h2>
-<p>This project has a good few dozens of components like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in the same <em>costly implementable</em> way.</p>
-<p>Remember: on this component alone we&#39;ve spent at least 3 hours instead of half an hour. Yes,</p>
+<p>This project has a good few dozens of sections like this <em>Latest posts</em> depicted above. More than half of them is designed in the same <em>unimplementable</em> way. Or, in the same <em>costly implementable</em> way.</p>
+<p>Remember: on this component alone we&#39;ve spent at least 2.5-3 hours instead of half an hour. Yes,</p>
 <blockquote>
-<p>6 times or 600% more than usual.</p>
+<p>5 times or 500% more than usual.</p>
 </blockquote>
-<p>That&#39;s immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for <em>&quot;Should designers code?&quot;</em>.</p>
+<p>That&#39;s immense. It all adds up during development time, and, rolls out as a technical debt for the future.</p>
+<h2 id="cure">Cure</h2>
+<p>Big teams / well organized / informed teams might be lucky. They&#39;ve probably enrolled a perfect designer &larr;&rarr; developer communication strategy to avoid this kind of extra cost and technical debt.</p>
+<p>Small teams can do two things: 1.) Find a designer who code &mdash; there are plenty out there. Or 2.) involve the developer as early as possible in the design process to help the designer with feasibility tips.</p>
 
 
 
@@ -640,7 +646,7 @@
     
   
 
-  <a class="link " href="https://www.google.com/search?q=%22Should+designers+code%22" title="`Should designers code` search results">`Should designers code` search results</a>
+  <a class="link " href="https://codepen.io/metamn/pen/OdjaGE?editors=0100#0" title="The design comp replicated using mockups">The design comp replicated using mockups</a>
 
   </span>
   
@@ -684,7 +690,7 @@
     
   
 
-  <a class="link " href="https://codepen.io/metamn/pen/OdjaGE?editors=0100#0" title="The design comp replicated using mockups">The design comp replicated using mockups</a>
+  <a class="link " href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps" title="No grid gap styling support for CSS Grid">No grid gap styling support for CSS Grid</a>
 
   </span>
   
@@ -728,56 +734,12 @@
     
   
 
-  <a class="link " href="https://stackoverflow.com/questions/45884630/css-grid-is-it-possible-to-apply-color-to-grid-gaps" title="No grid gap styling support for CSS Grid">No grid gap styling support for CSS Grid</a>
-
-  </span>
-  
-  <span class="footnote__go-back">
-  <a class="link" title="Back to the footnote" href="#footnote--3">
-    
-    <span class="arrow-with-triangle arrow-with-triangle--top ">
-  <span class="arrow-with-triangle__line"></span>
-
-  
-  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
-
-</span>
-
-    <span class="text">Back to the footnote</span>
-  </a>
-</span>
-
-</span>
-
-        </li>
-      
-        <li class="li" id="footnotes--4">
-          <span class="footnote">
-  <span class="footnote__link">
-    
-
-  
-    
-  
-
-  
-
-
-  
-
-
-  
-
-  
-    
-  
-
   <a class="link " href="https://stackoverflow.com/questions/13792755/show-border-grid-lines-only-between-elements/47914693#47914693" title="Show border grid lines only between elements - An ugly hack">Show border grid lines only between elements - An ugly hack</a>
 
   </span>
   
   <span class="footnote__go-back">
-  <a class="link" title="Back to the footnote" href="#footnote--4">
+  <a class="link" title="Back to the footnote" href="#footnote--3">
     
     <span class="arrow-with-triangle arrow-with-triangle--top ">
   <span class="arrow-with-triangle__line"></span>
@@ -833,7 +795,7 @@
   "keywords": "design code",
   "url": "/the-designer-who-doesnt-code",
   "datePublished": "2019-02-05",
-  "dateModified": "2019-02-06",
+  "dateModified": "2019-02-08",
   "description": "Blows all, and you don&#39;t even know",
   "publisher": {
     "@type": "Organization",

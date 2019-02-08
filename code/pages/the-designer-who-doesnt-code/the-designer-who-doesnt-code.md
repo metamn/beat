@@ -1,16 +1,22 @@
 {% markdown %}
 
-The _Should designers code_ <sup id="footnote--1">[1](#footnotes--1)</sup> debate is nonsense yet popular. The search query returned 27,800 results.
+**<update**
 
-I've been long waiting for a case study which speaks for itself. Let's see it.
+After [the comments on Lobste.rs](http://localhost:3000/the-designer-who-doesnt-code/) the first introductory part (Comps) and the last sections (Pain; Cure) of this article were rewritten. The rest, the case study was untouched.
+
+The original article is still available [here](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d).
+
+**/update>**
 
 ## Comps
 
-Yes, in 2019 we still receive comps from designers. Either coming from Photoshop or Sketch, wrapped or not into Zeplin &mdash; for the modern front-end developer they are in the same way unusable.
+I'm both a designer and developer primarily focusing on my own projects. Occasionally I do freelancing for clients and often times I'm hired at the development phase.
 
-One has to slice, calculate, convert pixels to elastic measures like in the nineties. Has to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with blowing the source code and the project.
+This means I'm receiving comps from designers either coming from Photoshop or Sketch, wrapped or not into Zeplin. I find these comps unusable.
 
-If no design thinking there is no design system and code, project, budget, people gets bloated.
+I have to slice, calculate, convert pixels to elastic measures; have to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with &mdash; blowing the source code and the project.
+
+I've been long waiting for a case study which speaks for itself. Let's see it.
 
 ## The task
 
@@ -53,7 +59,7 @@ Since the designer doesn't code ...
 
 > The designer doesn't knows the CSS Grid specification
 
-... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--3">[3](#footnotes--3)</sup> and a nasty hack <sup id="footnote--4">[4](#footnotes--4)</sup> has to be used to accomplish this original design idea.
+... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--2">[2](#footnotes--2)</sup> and a nasty hack <sup id="footnote--3">[3](#footnotes--3)</sup> has to be used to accomplish this original design idea.
 
 > The designer doesn't knows exceptions are painful and bloat the source code
 
@@ -81,7 +87,7 @@ To implement the comp a loop has to be created over grid elements adding border 
 
 Inserting the ad between the posts is way more complicated. It's about adding exceptions to an existing well working code. The back-end code displaying a post list has to be modified to insert the ad; on the front-end the grid has to be re-drawn and re-bordered.
 
-The final front-end code is so ugly it is worth a look. <sup id="footnote--2">[2](#footnotes--2)</sup>
+The final front-end code is so ugly it is worth a look. <sup id="footnote--1">[1](#footnotes--1)</sup>
 
 Time spent: around an hour.
 
@@ -113,7 +119,7 @@ Time spent: around an hour.
     </tr>
     <tr>
       <td>Vertical borders &mdash; implementation</td>
-      <td>60</td>
+      <td>30</td>
       <td>+60 mins if the Flexbox grid component were not be already written</td>
     </tr>
     <tr>
@@ -217,10 +223,16 @@ Time spent: around an hour.
 
 This project has a good few dozens of sections like this _Latest posts_ depicted above. More than half of them is designed in the same _unimplementable_ way. Or, in the same _costly implementable_ way.
 
-Remember: on this component alone we've spent at least 3 hours instead of half an hour. Yes,
+Remember: on this component alone we've spent at least 2.5-3 hours instead of half an hour. Yes,
 
-> 6 times or 600% more than usual.
+> 5 times or 500% more than usual.
 
-That's immense. And if you add them up, and consider the long term technical debt you would immediately know the answer for _"Should designers code?"_.
+That's immense. It all adds up during development time, and, rolls out as a technical debt for the future.
+
+## Cure
+
+Big teams / well organized / informed teams might be lucky. They've probably enrolled a perfect designer &larr;&rarr; developer communication strategy to avoid this kind of extra cost and technical debt.
+
+Small teams can do two things: 1.) Find a designer who code &mdash; there are plenty out there. Or 2.) involve the developer as early as possible in the design process to help the designer with feasibility tips.
 
 {% endmarkdown %}
