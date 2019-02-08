@@ -1,12 +1,12 @@
 {% markdown %}
 
-**<update**
+**&#60;update&#62;**
 
 After [the comments on Lobste.rs](http://localhost:3000/the-designer-who-doesnt-code/) the first introductory part (Comps) and the last sections (Pain; Cure) of this article were rewritten. The rest, the case study was untouched.
 
 The original article is still available [here](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d).
 
-**/update>**
+**&#60;/update&#62;**
 
 ## Comps
 
@@ -231,8 +231,14 @@ That's immense. It all adds up during development time, and, rolls out as a tech
 
 ## Cure
 
-Big teams / well organized / informed teams might be lucky. They've probably enrolled a perfect designer &larr;&rarr; developer communication strategy to avoid this kind of extra cost and technical debt.
+Big / well organized / informed teams might be lucky. They've probably enrolled a perfect designer &larr;&rarr; developer communication strategy to avoid this kind of extra cost and technical debt.
 
-Small teams can do two things: 1.) Find a designer who code &mdash; there are plenty out there. Or 2.) involve the developer as early as possible in the design process to help the designer with feasibility tips.
+Small teams can do three things:
+
+1. Acknowledge the problem.
+
+2. Find a designer who code &mdash; there are plenty out there. Or
+
+3. Involve the developer as early as possible in the design process to help the designer with feasibility tips.
 
 {% endmarkdown %}
