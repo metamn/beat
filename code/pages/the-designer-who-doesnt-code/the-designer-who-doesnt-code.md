@@ -2,19 +2,31 @@
 
 **&#60;update&#62;**
 
-After [the comments on Lobste.rs](http://localhost:3000/the-designer-who-doesnt-code/) the first introductory part (Comps) and the last sections (Pain; Cure) of this article were rewritten. The rest, the case study was untouched.
+The [first version](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d) of this article left room for inflammatory [comments](http://localhost:3000/the-designer-who-doesnt-code/).
 
-The original article is still available [here](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d).
+A few readers choose to continue a nonsense debate &mdash; should designers code &mdash; instead of looking at the numbers. This article is a case study not an opinionated piece.
+
+To make it purely objective the first introductory part &mdash; Comps &mdash; and the last sections &mdash; Pain; Cure &mdash; were rewritten. The rest, the case study was untouched.
 
 **&#60;/update&#62;**
 
+**&#60;disclaimer&#62;**
+
+I'm in equal measure a designer &mdash; self-taught with works featured in online galleries and theme stores &mdash; and developer &mdash; with a degree in Computer Science.
+
+This is a privileged situation some people find it funny, others unbelievable, others take it with envy.
+
+I use it to create with confidence, end-to-end, from user research to performance. And to share the findings with others as often as possible.
+
+**&#60;/disclaimer&#62;**
+
 ## Comps
 
-I'm both a designer and developer primarily focusing on my own projects. Occasionally I do freelancing for clients and often times I'm hired at the development phase.
+Occasionally I do freelancing for clients and often times I'm hired at the development phase.
 
-This means I'm receiving comps from designers either coming from Photoshop or Sketch, wrapped or not into Zeplin. I find these comps unusable.
+This means I'm receiving comps from designers either coming from Photoshop or Sketch, wrapped or not into Zeplin.
 
-I have to slice, calculate, convert pixels to elastic measures; have to figure out the responsive grid structure, the responsive typography, all the reusable design elements &mdash; code them &mdash; and start adding all the exceptions every comp comes with &mdash; blowing the source code and the project.
+These comps are imperfect. They contain design decisions not grounded in web development best practices. Making a comp work sometimes is very painful and expensive.
 
 I've been long waiting for a case study which speaks for itself. Let's see it.
 
@@ -240,5 +252,7 @@ Small teams can do three things:
 2. Find a designer who code &mdash; there are plenty out there. Or
 
 3. Involve the developer as early as possible in the design process to help the designer with feasibility tips.
+
+4. Make the developer and designer equal.
 
 {% endmarkdown %}
