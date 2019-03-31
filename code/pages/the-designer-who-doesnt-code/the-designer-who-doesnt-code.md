@@ -63,7 +63,7 @@ The comps were replicated using mockups. You can check it [live on Codepen](http
 
 ## Problems
 
-Since the designer doesn't code ...
+Since the designer doesn't code / doesn't consult with a developer ...
 
 > The designer doesn't knows content cannot be get in a responsive way only _displayed_ in a responsive way.
 
@@ -79,7 +79,7 @@ Since the designer doesn't code ...
 
 ## Solutions
 
-If the designer were coding the following design decisions were taken:
+If the designer were coding or consulting with a developer the following design decisions were taken:
 
 1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.
 
