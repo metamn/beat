@@ -1,28 +1,31 @@
 {% markdown %}
 
-We all love Design Systems. For their clarity, comfort, and the quietude inserts in the back of our head: finally, we are on the right path.
+We all love Design Systems. For their clarity, comfort &mdash; and the quietude inserts in the back of our head. Finally, we are on the right path.
 
-However, we might not be immediately capable to embrace it. They require change of mind and a new company culture.
+However, we might not be immediately capable to embrace it. They require change of mind and change in company culture.
 
 ## What Design Systems Are
 
-It's 2019 yet many articles with such titles are popping up constantly and are upvoted. Even silly or basic ones. People &mdash; it seems &mdash; are still familiarizing with the idea.
+It's 2019 yet many articles with such titles are popping up and get voted up constantly. Even silly or basic ones. People &mdash; it seems &mdash; are still familiarizing with the idea.
 
-I found this strange. Google's Material Design is years old; so it is Lonely Planet's Rizzo. React and co. offers myriads of design system and living styleguide plugins and implementations. Sketch has a plugin to export a design system into React components without code written. Even this blog was created using a design system four years ago.
+I find this strange.
+
+Google's Material Design is many years old; so it is Lonely Planet's Rizzo. React and co. offers myriads of design system and living styleguide plugins and implementations. Sketch has a plugin to export a design system into React components without code written. Even this blog was created using a design system four years ago.
 
 Why Design Systems are not ubiquitous?
 
 The answer was not obvious until I've met a company willing to implement it but failed on the road.
 
-> _Development Team_: Yes, we can see now how a Design System can constitute the basis for all our other assets (websites);
+> - _Development Team_: Yes, we can see now how a Design System can constitute the basis for all our other assets (websites);
+> - _Design Team_: Yes, we've been designing with design systems since 2007 and we see the commercial capacity.
 
-> _Design Team_: Yes, we've been designing with design systems since 2007 and we see the commercial capacity.
+In spite of the enthusiasm and good will we've ended up with no design comps.
 
 ## What difficulties Design Systems impose
 
-In spite of the enthusiasm and good will we've ended up with no design comps; The design team was not able to deliver a design system. On code, we've ended up with components so big in number and redundancy they've escaped under control.
+In this particular case &mdash; which might be similar as well for other companies like this in size and cultural heritage &mdash; the design team was not able to deliver a design system. On code, we've ended up with components so big in number and redundancy they've escaped under control.
 
-And the lessons are frightening.
+And the lessons are:
 
 ### Deconstruction
 
