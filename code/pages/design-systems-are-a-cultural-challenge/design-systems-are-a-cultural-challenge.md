@@ -46,4 +46,13 @@ Design thinking and design systems are more math than art. They are a combinatio
 
 If there is no perfect systems thinking during design the code will reveal it.
 
+### Budget
+
+Expensive first, then cheaper on long term.
+
+## TLDR;
+
+React is a challenge (link here);
+So it is DS. For the designer, the developer, for the management. New skills, new kind of decision making.
+
 {% endmarkdown %}
