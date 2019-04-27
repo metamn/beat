@@ -1,6 +1,10 @@
-{% markdown %}
+<div class="notice notice-1">
+<span class="text">
+U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash;
+</span>
+</div>
 
-**&#60;update&#62;**
+{% markdown %}
 
 The [first version](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d) of this article left room for inflammatory [comments](https://lobste.rs/s/rrdjwo/designer_who_doesn_t_code).
 
@@ -8,9 +12,18 @@ A few readers choose to continue a nonsense debate &mdash; should designers code
 
 To make it purely objective the first introductory part &mdash; Comps &mdash; and the last sections &mdash; Pain; Cure &mdash; were rewritten. The rest, the case study was untouched.
 
-**&#60;/update&#62;**
+{% endmarkdown %}
 
-**&#60;disclaimer&#62;**
+<div class="notice notice-2">
+<span class="text">/ U p d a t e</span>
+</div>
+
+<div class="notice notice-3">
+<span class="text">
+D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash;</span>
+</div>
+
+{% markdown %}
 
 I'm in equal measure a designer &mdash; self-taught with works featured in online galleries and theme stores &mdash; and developer &mdash; with a degree in Computer Science.
 
@@ -18,7 +31,13 @@ This is a privileged situation some people find it funny, others unbelievable, o
 
 I use it to create with confidence, end-to-end, from user research to performance. And to share the findings with others as often as possible.
 
-**&#60;/disclaimer&#62;**
+{% endmarkdown %}
+
+<div class="notice notice-4">
+<span class="text">/ D i s c l a i m e r</span>
+</div>
+
+{% markdown %}
 
 ## Comps
 
