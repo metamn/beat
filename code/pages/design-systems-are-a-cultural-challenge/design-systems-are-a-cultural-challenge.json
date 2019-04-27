@@ -1,0 +1,21 @@
+{
+  "title": "Design systems are a cultural challenge",
+  "excerpt": "",
+  "template": "article",
+  "categories": ["design", "trend"],
+  "url": "design-systems-are-a-cultural-challenge",
+  "date": "2019-04-27",
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "footnotes": [
+    {
+      "title": "WordPress Gutenberg",
+      "url": "https://wordpress.org/gutenberg/",
+      "type": "external"
+    },
+    {
+      "title": "Devices as designers",
+      "url": "http://metamn.io/beat/tomorrowww/",
+      "type": "external"
+    }
+  ]
+}
