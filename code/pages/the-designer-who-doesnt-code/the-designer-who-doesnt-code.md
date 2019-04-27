@@ -2,7 +2,7 @@
 
 **&#60;update&#62;**
 
-The [first version](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d) of this article left room for inflammatory [comments](http://localhost:3000/the-designer-who-doesnt-code/).
+The [first version](https://dev.to/metamn/the-designer-who-doesnt-code-1l8d) of this article left room for inflammatory [comments](https://lobste.rs/s/rrdjwo/designer_who_doesn_t_code).
 
 A few readers choose to continue a nonsense debate &mdash; should designers code &mdash; instead of looking at the numbers. This article is a case study not an opinionated piece.
 
