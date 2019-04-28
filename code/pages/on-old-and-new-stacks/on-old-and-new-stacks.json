@@ -8,8 +8,13 @@
   "display": ["title", "title_with_url", "categories", "date", "excerpt"],
   "footnotes": [
     {
-      "title": "My struggle to learn React ",
-      "url": "http://bradfrost.com/blog/post/my-struggle-to-learn-react/",
+      "title": "No More Problems On The Front End",
+      "url": "http://metamn.io/beat/no-more-problems-on-the-front-end/",
+      "type": "external"
+    },
+    {
+      "title": "Testing SCSS imports (Github)",
+      "url": "https://github.com/metamn/test-scss-imports",
       "type": "external"
     }
   ]
