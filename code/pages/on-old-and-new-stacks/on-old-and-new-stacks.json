@@ -1,0 +1,16 @@
+{
+  "title": "On old and new stacks",
+  "excerpt": "Bye SASS, welcome React.",
+  "template": "article",
+  "categories": ["code", "trend"],
+  "url": "on-old-and-new-stacks",
+  "date": "2019-04-28",
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "footnotes": [
+    {
+      "title": "My struggle to learn React ",
+      "url": "http://bradfrost.com/blog/post/my-struggle-to-learn-react/",
+      "type": "external"
+    }
+  ]
+}
