@@ -24,7 +24,7 @@ No matter the tooling for optimization (minify css, uncss, etc.) SASS by nature 
 
 That makes it unsustainable in the age of Design Systems and Web components.
 
-## Developer experience
+## Designer and developer experience
 
 In my stack Javascript was the main pain point during development. I've been always struggling to keep up with the latest libraries and frameworks &mdash; then went back to vanilla.
 
@@ -35,5 +35,21 @@ It was hard to wire behavior into structure and style &mdash; classnames to conn
 Design thinking constrained by unusable technology, again, is not sustainable on long term.
 
 ## Component frameworks
+
+To the rescue.
+
+By definition they treat Javascript as first class citizen in the `HTML + CSS + JS` triumvirate. More they add a data layer (GraphQL) and ... and ... all the benefits a _real_ programming language offers: like testing.
+
+Now the stack is `data + structure + style + behavior + tests` === wooow!!
+
+Making a (browser native) programming language the main artifact in the user interface development process &mdash; I guess &mdash; is the greatest thing ever happened to this industry.
+
+It gives you an all-in-one feeling. Nothing is missing. All pain points solved. Everything is at your fingertips, from data to testing, in one screen.
+
+Performance is legendary. Just remember, Gatsby detects cursor movement on the screen, and preloads stuff when you hover a link.
+
+Creativity is high. All constraints are removed. In fact, now you can do whatever you wish in the browser. Nothing stays in your way.
+
+Woow!
 
 {% endmarkdown %}
