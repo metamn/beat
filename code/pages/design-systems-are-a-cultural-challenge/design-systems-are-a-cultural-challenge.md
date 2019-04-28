@@ -1,6 +1,6 @@
 {% markdown %}
 
-We all love design systems. For their clarity, comfort &mdash; and assurance. Finally, we are on the right path.
+We all love design systems. For their clarity, comfort and assurance. Finally, we are on the right path.
 
 However, we might not be immediately capable to embrace it. They require change of mind and change in company culture.
 
@@ -19,21 +19,21 @@ The answer was not obvious until I've met a company willing to implement it but 
 - **Development team**: Yes, we can see now how a Design System can constitute the basis for all our other assets (websites);
 - **Design team**: Yes, we've been designing with design systems since 2007 and we see the commercial capacity.
 
-In spite of the enthusiasm and good will we've ended up with no design comps.
+In spite of the enthusiasm and good will we've ended up with no design system at all.
 
 ## What difficulties Design Systems impose
 
-In this particular case &mdash; which might be similar as well for other companies this size and cultural heritage &mdash; the design team was not able to deliver a design system. On code, we've ended up with components so big in number and redundancy they've escaped under control.
+In this particular case &mdash; which might be similar as well for other companies this size and cultural heritage &mdash; the design team was not able to deliver a design system. On code, we've ended up with components so big in number and redundancy they've escaped under control. The designer &larr;&rarr; developer communication pattern was the classic one: developer, execute the creation!
 
 And the lessons are:
 
 ### Deconstruction
 
-User interfaces created with a design system are not a continuously expanding thing like the comps of the past were. They are canonical, deconstructed to the minimum number of parts. They ask the question _How we can re-use?_ instead of throwing a _Let's quickly add ..._.
+Design system are not a continuously expanding thing like the comps of the past were. They are canonical, deconstructed to the minimum number of parts. They ask the question _How we can re-use?_ instead of throwing a _Let's quickly add ..._.
 
 There are no hacks &mdash; anymore, unfortunately &mdash; instead there is contemplation. If an element in a design system is singular, not reused elsewhere it can't be part of the system.
 
-Yes, with design systems a design is deconstructed to its fittest form. A result not always trivial to achieve.
+With a design systems the design is reduced to its fittest form. A result not always trivial to achieve.
 
 ### Systems thinking
 
