@@ -1,6 +1,6 @@
 <div class="notice notice-1">
 <span class="text">
-U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash; U p d a t e &mdash;
+u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash;  u p d a t e &mdash;  u p d a t e &mdash;
 </span>
 </div>
 
@@ -15,12 +15,12 @@ To make it purely objective the first introductory part &mdash; Comps &mdash; an
 {% endmarkdown %}
 
 <div class="notice notice-2">
-<span class="text">/ U p d a t e</span>
+<span class="text">/ u p d a t e</span>
 </div>
 
 <div class="notice notice-3">
 <span class="text">
-D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash; D i s c l a i m e r &mdash;</span>
+d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash;</span>
 </div>
 
 {% markdown %}
@@ -34,7 +34,7 @@ I use it to create with confidence, end-to-end, from user research to performanc
 {% endmarkdown %}
 
 <div class="notice notice-4">
-<span class="text">/ D i s c l a i m e r</span>
+<span class="text">/ d i s c l a i m e r</span>
 </div>
 
 {% markdown %}

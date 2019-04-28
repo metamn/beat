@@ -23,19 +23,23 @@ In spite of the enthusiasm and good will we've ended up with no design system at
 
 ## What difficulties Design Systems impose
 
-In this particular case &mdash; which might be similar as well for other companies this size and cultural heritage &mdash; the design team was not able to deliver a design system. On code, we've ended up with components so big in number and redundancy they've escaped under control. The designer &larr;&rarr; developer communication pattern was the classic one: developer, execute the creation!
+In this particular case &mdash; which might be similar as well for other companies this size and cultural heritage &mdash; the design team was not able to deliver a design system.
 
-And the lessons are:
+On code, we've ended up with components so big in number and redundancy they've escaped under control.
 
-### Deconstruction
+On designer &larr;&rarr; developer communication the pattern was the classic one: developer, execute the creation!
 
-Design system are not a continuously expanding thing like the comps of the past were. They are canonical, deconstructed to the minimum number of parts. They ask the question _How we can re-use?_ instead of throwing a _Let's quickly add ..._.
+And the lessons were grim.
+
+## Deconstruction
+
+A design system is not a continuously expanding thing like the comps of the past were. It is canonical, deconstructed to the minimum number of parts. It asks the question _How we can re-use?_ instead of throwing a _Let's quickly add ..._.
 
 There are no hacks &mdash; anymore, unfortunately &mdash; instead there is contemplation. If an element in a design system is singular, not reused elsewhere it can't be part of the system.
 
-With a design system the design is reduced to its fittest form. A result not always trivial to achieve.
+With design systems the design is reduced to its fittest form. A result not always trivial to achieve.
 
-### Systems thinking
+## Systems thinking
 
 Artists are not engineers.
 
@@ -45,15 +49,17 @@ Artists need help.
 
 With design systems there is tight control over creation. Every flaw during design is revealed during code. And flaws can't be forced to be implemented, like in the old comp-days when the designer had an ultimate authority over the developer.
 
-### Code components
+## Code components
 
-Design systems require to be implemented with code components. A relatively new paradigm, again, components eliminate the chance of hacking. No dev can jump in and change quickly a button's color or reduce the size of an image.
+Design systems require to be implemented with code components.
+
+A relatively new paradigm, again, components eliminate the chance of hacking. No dev can jump in and change quickly a button's color or reduce the size of an image.
 
 First the system has to be understood. Then changes applied reckoning they affect an entire system instead of being a quick local patch &mdash; as in the old times.
 
 Control is bi-directional. As devs reveal design flaws during their work, accordingly, their work is validated continuously by the design system.
 
-### Real teamwork
+## Real teamwork
 
 Design systems are more math than art.
 
@@ -63,7 +69,7 @@ They are a combination of creativity and engineering skills. It's a teamwork whe
 
 Creating user interfaces and experiences is getting more interesting and satisfactory with these new changes in technology and methodology.
 
-The learning curve can be sometimes steep<sup id="footnote--1">[1](#footnotes--1)</sup>. Both for the designer, the developer, and for the management. New skills, new kind of decision making are required.
+The learning curve can be sometimes steep <sup id="footnote--1">[1](#footnotes--1)</sup>. Both for the designer, the developer, and for the management. New skills, new kind of decision making are required.
 
 Like responsive design ten years ago &mdash; design systems are revolutionary.
 
