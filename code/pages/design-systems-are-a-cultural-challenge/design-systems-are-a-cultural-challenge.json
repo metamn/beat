@@ -8,13 +8,8 @@
   "display": ["title", "title_with_url", "categories", "date", "excerpt"],
   "footnotes": [
     {
-      "title": "WordPress Gutenberg",
-      "url": "https://wordpress.org/gutenberg/",
-      "type": "external"
-    },
-    {
-      "title": "Devices as designers",
-      "url": "http://metamn.io/beat/tomorrowww/",
+      "title": "My struggle to learn React ",
+      "url": "http://bradfrost.com/blog/post/my-struggle-to-learn-react/",
       "type": "external"
     }
   ]
