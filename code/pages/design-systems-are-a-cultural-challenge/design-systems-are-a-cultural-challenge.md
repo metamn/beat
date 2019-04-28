@@ -33,13 +33,15 @@ Design system are not a continuously expanding thing like the comps of the past 
 
 There are no hacks &mdash; anymore, unfortunately &mdash; instead there is contemplation. If an element in a design system is singular, not reused elsewhere it can't be part of the system.
 
-With a design systems the design is reduced to its fittest form. A result not always trivial to achieve.
+With a design system the design is reduced to its fittest form. A result not always trivial to achieve.
 
 ### Systems thinking
 
-Artists are not engineers. Some minds are not capable of systems thinking. A person with excellent aesthetic skills can't be expected to oversee all the _mechanical_ parts of an user interface from various kind of links and link states to responsive and re-usable page structures &mdash; from atoms to molecules and organisms.
+Artists are not engineers.
 
-Artists needs help.
+Some minds are not capable of systems thinking. A person with excellent aesthetic skills can't be expected to oversee hundreds of _mechanical_ parts of an user interface from links and link states to responsive and re-usable page structures &mdash; from atoms to molecules and organisms.
+
+Artists need help.
 
 With design systems there is tight control over creation. Every flaw during design is revealed during code. And flaws can't be forced to be implemented, like in the old comp-days when the designer had an ultimate authority over the developer.
 
