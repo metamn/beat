@@ -2,11 +2,10 @@
   "title": "Artwork for Web Trends September 2016",
   "excerpt": "Artwork for Web Trends September 2016",
   "template": "article",
+  "status": "draft",
   "url": "web-trends-september-2016-artwork",
   "date": "2016-09-08",
-  "display": [
-    "artwork"
-  ],
+  "display": ["artwork"],
   "videos": [
     {
       "title": "Architetti Alpino",
@@ -64,9 +63,5 @@
     }
   ],
   "rolling_text": "Rolling chars, aye!",
-  "marquees": [
-    "◈ ◈ ◈ ◈ ◈",
-    "Back to nineties !!! ♥ ♥ ♥ ♥ ♥",
-    "◈ ◈ ◈ ◈ ◈"
-  ]
+  "marquees": ["◈ ◈ ◈ ◈ ◈", "Back to nineties !!! ♥ ♥ ♥ ♥ ♥", "◈ ◈ ◈ ◈ ◈"]
 }

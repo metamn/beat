@@ -1,19 +1,11 @@
 {
   "title": "Web Trends September 2016",
   "template": "article",
-  "categories": [
-    "trend"
-  ],
+  "status": "draft",
+  "categories": ["trend"],
   "url": "web-trends-september-2016",
   "date": "2016-09-09",
-  "display": [
-    "title",
-    "title_with_url",
-    "categories",
-    "date",
-    "list",
-    "more"
-  ],
+  "display": ["title", "title_with_url", "categories", "date", "list", "more"],
   "list": [
     "Image on hover",
     "Horizontal scrolling",
