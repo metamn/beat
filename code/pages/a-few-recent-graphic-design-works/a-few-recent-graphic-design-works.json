@@ -1,0 +1,16 @@
+{
+  "title": "A few recent graphic design works",
+  "excerpt": "Unpublished works and experiments.",
+  "thumb": "yale_mobile.png",
+  "template": "article",
+  "categories": ["design"],
+  "url": "a-few-recent-graphic-design-works",
+  "date": "2019-04-29",
+  "display": ["title", "title_with_url", "categories", "date", "slides"],
+  "slides": [
+    {
+      "title": "Portfolio v1a",
+      "name": "metamn-v1a"
+    }
+  ]
+}

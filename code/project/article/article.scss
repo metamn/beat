@@ -9,6 +9,14 @@
   opacity: 1;
   @include transition(all);
 
+  &--a-few-recent-graphic-design-works {
+    @include article--a-few-recent-graphic-design-works;
+  }
+
+  &--lost-and-found-works {
+    @include article--lost-and-found-works;
+  }
+
   &--democratization-of-design {
     @include article--democratization-of-design;
   }

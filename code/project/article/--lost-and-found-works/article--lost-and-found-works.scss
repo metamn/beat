@@ -1,0 +1,11 @@
+@mixin article--lost-and-found-works {
+  .article__slider {
+    width: 50%;
+  }
+
+  // The slider has images
+  .slider {
+    @include slider--with-image;
+    @include intrinsic-ratio(3, 4, ".slider__slides");
+  }
+}
