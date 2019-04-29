@@ -9,6 +9,10 @@
   opacity: 1;
   @include transition(all);
 
+  &--being-altruistic {
+    @include article--being-altruistic;
+  }
+
   &--a-few-recent-graphic-design-works {
     @include article--a-few-recent-graphic-design-works;
   }

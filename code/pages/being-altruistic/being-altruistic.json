@@ -1,0 +1,21 @@
+{
+  "title": "Being altruistic",
+  "excerpt": "Succeeding in life means being altruistic",
+  "template": "article",
+  "categories": ["trend"],
+  "url": "being-altruistic",
+  "date": "2019-04-30",
+  "display": ["title", "categories", "date", "authors"],
+  "authors": [
+    {
+      "property1": {
+        "name": "Jacques Attali",
+        "title": "Special Adviser to the President of France",
+        "url": "http://www.attali.com/en/",
+        "description": "<p>Many people think that the essence of human life, its meaning and purpose, should be rooted in no other thing but to be as happy as possible.</p><p>There are others who believe, on the contrary, that a life is only worth living if it is useful to others and if it brings something to the world.</p><p>Personally, I believe that altruism is a good criterion for a successful life, and the only worthwhile life: a life is only successful if the world is, after the life has ended, slightly better because that life existed.</p>",
+        "twitter": "jattali",
+        "avatar": "https://pbs.twimg.com/profile_images/803861618358648832/j4E4TeR7_200x200.jpg"
+      }
+    }
+  ]
+}
