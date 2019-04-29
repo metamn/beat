@@ -20,6 +20,10 @@
     
   
     
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+  
+    
       <script src="/assets/scripts/vendors.js"></script>
     
   
@@ -380,16 +384,16 @@ For example, if you style an element and it&#39;s starting to be complicated, it
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    <img class="img lazy" data-src="/assets/images/email_mobile.png" alt="Email icon">
     
   </picture>
 

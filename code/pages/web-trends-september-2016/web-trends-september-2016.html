@@ -20,6 +20,10 @@
     
   
     
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+  
+    
       <script src="/assets/scripts/vendors.js"></script>
     
   
@@ -130,17 +134,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/afterall-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/afterall-poster.png" controls>
   
-    <source src="/assets/videos/afterall.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/afterall.webm" type="video/webm">
+    <source data-src="/assets/videos/afterall.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/afterall.ogv" type="video/ogg">
+    <source data-src="/assets/videos/afterall.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/afterall.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -187,17 +191,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/grafik-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/grafik-poster.png" controls>
   
-    <source src="/assets/videos/grafik.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/grafik.webm" type="video/webm">
+    <source data-src="/assets/videos/grafik.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/grafik.ogv" type="video/ogg">
+    <source data-src="/assets/videos/grafik.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/grafik.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -244,17 +248,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/redoctober-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/redoctober-poster.png" controls>
   
-    <source src="/assets/videos/redoctober.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/redoctober.webm" type="video/webm">
+    <source data-src="/assets/videos/redoctober.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/redoctober.ogv" type="video/ogg">
+    <source data-src="/assets/videos/redoctober.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/redoctober.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -305,17 +309,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/austinbeers-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/austinbeers-poster.png" controls>
   
-    <source src="/assets/videos/austinbeers.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/austinbeers.webm" type="video/webm">
+    <source data-src="/assets/videos/austinbeers.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/austinbeers.ogv" type="video/ogg">
+    <source data-src="/assets/videos/austinbeers.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/austinbeers.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -362,17 +366,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/chris-wang-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/chris-wang-poster.png" controls>
   
-    <source src="/assets/videos/chris-wang.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/chris-wang.webm" type="video/webm">
+    <source data-src="/assets/videos/chris-wang.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/chris-wang.ogv" type="video/ogg">
+    <source data-src="/assets/videos/chris-wang.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/chris-wang.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -477,16 +481,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/athfield-1-landscape_desktop.png, /assets/images/athfield-1-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/athfield-1-landscape_laptop.png, /assets/images/athfield-1-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/athfield-1-portrait_tablet.png, /assets/images/athfield-1-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/athfield-1-portrait_mobile.png, /assets/images/athfield-1-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/athfield-1-landscape_desktop.png, /assets/images/athfield-1-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/athfield-1-landscape_laptop.png, /assets/images/athfield-1-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/athfield-1-portrait_tablet.png, /assets/images/athfield-1-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/athfield-1-portrait_mobile.png, /assets/images/athfield-1-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/athfield-1-landscape_laptop.png" alt="Athfield Architects">
+    <img class="img lazy" data-src="/assets/images/athfield-1-landscape_laptop.png" alt="Athfield Architects">
     
   </picture>
 
@@ -574,16 +578,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/athfield-2-landscape_desktop.png, /assets/images/athfield-2-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/athfield-2-landscape_laptop.png, /assets/images/athfield-2-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/athfield-2-portrait_tablet.png, /assets/images/athfield-2-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/athfield-2-portrait_mobile.png, /assets/images/athfield-2-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/athfield-2-landscape_desktop.png, /assets/images/athfield-2-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/athfield-2-landscape_laptop.png, /assets/images/athfield-2-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/athfield-2-portrait_tablet.png, /assets/images/athfield-2-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/athfield-2-portrait_mobile.png, /assets/images/athfield-2-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/athfield-2-landscape_laptop.png" alt="Athfield Architects">
+    <img class="img lazy" data-src="/assets/images/athfield-2-landscape_laptop.png" alt="Athfield Architects">
     
   </picture>
 
@@ -616,17 +620,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/alaa-mendili-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/alaa-mendili-poster.png" controls>
   
-    <source src="/assets/videos/alaa-mendili.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/alaa-mendili.webm" type="video/webm">
+    <source data-src="/assets/videos/alaa-mendili.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/alaa-mendili.ogv" type="video/ogg">
+    <source data-src="/assets/videos/alaa-mendili.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/alaa-mendili.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -679,17 +683,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/lab21-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/lab21-poster.png" controls>
   
-    <source src="/assets/videos/lab21.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/lab21.webm" type="video/webm">
+    <source data-src="/assets/videos/lab21.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/lab21.ogv" type="video/ogg">
+    <source data-src="/assets/videos/lab21.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/lab21.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -736,17 +740,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/athfield-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/athfield-poster.png" controls>
   
-    <source src="/assets/videos/athfield.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/athfield.webm" type="video/webm">
+    <source data-src="/assets/videos/athfield.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/athfield.ogv" type="video/ogg">
+    <source data-src="/assets/videos/athfield.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/athfield.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -850,16 +854,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/aud-landscape_desktop.png, /assets/images/aud-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/aud-landscape_laptop.png, /assets/images/aud-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/aud-portrait_tablet.png, /assets/images/aud-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/aud-portrait_mobile.png, /assets/images/aud-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/aud-landscape_desktop.png, /assets/images/aud-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/aud-landscape_laptop.png, /assets/images/aud-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/aud-portrait_tablet.png, /assets/images/aud-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/aud-portrait_mobile.png, /assets/images/aud-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/aud-landscape_laptop.png" alt="Advanced Urban Design">
+    <img class="img lazy" data-src="/assets/images/aud-landscape_laptop.png" alt="Advanced Urban Design">
     
   </picture>
 
@@ -947,16 +951,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/misplaced-landscape_desktop.png, /assets/images/misplaced-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/misplaced-landscape_laptop.png, /assets/images/misplaced-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/misplaced-portrait_tablet.png, /assets/images/misplaced-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/misplaced-portrait_mobile.png, /assets/images/misplaced-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/misplaced-landscape_desktop.png, /assets/images/misplaced-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/misplaced-landscape_laptop.png, /assets/images/misplaced-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/misplaced-portrait_tablet.png, /assets/images/misplaced-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/misplaced-portrait_mobile.png, /assets/images/misplaced-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/misplaced-landscape_laptop.png" alt="Misplaced">
+    <img class="img lazy" data-src="/assets/images/misplaced-landscape_laptop.png" alt="Misplaced">
     
   </picture>
 
@@ -994,17 +998,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/cookbook-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/cookbook-poster.png" controls>
   
-    <source src="/assets/videos/cookbook.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/cookbook.webm" type="video/webm">
+    <source data-src="/assets/videos/cookbook.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/cookbook.ogv" type="video/ogg">
+    <source data-src="/assets/videos/cookbook.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/cookbook.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1051,17 +1055,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/architetti-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/architetti-poster.png" controls>
   
-    <source src="/assets/videos/architetti.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/architetti.webm" type="video/webm">
+    <source data-src="/assets/videos/architetti.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/architetti.ogv" type="video/ogg">
+    <source data-src="/assets/videos/architetti.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/architetti.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1166,16 +1170,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/aaron-landscape_desktop.png, /assets/images/aaron-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/aaron-landscape_laptop.png, /assets/images/aaron-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/aaron-portrait_tablet.png, /assets/images/aaron-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/aaron-portrait_mobile.png, /assets/images/aaron-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/aaron-landscape_desktop.png, /assets/images/aaron-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/aaron-landscape_laptop.png, /assets/images/aaron-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/aaron-portrait_tablet.png, /assets/images/aaron-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/aaron-portrait_mobile.png, /assets/images/aaron-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/aaron-landscape_laptop.png" alt="Aaron Koblin">
+    <img class="img lazy" data-src="/assets/images/aaron-landscape_laptop.png" alt="Aaron Koblin">
     
   </picture>
 
@@ -1263,16 +1267,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/kidstudio-landscape_desktop.png, /assets/images/kidstudio-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/kidstudio-landscape_laptop.png, /assets/images/kidstudio-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/kidstudio-portrait_tablet.png, /assets/images/kidstudio-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/kidstudio-portrait_mobile.png, /assets/images/kidstudio-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/kidstudio-landscape_desktop.png, /assets/images/kidstudio-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/kidstudio-landscape_laptop.png, /assets/images/kidstudio-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/kidstudio-portrait_tablet.png, /assets/images/kidstudio-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/kidstudio-portrait_mobile.png, /assets/images/kidstudio-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/kidstudio-landscape_laptop.png" alt="Kid Studio">
+    <img class="img lazy" data-src="/assets/images/kidstudio-landscape_laptop.png" alt="Kid Studio">
     
   </picture>
 
@@ -1309,17 +1313,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/lovemoney-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/lovemoney-poster.png" controls>
   
-    <source src="/assets/videos/lovemoney.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/lovemoney.webm" type="video/webm">
+    <source data-src="/assets/videos/lovemoney.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/lovemoney.ogv" type="video/ogg">
+    <source data-src="/assets/videos/lovemoney.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/lovemoney.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1370,17 +1374,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/lars-muller-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/lars-muller-poster.png" controls>
   
-    <source src="/assets/videos/lars-muller.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/lars-muller.webm" type="video/webm">
+    <source data-src="/assets/videos/lars-muller.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/lars-muller.ogv" type="video/ogg">
+    <source data-src="/assets/videos/lars-muller.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/lars-muller.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1427,17 +1431,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/kidstudio-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/kidstudio-poster.png" controls>
   
-    <source src="/assets/videos/kidstudio.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/kidstudio.webm" type="video/webm">
+    <source data-src="/assets/videos/kidstudio.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/kidstudio.ogv" type="video/ogg">
+    <source data-src="/assets/videos/kidstudio.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/kidstudio.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1541,16 +1545,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/anymography-landscape_desktop.png, /assets/images/anymography-landscape_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/anymography-landscape_laptop.png, /assets/images/anymography-landscape_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/anymography-portrait_tablet.png, /assets/images/anymography-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/anymography-portrait_mobile.png, /assets/images/anymography-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/anymography-landscape_desktop.png, /assets/images/anymography-landscape_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/anymography-landscape_laptop.png, /assets/images/anymography-landscape_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/anymography-portrait_tablet.png, /assets/images/anymography-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/anymography-portrait_mobile.png, /assets/images/anymography-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/anymography-landscape_laptop.png" alt="Anymography">
+    <img class="img lazy" data-src="/assets/images/anymography-landscape_laptop.png" alt="Anymography">
     
   </picture>
 
@@ -1587,17 +1591,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/hybrid-u-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/hybrid-u-poster.png" controls>
   
-    <source src="/assets/videos/hybrid-u.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/hybrid-u.webm" type="video/webm">
+    <source data-src="/assets/videos/hybrid-u.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/hybrid-u.ogv" type="video/ogg">
+    <source data-src="/assets/videos/hybrid-u.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/hybrid-u.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1644,17 +1648,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/sfcd-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/sfcd-poster.png" controls>
   
-    <source src="/assets/videos/sfcd.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/sfcd.webm" type="video/webm">
+    <source data-src="/assets/videos/sfcd.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/sfcd.ogv" type="video/ogg">
+    <source data-src="/assets/videos/sfcd.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/sfcd.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -1705,17 +1709,17 @@ Meantime is catching up with TV / video in motion and animation.</p>
 <aside class="article__video article__video--inside-article">
   <h3>Video</h3>
 
-  <video class="video" preload="metadata" poster="/assets/images/rembrandt-poster.png" controls>
+  <video class="video lazy" preload="metadata" poster="/assets/images/rembrandt-poster.png" controls>
   
-    <source src="/assets/videos/rembrandt.mp4" type="video/mp4">
-  
-
-  
-    <source src="/assets/videos/rembrandt.webm" type="video/webm">
+    <source data-src="/assets/videos/rembrandt.mp4" type="video/mp4">
   
 
   
-    <source src="/assets/videos/rembrandt.ogv" type="video/ogg">
+    <source data-src="/assets/videos/rembrandt.webm" type="video/webm">
+  
+
+  
+    <source data-src="/assets/videos/rembrandt.ogv" type="video/ogg">
   
 
   <!-- Flash fallback -->
@@ -2140,16 +2144,16 @@ Meantime is catching up with TV / video in motion and animation.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    <img class="img lazy" data-src="/assets/images/email_mobile.png" alt="Email icon">
     
   </picture>
 

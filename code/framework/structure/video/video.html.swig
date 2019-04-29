@@ -1,14 +1,14 @@
-<video class="video" preload="metadata" poster="{{ site.url }}{{ site.images }}{{ video.image.name }}{{ video.image.extension }}" {{ video.params }}>
+<video class="video lazy" preload="metadata" poster="{{ site.url }}{{ site.images }}{{ video.image.name }}{{ video.image.extension }}" {{ video.params }}>
   {% if video.mp4 %}
-    <source src="{{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" type="video/mp4">
+    <source data-src="{{ site.url }}{{ site.videos }}{{ video.mp4 }}.mp4" type="video/mp4">
   {% endif %}
 
   {% if video.webm %}
-    <source src="{{ site.url }}{{ site.videos }}{{ video.webm }}.webm" type="video/webm">
+    <source data-src="{{ site.url }}{{ site.videos }}{{ video.webm }}.webm" type="video/webm">
   {% endif %}
 
   {% if video.ogv %}
-    <source src="{{ site.url }}{{ site.videos }}{{ video.ogv }}.ogv" type="video/ogg">
+    <source data-src="{{ site.url }}{{ site.videos }}{{ video.ogv }}.ogv" type="video/ogg">
   {% endif %}
 
   <!-- Flash fallback -->

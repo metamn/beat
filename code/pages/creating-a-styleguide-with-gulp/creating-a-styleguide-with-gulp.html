@@ -20,6 +20,10 @@
     
   
     
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+  
+    
       <script src="/assets/scripts/vendors.js"></script>
     
   
@@ -193,16 +197,16 @@ You can have it more easily than you might thought.</p>
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/styleguide-architecture_desktop.png, /assets/images/styleguide-architecture_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/styleguide-architecture_laptop.png, /assets/images/styleguide-architecture_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/styleguide-architecture_tablet.png, /assets/images/styleguide-architecture_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/styleguide-architecture_mobile.png, /assets/images/styleguide-architecture_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/styleguide-architecture_desktop.png, /assets/images/styleguide-architecture_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/styleguide-architecture_laptop.png, /assets/images/styleguide-architecture_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/styleguide-architecture_tablet.png, /assets/images/styleguide-architecture_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/styleguide-architecture_mobile.png, /assets/images/styleguide-architecture_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/styleguide-architecture_laptop.png" alt="Styleguide architecture">
+    <img class="img lazy" data-src="/assets/images/styleguide-architecture_laptop.png" alt="Styleguide architecture">
     
   </picture>
 
@@ -280,16 +284,16 @@ The database can be a JSON file, Gulp / Grunt / etc. can be the glue engine to s
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/styleguide-details_desktop.png, /assets/images/styleguide-details_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/styleguide-details_laptop.png, /assets/images/styleguide-details_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/styleguide-details-portrait_tablet.png, /assets/images/styleguide-details-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/styleguide-details-portrait_mobile.png, /assets/images/styleguide-details-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/styleguide-details_desktop.png, /assets/images/styleguide-details_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/styleguide-details_laptop.png, /assets/images/styleguide-details_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/styleguide-details-portrait_tablet.png, /assets/images/styleguide-details-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/styleguide-details-portrait_mobile.png, /assets/images/styleguide-details-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/styleguide-details_laptop.png" alt="Styleguide architecture details">
+    <img class="img lazy" data-src="/assets/images/styleguide-details_laptop.png" alt="Styleguide architecture details">
     
   </picture>
 
@@ -403,16 +407,16 @@ Like the CSS, HTML will use the JSON data to create the structure displaying sty
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/styleguide-example_desktop.png, /assets/images/styleguide-example_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/styleguide-example_laptop.png, /assets/images/styleguide-example_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/styleguide-example-portrait_tablet.png, /assets/images/styleguide-example-portrait_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/styleguide-example-portrait_mobile.png, /assets/images/styleguide-example-portrait_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/styleguide-example_desktop.png, /assets/images/styleguide-example_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/styleguide-example_laptop.png, /assets/images/styleguide-example_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/styleguide-example-portrait_tablet.png, /assets/images/styleguide-example-portrait_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/styleguide-example-portrait_mobile.png, /assets/images/styleguide-example-portrait_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/styleguide-example_laptop.png" alt="Styleguide colors example">
+    <img class="img lazy" data-src="/assets/images/styleguide-example_laptop.png" alt="Styleguide colors example">
     
   </picture>
 
@@ -777,16 +781,16 @@ or contribute to the <a href="https://github.com/metamn/ssgg">open source versio
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    <img class="img lazy" data-src="/assets/images/email_mobile.png" alt="Email icon">
     
   </picture>
 

@@ -20,6 +20,10 @@
     
   
     
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+  
+    
       <script src="/assets/scripts/vendors.js"></script>
     
   
@@ -296,16 +300,16 @@ So you can&#39;t simply include a <code>button</code> component; you&#39;ll have
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/thumb-mobile_desktop.jpg, /assets/images/thumb-mobile_desktop2x.jpg 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/thumb-mobile_laptop.jpg, /assets/images/thumb-mobile_laptop2x.jpg 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/thumb-mobile_tablet.jpg, /assets/images/thumb-mobile_tablet2x.jpg 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/thumb-mobile_mobile.jpg, /assets/images/thumb-mobile_mobile2x.jpg 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/thumb-mobile_desktop.jpg, /assets/images/thumb-mobile_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/thumb-mobile_laptop.jpg, /assets/images/thumb-mobile_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/thumb-mobile_tablet.jpg, /assets/images/thumb-mobile_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/thumb-mobile_mobile.jpg, /assets/images/thumb-mobile_mobile2x.jpg 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/thumb-mobile_laptop.jpg" alt="Thumbs for mobile, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
+    <img class="img lazy" data-src="/assets/images/thumb-mobile_laptop.jpg" alt="Thumbs for mobile, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
     
   </picture>
 
@@ -362,16 +366,16 @@ So you can&#39;t simply include a <code>button</code> component; you&#39;ll have
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/thumb-phablet_desktop.jpg, /assets/images/thumb-phablet_desktop2x.jpg 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/thumb-phablet_laptop.jpg, /assets/images/thumb-phablet_laptop2x.jpg 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/thumb-phablet_tablet.jpg, /assets/images/thumb-phablet_tablet2x.jpg 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/thumb-phablet_mobile.jpg, /assets/images/thumb-phablet_mobile2x.jpg 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/thumb-phablet_desktop.jpg, /assets/images/thumb-phablet_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/thumb-phablet_laptop.jpg, /assets/images/thumb-phablet_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/thumb-phablet_tablet.jpg, /assets/images/thumb-phablet_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/thumb-phablet_mobile.jpg, /assets/images/thumb-phablet_mobile2x.jpg 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/thumb-phablet_laptop.jpg" alt="Thumbs for phablet, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
+    <img class="img lazy" data-src="/assets/images/thumb-phablet_laptop.jpg" alt="Thumbs for phablet, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
     
   </picture>
 
@@ -428,16 +432,16 @@ So you can&#39;t simply include a <code>button</code> component; you&#39;ll have
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/thumb-tablet_desktop.jpg, /assets/images/thumb-tablet_desktop2x.jpg 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/thumb-tablet_laptop.jpg, /assets/images/thumb-tablet_laptop2x.jpg 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/thumb-tablet_tablet.jpg, /assets/images/thumb-tablet_tablet2x.jpg 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/thumb-tablet_mobile.jpg, /assets/images/thumb-tablet_mobile2x.jpg 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/thumb-tablet_desktop.jpg, /assets/images/thumb-tablet_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/thumb-tablet_laptop.jpg, /assets/images/thumb-tablet_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/thumb-tablet_tablet.jpg, /assets/images/thumb-tablet_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/thumb-tablet_mobile.jpg, /assets/images/thumb-tablet_mobile2x.jpg 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/thumb-tablet_laptop.jpg" alt="Thumbs for tablet, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
+    <img class="img lazy" data-src="/assets/images/thumb-tablet_laptop.jpg" alt="Thumbs for tablet, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
     
   </picture>
 
@@ -494,16 +498,16 @@ So you can&#39;t simply include a <code>button</code> component; you&#39;ll have
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/thumb-laptop_desktop.jpg, /assets/images/thumb-laptop_desktop2x.jpg 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/thumb-laptop_laptop.jpg, /assets/images/thumb-laptop_laptop2x.jpg 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/thumb-laptop_tablet.jpg, /assets/images/thumb-laptop_tablet2x.jpg 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/thumb-laptop_mobile.jpg, /assets/images/thumb-laptop_mobile2x.jpg 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/thumb-laptop_desktop.jpg, /assets/images/thumb-laptop_desktop2x.jpg 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/thumb-laptop_laptop.jpg, /assets/images/thumb-laptop_laptop2x.jpg 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/thumb-laptop_tablet.jpg, /assets/images/thumb-laptop_tablet2x.jpg 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/thumb-laptop_mobile.jpg, /assets/images/thumb-laptop_mobile2x.jpg 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/thumb-laptop_laptop.jpg" alt="Thumbs for touch laptops, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
+    <img class="img lazy" data-src="/assets/images/thumb-laptop_laptop.jpg" alt="Thumbs for touch laptops, from&amp;nbsp;&lt;a href=&#39;http://alistapart.com/article/how-we-hold-our-gadgets&#39;&gt;A List Apart&lt;/a&gt;">
     
   </picture>
 
@@ -561,16 +565,16 @@ organize information into chunks of content, and users appreciate chunked conten
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/material-design-card_mobile.png, /assets/images/material-design-card_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/material-design-card_mobile.png" alt="Cards are scannable">
+    <img class="img lazy" data-src="/assets/images/material-design-card_mobile.png" alt="Cards are scannable">
     
   </picture>
 
@@ -627,16 +631,16 @@ organize information into chunks of content, and users appreciate chunked conten
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/material-design-card-2_mobile.png, /assets/images/material-design-card-2_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/material-design-card-2_mobile.png" alt="Cards display details very well">
+    <img class="img lazy" data-src="/assets/images/material-design-card-2_mobile.png" alt="Cards display details very well">
     
   </picture>
 
@@ -694,16 +698,16 @@ organize information into chunks of content, and users appreciate chunked conten
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/material-design-card-3_desktop.png, /assets/images/material-design-card-3_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/material-design-card-3_laptop.png, /assets/images/material-design-card-3_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/material-design-card-3_tablet.png, /assets/images/material-design-card-3_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/material-design-card-3_mobile.png, /assets/images/material-design-card-3_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/material-design-card-3_desktop.png, /assets/images/material-design-card-3_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/material-design-card-3_laptop.png, /assets/images/material-design-card-3_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/material-design-card-3_tablet.png, /assets/images/material-design-card-3_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/material-design-card-3_mobile.png, /assets/images/material-design-card-3_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/material-design-card-3_laptop.png" alt="Cards are responsive">
+    <img class="img lazy" data-src="/assets/images/material-design-card-3_laptop.png" alt="Cards are responsive">
     
   </picture>
 
@@ -956,16 +960,16 @@ organize information into chunks of content, and users appreciate chunked conten
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    <img class="img lazy" data-src="/assets/images/email_mobile.png" alt="Email icon">
     
   </picture>
 

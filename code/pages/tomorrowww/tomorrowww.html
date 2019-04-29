@@ -20,6 +20,10 @@
     
   
     
+      <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+    
+  
+    
       <script src="/assets/scripts/vendors.js"></script>
     
   
@@ -197,16 +201,16 @@ Now we have watch, tablet, laptop, desktop, TV, projector screens but in the fut
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/object_desktop.png, /assets/images/object_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/object_laptop.png, /assets/images/object_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/object_tablet.png, /assets/images/object_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/object_mobile.png, /assets/images/object_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/object_desktop.png, /assets/images/object_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/object_laptop.png, /assets/images/object_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/object_tablet.png, /assets/images/object_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/object_mobile.png, /assets/images/object_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/object_laptop.png" alt="Observer - Observation - Object">
+    <img class="img lazy" data-src="/assets/images/object_laptop.png" alt="Observer - Observation - Object">
     
   </picture>
 
@@ -309,16 +313,16 @@ Now we have watch, tablet, laptop, desktop, TV, projector screens but in the fut
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/google-search_desktop.png, /assets/images/google-search_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/google-search_laptop.png, /assets/images/google-search_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/google-search-tablet_tablet.png, /assets/images/google-search-tablet_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/google-search-mobile_mobile.png, /assets/images/google-search-mobile_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/google-search_desktop.png, /assets/images/google-search_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/google-search_laptop.png, /assets/images/google-search_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/google-search-tablet_tablet.png, /assets/images/google-search-tablet_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/google-search-mobile_mobile.png, /assets/images/google-search-mobile_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/google-search_laptop.png" alt="Google search">
+    <img class="img lazy" data-src="/assets/images/google-search_laptop.png" alt="Google search">
     
   </picture>
 
@@ -392,16 +396,16 @@ Now we have watch, tablet, laptop, desktop, TV, projector screens but in the fut
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/github-search_desktop.png, /assets/images/github-search_desktop2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/github-search_laptop.png, /assets/images/github-search_laptop2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/github-search-tablet_tablet.png, /assets/images/github-search-tablet_tablet2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/github-search-mobile_mobile.png, /assets/images/github-search-mobile_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/github-search_desktop.png, /assets/images/github-search_desktop2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/github-search_laptop.png, /assets/images/github-search_laptop2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/github-search-tablet_tablet.png, /assets/images/github-search-tablet_tablet2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/github-search-mobile_mobile.png, /assets/images/github-search-mobile_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/github-search_laptop.png" alt="Github search">
+    <img class="img lazy" data-src="/assets/images/github-search_laptop.png" alt="Github search">
     
   </picture>
 
@@ -658,16 +662,16 @@ You can see when this item was last updated, how much time was spent on creating
 
   <picture class="picture">
     
-    <source media="(min-width: 1600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 1024px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(min-width: 600px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
-    <source media="(max-width: 599px)" srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 1024px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(min-width: 600px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
+    <source media="(max-width: 599px)" data-srcset="/assets/images/email_mobile.png, /assets/images/email_mobile2x.png 2x">
     
 
     
     
     
-    <img class="img" src="/assets/images/email_mobile.png" alt="Email icon">
+    <img class="img lazy" data-src="/assets/images/email_mobile.png" alt="Email icon">
     
   </picture>
 

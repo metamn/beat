@@ -75,16 +75,16 @@
 
   <picture class="picture">
     {#[if IE 9]><video style="display: none;"><![endif]#}
-    <source media="(min-width: 1600px)" srcset="{{ site_url }}{{ site.images }}{{ desktop }}, {{ site_url }}{{ site.images }}{{ desktop2x }} 2x">
-    <source media="(min-width: 1024px)" srcset="{{ site_url }}{{ site.images }}{{ laptop }}, {{ site_url }}{{ site.images }}{{ laptop2x }} 2x">
-    <source media="(min-width: 600px)" srcset="{{ site_url }}{{ site.images }}{{ tablet }}, {{ site_url }}{{ site.images }}{{ tablet2x }} 2x">
-    <source media="(max-width: 599px)" srcset="{{ site_url }}{{ site.images }}{{ mobile }}, {{ site_url }}{{ site.images }}{{ mobile2x }} 2x">
+    <source media="(min-width: 1600px)" data-srcset="{{ site_url }}{{ site.images }}{{ desktop }}, {{ site_url }}{{ site.images }}{{ desktop2x }} 2x">
+    <source media="(min-width: 1024px)" data-srcset="{{ site_url }}{{ site.images }}{{ laptop }}, {{ site_url }}{{ site.images }}{{ laptop2x }} 2x">
+    <source media="(min-width: 600px)" data-srcset="{{ site_url }}{{ site.images }}{{ tablet }}, {{ site_url }}{{ site.images }}{{ tablet2x }} 2x">
+    <source media="(max-width: 599px)" data-srcset="{{ site_url }}{{ site.images }}{{ mobile }}, {{ site_url }}{{ site.images }}{{ mobile2x }} 2x">
     {#[if IE 9]></video><![endif]#}
 
     {# to make it work with imagesLoaded the 'srcset' is replaced by a standard fallback 'src' #}
     {# adding link to `img` breaks picturefill, ie landscape images will be displayed also on portrait devices #}
     {# if image.link %}{{ l.link(image.link) }}{% endif #}
-    <img class="img" src="{{ site_url }}{{ site.images }}{{ laptop }}" alt="{{ image.title }}">
+    <img class="img lazy" data-src="{{ site_url }}{{ site.images }}{{ laptop }}" alt="{{ image.title }}">
     {# if image.link %}</a>{% endif #}
   </picture>
 
