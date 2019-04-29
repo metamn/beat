@@ -22,7 +22,7 @@ Development experience is high &mdash; so page load times due to the large CSS f
 
 No matter the tooling for optimization (minify css, uncss, etc.) SASS by nature it keeps adding large chunks of code to the final CSS file <sup id="footnote--2">[2](#footnotes--2)</sup>.
 
-That makes it unsustainable in the age of Design Systems and Web components.
+That makes it unsustainable on long term. One has to think about using the technology with care and constraints in mind.
 
 ## Designer and developer experience
 
@@ -49,7 +49,5 @@ It gives you an all-in-one feeling. Nothing is missing. All pain points solved. 
 Performance is legendary. Just remember, Gatsby detects cursor movement on the screen, and preloads stuff when you hover a link.
 
 Creativity is high. All constraints are removed. In fact, now you can do whatever you wish in the browser. Nothing stays in your way.
-
-Woow!
 
 {% endmarkdown %}
