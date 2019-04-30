@@ -3,66 +3,59 @@
   "excerpt": "Best of web design, October 2018",
   "thumb": "bohen-portrait_mobile.png",
   "template": "article",
-  "categories": [
-    "design"
-  ],
+  "categories": ["design"],
   "url": "masters-of-web-october-2018",
   "date": "2018-10-25",
-  "display": [
-    "title",
-    "categories",
-    "date",
-    "slides"
-  ],
+  "display": ["title", "categories", "date", "slides"],
   "slides": [
-		{
-			"title": "Puma",
-			"name": "puma-landscape",
-			"responsive": [
-				{
-				"breakpoint": "mobile",
-				"name": "puma-portrait"
-				},
-				{
-				"breakpoint": "tablet",
-				"name": "puma-portrait"
-				}
-			],
-				"url": "https://www.rs0playthegame.com/",
-				"figcaption": "<a class='link' href='https://www.rs0playthegame.com/'>https://www.rs0playthegame.com</a>"
-			},
-		{
-			"title": "Spin",
-			"name": "spin-landscape",
-			"responsive": [
-				{
-				"breakpoint": "mobile",
-				"name": "spin-portrait"
-				},
-				{
-				"breakpoint": "tablet",
-				"name": "spin-portrait"
-				}
-			],
-				"url": "http://spin.co.uk/",
-				"figcaption": "<a class='link' href='http://spin.co.uk/'>http://spin.co.uk</a>"
-			},
-	  {
-    	"title": "Bohen",
-    	"name": "bohen-landscape",
-    	"responsive": [
-    	  {
-    		"breakpoint": "mobile",
-    		"name": "bohen-portrait"
-    	  },
-    	  {
-    		"breakpoint": "tablet",
-    		"name": "bohen-portrait"
-    	  }
-    	],
-    		"url": "http://bohen.org/splash",
-    		"figcaption": "<a class='link' href='http://bohen.org/splash'>http://bohen.org/splash</a>"
-    	},
+    {
+      "title": "Bohen",
+      "name": "bohen-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "bohen-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "bohen-portrait"
+        }
+      ],
+      "url": "http://bohen.org/splash",
+      "figcaption": "<a class='link' href='http://bohen.org/splash'>http://bohen.org/splash</a>"
+    },
+    {
+      "title": "Puma",
+      "name": "puma-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "puma-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "puma-portrait"
+        }
+      ],
+      "url": "https://www.rs0playthegame.com/",
+      "figcaption": "<a class='link' href='https://www.rs0playthegame.com/'>https://www.rs0playthegame.com</a>"
+    },
+    {
+      "title": "Spin",
+      "name": "spin-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "spin-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "spin-portrait"
+        }
+      ],
+      "url": "http://spin.co.uk/",
+      "figcaption": "<a class='link' href='http://spin.co.uk/'>http://spin.co.uk</a>"
+    },
     {
       "title": "New Models",
       "name": "newmodels-landscape",
@@ -78,54 +71,54 @@
       ],
       "url": "https://newmodels.io/",
       "figcaption": "<a class='link' href='https://newmodels.io/'>https://newmodels.io</a>"
-  },
-  {
-	"title": "Wrong Wrong Wrong",
-	"name": "wrong3-landscape",
-	"responsive": [
-	  {
-		"breakpoint": "mobile",
-		"name": "wrong3-portrait"
-	  },
-	  {
-		"breakpoint": "tablet",
-		"name": "wrong3-portrait"
-	  }
-	],
-	"url": "http://wrongwrong.net/",
-	"figcaption": "<a class='link' href='http://wrongwrong.net/'>http://wrongwrong.net</a>"
-	},
-	{
-	  "title": "Africa is a country",
-	  "name": "africa-landscape",
-	  "responsive": [
-		{
-		  "breakpoint": "mobile",
-		  "name": "africa-portrait"
-		},
-		{
-		  "breakpoint": "tablet",
-		  "name": "africa-portrait"
-		}
-	  ],
-	  "url": "https://africasacountry.com/",
-	  "figcaption": "<a class='link' href='https://africasacountry.com/'>https://africasacountry.com</a>"
-  },
-  {
-	"title": "Eeerik",
-	"name": "eeerik-landscape",
-	"responsive": [
-	  {
-		"breakpoint": "mobile",
-		"name": "eeerik-portrait"
-	  },
-	  {
-		"breakpoint": "tablet",
-		"name": "eeerik-portrait"
-	  }
-	],
-		"url": "http://eeerik.com/",
-		"figcaption": "<a class='link' href='http://eeerik.com/'>http://eeerik.com</a>"
-	}
+    },
+    {
+      "title": "Wrong Wrong Wrong",
+      "name": "wrong3-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "wrong3-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "wrong3-portrait"
+        }
+      ],
+      "url": "http://wrongwrong.net/",
+      "figcaption": "<a class='link' href='http://wrongwrong.net/'>http://wrongwrong.net</a>"
+    },
+    {
+      "title": "Africa is a country",
+      "name": "africa-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "africa-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "africa-portrait"
+        }
+      ],
+      "url": "https://africasacountry.com/",
+      "figcaption": "<a class='link' href='https://africasacountry.com/'>https://africasacountry.com</a>"
+    },
+    {
+      "title": "Eeerik",
+      "name": "eeerik-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "eeerik-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "eeerik-portrait"
+        }
+      ],
+      "url": "http://eeerik.com/",
+      "figcaption": "<a class='link' href='http://eeerik.com/'>http://eeerik.com</a>"
+    }
   ]
 }
