@@ -9,12 +9,32 @@
   "display": ["title", "title_with_url", "categories", "date", "slides"],
   "slides": [
     {
+      "title": "Client work",
+      "name": "lynx-grey-portrait",
+      "onesize": "mobile"
+    },
+    {
       "title": "Portfolio v1a",
       "name": "metamn-v1a-thumb",
       "onesize": "mobile"
     }
   ],
   "images": [
+    {
+      "title": "Client work",
+      "name": "lynx-grey-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "lynx-grey-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "lynx-grey-portrait"
+        }
+      ]
+    },
     {
       "title": "Portfolio v1a",
       "name": "metamn-v1a-landscape",
