@@ -10,7 +10,25 @@
   "slides": [
     {
       "title": "Portfolio v1a",
-      "name": "metamn-v1a"
+      "name": "metamn-v1a-thumb",
+      "onesize": "mobile"
+    }
+  ],
+  "images": [
+    {
+      "title": "Portfolio v1a",
+      "name": "metamn-v1a-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "metamn-v1a-thumb"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "metamn-v1a-portrait"
+        }
+      ]
     }
   ]
 }
