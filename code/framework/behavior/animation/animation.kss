@@ -1,0 +1,15 @@
+[
+  {
+    "header": "animation",
+    "description": "",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "animation",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "animation",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

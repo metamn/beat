@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Responsive inline SVG",
+    "description": "<p>Displays a <code>portrait</code> and a <code>landscape</code> version of an SVG depending on device orientation.\nThe <code>&lt;svg&gt;</code>s must have set their klass either to <code>portrait</code> or <code>landscape</code></p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "responsive-inline-svg",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "responsive-inline-svg",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

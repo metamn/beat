@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Button with arrow triangle",
+    "description": "<p>An original idea. Works well in all cases and browsers.\nIt looks well with all <code>border-styles</code> of different sizes, all colors for both the arrow line and the arrow triangle\nIt can be used as a basic button and add stronger, more accented variations / hover styles. See screenshot attached.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "button-with-arrow-triangle",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "button-with-arrow-triangle",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

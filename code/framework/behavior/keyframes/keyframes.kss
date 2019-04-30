@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Keyframes",
+    "description": "<p><a href=\"https://developer.mozilla.org/en/docs/Web/CSS/@keyframes\">https://developer.mozilla.org/en/docs/Web/CSS/@keyframes</a>\n<a href=\"http://codepen.io/mavame/pen/tJfLI\">http://codepen.io/mavame/pen/tJfLI</a></p>\n<p>Example\n@include keyframes(slide-down) {\n 0% { opacity: 1; }\n 90% { opacity: 0; }\n}</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "keyframes",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "keyframes",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

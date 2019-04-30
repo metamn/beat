@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Link with icon",
+    "description": "<p>Displays an icon and the icon name as a link.\nThere are no params this time. Both the icon and the link can be styled separately.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link-with-icon",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link-with-icon",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

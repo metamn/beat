@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Marquee",
+    "description": "<p>A responsive marquee based on <a href=\"http://jsfiddle.net/jonathansampson/xxuxd/\">this fiddle</a>.\nUses &#39;text-indent&#39; because &#39;transform: translateX&#39; is simply doesn&#39;t work in this case</p>\n<p>$size - the width of the marquee window, preferably in &#39;vw&#39; not in &#39;em&#39; or &#39;px&#39;\n$length - the length of the text in chars\n$keyframe - the name of the keyframe animation associated to this marquee\n$debug - to display the hint for keyframes&#39; &#39;to&#39; value. These &#39;to&#39; values are &#39;%&#39; and they are a quite liberal estimation\n$scale - the size of the font (em)\n$letter-spacing - the letter spacing (em)</p>\n<p>Usage:</p>\n<pre><code>&lt;div class=&quot;marquee&quot;&gt;A scrolling text&lt;/div&gt;\n.marquee {\n @include scale(large-8);\n @include marquee(50vw, 16, marquee-wts16, off, 9.969em);\n}\n</code></pre>",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "marquee",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "marquee",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

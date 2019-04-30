@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Spacer",
+    "description": "<p>Display a text as a matrix</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "spacer",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "spacer",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

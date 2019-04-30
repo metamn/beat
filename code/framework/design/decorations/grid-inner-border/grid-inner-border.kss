@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Grid inner border",
+    "description": "<p>Adds border around grid items. The outmost borders are not displayed</p>\n<p>$items-per-row - how many items are in a row\n$max-items-to-display - the total number of grid items (mandatory !)</p>\n<p>Example: grid-inner-border(3, 6)</p>\n<h2 id=\"-1-2-3\"> 1 | 2 | 3</h2>\n<p> 4 | 5 | 6</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "grid-inner-border",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "grid-inner-border",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

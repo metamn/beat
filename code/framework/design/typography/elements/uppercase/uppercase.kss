@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Uppercase",
+    "description": "<p>Uppercase text. Letters inside an uppercase text have larger letter spacing for better readability.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "uppercase",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "uppercase",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

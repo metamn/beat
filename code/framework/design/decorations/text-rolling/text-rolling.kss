@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Rolling text",
+    "description": "<p>Displays a text with characters rolling when revealed</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "text-rolling",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "text-rolling",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

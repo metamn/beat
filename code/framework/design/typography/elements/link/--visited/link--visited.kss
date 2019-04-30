@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Visited link",
+    "description": "<p>Only those properties can be changed which were set originally. New ones cannot be added.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link-visited",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link-visited",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -55,6 +55,7 @@
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "node-twitter-api": "^1.7.0",
+    "readable-stream": "^3.3.0",
     "recursive-readdir": "^2.0.0",
     "run-sequence": "^1.1.0",
     "swig-marked": "0.0.1",

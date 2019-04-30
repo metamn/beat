@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Menu with a hamburger icon",
+    "description": "<p>On portrait screens the menu will be revealed by the click on the hanburger menu</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "menu",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "menu",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Fullscreen inline SVG",
+    "description": "<p>A big inline SVG can span multiple pages by default which makes it ugly.\nTo stick to a single page we will have to set it&#39;s width and height.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "fullscreen-inline-svg",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "fullscreen-inline-svg",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

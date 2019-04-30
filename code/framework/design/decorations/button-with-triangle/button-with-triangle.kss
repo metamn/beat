@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Button with triangle",
+    "description": "<p>Originally seen at <a href=\"http://www.beatsinspace.net/\">Beats in Space</a></p>\n<p>Experimental</p>\n<ul>\n<li>it is strongly coupled with the <code>text-style</code></li>\n<li>it&#39;s not cross browser compatible. Sometimes between the text and triangle there is a smooth border which is ugly</li>\n<li>if the text goes multi-line we will (almost) get a tooltip instead of a button</li>\n<li>maybe with a display font it would look much better</li>\n</ul>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "button-with-triangle",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "button-with-triangle",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

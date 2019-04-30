@@ -1,0 +1,15 @@
+[
+  {
+    "header": "CSS Styleable Inline SVG",
+    "description": "<p>Making an inline SVG to accept style definitions from CSS.\nFully documented <a href=\"https://github.com/metamn/svg/blob/master/README.md#style\">here</a></p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "inline-svg-styleable",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "inline-svg-styleable",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

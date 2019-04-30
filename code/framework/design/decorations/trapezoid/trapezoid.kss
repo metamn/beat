@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Trapezoid",
+    "description": "<p>A rectangle transformed into a trapezoid</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "trapezoid",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "trapezoid",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

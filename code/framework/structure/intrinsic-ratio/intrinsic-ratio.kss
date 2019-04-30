@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Intrinsic ratio",
+    "description": "<p>Setting a container to a specific size defined by standard metrics like 16:9 (HD) or 4:3 and so on.\nThe original idea comes from <a href=\"http://alistapart.com/article/creating-intrinsic-ratios-for-video\">A List Apart article</a>.</p>\n<p>$width - The width of the intrinsic ratio. Like 16, 4, etc...\n$height - The height of the intrinsic ratio. Like 9, 3, etc ...\n$item - To which element apply the intrinsic ratio. The element must be wrapped into a parent container where this mixin should be applied.</p>\n<p>Experimental: The content should be prepared for the intrinsic ratio otherwise behaves ... hm ... ugly. See the example.</p>\n",
+    "deprecated": false,
+    "experimental": true,
+    "reference": "intrinsic-ratio",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "intrinsic-ratio",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

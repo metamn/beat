@@ -1,0 +1,20 @@
+[
+  {
+    "header": "Arrow ith triangle",
+    "description": "<p>Done in pure CSS</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "arrow-with-triangle",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "arrow-with-triangle",
+    "markup": false,
+    "modifiers": [],
+    "parameters": [
+      {
+        "name": "$size",
+        "description": "starting from $lem <em> 2. As th size goes above $lem </em> 3 the line thickness must be increased"
+      }
+    ]
+  }
+]

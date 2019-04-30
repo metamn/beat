@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Hamburger icon",
+    "description": "<p>It has three states:</p>\n<ul>\n<li>default - when the icon is shown as is, without animation</li>\n<li>open - when the icon is animated from its close state back to it&#39;s original state</li>\n<li>close - when the icon is animated to be an X</li>\n</ul>\n<p>Example:</p>\n<ol>\n<li>On first load the icon is in <code>default</code> state, no animation is added</li>\n<li>On first click the <code>default</code> state is removed and <code>open</code> state is added.</li>\n<li>From now on, every click toggles the <code>open</code> and <code>close</code> states and the icon never goes back to it&#39;s <code>default</code> state</li>\n<li>This is useful when on first display we dont want to see an animated icon, hence there was no click to have an animation</li>\n</ol>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "hamburger-icon",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "hamburger-icon",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "header": "Fullscreen inline SVG",
+    "description": "<p>A big inline SVG can span multiple pages by default which makes it ugly.\nTo stick to a single page we will have to set it&#39;s width and height.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "fullscreen-inline-svg",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "fullscreen-inline-svg",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Inline SVG",
+    "description": "<p>It displays an SVG inline, in a fluid and/or responsive way, wrapped into a container.\nFull details are <a href=\"https://github.com/metamn/svg/blob/master/README.md\">aivailable</a>.</p>\n<p>$styleable- To accept restyling with CSS or not</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "inline-svg",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "inline-svg",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "CSS Styleable Inline SVG",
+    "description": "<p>Making an inline SVG to accept style definitions from CSS.\nFully documented <a href=\"https://github.com/metamn/svg/blob/master/README.md#style\">here</a></p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "inline-svg-styleable",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "inline-svg-styleable",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Responsive inline SVG",
+    "description": "<p>Displays a <code>portrait</code> and a <code>landscape</code> version of an SVG depending on device orientation.\nThe <code>&lt;svg&gt;</code>s must have set their klass either to <code>portrait</code> or <code>landscape</code></p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "responsive-inline-svg",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "responsive-inline-svg",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

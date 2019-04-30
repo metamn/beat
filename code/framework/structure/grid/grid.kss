@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Grid",
+    "description": "<p>Displays items in a grid</p>\n<p>Experimental: the container cannot contain other elements like the grid title, just the grid items</p>\n",
+    "deprecated": false,
+    "experimental": true,
+    "reference": "grid",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "grid",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

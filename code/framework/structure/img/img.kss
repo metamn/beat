@@ -1,0 +1,80 @@
+[
+  {
+    "header": "Fluid image",
+    "description": "<p>A fluid image will not fill the available space, if the space is larger than the image it will have a blank border around</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "fluid-image",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "fluid-image",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Image with placeholder",
+    "description": "",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "image-with-placeholder",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "image-with-placeholder",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Image preloading",
+    "description": "<p>The image won&#39;t be displayed until it is completelly loaded. During the load a small animation will be displayed instead.\nOnce the image is fully loaded it&#39;s opacity is set to 1\nThe <a href=\"https://github.com/desandro/imagesloaded\">Imagesloaded script</a> is used fro this task</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "image-with-preloader",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "image-with-preloader",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Image",
+    "description": "<p>Displaying an image in different ways</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "img",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "img",
+    "markup": false,
+    "modifiers": [],
+    "parameters": [
+      {
+        "name": "$stretch",
+        "description": "To fill or not to fill the maximum available space. See &lt;section.stretched-image&gt; and &lt;section.fluid-image&gt;"
+      },
+      {
+        "name": "$preloading",
+        "description": "displaying a spinning image"
+      },
+      {
+        "name": "$placeholder-color",
+        "description": "displaying a background color until the image is loaded"
+      }
+    ]
+  },
+  {
+    "header": "Stretched image",
+    "description": "<p>A stretched image will fill the available space even if it has to be magnified</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "stretched-image",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "stretched-image",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

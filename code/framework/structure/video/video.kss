@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Video",
+    "description": "<p>Displays a video with a fallback image\nGood source of free HD videos can be found at <a href=\"http://mazwai.com/#/videos\">http://mazwai.com/#/videos</a></p>\n<ul>\n<li><a href=\"https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/cross_browser_video_player\">https://developer.mozilla.org/en-US/Apps/Fundamentals/Audio_and_video_delivery/cross_browser_video_player</a></li>\n<li>Converter: <a href=\"https://dzone.com/articles/cross-browser-compatible-html5\">https://dzone.com/articles/cross-browser-compatible-html5</a></li>\n</ul>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "video",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "video",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

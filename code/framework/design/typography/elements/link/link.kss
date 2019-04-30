@@ -1,0 +1,46 @@
+[
+  {
+    "header": "Link",
+    "description": "<p>Basic Link styling. It deals only with colors. Decorations are handled separately.\nBasic link styling is not trivial but <a href=\"https://css-tricks.com/almanac/selectors/v/visited/\">CSS Tricks</a> has a good overview.</p>\n<p>$color-scheme - The background and foreground colors\n$color-scheme-hover - The background and foreground colors on hover\n$color-scheme-visited - The background and foreground colors of visited links\n$color-scheme-visited-hover - The background and foreground colors of visited links on hover</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link",
+    "markup": false,
+    "modifiers": [],
+    "parameters": [
+      {
+        "name": "Experimental",
+        "description": "Visited links are not working well across browsers"
+      }
+    ]
+  },
+  {
+    "header": "Link hover",
+    "description": "<p>The order of the pseudo elements is important</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link-hover",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link-hover",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  },
+  {
+    "header": "Visited link",
+    "description": "<p>Only those properties can be changed which were set originally. New ones cannot be added.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link-visited",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link-visited",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

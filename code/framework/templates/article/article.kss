@@ -1,0 +1,15 @@
+[
+  {
+    "header": "The default article template",
+    "description": "",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "article-template",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "article-template",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

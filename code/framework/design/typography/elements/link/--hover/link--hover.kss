@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Link hover",
+    "description": "<p>The order of the pseudo elements is important</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "link-hover",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "link-hover",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -69,6 +69,14 @@ var imageSize = function(file, data, dest) {
 };
 
 // Optimize images from a folder
+//
+// For a while `imagemin` doesn't works
+// Simply can't make Gulp to use that imagemin/pngquant which works
+//
+// So the task should be done manually:
+// ```
+//  pngquant --force --ext .png <PATH>/@assets/images/resized/metamn-v1a-thumb_mobile2x.png
+// ```
 var imageOptimize = function(data, dest) {
   optimize = data.optimize;
   if (optimize && optimize == "true") {
@@ -124,6 +132,9 @@ gulp.task("image", function() {
 
   if (fileName === undefined) {
     console.log("Usage: gulp image --file <complete-path-to-image-file>");
+    console.log(
+      "Note: it must be issued in the project root folder like `~/work/beat`"
+    );
   } else {
     return gulp
       .src(fileName)

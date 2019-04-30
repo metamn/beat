@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Slider",
+    "description": "<p>A content slider based on an idea from <a href=\"https://developers.google.com/web/fundamentals/look-and-feel/animations/animating-between-views\">Google Web Fundamentals</a>.\nNavigation is supported by bullets, click on image and swipe on touch-screens.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "slider",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "slider",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "header": "SVG icons",
+    "description": "<p><a href=\"https://icomoon.io/\">Icomoon</a> can collect all icons into a single SVG sprite.\nThis mixin can include them one-by-one using the inline SVG method\n<a href=\"http://simpleicons.org/\">Simpleicons.org</a> has a set of original brand icons.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "icon",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "icon",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "header": "Flip",
+    "description": "<p>Flip effect over a text. Based on this <a href=\"http://tympanus.net/Development/CreativeLinkEffects/\">Codrops article</a>.</p>\n",
+    "deprecated": false,
+    "experimental": false,
+    "reference": "flip",
+    "depth": 1,
+    "weight": 0,
+    "referenceURI": "flip",
+    "markup": false,
+    "modifiers": [],
+    "parameters": []
+  }
+]
