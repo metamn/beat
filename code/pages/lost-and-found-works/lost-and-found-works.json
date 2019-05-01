@@ -19,8 +19,28 @@
       "onesize": "mobile"
     },
     {
+      "title": "Weedsheets",
+      "name": "weedsheets-portrait",
+      "onesize": "mobile"
+    },
+    {
+      "title": "V3",
+      "name": "v3-portrait",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Monogram",
+      "name": "monogram-portrait",
+      "onesize": "mobile"
+    },
+    {
       "title": "Portfolio v1a",
       "name": "metamn-v1a-thumb",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Smuff",
+      "name": "smuff-3a-portrait",
       "onesize": "mobile"
     }
   ],

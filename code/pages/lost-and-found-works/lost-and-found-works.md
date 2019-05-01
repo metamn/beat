@@ -1,6 +1,6 @@
 {% markdown %}
 
-Around 80% of my work is not visible. They are not featured in my portfolio they just exists somewhere.
+Around 80% of my work is not visible. They are not featured in my portfolio &mdash; they just exists somewhere.
 
 Reasons vary:
 
@@ -25,3 +25,57 @@ I've got lucky &mdash; since the beginning I'm using static site generators when
 The works presented below follow a timeline. Sometimes they have an associated website, sometimes are just a screenshot. And remember: none of them is production ready.
 
 {% endmarkdown %}
+
+{% for image in images %}
+{% include '../../framework/structure/figure/figure.html.swig' %}
+{% endfor %}
+
+{% markdown %}
+
+## Smuff
+
+My dearest project so far. And my best work perhaps until today. From around 2010. Also the logo is handmade.
+
+{% endmarkdown %}
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-1.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-2.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-3.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-8.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-intro-1.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-intro-2.png">
+</picture>
+</figure>
+
+<figure class="figure">
+<picture class="picture">
+	<img class="img" src="../assets/images/smuff-intro-3.png">
+</picture>
+</figure>
