@@ -1,6 +1,6 @@
 {
   "title": "A few recent graphic design works",
-  "excerpt": "Unpublished works and experiments.",
+  "excerpt": "It's just a hobby",
   "thumb": "yale_mobile.png",
   "template": "article",
   "categories": ["design"],
@@ -9,8 +9,67 @@
   "display": ["title", "title_with_url", "categories", "date", "slides"],
   "slides": [
     {
-      "title": "Portfolio v1a",
-      "name": "metamn-v1a"
+      "title": "Antique",
+      "name": "antique",
+      "onesize": "tablet"
+    }
+  ],
+  "images": [
+    {
+      "title": "Antique",
+      "name": "antique",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "antique"
+        }
+      ]
+    },
+    {
+      "title": "Barba decit virum",
+      "name": "barba",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "barba"
+        }
+      ]
+    },
+    {
+      "title": "BLN",
+      "name": "bln",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "bln"
+        }
+      ]
+    },
+    {
+      "title": "Control of culture 1",
+      "name": "control",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "control"
+        }
+      ]
+    },
+    {
+      "title": "Control of culture 2",
+      "name": "control-2",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "control-2"
+        }
+      ]
     }
   ]
 }
