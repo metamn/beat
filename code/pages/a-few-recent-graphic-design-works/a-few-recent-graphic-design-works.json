@@ -9,18 +9,19 @@
   "display": ["title", "title_with_url", "categories", "date", "slides"],
   "slides": [
     {
+      "title": "Head 2",
+      "name": "head-2",
+      "onesize": "mobile"
+    },
+    {
       "title": "You",
       "name": "you",
+      "extension": ".jpg",
       "onesize": "mobile"
     },
     {
       "title": "Fabula",
       "name": "fabula",
-      "onesize": "mobile"
-    },
-    {
-      "title": "Head 2",
-      "name": "head-2",
       "onesize": "mobile"
     },
     {
@@ -36,11 +37,7 @@
     {
       "title": "More Themes Baby 2",
       "name": "mo-2",
-      "onesize": "mobile"
-    },
-    {
-      "title": "You",
-      "name": "you",
+      "extension": ".jpg",
       "onesize": "mobile"
     }
   ],
