@@ -9,9 +9,39 @@
   "display": ["title", "title_with_url", "categories", "date", "slides"],
   "slides": [
     {
-      "title": "Antique",
-      "name": "antique",
-      "onesize": "tablet"
+      "title": "You",
+      "name": "you",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Fabula",
+      "name": "fabula",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Head 2",
+      "name": "head-2",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Heads",
+      "name": "heads",
+      "onesize": "mobile"
+    },
+    {
+      "title": "Meta",
+      "name": "meta",
+      "onesize": "mobile"
+    },
+    {
+      "title": "More Themes Baby 2",
+      "name": "mo-2",
+      "onesize": "mobile"
+    },
+    {
+      "title": "You",
+      "name": "you",
+      "onesize": "mobile"
     }
   ],
   "images": [
@@ -68,6 +98,168 @@
         {
           "breakpoint": "mobile",
           "name": "control-2"
+        }
+      ]
+    },
+    {
+      "title": "Control of culture 3",
+      "name": "control-3",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "control-3"
+        }
+      ]
+    },
+    {
+      "title": "De te fabula narrat",
+      "name": "fabula",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "fabula"
+        }
+      ]
+    },
+    {
+      "title": "Head 1",
+      "name": "head-1",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "head-1"
+        }
+      ]
+    },
+    {
+      "title": "Head 2",
+      "name": "head-2",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "head-2"
+        }
+      ]
+    },
+    {
+      "title": "Head 3",
+      "name": "head-3",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "head-3"
+        }
+      ]
+    },
+    {
+      "title": "Head 4",
+      "name": "head-4",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "head-4"
+        }
+      ]
+    },
+    {
+      "title": "Head 5",
+      "name": "head-5",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "head-5"
+        }
+      ]
+    },
+    {
+      "title": "Heads",
+      "name": "heads",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "heads"
+        }
+      ]
+    },
+    {
+      "title": "Inflation",
+      "name": "inflation",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "inflation"
+        }
+      ]
+    },
+    {
+      "title": "Meta",
+      "name": "meta",
+      "onesize": "tablet",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "meta"
+        }
+      ]
+    },
+    {
+      "title": "More Themes Baby 1",
+      "name": "mo-1",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "mo-1"
+        }
+      ]
+    },
+    {
+      "title": "More Themes Baby 2",
+      "name": "mo-2",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "mo-2"
+        }
+      ]
+    },
+    {
+      "title": "More Themes Baby 3",
+      "name": "mo-3",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "mo-3"
+        }
+      ]
+    },
+    {
+      "title": "You",
+      "name": "you",
+      "onesize": "tablet",
+      "extension": ".jpg",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "you"
         }
       ]
     }
