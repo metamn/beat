@@ -14,6 +14,11 @@
       "onesize": "mobile"
     },
     {
+      "title": "Violuk portfolio",
+      "name": "mv-portrait",
+      "onesize": "mobile"
+    },
+    {
       "title": "Portfolio v1a",
       "name": "metamn-v1a-thumb",
       "onesize": "mobile"
@@ -37,6 +42,54 @@
       "figcaption": "Client work, unpaid. 2018. There were 7 variations done. <a class='link' href='http://metamn.io/lynx/1/'>http://metamn.io/lynx/1/</a> Try to replace 1 with 2, 3, 4, 5, 5a and 5b for the variations."
     },
     {
+      "title": "More Themes Baby",
+      "name": "more-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "more-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "more-portrait"
+        }
+      ],
+      "figcaption": "More Themes Baby. Up and running. 2017-2018. <a class='link' href='https://morethemes.baby/'>https://morethemes.baby</a>"
+    },
+    {
+      "title": "Violuk v2",
+      "name": "mv-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "mv-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "mv-portrait"
+        }
+      ],
+      "figcaption": "Violuk portfolio v2. Autumn 2017. <a class='link' href='http://metamn.io/mv/'>http://metamn.io/mv</a>"
+    },
+    {
+      "title": "Violuk v1",
+      "name": "violuk-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "violuk-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "violuk-portrait"
+        }
+      ],
+      "figcaption": "Violuk portfolio v1. Autumn 2017. <a class='link' href='http://metamn.io/violuk/'>http://metamn.io/violuk</a>"
+    },
+    {
       "title": "Portfolio 2014",
       "name": "metamn-v1a-landscape",
       "onesize": "desktop",
@@ -50,7 +103,7 @@
           "name": "metamn-v1a-portrait"
         }
       ],
-      "figcaption": "Portfolio, unfinished. Winter 2014. <a class='link' href='http://metamn.io/cs3-v2/'>http://metamn.io/cs3-v2/</a>"
+      "figcaption": "Portfolio, unfinished. Winter 2014. <a class='link' href='http://metamn.io/cs3-v2c/'>http://metamn.io/cs3-v2c/</a>"
     }
   ]
 }

@@ -8,6 +8,11 @@ Reasons vary:
 - Creating five variations of a website and only one is used.
 - Learning and experimenting with results not packaged for production / distribution / public view.
 - Projects abandoned / not paid by the client.
+- Projects under non-disclosure agreement.
+- Projects I'm not proud of.
+- Works re-designed during the following years.
+- Websites gone extinct.
+- Bids where your project doesn't win.
 
 I've long planned to go through my repositories and re-launch them at least locally on my machine. Since in the last decade lots of technologies came and go &mdash; re-launching my old works I knew won't be easy.
 
