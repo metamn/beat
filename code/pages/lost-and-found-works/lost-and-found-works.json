@@ -33,10 +33,11 @@
           "breakpoint": "tablet",
           "name": "lynx-grey-portrait"
         }
-      ]
+      ],
+      "figcaption": "Client work, unpaid. 2018. There were 7 variations done. <a class='link' href='http://metamn.io/lynx/1/'>http://metamn.io/lynx/1/</a> Try to replace 1 with 2, 3, 4, 5, 5a and 5b for the variations."
     },
     {
-      "title": "Portfolio v1a",
+      "title": "Portfolio 2014",
       "name": "metamn-v1a-landscape",
       "onesize": "desktop",
       "responsive": [
@@ -48,7 +49,8 @@
           "breakpoint": "tablet",
           "name": "metamn-v1a-portrait"
         }
-      ]
+      ],
+      "figcaption": "Portfolio, unfinished. Winter 2014. <a class='link' href='http://metamn.io/cs3-v2/'>http://metamn.io/cs3-v2/</a>"
     }
   ]
 }

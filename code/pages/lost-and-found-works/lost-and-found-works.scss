@@ -1,1 +1,16 @@
-@mixin lost-and-found-works {}
+html {
+  &.lost-and-found-works {
+    .article {
+      .figure {
+        .figcaption {
+          @include text-style(body-text);
+          display: block !important;
+          max-width: none;
+          width: calc(100% - #{$lem});
+          text-align: center;
+          padding: $lem 0;
+        }
+      }
+    }
+  }
+}
