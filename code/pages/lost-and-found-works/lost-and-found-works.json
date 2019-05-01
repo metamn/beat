@@ -90,6 +90,70 @@
       "figcaption": "Violuk portfolio v1. Autumn 2017. <a class='link' href='http://metamn.io/violuk/'>http://metamn.io/violuk</a>"
     },
     {
+      "title": "Weedsheets",
+      "name": "weedsheets-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "weedsheets-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "weedsheets-portrait"
+        }
+      ],
+      "figcaption": "A marketplace software-as-a-service startup. Not launched. 2016-2017."
+    },
+    {
+      "title": "Portfolio 2016",
+      "name": "v3-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "v3-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "v3-portrait"
+        }
+      ],
+      "figcaption": "Portfolio, unfinished. Autumn 2016. <a class='link' href='http://metamn.io/v3/'>http://metamn.io/v3</a>"
+    },
+    {
+      "title": "Portfolio 2016",
+      "name": "v2-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "v2-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "v2-portrait"
+        }
+      ],
+      "figcaption": "Portfolio, unfinished. Summer 2016. <a class='link' href='http://metamn.io/v2/'>http://metamn.io/v2</a>"
+    },
+    {
+      "title": "Monogram Themes",
+      "name": "monogram-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "monogram-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "monogram-portrait"
+        }
+      ],
+      "figcaption": "Monogram Themes, just playing. Autumn 2015. <a class='link' href='http://metamn.io/monogram-theme/black-vivid/'>http://metamn.io/monogram-theme/black-vivid</a>. Or <a href='http://metamn.io/monogram-theme/glitch-bw/'>http://metamn.io/monogram-theme/glitch-bw</a>"
+    },
+    {
       "title": "Portfolio 2014",
       "name": "metamn-v1a-landscape",
       "onesize": "desktop",
@@ -104,6 +168,22 @@
         }
       ],
       "figcaption": "Portfolio, unfinished. Winter 2014. <a class='link' href='http://metamn.io/cs3-v2c/'>http://metamn.io/cs3-v2c/</a>"
+    },
+    {
+      "title": "OSF TTF",
+      "name": "ttf-landscape",
+      "onesize": "desktop",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "ttf-thumb"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "ttf-portrait"
+        }
+      ],
+      "figcaption": "A wesbite which prints. Summer 2013. <a class='link' href='http://metamn.io/ttf/'>http://metamn.io/ttf</a>"
     }
   ]
 }

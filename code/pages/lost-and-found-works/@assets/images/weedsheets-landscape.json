@@ -1,0 +1,10 @@
+{
+  "resize": "false",
+  "optimize": "false",
+  "sizes": [
+    {
+      "name": "desktop",
+      "width": "960"
+    }
+  ]
+}
