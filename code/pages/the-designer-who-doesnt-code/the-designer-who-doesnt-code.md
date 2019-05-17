@@ -1,4 +1,4 @@
-<div class="notice notice-1">
+<div class="notice notice-start">
 <span class="text">
 u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash; u p d a t e &mdash;  u p d a t e &mdash;  u p d a t e &mdash;
 </span>
@@ -14,11 +14,11 @@ To make it purely objective the first introductory part &mdash; Comps &mdash; an
 
 {% endmarkdown %}
 
-<div class="notice notice-2">
+<div class="notice notice-end">
 <span class="text">/ u p d a t e</span>
 </div>
 
-<div class="notice notice-3">
+<div class="notice notice-start">
 <span class="text">
 d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash; d i s c l a i m e r &mdash;</span>
 </div>
@@ -33,7 +33,7 @@ I use it to create with confidence, end-to-end, from user research to performanc
 
 {% endmarkdown %}
 
-<div class="notice notice-4">
+<div class="notice notice-end">
 <span class="text">/ d i s c l a i m e r</span>
 </div>
 

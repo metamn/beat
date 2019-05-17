@@ -1,0 +1,16 @@
+@mixin notice {
+  @include border(normal, top);
+  @include border(normal, bottom);
+  max-width: none;
+  margin-bottom: $lem;
+  height: $lem;
+  overflow: hidden;
+
+  .text {
+    padding: 0 $lem;
+  }
+
+  &.notice-end {
+    margin-top: $lem;
+  }
+}
