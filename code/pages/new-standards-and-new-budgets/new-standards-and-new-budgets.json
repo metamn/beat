@@ -1,0 +1,17 @@
+{
+  "title": "New standards and new budgets",
+  "excerpt": "",
+  "thumb": "/favicons/favicon-196x196.png",
+  "template": "article",
+  "categories": ["code", "design", "trend"],
+  "url": "new-standards-and-new-budgets",
+  "date": "2019-06-19",
+  "display": [
+    "title",
+    "title_with_url",
+    "categories",
+    "date",
+    "excerpt",
+    "artwork"
+  ]
+}
