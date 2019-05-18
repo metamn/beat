@@ -44,8 +44,10 @@ The results?
 
 We like to quantify progress with milestones. Remember how revolutionary was the responsive web design. It broadened the usage of a popular technology.
 
-And REST APIs with CRUD operations offering the model-view-controller paradigm. They reduce barriers democratized access to markets.
+And REST APIs with CRUD operations offering the model-view-controller paradigm. They broke barriers and democratized access to markets.
 
-The new standards presented in this article are in the same way revolutionary and beneficial. Instead of teams single well-educated individuals can now create scalable products on budget opening ways for more creative ideas.
+The new standards presented in this article are in the same way revolutionary and beneficial.
+
+Instead of teams, single well-educated individuals can now create scalable products on budget, opening ways for more creative ideas.
 
 {% endmarkdown %}
