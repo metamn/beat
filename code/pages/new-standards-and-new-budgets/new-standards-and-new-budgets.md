@@ -40,4 +40,12 @@ The results?
 2. Perhaps better [budget](http://metamn.io/beat/the-designer-who-doesnt-code/).
 3. Definitively a [healthier company culture](http://metamn.io/beat/design-systems-are-a-cultural-challenge/).
 
+## Summary
+
+We like to quantify progress with milestones. Remember how revolutionary was the responsive web design. It broadened the usage of a popular technology.
+
+And REST APIs with CRUD operations offering the model-view-controller paradigm. They reduce barriers democratized access to markets.
+
+The new standards presented in this article are in the same way revolutionary and beneficial. Instead of teams single well-educated individuals can now create scalable products on budget opening ways for more creative ideas.
+
 {% endmarkdown %}
