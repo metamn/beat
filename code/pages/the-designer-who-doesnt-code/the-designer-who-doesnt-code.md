@@ -84,15 +84,15 @@ The comps were replicated using mockups. You can check it [live on Codepen](http
 
 Since the designer doesn't code / doesn't consult with a developer ...
 
-> The designer doesn't knows content cannot be get in a responsive way only _displayed_ in a responsive way.
+> The designer doesn't know content cannot be get in a responsive way only _displayed_ in a responsive way.
 
 ... and creates comps which makes the developer to fetch all 8 posts on the back-end and hide some of them on the front-end &mdash; such a performance waste &mdash; put to be supported by those devices which have the poorest resources.
 
-> The designer doesn't knows the CSS Grid specification
+> The designer doesn't know the CSS Grid specification
 
 ... and spices up the design with vertical lines separating the columns. CSS Grid has no support for grid gap styling <sup id="footnote--2">[2](#footnotes--2)</sup> and a nasty hack <sup id="footnote--3">[3](#footnotes--3)</sup> has to be used to accomplish this original design idea.
 
-> The designer doesn't knows exceptions are painful and bloat the source code
+> The designer doesn't know exceptions are painful and bloat the source code
 
 ... and inserts an ad between the rows. The ad has different dimension and positioning which breaks the grid. An exception has to be added to support this design decision bloating the code during development time and later during maintenance.
 
@@ -102,13 +102,13 @@ If the designer were coding or consulting with a developer the following design 
 
 1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.
 
-2. Forget the vertical column separator lines. They can't be implemented with current best practices and they need workaround. Let form follow function even if function is coding standards.
+2. Forget the vertical column separator lines. They can't be implemented with current best practices, and they need workaround. Let form follow function even if function is coding standards.
 
 3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the grid will spare around half of development time and budget.
 
 With these practical design decisions the implementation would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.
 
-With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. A research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.
+With vertical borders the CSS Grid technique &mdash; used across the site up until now &mdash; cannot be re-used. Research has to be done to see if the specification added the grid gap styling feature recently, or if there is a polyfill, or a nice workaround.
 
 It turned out only a workaround exists which won't fully solve the problem since the suggested bordering is ... complicated: it applies to middle columns treating columns at the edge as exceptions.
 

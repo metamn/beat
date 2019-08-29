@@ -17,7 +17,7 @@ Why design systems are not ubiquitous?
 The answer was not obvious until I've met a company willing to implement it but failed on the road.
 
 - **Development team**: Yes, we can see now how a Design System can constitute the basis for all our other assets (websites);
-- **Design team**: Yes, we've been designing with design systems since 2007 and we see the commercial capacity.
+- **Design team**: Yes, we've been designing with design systems since 2007, and we see the commercial capacity.
 
 In spite of the enthusiasm and good will we've ended up with no design system at all.
 
@@ -43,7 +43,7 @@ With design systems the design is reduced to its fittest form. A result not alwa
 
 Artists are not engineers.
 
-Some minds are not capable of systems thinking. A person with excellent aesthetic skills can't be expected to oversee hundreds of _mechanical_ parts of an user interface from links and link states to responsive and re-usable page structures &mdash; from atoms to molecules and organisms.
+Some minds are not capable of systems thinking. A person with excellent aesthetic skills can't be expected to oversee hundreds of _mechanical_ parts of a user interface from links and link states to responsive and re-usable page structures &mdash; from atoms to molecules and organisms.
 
 Artists need help.
 
@@ -69,7 +69,7 @@ They are a combination of creativity and engineering skills. It's a teamwork whe
 
 Creating user interfaces and experiences is getting more interesting and satisfactory with these new changes in technology and methodology.
 
-The learning curve can be sometimes steep <sup id="footnote--1">[1](#footnotes--1)</sup>. Both for the designer, the developer, and for the management. New skills, new kind of decision making are required.
+The learning curve can be sometimes steep <sup id="footnote--1">[1](#footnotes--1)</sup>. Both for the designer, the developer, and for the management. New skills, new kind of decision-making are required.
 
 Like responsive design ten years ago &mdash; design systems are revolutionary.
 

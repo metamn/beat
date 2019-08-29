@@ -6,9 +6,9 @@ Gutenberg<sup id="footnote--1">[1](#footnotes--1)</sup> is a new web editor enab
 
 This is not the first attempt to let people freely design their own websites. Atavist, Wix, ReadyMag, Jux have all tried before but, as it always happens, after ahead of time innovation and failure there is a momentum when and attempt becomes truly successful.
 
-That momentum is now. Delivered by WordPress via it's huge reach and ecosystem together with React a revolutionary tool created by Facebook.  
+That momentum is now. Delivered by WordPress via its huge reach and ecosystem together with React a revolutionary tool created by Facebook.
 
-These two put together can't miss to make everyone a designer.
+These two put together can't miss making everyone a designer.
 
 Log in to WordPress, throw together some React components called Gutenberg blocks, and voila, in a few hours your website is ready.
 
@@ -20,9 +20,9 @@ There won't be any, or much less need for these roles and their tools. People wi
 
 They won't fire up Photoshop or Sketch to design and wait for god / miracle / yet another developer to implement their creation.
 
-They won't fire up the browser and go to the back-end, to a dashboard, to a content management system or e-commerce engine as we know today. They will make changes on the front-end in a *what you see is what you get* fashion in real time.
+They won't fire up the browser and go to the back-end, to a dashboard, to a content management system or e-commerce engine as we know today. They will make changes on the front-end in a _what you see is what you get_ fashion in real time.
 
-Instead of monolithic, incompatible, incumbent systems, servers and apps &mdash; atomic, highly interactive and interoperable components will be everywhere running on micro service architecture. 
+Instead of monolithic, incompatible, incumbent systems, servers and apps &mdash; atomic, highly interactive and interoperable components will be everywhere running on micro service architecture.
 
 Components. A mix of UI/UX design, front-end code with back-end support, packaged in a self-sustaining fashion. You just drop content on them and pick up a style to display. Nothing more.
 
@@ -36,15 +36,15 @@ Personally I'm happy with this. Our industry is overpopulated, deeply perverted,
 
 ## The scenario
 
-What really concerns me is how the large public with no design education and aesthetic sense will manage to come up with a good looking, finished website?
+What really concerns me is how the large public with no design education and aesthetic sense will manage to come up with a good-looking, finished website?
 
 And how we can avoid all those websites looking the same?
 
-Masses fed up with social networks will start soon leaving the silos and looking for something original to express themselves even on the cost of the likes. 
+Masses fed up with social networks will start soon leaving the silos and looking for something original to express themselves even on the cost of the likes.
 
-They'll flock into WordPress; choose a design system; pick up some components and color schemes; in an afternoon they'll come up with the solution, in ecstasy. The next day they'll wake up and realize a.) they won't win the next Awwwards and b.) their creation looks like almost as the guys' next door.  
+They'll flock into WordPress; choose a design system; pick up some components and color schemes; in an afternoon they'll come up with the solution, in ecstasy. The next day they'll wake up and realize a.) they won't win the next Awwwards and b.) their creation looks like almost as the guys' next door.
 
-What we can do in the next short years to satisfy them all? We don't want every new site look alike neither to be ugly. We don't want to make people disappointed by the web immediately after a disappointment in social networks. 
+What we can do in the next short years to satisfy them all? We don't want every new site look alike neither to be ugly. We don't want to make people disappointed by the web immediately after a disappointment in social networks.
 
 ## Intelligent components
 
@@ -54,7 +54,7 @@ Or: to create a highly customizable design system built on intelligent component
 
 We don't want another Theme Forrest or Geocities.
 
-Years ago I wrote a similar tech-fiction article called *Devices as Designers*<sup id="footnote--2">[2](#footnotes--2)</sup> where I was musing about highly intelligent components assembled into a system by AI and displayed from watches, websites to interactive installations on skyscrapers.
+Years ago I wrote a similar tech-fiction article called _Devices as Designers_<sup id="footnote--2">[2](#footnotes--2)</sup> where I was musing about highly intelligent components assembled into a system by AI and displayed from watches, websites to interactive installations on skyscrapers.
 
 We are not too far from that and neither closer. But still to follow that path. Instead of devices people will do the task of assembling interfaces in a less intelligent way forcing us to come up with more intelligent components and design systems.
 

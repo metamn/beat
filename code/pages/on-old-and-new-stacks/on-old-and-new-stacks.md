@@ -21,7 +21,7 @@ During the decade I've always walked on the edge. Finding and integrating only t
 
 I've created my own stack. With concerns fully separated and each of the layers optimized.
 
-Content was treated as data (JSON, Markdown); structure was semantic (microformats, accessibility, W3C validations) &mdash; understandable by both people with disabilities and machines; styling and tooling was always a struggle but manageable (Compass, SASS, Atomic design, BEM, Gulp, Webpack, Styleguides, Design systems). And the new aesthetics &mdash; _award winning_.
+Content was treated as data (JSON, Markdown); structure was semantic (microformats, accessibility, W3C validations) &mdash; understandable by both people with disabilities and machines; styling and tooling was always a struggle but manageable (Compass, SASS, Atomic design, BEM, Gulp, Webpack, Styleguides, Design systems). And the new aesthetics &mdash; _award-winning_.
 
 Proud come every year when checking webdev surveys: my stack is at least on par or slightly ahead of current best practices.
 
@@ -29,7 +29,7 @@ No more problems on the front-end <sup id="footnote--1">[1](#footnotes--1)</sup>
 
 ## Performance
 
-SASS and mixins are perhaps the most elegant way to compose style. They have a minimal cognitive load and they are free of strict rules found in CSS-in-JS.
+SASS and mixins are perhaps the most elegant way to compose style. They have a minimal cognitive load, and they are free of strict rules found in CSS-in-JS.
 
 Development experience is high &mdash; so page load times due to the large CSS file generated.
 
@@ -43,7 +43,7 @@ In my stack Javascript was the main pain point during development. I've been alw
 
 A big relief. But I still felt unsafe with Javascript. It was like a stepchild compared to back-end languages / template engines (PHP, Ruby, Twig, etc.), and even to HTML and CSS.
 
-It was hard to wire behavior into structure and style &mdash; classnames and IDs to connect them all, right? &mdash; and to maintain it. It took me so much resources I needed to step up ... and deliberately designing interface parts which require no, or as less possible Javascript.
+It was hard to wire behavior into structure and style &mdash; classnames and IDs to connect them all, right? &mdash; and to maintain it. It took me so many resources I needed to step up ... and deliberately designing interface parts which require no, or as less possible Javascript.
 
 Design thinking constrained by unusable technology, again, is not sustainable on long term.
 
