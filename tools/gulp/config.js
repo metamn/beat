@@ -35,7 +35,7 @@ module.exports = {
   swig_dest: sourceCode,
 
   // Fonts
-  fonts_src: sourceCode + "/**/*.{ttf, woff}",
+  fonts_src: sourceCode + "/**/*.{ttf,woff,woff2}",
   fonts_dest: destination + "/assets/fonts",
 
   // HTML files to be moved into dest

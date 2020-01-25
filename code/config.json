@@ -10,10 +10,6 @@
   "javascripts": {
     "header": [
       {
-        "file": "https://use.typekit.net/syb1owt.js",
-        "type": "external"
-      },
-      {
         "file": "https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js",
         "type": "external"
       },
