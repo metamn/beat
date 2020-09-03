@@ -55,6 +55,22 @@
       ],
       "url": "https://loverboy.net/",
       "figcaption": "<a class='link' href='https://loverboy.net/'>https://loverboy.net/</a>"
+    },
+    {
+      "title": "Neuhaus",
+      "name": "neuhaus-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "neuhaus-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "neuhaus-portrait"
+        }
+      ],
+      "url": "https://neuhaus.world/",
+      "figcaption": "<a class='link' href='https://neuhaus.world/'>https://neuhaus.world/</a>"
     }
   ]
 }
