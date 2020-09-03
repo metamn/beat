@@ -73,7 +73,23 @@
       "figcaption": "<a class='link' href='https://neuhaus.world/'>https://neuhaus.world/</a>"
     },
     {
-      "title": "Paiono Trio Fest",
+      "title": "Noplans",
+      "name": "noplans-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "noplans-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "noplans-portrait"
+        }
+      ],
+      "url": "https://noplans.show/",
+      "figcaption": "<a class='link' href='https://noplans.show/'>https://noplans.show/</a>"
+    },
+    {
+      "title": "Piano Trio Fest",
       "name": "piano-landscape",
       "responsive": [
         {
