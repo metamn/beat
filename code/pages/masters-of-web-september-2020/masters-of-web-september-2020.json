@@ -23,6 +23,22 @@
       ],
       "url": "http://www.e-k.fr/",
       "figcaption": "<a class='link' href='http://www.e-k.fr/'>http://www.e-k.fr/</a>"
+    },
+    {
+      "title": "Laucke Siebein",
+      "name": "laucke-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "laucke-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "laucke-portrait"
+        }
+      ],
+      "url": "https://studio-laucke-siebein.com/",
+      "figcaption": "<a class='link' href='https://studio-laucke-siebein.com/'>https://studio-laucke-siebein.com/</a>"
     }
   ]
 }
