@@ -6,6 +6,7 @@
       "family": "sans-serif",
       "character_set": "Full character set, with OpenType Features",
       "served_from": "Typekit",
+      "note": "Typekit setup is done a in head.html.swig",
       "styles": [
         {
           "name": "Light",
