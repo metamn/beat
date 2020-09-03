@@ -87,6 +87,22 @@
       ],
       "url": "https://pianotriofest.com/",
       "figcaption": "<a class='link' href='https://pianotriofest.com/'>https://pianotriofest.com/</a>"
+    },
+    {
+      "title": "Angela Milosevic",
+      "name": "angela-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "angela-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "angela-portrait"
+        }
+      ],
+      "url": "https://angelamilosevic.com/",
+      "figcaption": "<a class='link' href='https://angelamilosevic.com/'>https://angelamilosevic.com/</a>"
     }
   ]
 }
