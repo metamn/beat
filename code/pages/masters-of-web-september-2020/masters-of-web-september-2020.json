@@ -39,6 +39,22 @@
       ],
       "url": "https://studio-laucke-siebein.com/",
       "figcaption": "<a class='link' href='https://studio-laucke-siebein.com/'>https://studio-laucke-siebein.com/</a>"
+    },
+    {
+      "title": "Loverboy",
+      "name": "loverboy-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "loverboy-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "loverboy-portrait"
+        }
+      ],
+      "url": "https://loverboy.net/",
+      "figcaption": "<a class='link' href='https://loverboy.net/'>https://loverboy.net/</a>"
     }
   ]
 }
