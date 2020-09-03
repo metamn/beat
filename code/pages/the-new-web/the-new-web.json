@@ -1,0 +1,9 @@
+{
+  "title": "The New Web",
+  "excerpt": "Interaction-heavy and creative",
+  "template": "article",
+  "categories": ["design", "code", "trend"],
+  "url": "the-new-web",
+  "date": "2020-09-05",
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"]
+}
