@@ -71,6 +71,22 @@
       ],
       "url": "https://neuhaus.world/",
       "figcaption": "<a class='link' href='https://neuhaus.world/'>https://neuhaus.world/</a>"
+    },
+    {
+      "title": "Paiono Trio Fest",
+      "name": "piano-landscape",
+      "responsive": [
+        {
+          "breakpoint": "mobile",
+          "name": "piano-portrait"
+        },
+        {
+          "breakpoint": "tablet",
+          "name": "piano-portrait"
+        }
+      ],
+      "url": "https://pianotriofest.com/",
+      "figcaption": "<a class='link' href='https://pianotriofest.com/'>https://pianotriofest.com/</a>"
     }
   ]
 }
