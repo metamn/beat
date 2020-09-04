@@ -1,10 +1,26 @@
 {
-  "status": "draft",
   "title": "The New Web",
   "excerpt": "Interaction-heavy and creative",
   "template": "article",
   "categories": ["design", "code", "trend"],
   "url": "the-new-web",
   "date": "2020-09-05",
-  "display": ["title", "title_with_url", "categories", "date", "excerpt"]
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "footnotes": [
+    {
+      "title": "Web Design is 95% Typography",
+      "url": "https://ia.net/topics/the-web-is-all-about-typography-period",
+      "type": "external"
+    },
+    {
+      "title": "It Is Web Or Photoshop?",
+      "url": "http://metamn.io/beat/is-it-web-or-photoshop/",
+      "type": "external"
+    },
+    {
+      "title": "J.K Rownling Official Site",
+      "url": "https://www.therowlinglibrary.com/jkrowling.com/en/index.php",
+      "type": "external"
+    }
+  ]
 }
