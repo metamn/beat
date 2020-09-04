@@ -2,23 +2,23 @@
 
 2020 marks a new milestone in web design and development.
 
-In 2006 we had _Web Design is 95% Typography_.<sup id="footnote--1">[1](#footnotes--1)</sup>
+In 2006 we had **Web Design is 95% Typography**.<sup id="footnote--1">[1](#footnotes--1)</sup>
 
-In 2015 we couldn't decide if _It Is Web Or Photoshop?_.<sup id="footnote--2">[2](#footnotes--2)</sup>
+In 2015 we couldn't decide if **Is It Web Or Photoshop?**.<sup id="footnote--2">[2](#footnotes--2)</sup>
 
-Now we know the new web is highly interactive and creative. It's like Flash in the nineties<sup id="footnote--3">[3](#footnotes--3)</sup> with a twist: the content is more 3D / AR / VR like and in more useful ways interactive.
+Now we know the new web is highly interactive and creative. It's like Flash in the nineties<sup id="footnote--3">[3](#footnotes--3)</sup> with a twist: the content is more generative, the interaction is more functional.
 
 ## Masters of Web
 
-Since the twenty-tens I'm getting inspiration for web design from [Sitenspire](https://www.siteinspire.com/). Most of the entries in the `Masters of Web` series on this blog came from Siteinspire.
+In the twenty-tens [Sitenspire](https://www.siteinspire.com/) provided the entries in the _Masters of Web_ series on this blog recording memorable creations for posterity.
 
-The last one in the series, published yesterday, draws the majority of entries from [Hover States](https://www.hoverstat.es/) &mdash; a site similar to Sitenspire representing the art / underground scene rather than the commercial web.
+The last in the series, published yesterday after a year of hiatus, draws the majority of entries from [Hover States](https://www.hoverstat.es/) &mdash; another inspiration resource representing the art / underground scene rather than the commercial web.
 
 Even being an artist I couldn't use Hover States for inspiration until now. The entries were too experimental, even ugly sometimes.
 
-With 2020 everything changed. Art won over commercial on the web when taking inspiration.
+With 2020 everything changed. Art won over commercial in web inspiration.
 
-Please check the list of contenders for the latest `Masters of Web` and try to find the difference.
+Please find listed the contenders for the latest _Masters of Web_ and try to spot the difference.
 
 ### Hover States, 2020 (Sep)
 
