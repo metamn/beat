@@ -139,6 +139,25 @@ Styleguides were done by companies with better resources.</p>
 <p>It all started with experimentation, patience, and optimism: looking for the perfect stack.</p>
 <p>I&#39;ve moved from <code>Create React App</code> to <code>Next.js</code> because of the server-side rendering / static site generation support.</p>
 <p>I&#39;ve moved from <code>Material UI</code> to <code>Styled Components</code> to <code>Emotion</code> for full JSS object notation support. Neither Material UI nor Styled Components support keyframe animations with the object notation.</p>
+<p>I&#39;ve moved back-and-forth to structure and package the Design system and publish to <code>npm</code>. With React this is not a trivial task. Neither <code>Bit.dev</code>, <code>lerna</code>, <code>yarn workspaces</code>, nor <code>deno</code> helps.</p>
+<p>Went through <code>BetterDocs</code>, <code>tsdocs</code>, <code>typedocs</code> to find the best documentation generatin tool.</p>
+<p>In the time left I wrote JavaScript code with the help of <code>lodash</code>, <code>immer</code>, <code>immutable</code> and React code with <code>propTypes</code>.</p>
+<p>In December nothing felt right. Too much code, to easy to break, too risky to refactor. The result was far from ideal, was not a Design system one could wish for.</p>
+<h2 id="the-second-three-months">The second three months</h2>
+<p>In January I&#39;ve took a deep breath and started from zero with TypeScript.
+The idea was to get a stable API from the TypeScript type system. No breaks, easy to refactor anytime.</p>
+<p>The idea worked. I&#39;ve got confidence and finished a first iteration. The end was near.</p>
+<p>The last mile was too much for this TypeScript + React + tsdoc + Emotion + Next.js stack.
+The parts were working fine but the whole didn&#39;t.</p>
+<p>Perhaps because I&#39;ve set the goals too high for this ecosystem.
+I wanted a solution where tests, documentation and examples were generated from the same source / database. No manual work in the system. That&#39;s why it is a system.</p>
+<p>For example, in <code>textStyles.ts</code> I would define all text variants (default, body, longform, headings, etc), document them, add metadata (how to test it, how to present it for the user) then with generators create the tests and the live documentation entry.</p>
+<p>That was too much for this stack.</p>
+<ul>
+<li>TypeScript type definitions are lost runtime. Duplicate code is necessary. First the <code>variants</code> array must be defined with JavaScript then converted to TypeScript. This way the generators gain access to it.</li>
+<li>Typedoc is meant for command line document generation with Mustache, not for React and JSX. The author of the library is now working on this enhancement. Meantime the API is foggy and undocumented. I had to write the JSON parser myself.</li>
+<li>Emotion / React hooks / Next.js don&#39;t like recursive structures. In production all works, in dev the hot module reloader breaks. Lots of bug reports on the Next.js Github page - all closed without solution. People begging for help.</li>
+</ul>
 
 
 

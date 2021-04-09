@@ -66,4 +66,27 @@ That was too much for this stack.
 - Typedoc is meant for command line document generation with Mustache, not for React and JSX. The author of the library is now working on this enhancement. Meantime the API is foggy and undocumented. I had to write the JSON parser myself.
 - Emotion / React hooks / Next.js don't like recursive structures. In production all works, in dev the hot module reloader breaks. Lots of bug reports on the Next.js Github page - all closed without solution. People begging for help.
 
+## Finally
+
+After six months of trials and errors I gave up. I gave up the stack, not the idea.
+As a designer and developer I need my own Design system. That's the base of my future endeavours.
+
+I gave up JavaScript and its entire ecosystem because:
+
+1. With more time spent I've achieved less than five years ago.
+2. Around 80% of my work was spent on the stack versus solving the problem.
+3. It made me frustrated and anxious like never before.
+4. Gatsby, Next.js are my worst framework experiences compared to Wordpress, Shopify, Yii, Laravel, Jekyll, Sinatra, Ruby on Rails, Gulp. If that's the JavaScript way &mdash; millions of investment in the news, frustrated devs on Github &mdash; I won't take part of it.
+5. I didn't learnt anything interesting during this period. In spite the problem domain is virgin and challenging.
+
+## Clojure
+
+Clojure and ClojureScript is a new language pair (~10 years old vs ~25 for JavaScript) with a modern take on programming, by an author who created them, again, from desperation.
+
+    At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey.
+
+With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a Design system for the modern era - built on Functional and Reactive Programming principles.
+
+Clojure copes well with React. Both being functional they go hand-in-hand. That makes my original goal intact: create a Design system in React. Now with a new programming language I’ve never thought I will need it.
+
 {% endmarkdown %}
