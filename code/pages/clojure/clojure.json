@@ -1,0 +1,9 @@
+{
+  "title": "Clojure",
+  "excerpt": "For the new web.",
+  "template": "article",
+  "categories": ["code"],
+  "url": "clojure",
+  "date": "2021-04-9",
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"]
+}

@@ -2,9 +2,9 @@
 
 2020 marks a new milestone in web design and development.
 
-In 2006 we had **Web Design is 95% Typography**.<sup id="footnote--1">[1](#footnotes--1)</sup>
+In 2006 we had _Web Design is 95% Typography_.<sup id="footnote--1">[1](#footnotes--1)</sup>
 
-In 2015 we couldn't decide if **Is It Web Or Photoshop?**.<sup id="footnote--2">[2](#footnotes--2)</sup>
+In 2015 we couldn't decide if _Is It Web Or Photoshop?_.<sup id="footnote--2">[2](#footnotes--2)</sup>
 
 Now we know the new web is highly interactive and creative. It's like Flash in the nineties<sup id="footnote--3">[3](#footnotes--3)</sup> with a twist: the content is more generative, the interaction is more functional.
 
