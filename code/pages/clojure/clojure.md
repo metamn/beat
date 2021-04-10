@@ -1,33 +1,33 @@
 {% markdown %}
 
-The last half year I've spent with creating a Design system with the latest and bravest web technologies: React, JavaScript and TypeScript, Next.js.
+I've spent the last six months creating a design system with rather popular web technologies: React, JavaScript, TypeScript, CSS-in-JS, Next.js.
 
 A total failure.
 
+I've done all in my powers to get the job done but all fell apart.
 I've never felt so bad in my career. I went to a point to give up everything.
-I've done all in my powers to get the job done and finally all fell apart.
 
-Meantime I've become frustrated, anxious and not a better but a worse person.
-The technologies "Making the world better (TM)" made me inhuman.
+During the process I've become frustrated, anxious and not a better but a worse person.
+The technologies of _"Making the world better (TM)"_ made me inhuman.
 
 ## The idea
 
-[Five years ago](http://metamn.io/beat/creating-a-styleguide-with-gulp/) I've managed to put together a living styleguide with HTML, SCSS, JSON, vanilla JavaScript, and Gulp, hosted on Github as a static page.
+Five years ago<sup id="footnote--1">[1](#footnotes--1)</sup> I've managed to put together a living styleguide with HTML, SCSS, JSON, vanilla JavaScript, and Gulp, hosted on Github as a static page.
 
-At that time there were no design systems and component libraries, and there were no / few individuals creating such things alone.
-Styleguides were done by companies with better resources.
+At that time there were no design systems and component libraries, and there were no individuals creating such things alone.
+Styleguides were done by companies with resources.
 
 That styleguide still powers this blog, and gave me satisfaction with sites created-with featured in online galleries.
 
-Last autumn, with two years background in React, a little cash on hand I took a sabbatical to create a better version of that styleguide with better technologies:
+Last autumn, with two years background in React, a little cash on hand I took a sabbatical to create the design system version of that styleguide, now with better technologies:
 
-- React, as the front-end framework.
-- A CSS-in-JS library, which scales. (During the years I saw SCSS can't scale)
-- Next.js as the go-to framework for static sites. (Tried Gatsby before and left because of the ugliest code base I've met in a commercial product so far.)
+- React, the front-end framework.
+- Emotion, a CSS-in-JS library which scales. (During the years I saw SCSS can't scale)
+- Next.js, the go-to framework for static sites. (Tried Gatsby before and left because of the ugly code base.)
 
-The idea was simple. Go greenfield, play with theory, learn common practice from the dozens on other React Design system implementations &mdash; then compare the findings, the result with the styleguide created five years ago.
+The idea was simple. Take your time, go greenfield, play with theory and technology, learn common practice, come up with something extraordinary &mdash; then compare the findings, the result with the styleguide created five years ago. Just to sense and aknowledge the progress the web made in half a decade.
 
-I was confident. The results will be far better. Because of the new and better technology, and the experience accumulated since.
+I was confident. The results will be good &mdash; better technology and more experience.
 
 ## The first three months
 
@@ -35,15 +35,15 @@ It all started with experimentation, patience, and optimism: looking for the per
 
 I've moved from `Create React App` to `Next.js` because of the server-side rendering / static site generation support.
 
-I've moved from `Material UI` to `Styled Components` to `Emotion` for full JSS object notation support. Neither Material UI nor Styled Components support keyframe animations with the object notation.
+I've moved from `Material UI` to `Styled Components` to `Emotion` in search for full support for JSS object notation<sup id="footnote--2">[2](#footnotes--2)</sup>. Neither Material UI<sup id="footnote--3">[3](#footnotes--3)</sup> nor Styled Components<sup id="footnote--4">[4](#footnotes--4)</sup> support keyframe animations with the object notation.
 
-I've moved back-and-forth to structure and package the Design system and publish to `npm`. With React this is not a trivial task. Neither `Bit.dev`, `lerna`, `yarn workspaces`, nor `deno` helps.
+I've moved back-and-forth to structure, package and publish to `npm`. With React this is not a trivial task. Neither `Bit.dev`, `lerna`, `yarn workspaces`, nor `deno`, `nx.dev`, `tsdx` helps without shortcomings and drawbacks.
 
-Went through `BetterDocs`, `tsdocs`, `typedocs` to find the best documentation generatin tool.
+Went through `BetterDocs`, `tsdoc`, `typedoc` to find the best documentation generator.
 
-In the time left I wrote JavaScript code with the help of `lodash`, `immer`, `immutable` and React code with `propTypes`.
+In the time left I wrote JavaScript code with the help of `lodash`, `immer`, `immutable`, and React code with `propTypes`.
 
-In December nothing felt right. Too much code, to easy to break, too risky to refactor. The result was far from ideal, was not a Design system one could wish for.
+In December nothing felt right. Too much code, to easy to break it, too risky to refactor. The result was far from ideal, was not a design system one could wish for.
 
 ## The second three months
 

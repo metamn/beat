@@ -5,5 +5,27 @@
   "categories": ["code"],
   "url": "clojure",
   "date": "2021-04-9",
-  "display": ["title", "title_with_url", "categories", "date", "excerpt"]
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "footnotes": [
+    {
+      "title": "Creating A Styleguide With Gulp",
+      "url": "http://metamn.io/beat/creating-a-styleguide-with-gulp/",
+      "type": "external"
+    },
+    {
+      "title": "Object Styles",
+      "url": "https://emotion.sh/docs/object-styles",
+      "type": "external"
+    },
+    {
+      "title": "Material UI migrates to Emotion",
+      "url": "https://github.com/mui-org/material-ui/pull/25673",
+      "type": "external"
+    },
+    {
+      "title": "Styled components issue: Creating custom animations using styled objects",
+      "url": "https://github.com/styled-components/styled-components/issues/2561",
+      "type": "external"
+    }
+  ]
 }
