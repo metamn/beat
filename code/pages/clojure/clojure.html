@@ -116,63 +116,77 @@
   <div class='article__content'>
     
 
-  <p>The last half year I&#39;ve spent with creating a Design system with the latest and bravest web technologies: React, JavaScript and TypeScript, Next.js.</p>
+  <p>I&#39;ve spent the last six months creating a design system with rather popular web technologies: React, JavaScript, TypeScript, CSS-in-JS, Next.js.</p>
 <p>A total failure.</p>
-<p>I&#39;ve never felt so bad in my career. I went to a point to give up everything.
-I&#39;ve done all in my powers to get the job done and finally all fell apart.</p>
-<p>Meantime I&#39;ve become frustrated, anxious and not a better but a worse person.
-The technologies &quot;Making the world better (TM)&quot; made me inhuman.</p>
+<p>I&#39;ve done all in my powers to get the job done but all fell apart.
+I&#39;ve never felt so bad in my career. I went to a point to give up everything.</p>
+<p>During the process I&#39;ve become frustrated, anxious and not a better but a worse person.
+The technologies of <em>&quot;Making the world better (TM)&quot;</em> made me inhuman.</p>
 <h2 id="the-idea">The idea</h2>
-<p><a href="http://metamn.io/beat/creating-a-styleguide-with-gulp/">Five years ago</a> I&#39;ve managed to put together a living styleguide with HTML, SCSS, JSON, vanilla JavaScript, and Gulp, hosted on Github as a static page.</p>
-<p>At that time there were no design systems and component libraries, and there were no / few individuals creating such things alone.
-Styleguides were done by companies with better resources.</p>
+<p>Five years ago<sup id="footnote--1"><a href="#footnotes--1">1</a></sup> I&#39;ve managed to put together a living styleguide with HTML, SCSS, JSON, vanilla JavaScript, and Gulp, hosted on Github as a static page.</p>
+<p>At that time there were no design systems and component libraries, and there were no individuals creating such things alone.
+Styleguides were done by companies with resources.</p>
 <p>That styleguide still powers this blog, and gave me satisfaction with sites created-with featured in online galleries.</p>
-<p>Last autumn, with two years background in React, a little cash on hand I took a sabbatical to create a better version of that styleguide with better technologies:</p>
+<p>Last autumn, with two years background in React, a little cash on hand I took a sabbatical to create the design system version of that styleguide, now with better technologies:</p>
 <ul>
-<li>React, as the front-end framework.</li>
-<li>A CSS-in-JS library, which scales. (During the years I saw SCSS can&#39;t scale)</li>
-<li>Next.js as the go-to framework for static sites. (Tried Gatsby before and left because of the ugliest code base I&#39;ve met in a commercial product so far.)</li>
+<li>React, the front-end framework.</li>
+<li>Emotion, a CSS-in-JS library which scales. (During the years I saw SCSS can&#39;t scale)</li>
+<li>Next.js, the go-to framework for static sites. (Tried Gatsby before and left because of the ugly code base.)</li>
 </ul>
-<p>The idea was simple. Go greenfield, play with theory, learn common practice from the dozens on other React Design system implementations &mdash; then compare the findings, the result with the styleguide created five years ago.</p>
-<p>I was confident. The results will be far better. Because of the new and better technology, and the experience accumulated since.</p>
+<p>The idea was simple. Take your time, go greenfield, play with theory and technology, learn common practice, come up with something extraordinary &mdash; then compare the findings, the result with the styleguide created five years ago. Just to sense and aknowledge the progress the web made in half a decade.</p>
+<p>I was confident. The results will be good &mdash; with better technology and more experience.</p>
 <h2 id="the-first-three-months">The first three months</h2>
 <p>It all started with experimentation, patience, and optimism: looking for the perfect stack.</p>
 <p>I&#39;ve moved from <code>Create React App</code> to <code>Next.js</code> because of the server-side rendering / static site generation support.</p>
-<p>I&#39;ve moved from <code>Material UI</code> to <code>Styled Components</code> to <code>Emotion</code> for full JSS object notation support. Neither Material UI nor Styled Components support keyframe animations with the object notation.</p>
-<p>I&#39;ve moved back-and-forth to structure and package the Design system and publish to <code>npm</code>. With React this is not a trivial task. Neither <code>Bit.dev</code>, <code>lerna</code>, <code>yarn workspaces</code>, nor <code>deno</code> helps.</p>
-<p>Went through <code>BetterDocs</code>, <code>tsdocs</code>, <code>typedocs</code> to find the best documentation generatin tool.</p>
-<p>In the time left I wrote JavaScript code with the help of <code>lodash</code>, <code>immer</code>, <code>immutable</code> and React code with <code>propTypes</code>.</p>
-<p>In December nothing felt right. Too much code, to easy to break, too risky to refactor. The result was far from ideal, was not a Design system one could wish for.</p>
+<p>I&#39;ve moved from <code>Material UI</code> to <code>Styled Components</code> to <code>Emotion</code> in search for full support for JSS object notation<sup id="footnote--2"><a href="#footnotes--2">2</a></sup>. Neither Material UI<sup id="footnote--3"><a href="#footnotes--3">3</a></sup> nor Styled Components<sup id="footnote--4"><a href="#footnotes--4">4</a></sup> supports keyframe animations with the object notation.</p>
+<p>I&#39;ve moved back-and-forth to structure, package and publish to <code>npm</code>. With React this is not a trivial task. Neither <code>Bit.dev</code>, <code>lerna</code>, <code>yarn workspaces</code>, nor <code>deno</code>, <code>nx.dev</code>, <code>tsdx</code> helps without shortcomings and drawbacks.</p>
+<p>Went through <code>BetterDocs</code>, <code>tsdoc</code>, <code>typedoc</code> to find the best documentation generator.</p>
+<p>In the time left I wrote JavaScript code with the help of <code>lodash</code>, <code>immer</code>, <code>immutable</code>, and React code with <code>propTypes</code>.</p>
+<p>In December nothing felt right. Too much code, to easy to break it, too risky to refactor. The result was far from ideal, was not a design system one could wish for.</p>
 <h2 id="the-second-three-months">The second three months</h2>
-<p>In January I&#39;ve took a deep breath and started from zero with TypeScript.
-The idea was to get a stable API from the TypeScript type system. No breaks, easy to refactor anytime.</p>
+<p>In January I took a deep breath and started from zero with TypeScript.
+The idea was to get a stable API from the TypeScript type system upon the design system is built. Without breaks and easy refactoring.</p>
 <p>The idea worked. I&#39;ve got confidence and finished a first iteration. The end was near.</p>
-<p>The last mile was too much for this TypeScript + React + tsdoc + Emotion + Next.js stack.
+<p>The last mile was too much for this TypeScript + React + Emotion + Next.js + tsdoc stack.
 The parts were working fine but the whole didn&#39;t.</p>
-<p>Perhaps because I&#39;ve set the goals too high for this ecosystem.
-I wanted a solution where tests, documentation and examples were generated from the same source / database. No manual work in the system. That&#39;s why it is a system.</p>
-<p>For example, in <code>textStyles.ts</code> I would define all text variants (default, body, longform, headings, etc), document them, add metadata (how to test it, how to present it for the user) then with generators create the tests and the live documentation entry.</p>
-<p>That was too much for this stack.</p>
-<ul>
-<li>TypeScript type definitions are lost runtime. Duplicate code is necessary. First the <code>variants</code> array must be defined with JavaScript then converted to TypeScript. This way the generators gain access to it.</li>
-<li>Typedoc is meant for command line document generation with Mustache, not for React and JSX. The author of the library is now working on this enhancement. Meantime the API is foggy and undocumented. I had to write the JSON parser myself.</li>
-<li>Emotion / React hooks / Next.js don&#39;t like recursive structures. In production all works, in dev the hot module reloader breaks. Lots of bug reports on the Next.js Github page - all closed without solution. People begging for help.</li>
-</ul>
+<p>Truth is I&#39;ve pushed the requirements to the limits of this ecosystem.</p>
+<p>I wanted a solution where tests, documentation and live doc examples were generated from the same source code. No manual work. That&#39;s why it is a system.</p>
+<p>As far as I know major design system implementations never aimed for<sup id="footnote--5"><a href="#footnotes--5">5</a></sup> nor achieved such integration and automation.</p>
+<p>Perhaps because the ecosystem is not prepared for such finesse.</p>
+<p>For example, TypeScript type definitions are dropped runtime. Any data hold in types is lost.
+To let generators access these information code had to be duplicated in JavaScript.</p>
+<pre><code class="lang-ts">/**
+ * TypeScript, after all, it helps only during development time.
+ * Runtime we&#39;ve left with plain old JavaScript.
+ /
+export const borderVariants = [&quot;default&quot;, &quot;smooth&quot;, &quot;edoMenu&quot;]; // This data is avaialable later
+export type TBorderVariants = typeof borderVariants[number]; // This data is lost
+</code></pre>
+<p>Typedoc, the documentation generator is meant for command line usage, not for using with React and JSX<sup id="footnote--6"><a href="#footnotes--6">6</a></sup>. Meantime the API is foggy and undocumented. And writing a JSON parser, on this project, is distraction.</p>
+<p>Emotion / React hooks / Next.js &mdash; one of them, all of them, a combination of them &mdash; don&#39;t like recursive structures. And recursion is extensive when a complete documentation site is generated.</p>
+<p>More exactly in production all works fine. During development the hot module reloader breaks.
+To root out the cause I&#39;ve started to check Next.js and found dozens of issues related to hot reloading; most of them closed without solution; and people begging for help. At the time of writing there are 24 open and 87 closed issues in this subject!<sup id="footnote--7"><a href="#footnotes--7">7</a></sup></p>
+<p>And the list follows. <code>Jest</code> the test runner is not pure. On the same test suite gives different results on each run. This way you never know when testing is successful or not.</p>
+<p>Combined, these shortcomings result in frustration. They reveal the inherent vice of the JavaScript ecosystem.</p>
+<p>Instead of writing joyfully about solving the <code>single source of truth -&gt; test + documentation + live example</code> generation problem I was forced to write about how the stack made me impossible to do it.</p>
+<p>JavaScript, by poor design, enables distraction, patchwork, gluing. It&#39;s not science, programming, engineering &mdash; it&#39;s scripting.</p>
 <h2 id="finally">Finally</h2>
 <p>After six months of trials and errors I gave up. I gave up the stack, not the idea.
-As a designer and developer I need my own Design system. That&#39;s the base of my future endeavours.</p>
+As a designer and developer I need my own design system. That&#39;s the base of my future endeavours.</p>
 <p>I gave up JavaScript and its entire ecosystem because:</p>
 <ol>
 <li>With more time spent I&#39;ve achieved less than five years ago.</li>
 <li>Around 80% of my work was spent on the stack versus solving the problem.</li>
 <li>It made me frustrated and anxious like never before.</li>
 <li>Gatsby, Next.js are my worst framework experiences compared to Wordpress, Shopify, Yii, Laravel, Jekyll, Sinatra, Ruby on Rails, Gulp. If that&#39;s the JavaScript way &mdash; millions of investment in the news, frustrated devs on Github &mdash; I won&#39;t take part of it.</li>
-<li>I didn&#39;t learnt anything interesting during this period. In spite the problem domain is virgin and challenging.</li>
+<li>I didn&#39;t learnt anything interesting during this period. In spite the problem domain is novel and challenging.</li>
 </ol>
 <h2 id="clojure">Clojure</h2>
 <p>Clojure and ClojureScript is a new language pair (~10 years old vs ~25 for JavaScript) with a modern take on programming, by an author who created them, again, from desperation.</p>
-<pre><code>At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey.
-</code></pre><p>With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a Design system for the modern era - built on Functional and Reactive Programming principles.</p>
+<blockquote>
+<p>At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey<sup id="footnote--8"><a href="#footnotes--8">8</a></sup>.</p>
+</blockquote>
+<p>With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a Design system for the modern era - built on Functional and Reactive Programming principles.</p>
 <p>Clojure copes well with React. Both being functional they go hand-in-hand. That makes my original goal intact: create a Design system in React. Now with a new programming language I’ve never thought I will need it.</p>
 
 
@@ -181,6 +195,366 @@ As a designer and developer I need my own Design system. That&#39;s the base of 
   </div>
 
   
+  <nav class="article__footnotes">
+    <h3>Footnotes</h3>
+
+    <ol class="ol">
+      
+        <li class="li" id="footnotes--1">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="http://metamn.io/beat/creating-a-styleguide-with-gulp/" title="Creating A Styleguide With Gulp">Creating A Styleguide With Gulp</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--1">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--2">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://emotion.sh/docs/object-styles" title="Object Styles">Object Styles</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--2">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--3">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://github.com/mui-org/material-ui/pull/25673" title="Material UI migrates to Emotion">Material UI migrates to Emotion</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--3">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--4">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://github.com/styled-components/styled-components/issues/2561" title="Styled components issue: Creating custom animations using styled objects">Styled components issue: Creating custom animations using styled objects</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--4">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--5">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://docs.google.com/spreadsheets/d/1Yn-fzRIfXcpFilQwjv62MC4yRCTQFaS2qhhtbnfohhg/edit?usp=sharing" title="Analysis of design system implementations">Analysis of design system implementations</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--5">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--6">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://github.com/TypeStrong/typedoc/issues/1539" title="Typedoc: Help with getting started with React / JSX">Typedoc: Help with getting started with React / JSX</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--6">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--7">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://github.com/vercel/next.js/issues?q=is%3Aissue+is%3Aopen+fast+refresh" title="Vercel / Next.js: Issus for &#39;fast refresh&#39;">Vercel / Next.js: Issus for &#39;fast refresh&#39;</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--7">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+        <li class="li" id="footnotes--8">
+          <span class="footnote">
+  <span class="footnote__link">
+    
+
+  
+    
+  
+
+  
+
+
+  
+
+
+  
+
+  
+    
+  
+
+  <a class="link " href="https://clojure.org/about/history" title="A History of Clojure by Rich Hickey&#39;">A History of Clojure by Rich Hickey&#39;</a>
+
+  </span>
+  
+  <span class="footnote__go-back">
+  <a class="link" title="Back to the footnote" href="#footnote--8">
+    
+    <span class="arrow-with-triangle arrow-with-triangle--top ">
+  <span class="arrow-with-triangle__line"></span>
+
+  
+  <span class="triangle triangle--top arrow-with-triangle__triangle"></span>
+
+</span>
+
+    <span class="text">Back to the footnote</span>
+  </a>
+</span>
+
+</span>
+
+        </li>
+      
+    </ol>
+  </nav>
+
 
   <aside class="article__categories-and-date">
   <h3>Article categories and date</h3>
@@ -216,7 +590,7 @@ As a designer and developer I need my own Design system. That&#39;s the base of 
   "keywords": "code",
   "url": "/clojure",
   "datePublished": "2021-04-9",
-  "dateModified": "2021-04-09",
+  "dateModified": "2021-04-10",
   "description": "For the new web.",
   "publisher": {
     "@type": "Organization",

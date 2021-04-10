@@ -27,7 +27,7 @@ Last autumn, with two years background in React, a little cash on hand I took a 
 
 The idea was simple. Take your time, go greenfield, play with theory and technology, learn common practice, come up with something extraordinary &mdash; then compare the findings, the result with the styleguide created five years ago. Just to sense and aknowledge the progress the web made in half a decade.
 
-I was confident. The results will be good &mdash; better technology and more experience.
+I was confident. The results will be good &mdash; with better technology and more experience.
 
 ## The first three months
 
@@ -35,7 +35,7 @@ It all started with experimentation, patience, and optimism: looking for the per
 
 I've moved from `Create React App` to `Next.js` because of the server-side rendering / static site generation support.
 
-I've moved from `Material UI` to `Styled Components` to `Emotion` in search for full support for JSS object notation<sup id="footnote--2">[2](#footnotes--2)</sup>. Neither Material UI<sup id="footnote--3">[3](#footnotes--3)</sup> nor Styled Components<sup id="footnote--4">[4](#footnotes--4)</sup> support keyframe animations with the object notation.
+I've moved from `Material UI` to `Styled Components` to `Emotion` in search for full support for JSS object notation<sup id="footnote--2">[2](#footnotes--2)</sup>. Neither Material UI<sup id="footnote--3">[3](#footnotes--3)</sup> nor Styled Components<sup id="footnote--4">[4](#footnotes--4)</sup> supports keyframe animations with the object notation.
 
 I've moved back-and-forth to structure, package and publish to `npm`. With React this is not a trivial task. Neither `Bit.dev`, `lerna`, `yarn workspaces`, nor `deno`, `nx.dev`, `tsdx` helps without shortcomings and drawbacks.
 
@@ -56,6 +56,7 @@ The last mile was too much for this TypeScript + React + Emotion + Next.js + tsd
 The parts were working fine but the whole didn't.
 
 Truth is I've pushed the requirements to the limits of this ecosystem.
+
 I wanted a solution where tests, documentation and live doc examples were generated from the same source code. No manual work. That's why it is a system.
 
 As far as I know major design system implementations never aimed for<sup id="footnote--5">[5](#footnotes--5)</sup> nor achieved such integration and automation.
@@ -74,7 +75,7 @@ export const borderVariants = ["default", "smooth", "edoMenu"]; // This data is 
 export type TBorderVariants = typeof borderVariants[number]; // This data is lost
 ```
 
-Typedoc, the documentation generator is meant for command line usage, not for using with React and JSX<sup id="footnote--6">[6](#footnotes--6)https://github.com/TypeStrong/typedoc/issues/1539</sup>. Meantime the API is foggy and undocumented.
+Typedoc, the documentation generator is meant for command line usage, not for using with React and JSX<sup id="footnote--6">[6](#footnotes--6)</sup>. Meantime the API is foggy and undocumented. And writing a JSON parser, on this project, is distraction.
 
 Emotion / React hooks / Next.js &mdash; one of them, all of them, a combination of them &mdash; don't like recursive structures. And recursion is extensive when a complete documentation site is generated.
 
@@ -83,14 +84,16 @@ To root out the cause I've started to check Next.js and found dozens of issues r
 
 And the list follows. `Jest` the test runner is not pure. On the same test suite gives different results on each run. This way you never know when testing is successful or not.
 
-The paragraphs above illustrate the problems of the JavaScript ecosystem.
+Combined, these shortcomings result in frustration. They reveal the inherent vice of the JavaScript ecosystem.
 
-Instead of writing joyfully about how I've solved the `single source of truth` -> `test` + `documentation` + `live example` generation problem. I wrote about how the stack made me impossible to do it.
+Instead of writing joyfully about solving the `single source of truth -> test + documentation + live example` generation problem I was forced to write about how the stack made me impossible to do it.
+
+JavaScript, by poor design, enables distraction, patchwork, gluing. It's not science, programming, engineering &mdash; it's scripting.
 
 ## Finally
 
 After six months of trials and errors I gave up. I gave up the stack, not the idea.
-As a designer and developer I need my own Design system. That's the base of my future endeavours.
+As a designer and developer I need my own design system. That's the base of my future endeavours.
 
 I gave up JavaScript and its entire ecosystem because:
 
@@ -104,7 +107,7 @@ I gave up JavaScript and its entire ecosystem because:
 
 Clojure and ClojureScript is a new language pair (~10 years old vs ~25 for JavaScript) with a modern take on programming, by an author who created them, again, from desperation.
 
-    At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey.
+> At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey<sup id="footnote--8">[8](#footnotes--8)</sup>.
 
 With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a Design system for the modern era - built on Functional and Reactive Programming principles.
 

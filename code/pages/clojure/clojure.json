@@ -26,6 +26,26 @@
       "title": "Styled components issue: Creating custom animations using styled objects",
       "url": "https://github.com/styled-components/styled-components/issues/2561",
       "type": "external"
+    },
+    {
+      "title": "Analysis of design system implementations",
+      "url": "https://docs.google.com/spreadsheets/d/1Yn-fzRIfXcpFilQwjv62MC4yRCTQFaS2qhhtbnfohhg/edit?usp=sharing",
+      "type": "external"
+    },
+    {
+      "title": "Typedoc: Help with getting started with React / JSX",
+      "url": "https://github.com/TypeStrong/typedoc/issues/1539",
+      "type": "external"
+    },
+    {
+      "title": "Vercel / Next.js: Issus for 'fast refresh'",
+      "url": "https://github.com/vercel/next.js/issues?q=is%3Aissue+is%3Aopen+fast+refresh",
+      "type": "external"
+    },
+    {
+      "title": "A History of Clojure by Rich Hickey'",
+      "url": "https://clojure.org/about/history",
+      "type": "external"
     }
   ]
 }
