@@ -109,8 +109,8 @@ Clojure and ClojureScript is a new language pair (~10 years old vs ~25 for JavaS
 
 > At some point I had my “I’m mad as hell and I’m not going to take this anymore!” moment, in my backyard, on my hammock. - A History of Clojure by Rich Hickey<sup id="footnote--8">[8](#footnotes--8)</sup>.
 
-With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a Design system for the modern era - built on Functional and Reactive Programming principles.
+With Clojure a new journey begins. As a refugee for programmers fed up with other impossible languages, this newfound gem I believe is strong enough to create a design system for the modern era - built on functional and reactive programming principles.
 
-Clojure copes well with React. Both being functional they go hand-in-hand. That makes my original goal intact: create a Design system in React. Now with a new programming language I’ve never thought I will need it.
+Clojure copes well with React. Both being functional they go hand-in-hand. That makes my original goal intact: create a design system in React. Now with a new programming language I’ve never thought I will need it.
 
 {% endmarkdown %}
