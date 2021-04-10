@@ -47,24 +47,45 @@ In December nothing felt right. Too much code, to easy to break it, too risky to
 
 ## The second three months
 
-In January I've took a deep breath and started from zero with TypeScript.
-The idea was to get a stable API from the TypeScript type system. No breaks, easy to refactor anytime.
+In January I took a deep breath and started from zero with TypeScript.
+The idea was to get a stable API from the TypeScript type system upon the design system is built. Without breaks and easy refactoring.
 
 The idea worked. I've got confidence and finished a first iteration. The end was near.
 
-The last mile was too much for this TypeScript + React + tsdoc + Emotion + Next.js stack.
+The last mile was too much for this TypeScript + React + Emotion + Next.js + tsdoc stack.
 The parts were working fine but the whole didn't.
 
-Perhaps because I've set the goals too high for this ecosystem.
-I wanted a solution where tests, documentation and examples were generated from the same source / database. No manual work in the system. That's why it is a system.
+Truth is I've pushed the requirements to the limits of this ecosystem.
+I wanted a solution where tests, documentation and live doc examples were generated from the same source code. No manual work. That's why it is a system.
 
-For example, in `textStyles.ts` I would define all text variants (default, body, longform, headings, etc), document them, add metadata (how to test it, how to present it for the user) then with generators create the tests and the live documentation entry.
+As far as I know major design system implementations never aimed for<sup id="footnote--5">[5](#footnotes--5)</sup> nor achieved such integration and automation.
 
-That was too much for this stack.
+Perhaps because the ecosystem is not prepared for such finesse.
 
-- TypeScript type definitions are lost runtime. Duplicate code is necessary. First the `variants` array must be defined with JavaScript then converted to TypeScript. This way the generators gain access to it.
-- Typedoc is meant for command line document generation with Mustache, not for React and JSX. The author of the library is now working on this enhancement. Meantime the API is foggy and undocumented. I had to write the JSON parser myself.
-- Emotion / React hooks / Next.js don't like recursive structures. In production all works, in dev the hot module reloader breaks. Lots of bug reports on the Next.js Github page - all closed without solution. People begging for help.
+For example, TypeScript type definitions are dropped runtime. Any data hold in types is lost.
+To let generators access these information code had to be duplicated in JavaScript.
+
+```ts
+/**
+ * TypeScript, after all, it helps only during development time.
+ * Runtime we've left with plain old JavaScript.
+ /
+export const borderVariants = ["default", "smooth", "edoMenu"]; // This data is avaialable later
+export type TBorderVariants = typeof borderVariants[number]; // This data is lost
+```
+
+Typedoc, the documentation generator is meant for command line usage, not for using with React and JSX<sup id="footnote--6">[6](#footnotes--6)https://github.com/TypeStrong/typedoc/issues/1539</sup>. Meantime the API is foggy and undocumented.
+
+Emotion / React hooks / Next.js &mdash; one of them, all of them, a combination of them &mdash; don't like recursive structures. And recursion is extensive when a complete documentation site is generated.
+
+More exactly in production all works fine. During development the hot module reloader breaks.
+To root out the cause I've started to check Next.js and found dozens of issues related to hot reloading; most of them closed without solution; and people begging for help. At the time of writing there are 24 open and 87 closed issues in this subject!<sup id="footnote--7">[7](#footnotes--7)</sup>
+
+And the list follows. `Jest` the test runner is not pure. On the same test suite gives different results on each run. This way you never know when testing is successful or not.
+
+The paragraphs above illustrate the problems of the JavaScript ecosystem.
+
+Instead of writing joyfully about how I've solved the `single source of truth` -> `test` + `documentation` + `live example` generation problem. I wrote about how the stack made me impossible to do it.
 
 ## Finally
 
@@ -77,7 +98,7 @@ I gave up JavaScript and its entire ecosystem because:
 2. Around 80% of my work was spent on the stack versus solving the problem.
 3. It made me frustrated and anxious like never before.
 4. Gatsby, Next.js are my worst framework experiences compared to Wordpress, Shopify, Yii, Laravel, Jekyll, Sinatra, Ruby on Rails, Gulp. If that's the JavaScript way &mdash; millions of investment in the news, frustrated devs on Github &mdash; I won't take part of it.
-5. I didn't learnt anything interesting during this period. In spite the problem domain is virgin and challenging.
+5. I didn't learnt anything interesting during this period. In spite the problem domain is novel and challenging.
 
 ## Clojure
 
