@@ -1,11 +1,18 @@
 {
   "title": "Clojure",
-  "excerpt": "For the new web.",
+  "excerpt": "Closing the old web with the new web",
   "template": "article",
   "categories": ["code"],
   "url": "clojure",
   "date": "2021-04-9",
   "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "list1": [
+    "With more time spent I've achieved less than five years ago.",
+    "Around 80% of my work was spent on the stack versus solving the problem.",
+    "It made me frustrated and anxious like never before.",
+    "Gatsby, Next.js are my worst framework experiences compared to Wordpress, Shopify, Yii, Laravel, Jekyll, Sinatra, Ruby on Rails, Gulp. If that's the JavaScript way — millions of investment in the news, frustrated devs on Github — I won't take part of it.",
+    "I didn't learn anything interesting during this period. In spite the problem domain is novel and challenging."
+  ],
   "footnotes": [
     {
       "title": "Creating A Styleguide With Gulp",

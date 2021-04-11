@@ -100,11 +100,12 @@ Since the designer doesn't code / doesn't consult with a developer ...
 
 If the designer were coding or consulting with a developer the following design decisions were taken:
 
-1. Do not hide posts on smaller screens &mdash; wrap them into a navigation element. This way the resources used to get all posts on the back-end would have been not wasted on the front-end.
+{% endmarkdown %}
 
-2. Forget the vertical column separator lines. They can't be implemented with current best practices, and they need workaround. Let form follow function even if function is coding standards.
+{% set list = list1 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
 
-3. Put that ad elsewhere. Combined with 2.) it's dangerous. Moving out of the grid will spare around half of development time and budget.
+{% markdown %}
 
 With these practical design decisions the implementation would have been easy: use the CSS Grid. Time spent would be from minutes to around half an hour.
 
@@ -266,12 +267,11 @@ Big / well organized / informed teams might be lucky. They've probably enrolled 
 
 Small teams can do three things:
 
-1. Acknowledge the problem.
+{% endmarkdown %}
 
-2. Find a designer who code &mdash; there are plenty out there. Or
+{% set list = list2 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
 
-3. Involve the developer as early as possible in the design process to help the designer with feasibility tips.
-
-4. Make the developer and designer equal.
+{% markdown %}
 
 {% endmarkdown %}

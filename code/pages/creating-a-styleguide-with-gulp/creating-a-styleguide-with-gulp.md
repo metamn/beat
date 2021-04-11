@@ -23,16 +23,14 @@ Designers might need it to be able to make design decisions on a granular level.
 
 Developers might need it to have a framework easy to learn and participate where they can write error-free code.
 
-A *complete* styleguide covers all above scenarios and provides:
+A _complete_ styleguide covers all above scenarios and provides:
 
-1. A styleguide living together with the associated website.
-Any change in the site design is automatically updated in the styleguide.
+{% endmarkdown %}
 
-2. A decision making tool. All components and groups of components building the site will have their own styleguide entry.
-Designers will be able to overview a part of the user interface or a whole segment of it.
+{% set list = list1 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
 
-3. Error-free code. Components living in multiple environments &mdash; the website itself and in the various styleguide entries &mdash; are more error-proof than those *made to work* in a single context.
-
+{% markdown %}
 
 A few tools offer a complete styleguide and if they do their solution is bound to a specific platform &mdash; Ruby On Rails for Lonely Planet's Rizzo, PHP for Pattern Lab &mdash; or to a specific outcome &mdash; Google's Material Design is likely to produce the same experience for any website.
 
@@ -57,7 +55,6 @@ The database can be a JSON file, Gulp / Grunt / etc. can be the glue engine to s
 
 {% endmarkdown %}
 
-
 {% set image = images[1] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}
 
@@ -65,12 +62,12 @@ The database can be a JSON file, Gulp / Grunt / etc. can be the glue engine to s
 
 The rules are simple:
 
-1. Every user interface definition goes into a JSON file
+{% endmarkdown %}
 
-2. Gulp creates HTML and CSS files from the database both for the site and the styleguide
+{% set list = list2 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
 
-3. The HTML and CSS files for the site are included also in the styleguide. This makes the styleguide stay in sync with the website.
-
+{% markdown %}
 
 ## A concrete example
 
@@ -78,20 +75,23 @@ Let's take a look at how to define the colors of a site and sync with the styleg
 
 First we will need a JSON file to define the colors:
 {% endmarkdown %}
+
 <script src="https://gist.github.com/metamn/ef8d6cf9b49b97edfded.js"></script>
 
 {% markdown %}
 Then we will have to covert this data into CSS using Gulp and Swig, a tool coming with Gulp and used to generate HTML, CSS or JS.
 {% endmarkdown %}
+
 <script src="https://gist.github.com/metamn/ebdf8f2bf940705ea89d.js"></script>
 
 {% markdown %}
 After conversion we will have a complete SCSS file, generated from the database, which otherwise would be written by hand by front-end developers.
 {% endmarkdown %}
+
 <script src="https://gist.github.com/metamn/b693076f8cf51806de7f.js"></script>
 
 {% markdown %}
-The most important part of the process above is that we *define data* instead of *writing code*.
+The most important part of the process above is that we _define data_ instead of _writing code_.
 This makes sure data will be the same both for the site and the styleguide and there won't be human mistakes.
 
 Or put another way, the process above let's non-developers to describe user interfaces.
@@ -106,14 +106,14 @@ Like the CSS, HTML will use the JSON data to create the structure displaying sty
 
 The example below is the styleguide entry for colors. It's a HTML skeleton code displaying which colors are used to build the site. The code is independent of the colors it displays. Colors can change, new ones can be added or others removed. This code's outcome is only defined by JSON data.
 {% endmarkdown %}
+
 <script src="https://gist.github.com/metamn/dc1b4efc4e71f31abf22.js"></script>
 
 {% markdown %}
 Gulp transforms the skeleton into a final HTML which contains the same colors as defined in the `colors.scss.json` file above.
 {% endmarkdown %}
+
 <script src="https://gist.github.com/metamn/2d01cc5e07c7e3221739.js"></script>
-
-
 
 {% set image = images[2] %}
 {% include '../../framework/structure/figure/figure.html.swig' %}

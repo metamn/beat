@@ -2,17 +2,16 @@
   "title": "Unicorn forever",
   "excerpt": "A solo designer and developer's plan for the future",
   "template": "article",
-  "categories": [
-    "trend"
-  ],
+  "categories": ["trend"],
   "url": "unicorn-forever",
   "date": "2017-07-16",
-  "display": [
-    "title",
-    "title_with_url",
-    "categories",
-    "date",
-    "excerpt"
+  "display": ["title", "title_with_url", "categories", "date", "excerpt"],
+  "list1": [
+    "Take articles from http://metamn.io/gust/ dissect them into small semantic chunks and convert into data with every chunk annotated and further described with metadata.",
+    "Add artwork, rich media, animations etc. to content and chunks of content.",
+    "Create a design system which displays the content optimized for web, app and print.",
+    "Marketing for free on web, set up a freemium app model to cover basic expenses, and go premium with magazine and book versions of the same online content.",
+    "Focus on growing the content, making it more inclusive, reaching more audience, and generate recurring revenue."
   ],
   "footnotes": [
     {

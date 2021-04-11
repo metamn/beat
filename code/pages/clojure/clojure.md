@@ -66,14 +66,11 @@ Perhaps because the ecosystem is not prepared for such finesse.
 For example, TypeScript type definitions are dropped at runtime. Any data held in types is lost.
 To let generators access these information code had to be duplicated in JavaScript.
 
-```ts
-/**
- * TypeScript, after all, helps only during development time.
- * Runtime we've left with plain old JavaScript.
- /
-export const borderVariants = ["default", "smooth", "edoMenu"]; // This data is available later
-export type TBorderVariants = typeof borderVariants[number]; // This data is lost
-```
+{% endmarkdown %}
+
+<script src="https://gist.github.com/metamn/2560fd76151c5d6571fa0844294f83d2.js"></script>
+
+{% markdown %}
 
 Typedoc, the documentation generator is meant for command line usage, not for using with React and JSX<sup id="footnote--6">[6](#footnotes--6)</sup>. Meantime the API is foggy and undocumented. And writing a JSON parser, on this project, is a distraction.
 
@@ -97,11 +94,12 @@ As a designer and developer I need my own design system. That's the base of my f
 
 I gave up JavaScript and its entire ecosystem because:
 
-1. With more time spent I've achieved less than five years ago.
-2. Around 80% of my work was spent on the stack versus solving the problem.
-3. It made me frustrated and anxious like never before.
-4. Gatsby, Next.js are my worst framework experiences compared to Wordpress, Shopify, Yii, Laravel, Jekyll, Sinatra, Ruby on Rails, Gulp. If that's the JavaScript way &mdash; millions of investment in the news, frustrated devs on Github &mdash; I won't take part of it.
-5. I didn't learn anything interesting during this period. In spite the problem domain is novel and challenging.
+{% endmarkdown %}
+
+{% set list = list1 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
+
+{% markdown %}
 
 ## Clojure
 

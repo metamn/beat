@@ -3,9 +3,7 @@
   "excerpt": "Creating a component layer which both our user-facing applications and our Style Guide can work from.",
   "thumb": "styleguide-architecture_mobile.png",
   "template": "article",
-  "categories": [
-    "code"
-  ],
+  "categories": ["code"],
   "url": "creating-a-styleguide-with-gulp",
   "date": "2015-05-15",
   "display": [
@@ -15,6 +13,16 @@
     "date",
     "excerpt",
     "artwork"
+  ],
+  "list1": [
+    "A styleguide living together with the associated website. Any change in the site design is automatically updated in the styleguide.",
+    "A decision making tool. All components and groups of components building the site will have their own styleguide entry. Designers will be able to overview a part of the user interface or a whole segment of it.",
+    "Error-free code. Components living in multiple environments — the website itself and in the various styleguide entries — are more error-proof than those made to work in a single context."
+  ],
+  "list2": [
+    "Every user interface definition goes into a JSON file.",
+    "Gulp creates HTML and CSS files from the database both for the site and the styleguide.",
+    "The HTML and CSS files for the site are included also in the styleguide. This makes the styleguide stay in sync with the website."
   ],
   "images": [
     {

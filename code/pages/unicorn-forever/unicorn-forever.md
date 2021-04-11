@@ -18,13 +18,13 @@ Yep. Either you'll get employed, create your own studio with 3-4 specialized peo
 
 Me personally I don't like managing people or being managed. I don't like the creative process hanging on external factors. I'm for the constant flow from the birth to the execution of an idea. More art than engineering. More free creation and improvisation than coordination.
 
-To keep this spirit the terms *freelancer and unicorn* must be redefined. Stripped down technologically and mounted up business wise.
+To keep this spirit the terms _freelancer and unicorn_ must be redefined. Stripped down technologically and mounted up business wise.
 
 It's clear no single individual can keep up with the technology anymore and it's clear there are less freelance jobs out there.
 
 The new unicorn should be less dependent on technology change and more capable to generate revenue on her own.
 
-## The idea  
+## The idea
 
 For the long run one should think in convergence rather than fragmentation.
 
@@ -32,7 +32,7 @@ Fragmentation is when new things are born; convergence is when they go stable.
 
 Our industry is yes fragmented but merging to a common sense. The boundary between native mobile and web, touch and non-touch, digital vs. print aesthetics is disappearing. It is clear where revenue can be generated on the internet and where it is impossible.
 
-I think if you have original content which is capable to *grow* and *flow* seamlessly on all channels (mobile, web, print) then you have a case for a successful solo / small business.
+I think if you have original content which is capable to _grow_ and _flow_ seamlessly on all channels (mobile, web, print) then you have a case for a successful solo / small business.
 
 ## The case
 
@@ -54,24 +54,20 @@ When content is data, it flows on all channels, and generates revenue your only 
 
 To display a new facet of the same data; to reach another type of audience; to release a better edition &mdash; all on a regular basis.
 
-## Summing up  
+## Summing up
 
-1. Take articles from http://metamn.io/gust/ dissect them into small semantic chunks and convert into data with every chunk annotated and further described with metadata.
+{% endmarkdown %}
 
-2. Add artwork, rich media, animations etc. to content and chunks of content.
+{% set list = list1 %}
+{% include "../../framework/design/decorations/list-expandable/list-expandable.html.swig" %}
 
-3. Create a design system which displays the content optimized for web, app and print.
-
-4. Marketing for free on web, set up a freemium app model to cover basic expenses, and go premium with magazine and book versions of the same online content.
-
-5. Focus on growing the content, making it more inclusive, reaching more audience, and generate recurring revenue.
+{% markdown %}
 
 ## Challenges
 
 There is no tool or framework today to roll out this idea.
 
 There are components and libraries to do part of the job, and there are major gray areas presented below where creativity is needed.
-
 
 ### Document Object Model
 
@@ -83,7 +79,7 @@ Other alternatives are completely missing and the World Wide Web Consortium&mdas
 
 ### The framework trap
 
-While inactive in DOM, W3C is also unable to manage another important technology, Javascript. Today it's impossible to find the right path<sup id="footnote--4">[4](#footnotes--4)</sup> to build web and native software which made an explosion in frameworks trying to patch the problem.  
+While inactive in DOM, W3C is also unable to manage another important technology, Javascript. Today it's impossible to find the right path<sup id="footnote--4">[4](#footnotes--4)</sup> to build web and native software which made an explosion in frameworks trying to patch the problem.
 
 The learning curve is high with the possibility to have the framework completely rendered obsolete during your learning and adoption process.
 
@@ -96,7 +92,5 @@ The question is how to have a maintainable, quickly modifiable, stable, compatib
 The answer is hard in general, and can be made simple by narrowing down the scope, like in our case.
 
 No frameworks can cure all problems; only an application specific framework can stay lean, cheap and maintainable.
-
-
 
 {% endmarkdown %}
